@@ -1,0 +1,183 @@
+name: Flatworld Creative Android debug APK
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/android-debug-apk.yml"
+      - "Flatworld_Creative_Godot/**"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: flatworld-android-debug
+  cancel-in-progress: false
+
+jobs:
+  build-android:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 60
+    steps:
+      - name: Checkout destination repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Bootstrap complete project source once
+        shell: bash
+        env:
+          FLATWORLD_SOURCE_URL: "https://uc805d324606427db8e29521628f.dl.dropboxusercontent.com/cd/0/get/DKD89Vg99H7u6eQxxolDhT5036jkzq3HAMM0zRBN4MnUUcCZlkOrmEYxL-ukH_v3NhNlFN7kNk49VDjgBALKcQd3HKvIcv6aelDeCnLn3LNDeE8-UUlf2uNzhn2-LFqcjGligDl0vOdVPAt4kO7cLhhNVCW__Bz87EdmWu6vwiXJ3Q/file?c_luid=d0d55c21"
+        run: |
+          set -euo pipefail
+          PROJECT="Flatworld_Creative_Godot"
+          if [[ ! -f "$PROJECT/project.godot" ]]; then
+            if [[ -z "${FLATWORLD_SOURCE_URL:-}" ]]; then
+              echo "::error::The source bundle URL is blank and the project has not been bootstrapped."
+              exit 1
+            fi
+            echo "::add-mask::${FLATWORLD_SOURCE_URL}"
+            curl --fail --silent --show-error --location --retry 3 --retry-all-errors --connect-timeout 30 --max-time 300 "${FLATWORLD_SOURCE_URL}" -o /tmp/flatworld-project.zip
+            unzip -t /tmp/flatworld-project.zip
+            unzip -q /tmp/flatworld-project.zip -d .
+            test -f "$PROJECT/project.godot"
+            test -f "$PROJECT/scenes/main.tscn"
+            python3 - <<'PY'
+          from pathlib import Path
+          import re
+          p = Path(".github/workflows/android-debug-apk.yml")
+          s = p.read_text(encoding="utf-8")
+          s2 = re.sub(r'(?m)^(\s*FLATWORLD_SOURCE_URL:\s*)".*"$', r'\1""', s)
+          if s2 == s:
+              raise SystemExit("Could not redact the one-time source URL from the workflow.")
+          p.write_text(s2, encoding="utf-8")
+          PY
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add "$PROJECT" .github/workflows/android-debug-apk.yml
+            git commit -m "Add complete Flatworld Creative Godot 0.5.5 source [skip ci]"
+            git push origin HEAD:main
+          else
+            echo "Project source is already present; no bootstrap download is needed."
+          fi
+
+      - name: Set up Java 17
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+
+      - name: Set up Android SDK
+        uses: android-actions/setup-android@v3
+
+      - name: Install Android export SDK packages
+        shell: bash
+        run: |
+          set -euo pipefail
+          yes | sdkmanager --licenses >/dev/null || true
+          sdkmanager --install \
+            "platform-tools" \
+            "platforms;android-35" \
+            "build-tools;35.0.1" \
+            "cmdline-tools;latest" \
+            "cmake;3.10.2.4988404" \
+            "ndk;28.1.13356709"
+
+      - name: Download Godot 4.7.2 and matching export templates
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/godot-editor /tmp/godot-templates
+          curl --fail --silent --show-error --location --retry 4 --retry-all-errors \
+            "https://godot-releases.nbg1.your-objectstorage.com/4.7.2-stable/Godot_v4.7.2-stable_linux.x86_64.zip" \
+            -o /tmp/godot-editor.zip
+          curl --fail --silent --show-error --location --retry 4 --retry-all-errors \
+            "https://godot-releases.nbg1.your-objectstorage.com/4.7.2-stable/Godot_v4.7.2-stable_export_templates.tpz" \
+            -o /tmp/godot-export-templates.tpz
+          unzip -q /tmp/godot-editor.zip -d /tmp/godot-editor
+          unzip -q /tmp/godot-export-templates.tpz -d /tmp/godot-templates
+          GODOT_BIN="$(find /tmp/godot-editor -maxdepth 2 -type f -name 'Godot_v4.7.2-stable_linux.x86_64' -print -quit)"
+          test -n "$GODOT_BIN"
+          chmod +x "$GODOT_BIN"
+          echo "GODOT_BIN=$GODOT_BIN" >> "$GITHUB_ENV"
+          TEMPLATE_DIR="$HOME/.local/share/godot/export_templates/4.7.2.stable"
+          mkdir -p "$TEMPLATE_DIR"
+          for template in android_debug.apk android_release.apk android_source.zip; do
+            source_file="$(find /tmp/godot-templates -type f -name "$template" -print -quit)"
+            if [[ -z "$source_file" ]]; then
+              echo "::error::Matching Godot Android export template not found: $template"
+              find /tmp/godot-templates -maxdepth 4 -type f | head -100
+              exit 1
+            fi
+            cp "$source_file" "$TEMPLATE_DIR/$template"
+          done
+          printf '4.7.2.stable\n' > "$TEMPLATE_DIR/version.txt"
+          mkdir -p "$HOME/.config/godot" "$HOME/.android"
+          keytool -genkeypair -v -keystore "$HOME/.android/debug.keystore" \
+            -storepass android -alias androiddebugkey -keypass android \
+            -dname "CN=Android Debug,O=Android,C=US" -keyalg RSA -keysize 2048 -validity 10000
+          {
+            echo "GODOT_ANDROID_KEYSTORE_DEBUG_PATH=$HOME/.android/debug.keystore"
+            echo "GODOT_ANDROID_KEYSTORE_DEBUG_USER=androiddebugkey"
+            echo "GODOT_ANDROID_KEYSTORE_DEBUG_PASSWORD=android"
+          } >> "$GITHUB_ENV"
+          cat > "$HOME/.config/godot/editor_settings-4.tres" <<EOF
+          [gd_resource type="EditorSettings" format=3]
+
+          [resource]
+          export/android/android_sdk_path = "$ANDROID_SDK_ROOT"
+          export/android/java_sdk_path = "$JAVA_HOME"
+          EOF
+          "$GODOT_BIN" --version
+
+      - name: Run project data and regression checks
+        working-directory: Flatworld_Creative_Godot
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 tools/validate_project_data.py
+          python3 tools/check_gdscript_static.py
+          python3 tools/test_java_26_3_sync.py
+          python3 tools/test_runtime_registry_contracts.py
+
+      - name: Import and parse project with Godot 4.7.2
+        shell: bash
+        run: |
+          set -euo pipefail
+          "$GODOT_BIN" --headless --editor --path Flatworld_Creative_Godot --import --quit 2>&1 | tee /tmp/godot-import.log
+          if grep -E "SCRIPT ERROR|Parse Error|ERROR:.*(parse|script|resource|Failed loading)" /tmp/godot-import.log; then
+            echo "::error::Godot reported script, parse, or resource errors during import."
+            exit 1
+          fi
+          "$GODOT_BIN" --headless --path Flatworld_Creative_Godot --quit-after 5 2>&1 | tee /tmp/godot-run.log
+          if grep -E "SCRIPT ERROR|Parse Error|ERROR:.*(parse|script|resource|Failed loading)" /tmp/godot-run.log; then
+            echo "::error::Godot reported script, parse, or resource errors during headless startup."
+            exit 1
+          fi
+
+      - name: Export ARM64 Android debug APK
+        shell: bash
+        run: |
+          set -euo pipefail
+          PROJECT="$GITHUB_WORKSPACE/Flatworld_Creative_Godot"
+          mkdir -p "$PROJECT/build"
+          "$GODOT_BIN" --headless --path "$PROJECT" --export-debug "Android" "$PROJECT/build/Flatworld-Creative-debug.apk"
+          APK="$PROJECT/build/Flatworld-Creative-debug.apk"
+          test -s "$APK"
+          AAPT="$ANDROID_SDK_ROOT/build-tools/35.0.1/aapt"
+          "$AAPT" dump badging "$APK" | tee /tmp/flatworld-apk-badging.txt
+          grep -F "package: name='org.flatworld.creative'" /tmp/flatworld-apk-badging.txt
+          if ! "$AAPT" dump xmltree "$APK" AndroidManifest.xml | grep -Ei 'screenOrientation.*landscape|screenOrientation.*0x0*6'; then
+            echo "::warning::Could not confirm landscape from aapt xmltree output; review manifest and verify startup on a phone."
+          fi
+          sha256sum "$APK" | tee /tmp/flatworld-apk-sha256.txt
+          du -h "$APK"
+
+      - name: Upload Android APK artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: flatworld-creative-0.5.5-debug-apk
+          path: Flatworld_Creative_Godot/build/Flatworld-Creative-debug.apk
+          if-no-files-found: error
+          retention-days: 30
