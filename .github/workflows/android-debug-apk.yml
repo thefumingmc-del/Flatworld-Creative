@@ -28,7 +28,7 @@ jobs:
       - name: Bootstrap complete project source once
         shell: bash
         env:
-          FLATWORLD_SOURCE_URL: "https://uc805d324606427db8e29521628f.dl.dropboxusercontent.com/cd/0/get/DKD89Vg99H7u6eQxxolDhT5036jkzq3HAMM0zRBN4MnUUcCZlkOrmEYxL-ukH_v3NhNlFN7kNk49VDjgBALKcQd3HKvIcv6aelDeCnLn3LNDeE8-UUlf2uNzhn2-LFqcjGligDl0vOdVPAt4kO7cLhhNVCW__Bz87EdmWu6vwiXJ3Q/file?c_luid=d0d55c21"
+          FLATWORLD_SOURCE_URL: "https://uc1970bf098ee438b40c2a281896.dl.dropboxusercontent.com/cd/0/get/DKBV1lvQg240sm8cnDxiM-twVukIFyYqklHkk0yTxHcdROP1GHseSq8JBD17VBumUTOUHFrBraOHgnc-o2Q-FicWdRjb92kcOSawInx3RLcBXkyOhR3dkqvnKuBbFpGsG6ldmZdKNsQa65Ge01VmZ-KmFb6SETrOxP8JJGvEKqsrrA/file?c_luid=d0d55c21"
         run: |
           set -euo pipefail
           PROJECT="Flatworld_Creative_Godot"
@@ -43,19 +43,9 @@ jobs:
             unzip -q /tmp/flatworld-project.zip -d .
             test -f "$PROJECT/project.godot"
             test -f "$PROJECT/scenes/main.tscn"
-            python3 - <<'PY'
-          from pathlib import Path
-          import re
-          p = Path(".github/workflows/android-debug-apk.yml")
-          s = p.read_text(encoding="utf-8")
-          s2 = re.sub(r'(?m)^(\s*FLATWORLD_SOURCE_URL:\s*)".*"$', r'\1""', s)
-          if s2 == s:
-              raise SystemExit("Could not redact the one-time source URL from the workflow.")
-          p.write_text(s2, encoding="utf-8")
-          PY
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add "$PROJECT" .github/workflows/android-debug-apk.yml
+            git add "$PROJECT"
             git commit -m "Add complete Flatworld Creative Godot 0.5.5 source [skip ci]"
             git push origin HEAD:main
           else
