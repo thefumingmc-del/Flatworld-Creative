@@ -2156,7 +2156,13 @@ func _box_face_is_internal(box_index: int, face_index: int, boxes: Array[Diction
     var axis := 0 if face_index <= 1 else (1 if face_index <= 3 else 2)
     var positive := face_index in [0, 2, 4]
     var plane := _vector_component(box_max, axis) if positive else _vector_component(box_min, axis)
-    var other_axes := PackedInt32Array([1, 2]) if axis == 0 else (PackedInt32Array([0, 2]) if axis == 1 else PackedInt32Array([0, 1]))
+    var other_axes: PackedInt32Array = PackedInt32Array()
+    if axis == 0:
+        other_axes = PackedInt32Array([1, 2])
+    elif axis == 1:
+        other_axes = PackedInt32Array([0, 2])
+    else:
+        other_axes = PackedInt32Array([0, 1])
     for other_index in range(boxes.size()):
         if other_index == box_index:
             continue
