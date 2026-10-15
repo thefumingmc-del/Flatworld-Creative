@@ -1,0 +1,2264 @@
+{
+  "schema_version": 3,
+  "recipes": {
+    "oak_planks": {
+      "name": "Oak Planks",
+      "station": "inventory",
+      "ingredients": {
+        "oak_log": 1
+      },
+      "result": "oak_planks",
+      "count": 4,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "sticks": {
+      "name": "Sticks",
+      "station": "inventory",
+      "ingredients": {
+        "oak_planks": 2
+      },
+      "result": "stick",
+      "count": 4,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "crafting_table": {
+      "name": "Crafting Table",
+      "station": "inventory",
+      "ingredients": {
+        "oak_planks": 4
+      },
+      "result": "crafting_table",
+      "count": 1,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "chest": {
+      "name": "Chest",
+      "station": "crafting_table",
+      "ingredients": {
+        "oak_planks": 8
+      },
+      "result": "chest",
+      "count": 1,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "furnace": {
+      "name": "Furnace",
+      "station": "crafting_table",
+      "ingredients": {
+        "cobblestone": 8
+      },
+      "result": "furnace",
+      "count": 1,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "torch": {
+      "name": "Torch",
+      "station": "crafting_table",
+      "ingredients": {
+        "stick": 1,
+        "coal": 1
+      },
+      "result": "torch",
+      "count": 4,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "stone_bricks": {
+      "name": "Stone Bricks",
+      "station": "inventory",
+      "ingredients": {
+        "stone": 4
+      },
+      "result": "stone_bricks",
+      "count": 4,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "glass": {
+      "name": "Glass",
+      "station": "furnace",
+      "ingredients": {
+        "sand": 1
+      },
+      "result": "glass",
+      "count": 1,
+      "fuel": {
+        "coal": 1
+      },
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "cushion": {
+      "name": "Cushion",
+      "station": "crafting_table",
+      "ingredients": {
+        "red_wool": 2
+      },
+      "result": "cushion",
+      "count": 1,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "straw_bed": {
+      "name": "Straw Bed",
+      "station": "crafting_table",
+      "ingredients": {
+        "hay_block": 3
+      },
+      "result": "straw_bed",
+      "count": 4,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "poplar_planks": {
+      "name": "Poplar Planks",
+      "station": "inventory",
+      "ingredients": {
+        "poplar_log": 1
+      },
+      "result": "poplar_planks",
+      "count": 4,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "bone_meal": {
+      "name": "Bone Meal",
+      "station": "inventory",
+      "ingredients": {
+        "bone": 1
+      },
+      "result": "bone_meal",
+      "count": 3,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "mushroom_stew": {
+      "name": "Mushroom Stew",
+      "station": "inventory",
+      "ingredients": {
+        "shelf_mushroom": 2,
+        "bowl": 1
+      },
+      "result": "mushroom_stew",
+      "count": 1,
+      "reference_note": "Java 26.3 lets any two mushroom items be used; this is a sample recipe record only.",
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "suspicious_stew": {
+      "name": "Suspicious Stew",
+      "station": "inventory",
+      "ingredients": {
+        "shelf_mushroom": 2,
+        "bowl": 1,
+        "poppy": 1
+      },
+      "result": "suspicious_stew",
+      "count": 1,
+      "reference_note": "Recipe data only; ingredients are not consumed by the current UI.",
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "smelt_iron_ore": {
+      "name": "Smelt Iron Ore",
+      "station": "furnace",
+      "ingredients": {
+        "iron_ore": 1
+      },
+      "result": "iron_ingot",
+      "count": 1,
+      "fuel": {
+        "coal": 1
+      },
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "smelt_gold_ore": {
+      "name": "Smelt Gold Ore",
+      "station": "furnace",
+      "ingredients": {
+        "gold_ore": 1
+      },
+      "result": "gold_ingot",
+      "count": 1,
+      "fuel": {
+        "coal": 1
+      },
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "smelt_copper_ore": {
+      "name": "Smelt Copper Ore",
+      "station": "furnace",
+      "ingredients": {
+        "copper_ore": 1
+      },
+      "result": "copper_ingot",
+      "count": 1,
+      "fuel": {
+        "coal": 1
+      },
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "smelt_raw_porkchop": {
+      "name": "Smelt Raw Porkchop",
+      "station": "furnace",
+      "ingredients": {
+        "porkchop": 1
+      },
+      "result": "cooked_porkchop",
+      "count": 1,
+      "fuel": {
+        "coal": 1
+      },
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "smelt_raw_beef": {
+      "name": "Smelt Raw Beef",
+      "station": "furnace",
+      "ingredients": {
+        "beef": 1
+      },
+      "result": "cooked_beef",
+      "count": 1,
+      "fuel": {
+        "coal": 1
+      },
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "smelt_raw_chicken": {
+      "name": "Smelt Raw Chicken",
+      "station": "furnace",
+      "ingredients": {
+        "chicken": 1
+      },
+      "result": "cooked_chicken",
+      "count": 1,
+      "fuel": {
+        "coal": 1
+      },
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "smelt_mutton": {
+      "name": "Smelt Raw Mutton",
+      "station": "furnace",
+      "ingredients": {
+        "mutton": 1
+      },
+      "result": "cooked_mutton",
+      "count": 1,
+      "fuel": {
+        "coal": 1
+      },
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "smelt_rabbit": {
+      "name": "Smelt Raw Rabbit",
+      "station": "furnace",
+      "ingredients": {
+        "rabbit": 1
+      },
+      "result": "cooked_rabbit",
+      "count": 1,
+      "fuel": {
+        "coal": 1
+      },
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "craft_oak_planks": {
+      "name": "Oak Planks",
+      "station": "inventory",
+      "ingredients": {
+        "oak_log": 1
+      },
+      "result": "oak_planks",
+      "count": 4,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "craft_birch_planks": {
+      "name": "Birch Planks",
+      "station": "inventory",
+      "ingredients": {
+        "birch_log": 1
+      },
+      "result": "birch_planks",
+      "count": 4,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "craft_spruce_planks": {
+      "name": "Spruce Planks",
+      "station": "inventory",
+      "ingredients": {
+        "spruce_log": 1
+      },
+      "result": "spruce_planks",
+      "count": 4,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "craft_jungle_planks": {
+      "name": "Jungle Planks",
+      "station": "inventory",
+      "ingredients": {
+        "jungle_log": 1
+      },
+      "result": "jungle_planks",
+      "count": 4,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "craft_acacia_planks": {
+      "name": "Acacia Planks",
+      "station": "inventory",
+      "ingredients": {
+        "acacia_log": 1
+      },
+      "result": "acacia_planks",
+      "count": 4,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "craft_dark_oak_planks": {
+      "name": "Dark Oak Planks",
+      "station": "inventory",
+      "ingredients": {
+        "dark_oak_log": 1
+      },
+      "result": "dark_oak_planks",
+      "count": 4,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "craft_mangrove_planks": {
+      "name": "Mangrove Planks",
+      "station": "inventory",
+      "ingredients": {
+        "mangrove_log": 1
+      },
+      "result": "mangrove_planks",
+      "count": 4,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "craft_cherry_planks": {
+      "name": "Cherry Planks",
+      "station": "inventory",
+      "ingredients": {
+        "cherry_log": 1
+      },
+      "result": "cherry_planks",
+      "count": 4,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "craft_poplar_planks": {
+      "name": "Poplar Planks",
+      "station": "inventory",
+      "ingredients": {
+        "poplar_log": 1
+      },
+      "result": "poplar_planks",
+      "count": 4,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "craft_oak_slab": {
+      "name": "Oak Slab",
+      "station": "crafting_table",
+      "ingredients": {
+        "oak_planks": 3
+      },
+      "result": "oak_slab",
+      "count": 6,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "craft_oak_stairs": {
+      "name": "Oak Stairs",
+      "station": "crafting_table",
+      "ingredients": {
+        "oak_planks": 6
+      },
+      "result": "oak_stairs",
+      "count": 4,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "craft_oak_fence": {
+      "name": "Oak Fence",
+      "station": "crafting_table",
+      "ingredients": {
+        "oak_planks": 4,
+        "stick": 2
+      },
+      "result": "oak_fence",
+      "count": 3,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "craft_oak_fence_gate": {
+      "name": "Oak Fence Gate",
+      "station": "crafting_table",
+      "ingredients": {
+        "oak_planks": 2,
+        "stick": 4
+      },
+      "result": "oak_fence_gate",
+      "count": 1,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "craft_oak_door": {
+      "name": "Oak Door",
+      "station": "crafting_table",
+      "ingredients": {
+        "oak_planks": 6
+      },
+      "result": "oak_door",
+      "count": 3,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "craft_oak_trapdoor": {
+      "name": "Oak Trapdoor",
+      "station": "crafting_table",
+      "ingredients": {
+        "oak_planks": 6
+      },
+      "result": "oak_trapdoor",
+      "count": 2,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "craft_poplar_slab": {
+      "name": "Poplar Slab",
+      "station": "crafting_table",
+      "ingredients": {
+        "poplar_planks": 3
+      },
+      "result": "poplar_slab",
+      "count": 6,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "craft_poplar_stairs": {
+      "name": "Poplar Stairs",
+      "station": "crafting_table",
+      "ingredients": {
+        "poplar_planks": 6
+      },
+      "result": "poplar_stairs",
+      "count": 4,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "craft_poplar_fence": {
+      "name": "Poplar Fence",
+      "station": "crafting_table",
+      "ingredients": {
+        "poplar_planks": 4,
+        "stick": 2
+      },
+      "result": "poplar_fence",
+      "count": 3,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "craft_poplar_fence_gate": {
+      "name": "Poplar Fence Gate",
+      "station": "crafting_table",
+      "ingredients": {
+        "poplar_planks": 2,
+        "stick": 4
+      },
+      "result": "poplar_fence_gate",
+      "count": 1,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "craft_poplar_door": {
+      "name": "Poplar Door",
+      "station": "crafting_table",
+      "ingredients": {
+        "poplar_planks": 6
+      },
+      "result": "poplar_door",
+      "count": 3,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "craft_poplar_trapdoor": {
+      "name": "Poplar Trapdoor",
+      "station": "crafting_table",
+      "ingredients": {
+        "poplar_planks": 6
+      },
+      "result": "poplar_trapdoor",
+      "count": 2,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "craft_poplar_button": {
+      "name": "Poplar Button",
+      "station": "crafting_table",
+      "ingredients": {
+        "poplar_planks": 1
+      },
+      "result": "poplar_button",
+      "count": 1,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "craft_poplar_pressure_plate": {
+      "name": "Poplar Pressure Plate",
+      "station": "crafting_table",
+      "ingredients": {
+        "poplar_planks": 2
+      },
+      "result": "poplar_pressure_plate",
+      "count": 1,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "craft_poplar_sign": {
+      "name": "Poplar Sign",
+      "station": "crafting_table",
+      "ingredients": {
+        "poplar_planks": 6,
+        "stick": 1
+      },
+      "result": "poplar_sign",
+      "count": 3,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "craft_cobblestone_slab": {
+      "name": "Cobblestone Slab",
+      "station": "crafting_table",
+      "ingredients": {
+        "cobblestone": 3
+      },
+      "result": "cobblestone_slab",
+      "count": 6,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "craft_cobblestone_stairs": {
+      "name": "Cobblestone Stairs",
+      "station": "crafting_table",
+      "ingredients": {
+        "cobblestone": 6
+      },
+      "result": "cobblestone_stairs",
+      "count": 4,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "craft_stone_slab": {
+      "name": "Stone Slab",
+      "station": "crafting_table",
+      "ingredients": {
+        "stone": 3
+      },
+      "result": "stone_slab",
+      "count": 6,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "craft_stone_stairs": {
+      "name": "Stone Stairs",
+      "station": "crafting_table",
+      "ingredients": {
+        "stone": 6
+      },
+      "result": "stone_stairs",
+      "count": 4,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "craft_wool_white_slab": {
+      "name": "White Wool Slab",
+      "station": "crafting_table",
+      "ingredients": {
+        "white_wool": 3
+      },
+      "result": "white_wool_slab",
+      "count": 6,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "craft_wool_white_stairs": {
+      "name": "White Wool Stairs",
+      "station": "crafting_table",
+      "ingredients": {
+        "white_wool": 6
+      },
+      "result": "white_wool_stairs",
+      "count": 4,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "craft_wool_orange_slab": {
+      "name": "Orange Wool Slab",
+      "station": "crafting_table",
+      "ingredients": {
+        "orange_wool": 3
+      },
+      "result": "orange_wool_slab",
+      "count": 6,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "craft_wool_orange_stairs": {
+      "name": "Orange Wool Stairs",
+      "station": "crafting_table",
+      "ingredients": {
+        "orange_wool": 6
+      },
+      "result": "orange_wool_stairs",
+      "count": 4,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "craft_wool_magenta_slab": {
+      "name": "Magenta Wool Slab",
+      "station": "crafting_table",
+      "ingredients": {
+        "magenta_wool": 3
+      },
+      "result": "magenta_wool_slab",
+      "count": 6,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "craft_wool_magenta_stairs": {
+      "name": "Magenta Wool Stairs",
+      "station": "crafting_table",
+      "ingredients": {
+        "magenta_wool": 6
+      },
+      "result": "magenta_wool_stairs",
+      "count": 4,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "craft_wool_light_blue_slab": {
+      "name": "Light Blue Wool Slab",
+      "station": "crafting_table",
+      "ingredients": {
+        "light_blue_wool": 3
+      },
+      "result": "light_blue_wool_slab",
+      "count": 6,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "craft_wool_light_blue_stairs": {
+      "name": "Light Blue Wool Stairs",
+      "station": "crafting_table",
+      "ingredients": {
+        "light_blue_wool": 6
+      },
+      "result": "light_blue_wool_stairs",
+      "count": 4,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "craft_wool_yellow_slab": {
+      "name": "Yellow Wool Slab",
+      "station": "crafting_table",
+      "ingredients": {
+        "yellow_wool": 3
+      },
+      "result": "yellow_wool_slab",
+      "count": 6,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "craft_wool_yellow_stairs": {
+      "name": "Yellow Wool Stairs",
+      "station": "crafting_table",
+      "ingredients": {
+        "yellow_wool": 6
+      },
+      "result": "yellow_wool_stairs",
+      "count": 4,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "craft_wool_lime_slab": {
+      "name": "Lime Wool Slab",
+      "station": "crafting_table",
+      "ingredients": {
+        "lime_wool": 3
+      },
+      "result": "lime_wool_slab",
+      "count": 6,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "craft_wool_lime_stairs": {
+      "name": "Lime Wool Stairs",
+      "station": "crafting_table",
+      "ingredients": {
+        "lime_wool": 6
+      },
+      "result": "lime_wool_stairs",
+      "count": 4,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "craft_wool_pink_slab": {
+      "name": "Pink Wool Slab",
+      "station": "crafting_table",
+      "ingredients": {
+        "pink_wool": 3
+      },
+      "result": "pink_wool_slab",
+      "count": 6,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "craft_wool_pink_stairs": {
+      "name": "Pink Wool Stairs",
+      "station": "crafting_table",
+      "ingredients": {
+        "pink_wool": 6
+      },
+      "result": "pink_wool_stairs",
+      "count": 4,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "craft_wool_gray_slab": {
+      "name": "Gray Wool Slab",
+      "station": "crafting_table",
+      "ingredients": {
+        "gray_wool": 3
+      },
+      "result": "gray_wool_slab",
+      "count": 6,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "craft_wool_gray_stairs": {
+      "name": "Gray Wool Stairs",
+      "station": "crafting_table",
+      "ingredients": {
+        "gray_wool": 6
+      },
+      "result": "gray_wool_stairs",
+      "count": 4,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "craft_wool_light_gray_slab": {
+      "name": "Light Gray Wool Slab",
+      "station": "crafting_table",
+      "ingredients": {
+        "light_gray_wool": 3
+      },
+      "result": "light_gray_wool_slab",
+      "count": 6,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "craft_wool_light_gray_stairs": {
+      "name": "Light Gray Wool Stairs",
+      "station": "crafting_table",
+      "ingredients": {
+        "light_gray_wool": 6
+      },
+      "result": "light_gray_wool_stairs",
+      "count": 4,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "craft_wool_cyan_slab": {
+      "name": "Cyan Wool Slab",
+      "station": "crafting_table",
+      "ingredients": {
+        "cyan_wool": 3
+      },
+      "result": "cyan_wool_slab",
+      "count": 6,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "craft_wool_cyan_stairs": {
+      "name": "Cyan Wool Stairs",
+      "station": "crafting_table",
+      "ingredients": {
+        "cyan_wool": 6
+      },
+      "result": "cyan_wool_stairs",
+      "count": 4,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "craft_wool_purple_slab": {
+      "name": "Purple Wool Slab",
+      "station": "crafting_table",
+      "ingredients": {
+        "purple_wool": 3
+      },
+      "result": "purple_wool_slab",
+      "count": 6,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "craft_wool_purple_stairs": {
+      "name": "Purple Wool Stairs",
+      "station": "crafting_table",
+      "ingredients": {
+        "purple_wool": 6
+      },
+      "result": "purple_wool_stairs",
+      "count": 4,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "craft_wool_blue_slab": {
+      "name": "Blue Wool Slab",
+      "station": "crafting_table",
+      "ingredients": {
+        "blue_wool": 3
+      },
+      "result": "blue_wool_slab",
+      "count": 6,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "craft_wool_blue_stairs": {
+      "name": "Blue Wool Stairs",
+      "station": "crafting_table",
+      "ingredients": {
+        "blue_wool": 6
+      },
+      "result": "blue_wool_stairs",
+      "count": 4,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "craft_wool_brown_slab": {
+      "name": "Brown Wool Slab",
+      "station": "crafting_table",
+      "ingredients": {
+        "brown_wool": 3
+      },
+      "result": "brown_wool_slab",
+      "count": 6,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "craft_wool_brown_stairs": {
+      "name": "Brown Wool Stairs",
+      "station": "crafting_table",
+      "ingredients": {
+        "brown_wool": 6
+      },
+      "result": "brown_wool_stairs",
+      "count": 4,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "craft_wool_green_slab": {
+      "name": "Green Wool Slab",
+      "station": "crafting_table",
+      "ingredients": {
+        "green_wool": 3
+      },
+      "result": "green_wool_slab",
+      "count": 6,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "craft_wool_green_stairs": {
+      "name": "Green Wool Stairs",
+      "station": "crafting_table",
+      "ingredients": {
+        "green_wool": 6
+      },
+      "result": "green_wool_stairs",
+      "count": 4,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "craft_wool_red_slab": {
+      "name": "Red Wool Slab",
+      "station": "crafting_table",
+      "ingredients": {
+        "red_wool": 3
+      },
+      "result": "red_wool_slab",
+      "count": 6,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "craft_wool_red_stairs": {
+      "name": "Red Wool Stairs",
+      "station": "crafting_table",
+      "ingredients": {
+        "red_wool": 6
+      },
+      "result": "red_wool_stairs",
+      "count": 4,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "craft_wool_black_slab": {
+      "name": "Black Wool Slab",
+      "station": "crafting_table",
+      "ingredients": {
+        "black_wool": 3
+      },
+      "result": "black_wool_slab",
+      "count": 6,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "craft_wool_black_stairs": {
+      "name": "Black Wool Stairs",
+      "station": "crafting_table",
+      "ingredients": {
+        "black_wool": 6
+      },
+      "result": "black_wool_stairs",
+      "count": 4,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "craft_concrete_white_slab": {
+      "name": "White Concrete Slab",
+      "station": "crafting_table",
+      "ingredients": {
+        "white_concrete": 3
+      },
+      "result": "white_concrete_slab",
+      "count": 6,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "craft_concrete_white_stairs": {
+      "name": "White Concrete Stairs",
+      "station": "crafting_table",
+      "ingredients": {
+        "white_concrete": 6
+      },
+      "result": "white_concrete_stairs",
+      "count": 4,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "craft_concrete_orange_slab": {
+      "name": "Orange Concrete Slab",
+      "station": "crafting_table",
+      "ingredients": {
+        "orange_concrete": 3
+      },
+      "result": "orange_concrete_slab",
+      "count": 6,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "craft_concrete_orange_stairs": {
+      "name": "Orange Concrete Stairs",
+      "station": "crafting_table",
+      "ingredients": {
+        "orange_concrete": 6
+      },
+      "result": "orange_concrete_stairs",
+      "count": 4,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "craft_concrete_magenta_slab": {
+      "name": "Magenta Concrete Slab",
+      "station": "crafting_table",
+      "ingredients": {
+        "magenta_concrete": 3
+      },
+      "result": "magenta_concrete_slab",
+      "count": 6,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "craft_concrete_magenta_stairs": {
+      "name": "Magenta Concrete Stairs",
+      "station": "crafting_table",
+      "ingredients": {
+        "magenta_concrete": 6
+      },
+      "result": "magenta_concrete_stairs",
+      "count": 4,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "craft_concrete_light_blue_slab": {
+      "name": "Light Blue Concrete Slab",
+      "station": "crafting_table",
+      "ingredients": {
+        "light_blue_concrete": 3
+      },
+      "result": "light_blue_concrete_slab",
+      "count": 6,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "craft_concrete_light_blue_stairs": {
+      "name": "Light Blue Concrete Stairs",
+      "station": "crafting_table",
+      "ingredients": {
+        "light_blue_concrete": 6
+      },
+      "result": "light_blue_concrete_stairs",
+      "count": 4,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "craft_concrete_yellow_slab": {
+      "name": "Yellow Concrete Slab",
+      "station": "crafting_table",
+      "ingredients": {
+        "yellow_concrete": 3
+      },
+      "result": "yellow_concrete_slab",
+      "count": 6,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "craft_concrete_yellow_stairs": {
+      "name": "Yellow Concrete Stairs",
+      "station": "crafting_table",
+      "ingredients": {
+        "yellow_concrete": 6
+      },
+      "result": "yellow_concrete_stairs",
+      "count": 4,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "craft_concrete_lime_slab": {
+      "name": "Lime Concrete Slab",
+      "station": "crafting_table",
+      "ingredients": {
+        "lime_concrete": 3
+      },
+      "result": "lime_concrete_slab",
+      "count": 6,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "craft_concrete_lime_stairs": {
+      "name": "Lime Concrete Stairs",
+      "station": "crafting_table",
+      "ingredients": {
+        "lime_concrete": 6
+      },
+      "result": "lime_concrete_stairs",
+      "count": 4,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "craft_concrete_pink_slab": {
+      "name": "Pink Concrete Slab",
+      "station": "crafting_table",
+      "ingredients": {
+        "pink_concrete": 3
+      },
+      "result": "pink_concrete_slab",
+      "count": 6,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "craft_concrete_pink_stairs": {
+      "name": "Pink Concrete Stairs",
+      "station": "crafting_table",
+      "ingredients": {
+        "pink_concrete": 6
+      },
+      "result": "pink_concrete_stairs",
+      "count": 4,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "craft_concrete_gray_slab": {
+      "name": "Gray Concrete Slab",
+      "station": "crafting_table",
+      "ingredients": {
+        "gray_concrete": 3
+      },
+      "result": "gray_concrete_slab",
+      "count": 6,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "craft_concrete_gray_stairs": {
+      "name": "Gray Concrete Stairs",
+      "station": "crafting_table",
+      "ingredients": {
+        "gray_concrete": 6
+      },
+      "result": "gray_concrete_stairs",
+      "count": 4,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "craft_concrete_light_gray_slab": {
+      "name": "Light Gray Concrete Slab",
+      "station": "crafting_table",
+      "ingredients": {
+        "light_gray_concrete": 3
+      },
+      "result": "light_gray_concrete_slab",
+      "count": 6,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "craft_concrete_light_gray_stairs": {
+      "name": "Light Gray Concrete Stairs",
+      "station": "crafting_table",
+      "ingredients": {
+        "light_gray_concrete": 6
+      },
+      "result": "light_gray_concrete_stairs",
+      "count": 4,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "craft_concrete_cyan_slab": {
+      "name": "Cyan Concrete Slab",
+      "station": "crafting_table",
+      "ingredients": {
+        "cyan_concrete": 3
+      },
+      "result": "cyan_concrete_slab",
+      "count": 6,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "craft_concrete_cyan_stairs": {
+      "name": "Cyan Concrete Stairs",
+      "station": "crafting_table",
+      "ingredients": {
+        "cyan_concrete": 6
+      },
+      "result": "cyan_concrete_stairs",
+      "count": 4,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "craft_concrete_purple_slab": {
+      "name": "Purple Concrete Slab",
+      "station": "crafting_table",
+      "ingredients": {
+        "purple_concrete": 3
+      },
+      "result": "purple_concrete_slab",
+      "count": 6,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "craft_concrete_purple_stairs": {
+      "name": "Purple Concrete Stairs",
+      "station": "crafting_table",
+      "ingredients": {
+        "purple_concrete": 6
+      },
+      "result": "purple_concrete_stairs",
+      "count": 4,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "craft_concrete_blue_slab": {
+      "name": "Blue Concrete Slab",
+      "station": "crafting_table",
+      "ingredients": {
+        "blue_concrete": 3
+      },
+      "result": "blue_concrete_slab",
+      "count": 6,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "craft_concrete_blue_stairs": {
+      "name": "Blue Concrete Stairs",
+      "station": "crafting_table",
+      "ingredients": {
+        "blue_concrete": 6
+      },
+      "result": "blue_concrete_stairs",
+      "count": 4,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "craft_concrete_brown_slab": {
+      "name": "Brown Concrete Slab",
+      "station": "crafting_table",
+      "ingredients": {
+        "brown_concrete": 3
+      },
+      "result": "brown_concrete_slab",
+      "count": 6,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "craft_concrete_brown_stairs": {
+      "name": "Brown Concrete Stairs",
+      "station": "crafting_table",
+      "ingredients": {
+        "brown_concrete": 6
+      },
+      "result": "brown_concrete_stairs",
+      "count": 4,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "craft_concrete_green_slab": {
+      "name": "Green Concrete Slab",
+      "station": "crafting_table",
+      "ingredients": {
+        "green_concrete": 3
+      },
+      "result": "green_concrete_slab",
+      "count": 6,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "craft_concrete_green_stairs": {
+      "name": "Green Concrete Stairs",
+      "station": "crafting_table",
+      "ingredients": {
+        "green_concrete": 6
+      },
+      "result": "green_concrete_stairs",
+      "count": 4,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "craft_concrete_red_slab": {
+      "name": "Red Concrete Slab",
+      "station": "crafting_table",
+      "ingredients": {
+        "red_concrete": 3
+      },
+      "result": "red_concrete_slab",
+      "count": 6,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "craft_concrete_red_stairs": {
+      "name": "Red Concrete Stairs",
+      "station": "crafting_table",
+      "ingredients": {
+        "red_concrete": 6
+      },
+      "result": "red_concrete_stairs",
+      "count": 4,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "craft_concrete_black_slab": {
+      "name": "Black Concrete Slab",
+      "station": "crafting_table",
+      "ingredients": {
+        "black_concrete": 3
+      },
+      "result": "black_concrete_slab",
+      "count": 6,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "craft_concrete_black_stairs": {
+      "name": "Black Concrete Stairs",
+      "station": "crafting_table",
+      "ingredients": {
+        "black_concrete": 6
+      },
+      "result": "black_concrete_stairs",
+      "count": 4,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "craft_wooden_pickaxe": {
+      "name": "Wooden Pickaxe",
+      "station": "crafting_table",
+      "ingredients": {
+        "oak_planks": 3,
+        "stick": 2
+      },
+      "result": "wooden_pickaxe",
+      "count": 1,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "craft_stone_pickaxe": {
+      "name": "Stone Pickaxe",
+      "station": "crafting_table",
+      "ingredients": {
+        "cobblestone": 3,
+        "stick": 2
+      },
+      "result": "stone_pickaxe",
+      "count": 1,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "craft_iron_pickaxe": {
+      "name": "Iron Pickaxe",
+      "station": "crafting_table",
+      "ingredients": {
+        "iron_ingot": 3,
+        "stick": 2
+      },
+      "result": "iron_pickaxe",
+      "count": 1,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "craft_diamond_pickaxe": {
+      "name": "Diamond Pickaxe",
+      "station": "crafting_table",
+      "ingredients": {
+        "diamond": 3,
+        "stick": 2
+      },
+      "result": "diamond_pickaxe",
+      "count": 1,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "craft_wooden_axe": {
+      "name": "Wooden Axe",
+      "station": "crafting_table",
+      "ingredients": {
+        "oak_planks": 3,
+        "stick": 2
+      },
+      "result": "wooden_axe",
+      "count": 1,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "craft_stone_axe": {
+      "name": "Stone Axe",
+      "station": "crafting_table",
+      "ingredients": {
+        "cobblestone": 3,
+        "stick": 2
+      },
+      "result": "stone_axe",
+      "count": 1,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "craft_iron_axe": {
+      "name": "Iron Axe",
+      "station": "crafting_table",
+      "ingredients": {
+        "iron_ingot": 3,
+        "stick": 2
+      },
+      "result": "iron_axe",
+      "count": 1,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "craft_diamond_axe": {
+      "name": "Diamond Axe",
+      "station": "crafting_table",
+      "ingredients": {
+        "diamond": 3,
+        "stick": 2
+      },
+      "result": "diamond_axe",
+      "count": 1,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "craft_wooden_sword": {
+      "name": "Wooden Sword",
+      "station": "crafting_table",
+      "ingredients": {
+        "oak_planks": 1,
+        "stick": 2
+      },
+      "result": "wooden_sword",
+      "count": 1,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "craft_stone_sword": {
+      "name": "Stone Sword",
+      "station": "crafting_table",
+      "ingredients": {
+        "cobblestone": 1,
+        "stick": 2
+      },
+      "result": "stone_sword",
+      "count": 1,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "craft_iron_sword": {
+      "name": "Iron Sword",
+      "station": "crafting_table",
+      "ingredients": {
+        "iron_ingot": 1,
+        "stick": 2
+      },
+      "result": "iron_sword",
+      "count": 1,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "craft_diamond_sword": {
+      "name": "Diamond Sword",
+      "station": "crafting_table",
+      "ingredients": {
+        "diamond": 1,
+        "stick": 2
+      },
+      "result": "diamond_sword",
+      "count": 1,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "iron_nuggets": {
+      "name": "Iron Nuggets",
+      "station": "inventory",
+      "ingredients": {
+        "iron_ingot": 1
+      },
+      "result": "iron_nugget",
+      "count": 9,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "gold_nuggets": {
+      "name": "Gold Nuggets",
+      "station": "inventory",
+      "ingredients": {
+        "gold_ingot": 1
+      },
+      "result": "gold_nugget",
+      "count": 9,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "iron_ingot_from_nuggets": {
+      "name": "Iron Ingot",
+      "station": "inventory",
+      "ingredients": {
+        "iron_nugget": 9
+      },
+      "result": "iron_ingot",
+      "count": 1,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "gold_ingot_from_nuggets": {
+      "name": "Gold Ingot",
+      "station": "inventory",
+      "ingredients": {
+        "gold_nugget": 9
+      },
+      "result": "gold_ingot",
+      "count": 1,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "ender_eye": {
+      "name": "Eye of Ender",
+      "station": "crafting_table",
+      "ingredients": {
+        "ender_pearl": 1,
+        "blaze_powder": 1
+      },
+      "result": "ender_eye",
+      "count": 1,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "redstone_block": {
+      "name": "Redstone Block",
+      "station": "crafting_table",
+      "ingredients": {
+        "redstone": 9
+      },
+      "result": "redstone_block",
+      "count": 1,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "redstone_torch": {
+      "name": "Redstone Torch",
+      "station": "crafting_table",
+      "ingredients": {
+        "stick": 1,
+        "redstone": 1
+      },
+      "result": "redstone_torch",
+      "count": 1,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "redstone_lamp": {
+      "name": "Redstone Lamp",
+      "station": "crafting_table",
+      "ingredients": {
+        "glowstone": 1,
+        "redstone": 4
+      },
+      "result": "redstone_lamp",
+      "count": 1,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "repeater": {
+      "name": "Redstone Repeater",
+      "station": "crafting_table",
+      "ingredients": {
+        "stone": 3,
+        "redstone_torch": 2,
+        "redstone": 1
+      },
+      "result": "repeater",
+      "count": 1,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "comparator": {
+      "name": "Redstone Comparator",
+      "station": "crafting_table",
+      "ingredients": {
+        "stone": 3,
+        "redstone_torch": 3,
+        "quartz": 1
+      },
+      "result": "comparator",
+      "count": 1,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "piston": {
+      "name": "Piston",
+      "station": "crafting_table",
+      "ingredients": {
+        "oak_planks": 3,
+        "cobblestone": 4,
+        "iron_ingot": 1,
+        "redstone": 1
+      },
+      "result": "piston",
+      "count": 1,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "sticky_piston": {
+      "name": "Sticky Piston",
+      "station": "crafting_table",
+      "ingredients": {
+        "piston": 1,
+        "slime_ball": 1
+      },
+      "result": "sticky_piston",
+      "count": 1,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "rail": {
+      "name": "Rail",
+      "station": "crafting_table",
+      "ingredients": {
+        "iron_ingot": 6,
+        "stick": 1
+      },
+      "result": "rail",
+      "count": 16,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "powered_rail": {
+      "name": "Powered Rail",
+      "station": "crafting_table",
+      "ingredients": {
+        "gold_ingot": 6,
+        "stick": 1,
+        "redstone": 1
+      },
+      "result": "powered_rail",
+      "count": 6,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "activator_rail": {
+      "name": "Activator Rail",
+      "station": "crafting_table",
+      "ingredients": {
+        "iron_ingot": 6,
+        "stick": 2,
+        "redstone_torch": 1
+      },
+      "result": "activator_rail",
+      "count": 6,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "bow": {
+      "name": "Bow",
+      "station": "crafting_table",
+      "ingredients": {
+        "stick": 3,
+        "string": 3
+      },
+      "result": "bow",
+      "count": 1,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "nether_bricks": {
+      "name": "Nether Bricks",
+      "station": "furnace",
+      "ingredients": {
+        "netherrack": 1
+      },
+      "result": "nether_bricks",
+      "count": 1,
+      "fuel": {
+        "coal": 1
+      },
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "quartz": {
+      "name": "Nether Quartz",
+      "station": "furnace",
+      "ingredients": {
+        "nether_quartz_ore": 1
+      },
+      "result": "quartz",
+      "count": 1,
+      "fuel": {
+        "coal": 1
+      },
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "smelt_raw_iron": {
+      "name": "Smelt Raw Iron",
+      "station": "furnace",
+      "ingredients": {
+        "raw_iron": 1
+      },
+      "result": "iron_ingot",
+      "count": 1,
+      "fuel": {
+        "coal": 1
+      },
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "smelt_raw_gold": {
+      "name": "Smelt Raw Gold",
+      "station": "furnace",
+      "ingredients": {
+        "raw_gold": 1
+      },
+      "result": "gold_ingot",
+      "count": 1,
+      "fuel": {
+        "coal": 1
+      },
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "smelt_raw_copper": {
+      "name": "Smelt Raw Copper",
+      "station": "furnace",
+      "ingredients": {
+        "raw_copper": 1
+      },
+      "result": "copper_ingot",
+      "count": 1,
+      "fuel": {
+        "coal": 1
+      },
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "smelt_sand": {
+      "name": "Smelt Sand",
+      "station": "furnace",
+      "ingredients": {
+        "sand": 1
+      },
+      "result": "glass",
+      "count": 1,
+      "fuel": {
+        "coal": 1
+      },
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "smelt_cobblestone": {
+      "name": "Smelt Cobblestone",
+      "station": "furnace",
+      "ingredients": {
+        "cobblestone": 1
+      },
+      "result": "stone",
+      "count": 1,
+      "fuel": {
+        "coal": 1
+      },
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "compress_iron_block": {
+      "name": "Block of Iron",
+      "station": "crafting_table",
+      "ingredients": {
+        "iron_ingot": 9
+      },
+      "result": "iron_block",
+      "count": 1,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "unpack_iron_block": {
+      "name": "Iron_Ingot",
+      "station": "inventory",
+      "ingredients": {
+        "iron_block": 1
+      },
+      "result": "iron_ingot",
+      "count": 9,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "compress_gold_block": {
+      "name": "Block of Gold",
+      "station": "crafting_table",
+      "ingredients": {
+        "gold_ingot": 9
+      },
+      "result": "gold_block",
+      "count": 1,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "unpack_gold_block": {
+      "name": "Gold_Ingot",
+      "station": "inventory",
+      "ingredients": {
+        "gold_block": 1
+      },
+      "result": "gold_ingot",
+      "count": 9,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "compress_copper_block": {
+      "name": "Block of Copper",
+      "station": "crafting_table",
+      "ingredients": {
+        "copper_ingot": 9
+      },
+      "result": "copper_block",
+      "count": 1,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "unpack_copper_block": {
+      "name": "Copper_Ingot",
+      "station": "inventory",
+      "ingredients": {
+        "copper_block": 1
+      },
+      "result": "copper_ingot",
+      "count": 9,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "compress_diamond_block": {
+      "name": "Block of Diamond",
+      "station": "crafting_table",
+      "ingredients": {
+        "diamond": 9
+      },
+      "result": "diamond_block",
+      "count": 1,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "unpack_diamond_block": {
+      "name": "Diamond",
+      "station": "inventory",
+      "ingredients": {
+        "diamond_block": 1
+      },
+      "result": "diamond",
+      "count": 9,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "compress_emerald_block": {
+      "name": "Block of Emerald",
+      "station": "crafting_table",
+      "ingredients": {
+        "emerald": 9
+      },
+      "result": "emerald_block",
+      "count": 1,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "unpack_emerald_block": {
+      "name": "Emerald",
+      "station": "inventory",
+      "ingredients": {
+        "emerald_block": 1
+      },
+      "result": "emerald",
+      "count": 9,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "compress_redstone_block": {
+      "name": "Block of Redstone",
+      "station": "crafting_table",
+      "ingredients": {
+        "redstone": 9
+      },
+      "result": "redstone_block",
+      "count": 1,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "unpack_redstone_block": {
+      "name": "Redstone_Dust",
+      "station": "inventory",
+      "ingredients": {
+        "redstone_block": 1
+      },
+      "result": "redstone",
+      "count": 9,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "flint_and_steel": {
+      "name": "Flint and Steel",
+      "station": "crafting_table",
+      "ingredients": {
+        "iron_ingot": 1,
+        "flint": 1
+      },
+      "result": "flint_and_steel",
+      "count": 1,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "blaze_powder": {
+      "name": "Blaze Powder",
+      "station": "inventory",
+      "ingredients": {
+        "blaze_rod": 1
+      },
+      "result": "blaze_powder",
+      "count": 2,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "wooden_pickaxe": {
+      "name": "Wooden Pickaxe",
+      "station": "crafting_table",
+      "ingredients": {
+        "oak_planks": 3,
+        "stick": 2
+      },
+      "result": "wooden_pickaxe",
+      "count": 1,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "wooden_axe": {
+      "name": "Wooden Axe",
+      "station": "crafting_table",
+      "ingredients": {
+        "oak_planks": 3,
+        "stick": 2
+      },
+      "result": "wooden_axe",
+      "count": 1,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "wooden_shovel": {
+      "name": "Wooden Shovel",
+      "station": "crafting_table",
+      "ingredients": {
+        "oak_planks": 1,
+        "stick": 2
+      },
+      "result": "wooden_shovel",
+      "count": 1,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "wooden_hoe": {
+      "name": "Wooden Hoe",
+      "station": "crafting_table",
+      "ingredients": {
+        "oak_planks": 2,
+        "stick": 2
+      },
+      "result": "wooden_hoe",
+      "count": 1,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "wooden_sword": {
+      "name": "Wooden Sword",
+      "station": "crafting_table",
+      "ingredients": {
+        "oak_planks": 2,
+        "stick": 1
+      },
+      "result": "wooden_sword",
+      "count": 1,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "stone_pickaxe": {
+      "name": "Stone Pickaxe",
+      "station": "crafting_table",
+      "ingredients": {
+        "cobblestone": 3,
+        "stick": 2
+      },
+      "result": "stone_pickaxe",
+      "count": 1,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "stone_axe": {
+      "name": "Stone Axe",
+      "station": "crafting_table",
+      "ingredients": {
+        "cobblestone": 3,
+        "stick": 2
+      },
+      "result": "stone_axe",
+      "count": 1,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "stone_shovel": {
+      "name": "Stone Shovel",
+      "station": "crafting_table",
+      "ingredients": {
+        "cobblestone": 1,
+        "stick": 2
+      },
+      "result": "stone_shovel",
+      "count": 1,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "stone_hoe": {
+      "name": "Stone Hoe",
+      "station": "crafting_table",
+      "ingredients": {
+        "cobblestone": 2,
+        "stick": 2
+      },
+      "result": "stone_hoe",
+      "count": 1,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "stone_sword": {
+      "name": "Stone Sword",
+      "station": "crafting_table",
+      "ingredients": {
+        "cobblestone": 2,
+        "stick": 1
+      },
+      "result": "stone_sword",
+      "count": 1,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "iron_pickaxe": {
+      "name": "Iron Pickaxe",
+      "station": "crafting_table",
+      "ingredients": {
+        "iron_ingot": 3,
+        "stick": 2
+      },
+      "result": "iron_pickaxe",
+      "count": 1,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "iron_axe": {
+      "name": "Iron Axe",
+      "station": "crafting_table",
+      "ingredients": {
+        "iron_ingot": 3,
+        "stick": 2
+      },
+      "result": "iron_axe",
+      "count": 1,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "iron_shovel": {
+      "name": "Iron Shovel",
+      "station": "crafting_table",
+      "ingredients": {
+        "iron_ingot": 1,
+        "stick": 2
+      },
+      "result": "iron_shovel",
+      "count": 1,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "iron_hoe": {
+      "name": "Iron Hoe",
+      "station": "crafting_table",
+      "ingredients": {
+        "iron_ingot": 2,
+        "stick": 2
+      },
+      "result": "iron_hoe",
+      "count": 1,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "iron_sword": {
+      "name": "Iron Sword",
+      "station": "crafting_table",
+      "ingredients": {
+        "iron_ingot": 2,
+        "stick": 1
+      },
+      "result": "iron_sword",
+      "count": 1,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "golden_pickaxe": {
+      "name": "Golden Pickaxe",
+      "station": "crafting_table",
+      "ingredients": {
+        "gold_ingot": 3,
+        "stick": 2
+      },
+      "result": "golden_pickaxe",
+      "count": 1,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "golden_axe": {
+      "name": "Golden Axe",
+      "station": "crafting_table",
+      "ingredients": {
+        "gold_ingot": 3,
+        "stick": 2
+      },
+      "result": "golden_axe",
+      "count": 1,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "golden_shovel": {
+      "name": "Golden Shovel",
+      "station": "crafting_table",
+      "ingredients": {
+        "gold_ingot": 1,
+        "stick": 2
+      },
+      "result": "golden_shovel",
+      "count": 1,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "golden_hoe": {
+      "name": "Golden Hoe",
+      "station": "crafting_table",
+      "ingredients": {
+        "gold_ingot": 2,
+        "stick": 2
+      },
+      "result": "golden_hoe",
+      "count": 1,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "golden_sword": {
+      "name": "Golden Sword",
+      "station": "crafting_table",
+      "ingredients": {
+        "gold_ingot": 2,
+        "stick": 1
+      },
+      "result": "golden_sword",
+      "count": 1,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "diamond_pickaxe": {
+      "name": "Diamond Pickaxe",
+      "station": "crafting_table",
+      "ingredients": {
+        "diamond": 3,
+        "stick": 2
+      },
+      "result": "diamond_pickaxe",
+      "count": 1,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "diamond_axe": {
+      "name": "Diamond Axe",
+      "station": "crafting_table",
+      "ingredients": {
+        "diamond": 3,
+        "stick": 2
+      },
+      "result": "diamond_axe",
+      "count": 1,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "diamond_shovel": {
+      "name": "Diamond Shovel",
+      "station": "crafting_table",
+      "ingredients": {
+        "diamond": 1,
+        "stick": 2
+      },
+      "result": "diamond_shovel",
+      "count": 1,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "diamond_hoe": {
+      "name": "Diamond Hoe",
+      "station": "crafting_table",
+      "ingredients": {
+        "diamond": 2,
+        "stick": 2
+      },
+      "result": "diamond_hoe",
+      "count": 1,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "diamond_sword": {
+      "name": "Diamond Sword",
+      "station": "crafting_table",
+      "ingredients": {
+        "diamond": 2,
+        "stick": 1
+      },
+      "result": "diamond_sword",
+      "count": 1,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "smelt_beef": {
+      "name": "Cooked Beef",
+      "station": "furnace",
+      "ingredients": {
+        "beef": 1
+      },
+      "fuel": {
+        "coal": 1
+      },
+      "result": "cooked_beef",
+      "count": 1,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "smelt_porkchop": {
+      "name": "Cooked Porkchop",
+      "station": "furnace",
+      "ingredients": {
+        "porkchop": 1
+      },
+      "fuel": {
+        "coal": 1
+      },
+      "result": "cooked_porkchop",
+      "count": 1,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "smelt_chicken": {
+      "name": "Cooked Chicken",
+      "station": "furnace",
+      "ingredients": {
+        "chicken": 1
+      },
+      "fuel": {
+        "coal": 1
+      },
+      "result": "cooked_chicken",
+      "count": 1,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "campfire_beef": {
+      "name": "Cooked Beef",
+      "station": "campfire",
+      "ingredients": {
+        "beef": 1
+      },
+      "result": "cooked_beef",
+      "count": 1,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "campfire_porkchop": {
+      "name": "Cooked Porkchop",
+      "station": "campfire",
+      "ingredients": {
+        "porkchop": 1
+      },
+      "result": "cooked_porkchop",
+      "count": 1,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    },
+    "campfire_chicken": {
+      "name": "Cooked Chicken",
+      "station": "campfire",
+      "ingredients": {
+        "chicken": 1
+      },
+      "result": "cooked_chicken",
+      "count": 1,
+      "recipe_type": "flatworld:ingredient_map",
+      "authoritative_vanilla_recipe": false
+    }
+  },
+  "source_status": "partial_project_sample_not_vanilla_complete",
+  "dropped_legacy_recipe_ids": []
+}

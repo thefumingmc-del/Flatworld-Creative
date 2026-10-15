@@ -1,0 +1,330 @@
+{
+  "schema_version": 3,
+  "entities": {
+    "pig": {
+      "name": "Pig",
+      "runtime_supported": true
+    },
+    "cow": {
+      "name": "Cow",
+      "runtime_supported": true
+    },
+    "sheep": {
+      "name": "Sheep",
+      "runtime_supported": true
+    },
+    "chicken": {
+      "name": "Chicken",
+      "runtime_supported": true
+    },
+    "villager": {
+      "name": "Villager",
+      "runtime_supported": true
+    },
+    "zombie": {
+      "name": "Zombie",
+      "runtime_supported": true
+    },
+    "skeleton": {
+      "name": "Skeleton",
+      "runtime_supported": true
+    },
+    "spider": {
+      "name": "Spider",
+      "runtime_supported": true
+    },
+    "creeper": {
+      "name": "Creeper",
+      "runtime_supported": true
+    },
+    "slime": {
+      "name": "Slime",
+      "runtime_supported": true
+    },
+    "bat": {
+      "name": "Bat",
+      "runtime_supported": true
+    },
+    "wolf": {
+      "name": "Wolf",
+      "runtime_supported": true
+    },
+    "enderman": {
+      "name": "Enderman",
+      "runtime_supported": true
+    },
+    "ghast": {
+      "name": "Ghast",
+      "runtime_supported": true
+    },
+    "blaze": {
+      "name": "Blaze",
+      "runtime_supported": true
+    },
+    "horse": {
+      "name": "Horse",
+      "runtime_supported": true
+    },
+    "fox": {
+      "name": "Fox",
+      "runtime_supported": true
+    },
+    "goat": {
+      "name": "Goat",
+      "runtime_supported": true
+    },
+    "turtle": {
+      "name": "Turtle",
+      "runtime_supported": true
+    },
+    "rabbit": {
+      "name": "Rabbit",
+      "runtime_supported": true
+    },
+    "cat": {
+      "name": "Cat",
+      "runtime_supported": true
+    },
+    "ocelot": {
+      "name": "Ocelot",
+      "runtime_supported": true
+    },
+    "parrot": {
+      "name": "Parrot",
+      "runtime_supported": true
+    },
+    "bee": {
+      "name": "Bee",
+      "runtime_supported": true
+    },
+    "polar_bear": {
+      "name": "Polar Bear",
+      "runtime_supported": true
+    },
+    "panda": {
+      "name": "Panda",
+      "runtime_supported": true
+    },
+    "dolphin": {
+      "name": "Dolphin",
+      "runtime_supported": true
+    },
+    "squid": {
+      "name": "Squid",
+      "runtime_supported": true
+    },
+    "glow_squid": {
+      "name": "Glow Squid",
+      "runtime_supported": true
+    },
+    "cod": {
+      "name": "Cod",
+      "runtime_supported": true
+    },
+    "salmon": {
+      "name": "Salmon",
+      "runtime_supported": true
+    },
+    "tropical_fish": {
+      "name": "Tropical Fish",
+      "runtime_supported": true
+    },
+    "pufferfish": {
+      "name": "Pufferfish",
+      "runtime_supported": true
+    },
+    "axolotl": {
+      "name": "Axolotl",
+      "runtime_supported": true
+    },
+    "frog": {
+      "name": "Frog",
+      "runtime_supported": true
+    },
+    "tadpole": {
+      "name": "Tadpole",
+      "runtime_supported": true
+    },
+    "armadillo": {
+      "name": "Armadillo",
+      "runtime_supported": true
+    },
+    "camel": {
+      "name": "Camel",
+      "runtime_supported": true
+    },
+    "sniffer": {
+      "name": "Sniffer",
+      "runtime_supported": true
+    },
+    "donkey": {
+      "name": "Donkey",
+      "runtime_supported": true
+    },
+    "mule": {
+      "name": "Mule",
+      "runtime_supported": true
+    },
+    "skeleton_horse": {
+      "name": "Skeleton Horse",
+      "runtime_supported": true
+    },
+    "zombie_horse": {
+      "name": "Zombie Horse",
+      "runtime_supported": true
+    },
+    "llama": {
+      "name": "Llama",
+      "runtime_supported": true
+    },
+    "trader_llama": {
+      "name": "Trader Llama",
+      "runtime_supported": true
+    },
+    "mooshroom": {
+      "name": "Mooshroom",
+      "runtime_supported": true
+    },
+    "allay": {
+      "name": "Allay",
+      "runtime_supported": true
+    },
+    "iron_golem": {
+      "name": "Iron Golem",
+      "runtime_supported": true
+    },
+    "snow_golem": {
+      "name": "Snow Golem",
+      "runtime_supported": true
+    },
+    "wandering_trader": {
+      "name": "Wandering Trader",
+      "runtime_supported": true
+    },
+    "zombie_villager": {
+      "name": "Zombie Villager",
+      "runtime_supported": true
+    },
+    "husk": {
+      "name": "Husk",
+      "runtime_supported": true
+    },
+    "stray": {
+      "name": "Stray",
+      "runtime_supported": true
+    },
+    "drowned": {
+      "name": "Drowned",
+      "runtime_supported": true
+    },
+    "cave_spider": {
+      "name": "Cave Spider",
+      "runtime_supported": true
+    },
+    "silverfish": {
+      "name": "Silverfish",
+      "runtime_supported": true
+    },
+    "endermite": {
+      "name": "Endermite",
+      "runtime_supported": true
+    },
+    "witch": {
+      "name": "Witch",
+      "runtime_supported": true
+    },
+    "pillager": {
+      "name": "Pillager",
+      "runtime_supported": true
+    },
+    "vindicator": {
+      "name": "Vindicator",
+      "runtime_supported": true
+    },
+    "evoker": {
+      "name": "Evoker",
+      "runtime_supported": true
+    },
+    "vex": {
+      "name": "Vex",
+      "runtime_supported": true
+    },
+    "ravager": {
+      "name": "Ravager",
+      "runtime_supported": true
+    },
+    "phantom": {
+      "name": "Phantom",
+      "runtime_supported": true
+    },
+    "guardian": {
+      "name": "Guardian",
+      "runtime_supported": true
+    },
+    "elder_guardian": {
+      "name": "Elder Guardian",
+      "runtime_supported": true
+    },
+    "warden": {
+      "name": "Warden",
+      "runtime_supported": true
+    },
+    "breeze": {
+      "name": "Breeze",
+      "runtime_supported": true
+    },
+    "bogged": {
+      "name": "Bogged",
+      "runtime_supported": true
+    },
+    "hoglin": {
+      "name": "Hoglin",
+      "runtime_supported": true
+    },
+    "zoglin": {
+      "name": "Zoglin",
+      "runtime_supported": true
+    },
+    "piglin": {
+      "name": "Piglin",
+      "runtime_supported": true
+    },
+    "piglin_brute": {
+      "name": "Piglin Brute",
+      "runtime_supported": true
+    },
+    "zombified_piglin": {
+      "name": "Zombified Piglin",
+      "runtime_supported": true
+    },
+    "magma_cube": {
+      "name": "Magma Cube",
+      "runtime_supported": true
+    },
+    "shulker": {
+      "name": "Shulker",
+      "runtime_supported": true
+    },
+    "wither": {
+      "name": "Wither",
+      "runtime_supported": true
+    },
+    "ender_dragon": {
+      "name": "Ender Dragon",
+      "runtime_supported": true
+    },
+    "illusioner": {
+      "name": "Illusioner",
+      "runtime_supported": true
+    },
+    "creaking": {
+      "name": "Creaking",
+      "runtime_supported": true
+    },
+    "strider": {
+      "name": "Strider",
+      "runtime_supported": true
+    }
+  },
+  "source_status": "partial_runtime_subset_not_canonical_registry"
+}

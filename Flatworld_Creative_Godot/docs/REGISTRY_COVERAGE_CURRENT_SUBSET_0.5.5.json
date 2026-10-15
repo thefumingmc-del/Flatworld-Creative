@@ -1,0 +1,21 @@
+{
+  "project_version": "0.5.5",
+  "minecraft_java_target": "26.3",
+  "authoritative_reference_imported": false,
+  "source_of_current_ids": "current Flatworld working-tree registry subset; NOT evidence of full Vanilla 26.3 coverage",
+  "baseline_counts": {
+    "blocks": 300,
+    "items": 392
+  },
+  "current_counts": {
+    "blocks": 300,
+    "render_adapters": 299,
+    "items": 392,
+    "item_icons": 392,
+    "item_component_rows": 0,
+    "block_state_rows": 300,
+    "item_to_block_mappings": 288
+  },
+  "report": "docs/REGISTRY_COVERAGE_CURRENT_SUBSET_0.5.5.csv",
+  "next_gate": "Run tools/sync_java_26_3_reference.py under Java 25+ with network access; only then can this report claim exact ID presence/absence."
+}

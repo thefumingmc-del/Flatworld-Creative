@@ -1,0 +1,412 @@
+{
+  "schema_version": 2,
+  "minecraft_version": "26.3",
+  "source_status": "partial_project_subset_official_entity_report_pending",
+  "entities": {
+    "pig": {
+      "id": "pig",
+      "name": "Pig",
+      "runtime_supported": true
+    },
+    "cow": {
+      "id": "cow",
+      "name": "Cow",
+      "runtime_supported": true
+    },
+    "sheep": {
+      "id": "sheep",
+      "name": "Sheep",
+      "runtime_supported": true
+    },
+    "chicken": {
+      "id": "chicken",
+      "name": "Chicken",
+      "runtime_supported": true
+    },
+    "villager": {
+      "id": "villager",
+      "name": "Villager",
+      "runtime_supported": true
+    },
+    "zombie": {
+      "id": "zombie",
+      "name": "Zombie",
+      "runtime_supported": true
+    },
+    "skeleton": {
+      "id": "skeleton",
+      "name": "Skeleton",
+      "runtime_supported": true
+    },
+    "spider": {
+      "id": "spider",
+      "name": "Spider",
+      "runtime_supported": true
+    },
+    "creeper": {
+      "id": "creeper",
+      "name": "Creeper",
+      "runtime_supported": true
+    },
+    "slime": {
+      "id": "slime",
+      "name": "Slime",
+      "runtime_supported": true
+    },
+    "bat": {
+      "id": "bat",
+      "name": "Bat",
+      "runtime_supported": true
+    },
+    "wolf": {
+      "id": "wolf",
+      "name": "Wolf",
+      "runtime_supported": true
+    },
+    "enderman": {
+      "id": "enderman",
+      "name": "Enderman",
+      "runtime_supported": true
+    },
+    "ghast": {
+      "id": "ghast",
+      "name": "Ghast",
+      "runtime_supported": true
+    },
+    "blaze": {
+      "id": "blaze",
+      "name": "Blaze",
+      "runtime_supported": true
+    },
+    "horse": {
+      "id": "horse",
+      "name": "Horse",
+      "runtime_supported": true
+    },
+    "fox": {
+      "id": "fox",
+      "name": "Fox",
+      "runtime_supported": true
+    },
+    "goat": {
+      "id": "goat",
+      "name": "Goat",
+      "runtime_supported": true
+    },
+    "turtle": {
+      "id": "turtle",
+      "name": "Turtle",
+      "runtime_supported": true
+    },
+    "rabbit": {
+      "id": "rabbit",
+      "name": "Rabbit",
+      "runtime_supported": true
+    },
+    "cat": {
+      "id": "cat",
+      "name": "Cat",
+      "runtime_supported": true
+    },
+    "ocelot": {
+      "id": "ocelot",
+      "name": "Ocelot",
+      "runtime_supported": true
+    },
+    "parrot": {
+      "id": "parrot",
+      "name": "Parrot",
+      "runtime_supported": true
+    },
+    "bee": {
+      "id": "bee",
+      "name": "Bee",
+      "runtime_supported": true
+    },
+    "polar_bear": {
+      "id": "polar_bear",
+      "name": "Polar Bear",
+      "runtime_supported": true
+    },
+    "panda": {
+      "id": "panda",
+      "name": "Panda",
+      "runtime_supported": true
+    },
+    "dolphin": {
+      "id": "dolphin",
+      "name": "Dolphin",
+      "runtime_supported": true
+    },
+    "squid": {
+      "id": "squid",
+      "name": "Squid",
+      "runtime_supported": true
+    },
+    "glow_squid": {
+      "id": "glow_squid",
+      "name": "Glow Squid",
+      "runtime_supported": true
+    },
+    "cod": {
+      "id": "cod",
+      "name": "Cod",
+      "runtime_supported": true
+    },
+    "salmon": {
+      "id": "salmon",
+      "name": "Salmon",
+      "runtime_supported": true
+    },
+    "tropical_fish": {
+      "id": "tropical_fish",
+      "name": "Tropical Fish",
+      "runtime_supported": true
+    },
+    "pufferfish": {
+      "id": "pufferfish",
+      "name": "Pufferfish",
+      "runtime_supported": true
+    },
+    "axolotl": {
+      "id": "axolotl",
+      "name": "Axolotl",
+      "runtime_supported": true
+    },
+    "frog": {
+      "id": "frog",
+      "name": "Frog",
+      "runtime_supported": true
+    },
+    "tadpole": {
+      "id": "tadpole",
+      "name": "Tadpole",
+      "runtime_supported": true
+    },
+    "armadillo": {
+      "id": "armadillo",
+      "name": "Armadillo",
+      "runtime_supported": true
+    },
+    "camel": {
+      "id": "camel",
+      "name": "Camel",
+      "runtime_supported": true
+    },
+    "sniffer": {
+      "id": "sniffer",
+      "name": "Sniffer",
+      "runtime_supported": true
+    },
+    "donkey": {
+      "id": "donkey",
+      "name": "Donkey",
+      "runtime_supported": true
+    },
+    "mule": {
+      "id": "mule",
+      "name": "Mule",
+      "runtime_supported": true
+    },
+    "skeleton_horse": {
+      "id": "skeleton_horse",
+      "name": "Skeleton Horse",
+      "runtime_supported": true
+    },
+    "zombie_horse": {
+      "id": "zombie_horse",
+      "name": "Zombie Horse",
+      "runtime_supported": true
+    },
+    "llama": {
+      "id": "llama",
+      "name": "Llama",
+      "runtime_supported": true
+    },
+    "trader_llama": {
+      "id": "trader_llama",
+      "name": "Trader Llama",
+      "runtime_supported": true
+    },
+    "mooshroom": {
+      "id": "mooshroom",
+      "name": "Mooshroom",
+      "runtime_supported": true
+    },
+    "allay": {
+      "id": "allay",
+      "name": "Allay",
+      "runtime_supported": true
+    },
+    "iron_golem": {
+      "id": "iron_golem",
+      "name": "Iron Golem",
+      "runtime_supported": true
+    },
+    "snow_golem": {
+      "id": "snow_golem",
+      "name": "Snow Golem",
+      "runtime_supported": true
+    },
+    "wandering_trader": {
+      "id": "wandering_trader",
+      "name": "Wandering Trader",
+      "runtime_supported": true
+    },
+    "zombie_villager": {
+      "id": "zombie_villager",
+      "name": "Zombie Villager",
+      "runtime_supported": true
+    },
+    "husk": {
+      "id": "husk",
+      "name": "Husk",
+      "runtime_supported": true
+    },
+    "stray": {
+      "id": "stray",
+      "name": "Stray",
+      "runtime_supported": true
+    },
+    "drowned": {
+      "id": "drowned",
+      "name": "Drowned",
+      "runtime_supported": true
+    },
+    "cave_spider": {
+      "id": "cave_spider",
+      "name": "Cave Spider",
+      "runtime_supported": true
+    },
+    "silverfish": {
+      "id": "silverfish",
+      "name": "Silverfish",
+      "runtime_supported": true
+    },
+    "endermite": {
+      "id": "endermite",
+      "name": "Endermite",
+      "runtime_supported": true
+    },
+    "witch": {
+      "id": "witch",
+      "name": "Witch",
+      "runtime_supported": true
+    },
+    "pillager": {
+      "id": "pillager",
+      "name": "Pillager",
+      "runtime_supported": true
+    },
+    "vindicator": {
+      "id": "vindicator",
+      "name": "Vindicator",
+      "runtime_supported": true
+    },
+    "evoker": {
+      "id": "evoker",
+      "name": "Evoker",
+      "runtime_supported": true
+    },
+    "vex": {
+      "id": "vex",
+      "name": "Vex",
+      "runtime_supported": true
+    },
+    "ravager": {
+      "id": "ravager",
+      "name": "Ravager",
+      "runtime_supported": true
+    },
+    "phantom": {
+      "id": "phantom",
+      "name": "Phantom",
+      "runtime_supported": true
+    },
+    "guardian": {
+      "id": "guardian",
+      "name": "Guardian",
+      "runtime_supported": true
+    },
+    "elder_guardian": {
+      "id": "elder_guardian",
+      "name": "Elder Guardian",
+      "runtime_supported": true
+    },
+    "warden": {
+      "id": "warden",
+      "name": "Warden",
+      "runtime_supported": true
+    },
+    "breeze": {
+      "id": "breeze",
+      "name": "Breeze",
+      "runtime_supported": true
+    },
+    "bogged": {
+      "id": "bogged",
+      "name": "Bogged",
+      "runtime_supported": true
+    },
+    "hoglin": {
+      "id": "hoglin",
+      "name": "Hoglin",
+      "runtime_supported": true
+    },
+    "zoglin": {
+      "id": "zoglin",
+      "name": "Zoglin",
+      "runtime_supported": true
+    },
+    "piglin": {
+      "id": "piglin",
+      "name": "Piglin",
+      "runtime_supported": true
+    },
+    "piglin_brute": {
+      "id": "piglin_brute",
+      "name": "Piglin Brute",
+      "runtime_supported": true
+    },
+    "zombified_piglin": {
+      "id": "zombified_piglin",
+      "name": "Zombified Piglin",
+      "runtime_supported": true
+    },
+    "magma_cube": {
+      "id": "magma_cube",
+      "name": "Magma Cube",
+      "runtime_supported": true
+    },
+    "shulker": {
+      "id": "shulker",
+      "name": "Shulker",
+      "runtime_supported": true
+    },
+    "wither": {
+      "id": "wither",
+      "name": "Wither",
+      "runtime_supported": true
+    },
+    "ender_dragon": {
+      "id": "ender_dragon",
+      "name": "Ender Dragon",
+      "runtime_supported": true
+    },
+    "illusioner": {
+      "id": "illusioner",
+      "name": "Illusioner",
+      "runtime_supported": true
+    },
+    "creaking": {
+      "id": "creaking",
+      "name": "Creaking",
+      "runtime_supported": true
+    },
+    "strider": {
+      "id": "strider",
+      "name": "Strider",
+      "runtime_supported": true
+    }
+  }
+}

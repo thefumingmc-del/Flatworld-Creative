@@ -1,0 +1,412 @@
+{
+  "schema_version": 2,
+  "minecraft_version": "26.3",
+  "source_status": "runtime_subset_only; vanilla entity registry completeness pending",
+  "entities": {
+    "pig": {
+      "name": "Pig",
+      "runtime_supported": true,
+      "drops": []
+    },
+    "cow": {
+      "name": "Cow",
+      "runtime_supported": true,
+      "drops": []
+    },
+    "sheep": {
+      "name": "Sheep",
+      "runtime_supported": true,
+      "drops": []
+    },
+    "chicken": {
+      "name": "Chicken",
+      "runtime_supported": true,
+      "drops": []
+    },
+    "villager": {
+      "name": "Villager",
+      "runtime_supported": true,
+      "drops": []
+    },
+    "zombie": {
+      "name": "Zombie",
+      "runtime_supported": true,
+      "drops": []
+    },
+    "skeleton": {
+      "name": "Skeleton",
+      "runtime_supported": true,
+      "drops": []
+    },
+    "spider": {
+      "name": "Spider",
+      "runtime_supported": true,
+      "drops": []
+    },
+    "creeper": {
+      "name": "Creeper",
+      "runtime_supported": true,
+      "drops": []
+    },
+    "slime": {
+      "name": "Slime",
+      "runtime_supported": true,
+      "drops": []
+    },
+    "bat": {
+      "name": "Bat",
+      "runtime_supported": true,
+      "drops": []
+    },
+    "wolf": {
+      "name": "Wolf",
+      "runtime_supported": true,
+      "drops": []
+    },
+    "enderman": {
+      "name": "Enderman",
+      "runtime_supported": true,
+      "drops": []
+    },
+    "ghast": {
+      "name": "Ghast",
+      "runtime_supported": true,
+      "drops": []
+    },
+    "blaze": {
+      "name": "Blaze",
+      "runtime_supported": true,
+      "drops": []
+    },
+    "horse": {
+      "name": "Horse",
+      "runtime_supported": true,
+      "drops": []
+    },
+    "fox": {
+      "name": "Fox",
+      "runtime_supported": true,
+      "drops": []
+    },
+    "goat": {
+      "name": "Goat",
+      "runtime_supported": true,
+      "drops": []
+    },
+    "turtle": {
+      "name": "Turtle",
+      "runtime_supported": true,
+      "drops": []
+    },
+    "rabbit": {
+      "name": "Rabbit",
+      "runtime_supported": true,
+      "drops": []
+    },
+    "cat": {
+      "name": "Cat",
+      "runtime_supported": true,
+      "drops": []
+    },
+    "ocelot": {
+      "name": "Ocelot",
+      "runtime_supported": true,
+      "drops": []
+    },
+    "parrot": {
+      "name": "Parrot",
+      "runtime_supported": true,
+      "drops": []
+    },
+    "bee": {
+      "name": "Bee",
+      "runtime_supported": true,
+      "drops": []
+    },
+    "polar_bear": {
+      "name": "Polar Bear",
+      "runtime_supported": true,
+      "drops": []
+    },
+    "panda": {
+      "name": "Panda",
+      "runtime_supported": true,
+      "drops": []
+    },
+    "dolphin": {
+      "name": "Dolphin",
+      "runtime_supported": true,
+      "drops": []
+    },
+    "squid": {
+      "name": "Squid",
+      "runtime_supported": true,
+      "drops": []
+    },
+    "glow_squid": {
+      "name": "Glow Squid",
+      "runtime_supported": true,
+      "drops": []
+    },
+    "cod": {
+      "name": "Cod",
+      "runtime_supported": true,
+      "drops": []
+    },
+    "salmon": {
+      "name": "Salmon",
+      "runtime_supported": true,
+      "drops": []
+    },
+    "tropical_fish": {
+      "name": "Tropical Fish",
+      "runtime_supported": true,
+      "drops": []
+    },
+    "pufferfish": {
+      "name": "Pufferfish",
+      "runtime_supported": true,
+      "drops": []
+    },
+    "axolotl": {
+      "name": "Axolotl",
+      "runtime_supported": true,
+      "drops": []
+    },
+    "frog": {
+      "name": "Frog",
+      "runtime_supported": true,
+      "drops": []
+    },
+    "tadpole": {
+      "name": "Tadpole",
+      "runtime_supported": true,
+      "drops": []
+    },
+    "armadillo": {
+      "name": "Armadillo",
+      "runtime_supported": true,
+      "drops": []
+    },
+    "camel": {
+      "name": "Camel",
+      "runtime_supported": true,
+      "drops": []
+    },
+    "sniffer": {
+      "name": "Sniffer",
+      "runtime_supported": true,
+      "drops": []
+    },
+    "donkey": {
+      "name": "Donkey",
+      "runtime_supported": true,
+      "drops": []
+    },
+    "mule": {
+      "name": "Mule",
+      "runtime_supported": true,
+      "drops": []
+    },
+    "skeleton_horse": {
+      "name": "Skeleton Horse",
+      "runtime_supported": true,
+      "drops": []
+    },
+    "zombie_horse": {
+      "name": "Zombie Horse",
+      "runtime_supported": true,
+      "drops": []
+    },
+    "llama": {
+      "name": "Llama",
+      "runtime_supported": true,
+      "drops": []
+    },
+    "trader_llama": {
+      "name": "Trader Llama",
+      "runtime_supported": true,
+      "drops": []
+    },
+    "mooshroom": {
+      "name": "Mooshroom",
+      "runtime_supported": true,
+      "drops": []
+    },
+    "allay": {
+      "name": "Allay",
+      "runtime_supported": true,
+      "drops": []
+    },
+    "iron_golem": {
+      "name": "Iron Golem",
+      "runtime_supported": true,
+      "drops": []
+    },
+    "snow_golem": {
+      "name": "Snow Golem",
+      "runtime_supported": true,
+      "drops": []
+    },
+    "wandering_trader": {
+      "name": "Wandering Trader",
+      "runtime_supported": true,
+      "drops": []
+    },
+    "zombie_villager": {
+      "name": "Zombie Villager",
+      "runtime_supported": true,
+      "drops": []
+    },
+    "husk": {
+      "name": "Husk",
+      "runtime_supported": true,
+      "drops": []
+    },
+    "stray": {
+      "name": "Stray",
+      "runtime_supported": true,
+      "drops": []
+    },
+    "drowned": {
+      "name": "Drowned",
+      "runtime_supported": true,
+      "drops": []
+    },
+    "cave_spider": {
+      "name": "Cave Spider",
+      "runtime_supported": true,
+      "drops": []
+    },
+    "silverfish": {
+      "name": "Silverfish",
+      "runtime_supported": true,
+      "drops": []
+    },
+    "endermite": {
+      "name": "Endermite",
+      "runtime_supported": true,
+      "drops": []
+    },
+    "witch": {
+      "name": "Witch",
+      "runtime_supported": true,
+      "drops": []
+    },
+    "pillager": {
+      "name": "Pillager",
+      "runtime_supported": true,
+      "drops": []
+    },
+    "vindicator": {
+      "name": "Vindicator",
+      "runtime_supported": true,
+      "drops": []
+    },
+    "evoker": {
+      "name": "Evoker",
+      "runtime_supported": true,
+      "drops": []
+    },
+    "vex": {
+      "name": "Vex",
+      "runtime_supported": true,
+      "drops": []
+    },
+    "ravager": {
+      "name": "Ravager",
+      "runtime_supported": true,
+      "drops": []
+    },
+    "phantom": {
+      "name": "Phantom",
+      "runtime_supported": true,
+      "drops": []
+    },
+    "guardian": {
+      "name": "Guardian",
+      "runtime_supported": true,
+      "drops": []
+    },
+    "elder_guardian": {
+      "name": "Elder Guardian",
+      "runtime_supported": true,
+      "drops": []
+    },
+    "warden": {
+      "name": "Warden",
+      "runtime_supported": true,
+      "drops": []
+    },
+    "breeze": {
+      "name": "Breeze",
+      "runtime_supported": true,
+      "drops": []
+    },
+    "bogged": {
+      "name": "Bogged",
+      "runtime_supported": true,
+      "drops": []
+    },
+    "hoglin": {
+      "name": "Hoglin",
+      "runtime_supported": true,
+      "drops": []
+    },
+    "zoglin": {
+      "name": "Zoglin",
+      "runtime_supported": true,
+      "drops": []
+    },
+    "piglin": {
+      "name": "Piglin",
+      "runtime_supported": true,
+      "drops": []
+    },
+    "piglin_brute": {
+      "name": "Piglin Brute",
+      "runtime_supported": true,
+      "drops": []
+    },
+    "zombified_piglin": {
+      "name": "Zombified Piglin",
+      "runtime_supported": true,
+      "drops": []
+    },
+    "magma_cube": {
+      "name": "Magma Cube",
+      "runtime_supported": true,
+      "drops": []
+    },
+    "shulker": {
+      "name": "Shulker",
+      "runtime_supported": true,
+      "drops": []
+    },
+    "wither": {
+      "name": "Wither",
+      "runtime_supported": true,
+      "drops": []
+    },
+    "ender_dragon": {
+      "name": "Ender Dragon",
+      "runtime_supported": true,
+      "drops": []
+    },
+    "illusioner": {
+      "name": "Illusioner",
+      "runtime_supported": true,
+      "drops": []
+    },
+    "creaking": {
+      "name": "Creaking",
+      "runtime_supported": true,
+      "drops": []
+    },
+    "strider": {
+      "name": "Strider",
+      "runtime_supported": true,
+      "drops": []
+    }
+  }
+}

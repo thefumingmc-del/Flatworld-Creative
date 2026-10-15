@@ -1,0 +1,7143 @@
+{
+  "tile_size": 16,
+  "columns": 64,
+  "rows": 15,
+  "tiles": {
+    "acacia_log": {
+      "top": {
+        "tile": 0,
+        "x": 0,
+        "y": 0,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 1,
+        "x": 16,
+        "y": 0,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 2,
+        "x": 32,
+        "y": 0,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "acacia_planks": {
+      "top": {
+        "tile": 3,
+        "x": 48,
+        "y": 0,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 4,
+        "x": 64,
+        "y": 0,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 5,
+        "x": 80,
+        "y": 0,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "activator_rail": {
+      "top": {
+        "tile": 6,
+        "x": 96,
+        "y": 0,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 7,
+        "x": 112,
+        "y": 0,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 8,
+        "x": 128,
+        "y": 0,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "amethyst_block": {
+      "top": {
+        "tile": 9,
+        "x": 144,
+        "y": 0,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 10,
+        "x": 160,
+        "y": 0,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 11,
+        "x": 176,
+        "y": 0,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "ancient_debris": {
+      "top": {
+        "tile": 12,
+        "x": 192,
+        "y": 0,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 13,
+        "x": 208,
+        "y": 0,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 14,
+        "x": 224,
+        "y": 0,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "anvil": {
+      "top": {
+        "tile": 15,
+        "x": 240,
+        "y": 0,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 16,
+        "x": 256,
+        "y": 0,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 17,
+        "x": 272,
+        "y": 0,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "barrel": {
+      "top": {
+        "tile": 18,
+        "x": 288,
+        "y": 0,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 19,
+        "x": 304,
+        "y": 0,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 20,
+        "x": 320,
+        "y": 0,
+        "width": 16,
+        "height": 16
+      },
+      "front": {
+        "tile": 21,
+        "x": 336,
+        "y": 0,
+        "width": 16,
+        "height": 16
+      },
+      "back": {
+        "tile": 22,
+        "x": 352,
+        "y": 0,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "basalt": {
+      "top": {
+        "tile": 23,
+        "x": 368,
+        "y": 0,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 24,
+        "x": 384,
+        "y": 0,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 25,
+        "x": 400,
+        "y": 0,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "beacon": {
+      "top": {
+        "tile": 26,
+        "x": 416,
+        "y": 0,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 27,
+        "x": 432,
+        "y": 0,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 28,
+        "x": 448,
+        "y": 0,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "bedrock": {
+      "top": {
+        "tile": 29,
+        "x": 464,
+        "y": 0,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 30,
+        "x": 480,
+        "y": 0,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 31,
+        "x": 496,
+        "y": 0,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "beetroots": {
+      "top": {
+        "tile": 32,
+        "x": 512,
+        "y": 0,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 33,
+        "x": 528,
+        "y": 0,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 34,
+        "x": 544,
+        "y": 0,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "birch_leaves": {
+      "top": {
+        "tile": 35,
+        "x": 560,
+        "y": 0,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 36,
+        "x": 576,
+        "y": 0,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 37,
+        "x": 592,
+        "y": 0,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "birch_log": {
+      "top": {
+        "tile": 38,
+        "x": 608,
+        "y": 0,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 39,
+        "x": 624,
+        "y": 0,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 40,
+        "x": 640,
+        "y": 0,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "birch_planks": {
+      "top": {
+        "tile": 41,
+        "x": 656,
+        "y": 0,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 42,
+        "x": 672,
+        "y": 0,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 43,
+        "x": 688,
+        "y": 0,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "birch_sapling": {
+      "top": {
+        "tile": 44,
+        "x": 704,
+        "y": 0,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 45,
+        "x": 720,
+        "y": 0,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 46,
+        "x": 736,
+        "y": 0,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "black_concrete": {
+      "top": {
+        "tile": 47,
+        "x": 752,
+        "y": 0,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 48,
+        "x": 768,
+        "y": 0,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 49,
+        "x": 784,
+        "y": 0,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "black_concrete_slab": {
+      "top": {
+        "tile": 50,
+        "x": 800,
+        "y": 0,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 51,
+        "x": 816,
+        "y": 0,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 52,
+        "x": 832,
+        "y": 0,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "black_concrete_stairs": {
+      "top": {
+        "tile": 53,
+        "x": 848,
+        "y": 0,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 54,
+        "x": 864,
+        "y": 0,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 55,
+        "x": 880,
+        "y": 0,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "black_wool": {
+      "top": {
+        "tile": 56,
+        "x": 896,
+        "y": 0,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 57,
+        "x": 912,
+        "y": 0,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 58,
+        "x": 928,
+        "y": 0,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "black_wool_slab": {
+      "top": {
+        "tile": 59,
+        "x": 944,
+        "y": 0,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 60,
+        "x": 960,
+        "y": 0,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 61,
+        "x": 976,
+        "y": 0,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "black_wool_stairs": {
+      "top": {
+        "tile": 62,
+        "x": 992,
+        "y": 0,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 63,
+        "x": 1008,
+        "y": 0,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 64,
+        "x": 0,
+        "y": 16,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "blackstone": {
+      "top": {
+        "tile": 65,
+        "x": 16,
+        "y": 16,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 66,
+        "x": 32,
+        "y": 16,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 67,
+        "x": 48,
+        "y": 16,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "blue_concrete": {
+      "top": {
+        "tile": 68,
+        "x": 64,
+        "y": 16,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 69,
+        "x": 80,
+        "y": 16,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 70,
+        "x": 96,
+        "y": 16,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "blue_concrete_slab": {
+      "top": {
+        "tile": 71,
+        "x": 112,
+        "y": 16,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 72,
+        "x": 128,
+        "y": 16,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 73,
+        "x": 144,
+        "y": 16,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "blue_concrete_stairs": {
+      "top": {
+        "tile": 74,
+        "x": 160,
+        "y": 16,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 75,
+        "x": 176,
+        "y": 16,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 76,
+        "x": 192,
+        "y": 16,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "blue_ice": {
+      "top": {
+        "tile": 77,
+        "x": 208,
+        "y": 16,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 78,
+        "x": 224,
+        "y": 16,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 79,
+        "x": 240,
+        "y": 16,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "blue_wool": {
+      "top": {
+        "tile": 80,
+        "x": 256,
+        "y": 16,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 81,
+        "x": 272,
+        "y": 16,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 82,
+        "x": 288,
+        "y": 16,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "blue_wool_slab": {
+      "top": {
+        "tile": 83,
+        "x": 304,
+        "y": 16,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 84,
+        "x": 320,
+        "y": 16,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 85,
+        "x": 336,
+        "y": 16,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "blue_wool_stairs": {
+      "top": {
+        "tile": 86,
+        "x": 352,
+        "y": 16,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 87,
+        "x": 368,
+        "y": 16,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 88,
+        "x": 384,
+        "y": 16,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "bookshelf": {
+      "top": {
+        "tile": 89,
+        "x": 400,
+        "y": 16,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 90,
+        "x": 416,
+        "y": 16,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 91,
+        "x": 432,
+        "y": 16,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "bricks": {
+      "top": {
+        "tile": 92,
+        "x": 448,
+        "y": 16,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 93,
+        "x": 464,
+        "y": 16,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 94,
+        "x": 480,
+        "y": 16,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "brown_concrete": {
+      "top": {
+        "tile": 95,
+        "x": 496,
+        "y": 16,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 96,
+        "x": 512,
+        "y": 16,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 97,
+        "x": 528,
+        "y": 16,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "brown_concrete_slab": {
+      "top": {
+        "tile": 98,
+        "x": 544,
+        "y": 16,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 99,
+        "x": 560,
+        "y": 16,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 100,
+        "x": 576,
+        "y": 16,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "brown_concrete_stairs": {
+      "top": {
+        "tile": 101,
+        "x": 592,
+        "y": 16,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 102,
+        "x": 608,
+        "y": 16,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 103,
+        "x": 624,
+        "y": 16,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "brown_wool": {
+      "top": {
+        "tile": 104,
+        "x": 640,
+        "y": 16,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 105,
+        "x": 656,
+        "y": 16,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 106,
+        "x": 672,
+        "y": 16,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "brown_wool_slab": {
+      "top": {
+        "tile": 107,
+        "x": 688,
+        "y": 16,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 108,
+        "x": 704,
+        "y": 16,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 109,
+        "x": 720,
+        "y": 16,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "brown_wool_stairs": {
+      "top": {
+        "tile": 110,
+        "x": 736,
+        "y": 16,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 111,
+        "x": 752,
+        "y": 16,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 112,
+        "x": 768,
+        "y": 16,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "cactus": {
+      "top": {
+        "tile": 113,
+        "x": 784,
+        "y": 16,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 114,
+        "x": 800,
+        "y": 16,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 115,
+        "x": 816,
+        "y": 16,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "calcite": {
+      "top": {
+        "tile": 116,
+        "x": 832,
+        "y": 16,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 117,
+        "x": 848,
+        "y": 16,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 118,
+        "x": 864,
+        "y": 16,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "campfire": {
+      "top": {
+        "tile": 119,
+        "x": 880,
+        "y": 16,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 120,
+        "x": 896,
+        "y": 16,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 121,
+        "x": 912,
+        "y": 16,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "carrots": {
+      "top": {
+        "tile": 122,
+        "x": 928,
+        "y": 16,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 123,
+        "x": 944,
+        "y": 16,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 124,
+        "x": 960,
+        "y": 16,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "carved_pumpkin": {
+      "top": {
+        "tile": 125,
+        "x": 976,
+        "y": 16,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 126,
+        "x": 992,
+        "y": 16,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 127,
+        "x": 1008,
+        "y": 16,
+        "width": 16,
+        "height": 16
+      },
+      "front": {
+        "tile": 128,
+        "x": 0,
+        "y": 32,
+        "width": 16,
+        "height": 16
+      },
+      "back": {
+        "tile": 129,
+        "x": 16,
+        "y": 32,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "cherry_log": {
+      "top": {
+        "tile": 130,
+        "x": 32,
+        "y": 32,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 131,
+        "x": 48,
+        "y": 32,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 132,
+        "x": 64,
+        "y": 32,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "cherry_planks": {
+      "top": {
+        "tile": 133,
+        "x": 80,
+        "y": 32,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 134,
+        "x": 96,
+        "y": 32,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 135,
+        "x": 112,
+        "y": 32,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "chest": {
+      "top": {
+        "tile": 136,
+        "x": 128,
+        "y": 32,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 137,
+        "x": 144,
+        "y": 32,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 138,
+        "x": 160,
+        "y": 32,
+        "width": 16,
+        "height": 16
+      },
+      "front": {
+        "tile": 139,
+        "x": 176,
+        "y": 32,
+        "width": 16,
+        "height": 16
+      },
+      "back": {
+        "tile": 140,
+        "x": 192,
+        "y": 32,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "clay": {
+      "top": {
+        "tile": 141,
+        "x": 208,
+        "y": 32,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 142,
+        "x": 224,
+        "y": 32,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 143,
+        "x": 240,
+        "y": 32,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "coal_ore": {
+      "top": {
+        "tile": 144,
+        "x": 256,
+        "y": 32,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 145,
+        "x": 272,
+        "y": 32,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 146,
+        "x": 288,
+        "y": 32,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "coarse_dirt": {
+      "top": {
+        "tile": 147,
+        "x": 304,
+        "y": 32,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 148,
+        "x": 320,
+        "y": 32,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 149,
+        "x": 336,
+        "y": 32,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "cobbled_deepslate": {
+      "top": {
+        "tile": 150,
+        "x": 352,
+        "y": 32,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 151,
+        "x": 368,
+        "y": 32,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 152,
+        "x": 384,
+        "y": 32,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "cobblestone": {
+      "top": {
+        "tile": 153,
+        "x": 400,
+        "y": 32,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 154,
+        "x": 416,
+        "y": 32,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 155,
+        "x": 432,
+        "y": 32,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "cobblestone_slab": {
+      "top": {
+        "tile": 156,
+        "x": 448,
+        "y": 32,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 157,
+        "x": 464,
+        "y": 32,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 158,
+        "x": 480,
+        "y": 32,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "cobblestone_stairs": {
+      "top": {
+        "tile": 159,
+        "x": 496,
+        "y": 32,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 160,
+        "x": 512,
+        "y": 32,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 161,
+        "x": 528,
+        "y": 32,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "comparator": {
+      "top": {
+        "tile": 162,
+        "x": 544,
+        "y": 32,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 163,
+        "x": 560,
+        "y": 32,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 164,
+        "x": 576,
+        "y": 32,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "composter": {
+      "top": {
+        "tile": 165,
+        "x": 592,
+        "y": 32,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 166,
+        "x": 608,
+        "y": 32,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 167,
+        "x": 624,
+        "y": 32,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "copper_block": {
+      "top": {
+        "tile": 168,
+        "x": 640,
+        "y": 32,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 169,
+        "x": 656,
+        "y": 32,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 170,
+        "x": 672,
+        "y": 32,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "copper_ore": {
+      "top": {
+        "tile": 171,
+        "x": 688,
+        "y": 32,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 172,
+        "x": 704,
+        "y": 32,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 173,
+        "x": 720,
+        "y": 32,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "cracked_stone_bricks": {
+      "top": {
+        "tile": 174,
+        "x": 736,
+        "y": 32,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 175,
+        "x": 752,
+        "y": 32,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 176,
+        "x": 768,
+        "y": 32,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "crafting_table": {
+      "top": {
+        "tile": 177,
+        "x": 784,
+        "y": 32,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 178,
+        "x": 800,
+        "y": 32,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 179,
+        "x": 816,
+        "y": 32,
+        "width": 16,
+        "height": 16
+      },
+      "front": {
+        "tile": 180,
+        "x": 832,
+        "y": 32,
+        "width": 16,
+        "height": 16
+      },
+      "back": {
+        "tile": 181,
+        "x": 848,
+        "y": 32,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "crimson_stem": {
+      "top": {
+        "tile": 182,
+        "x": 864,
+        "y": 32,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 183,
+        "x": 880,
+        "y": 32,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 184,
+        "x": 896,
+        "y": 32,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "cushion": {
+      "top": {
+        "tile": 185,
+        "x": 912,
+        "y": 32,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 186,
+        "x": 928,
+        "y": 32,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 187,
+        "x": 944,
+        "y": 32,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "cyan_concrete": {
+      "top": {
+        "tile": 188,
+        "x": 960,
+        "y": 32,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 189,
+        "x": 976,
+        "y": 32,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 190,
+        "x": 992,
+        "y": 32,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "cyan_concrete_slab": {
+      "top": {
+        "tile": 191,
+        "x": 1008,
+        "y": 32,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 192,
+        "x": 0,
+        "y": 48,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 193,
+        "x": 16,
+        "y": 48,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "cyan_concrete_stairs": {
+      "top": {
+        "tile": 194,
+        "x": 32,
+        "y": 48,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 195,
+        "x": 48,
+        "y": 48,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 196,
+        "x": 64,
+        "y": 48,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "cyan_wool": {
+      "top": {
+        "tile": 197,
+        "x": 80,
+        "y": 48,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 198,
+        "x": 96,
+        "y": 48,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 199,
+        "x": 112,
+        "y": 48,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "cyan_wool_slab": {
+      "top": {
+        "tile": 200,
+        "x": 128,
+        "y": 48,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 201,
+        "x": 144,
+        "y": 48,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 202,
+        "x": 160,
+        "y": 48,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "cyan_wool_stairs": {
+      "top": {
+        "tile": 203,
+        "x": 176,
+        "y": 48,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 204,
+        "x": 192,
+        "y": 48,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 205,
+        "x": 208,
+        "y": 48,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "dandelion": {
+      "top": {
+        "tile": 206,
+        "x": 224,
+        "y": 48,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 207,
+        "x": 240,
+        "y": 48,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 208,
+        "x": 256,
+        "y": 48,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "dark_oak_log": {
+      "top": {
+        "tile": 209,
+        "x": 272,
+        "y": 48,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 210,
+        "x": 288,
+        "y": 48,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 211,
+        "x": 304,
+        "y": 48,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "dark_oak_planks": {
+      "top": {
+        "tile": 212,
+        "x": 320,
+        "y": 48,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 213,
+        "x": 336,
+        "y": 48,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 214,
+        "x": 352,
+        "y": 48,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "daylight_detector": {
+      "top": {
+        "tile": 215,
+        "x": 368,
+        "y": 48,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 216,
+        "x": 384,
+        "y": 48,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 217,
+        "x": 400,
+        "y": 48,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "deepslate": {
+      "top": {
+        "tile": 218,
+        "x": 416,
+        "y": 48,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 219,
+        "x": 432,
+        "y": 48,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 220,
+        "x": 448,
+        "y": 48,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "deepslate_coal_ore": {
+      "top": {
+        "tile": 221,
+        "x": 464,
+        "y": 48,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 222,
+        "x": 480,
+        "y": 48,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 223,
+        "x": 496,
+        "y": 48,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "deepslate_copper_ore": {
+      "top": {
+        "tile": 224,
+        "x": 512,
+        "y": 48,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 225,
+        "x": 528,
+        "y": 48,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 226,
+        "x": 544,
+        "y": 48,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "deepslate_diamond_ore": {
+      "top": {
+        "tile": 227,
+        "x": 560,
+        "y": 48,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 228,
+        "x": 576,
+        "y": 48,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 229,
+        "x": 592,
+        "y": 48,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "deepslate_emerald_ore": {
+      "top": {
+        "tile": 230,
+        "x": 608,
+        "y": 48,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 231,
+        "x": 624,
+        "y": 48,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 232,
+        "x": 640,
+        "y": 48,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "deepslate_gold_ore": {
+      "top": {
+        "tile": 233,
+        "x": 656,
+        "y": 48,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 234,
+        "x": 672,
+        "y": 48,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 235,
+        "x": 688,
+        "y": 48,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "deepslate_iron_ore": {
+      "top": {
+        "tile": 236,
+        "x": 704,
+        "y": 48,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 237,
+        "x": 720,
+        "y": 48,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 238,
+        "x": 736,
+        "y": 48,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "deepslate_lapis_ore": {
+      "top": {
+        "tile": 239,
+        "x": 752,
+        "y": 48,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 240,
+        "x": 768,
+        "y": 48,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 241,
+        "x": 784,
+        "y": 48,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "deepslate_redstone_ore": {
+      "top": {
+        "tile": 242,
+        "x": 800,
+        "y": 48,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 243,
+        "x": 816,
+        "y": 48,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 244,
+        "x": 832,
+        "y": 48,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "detector_rail": {
+      "top": {
+        "tile": 245,
+        "x": 848,
+        "y": 48,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 246,
+        "x": 864,
+        "y": 48,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 247,
+        "x": 880,
+        "y": 48,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "diamond_block": {
+      "top": {
+        "tile": 248,
+        "x": 896,
+        "y": 48,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 249,
+        "x": 912,
+        "y": 48,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 250,
+        "x": 928,
+        "y": 48,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "diamond_ore": {
+      "top": {
+        "tile": 251,
+        "x": 944,
+        "y": 48,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 252,
+        "x": 960,
+        "y": 48,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 253,
+        "x": 976,
+        "y": 48,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "dirt": {
+      "top": {
+        "tile": 254,
+        "x": 992,
+        "y": 48,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 255,
+        "x": 1008,
+        "y": 48,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 256,
+        "x": 0,
+        "y": 64,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "dirt_path": {
+      "top": {
+        "tile": 257,
+        "x": 16,
+        "y": 64,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 258,
+        "x": 32,
+        "y": 64,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 259,
+        "x": 48,
+        "y": 64,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "dispenser": {
+      "top": {
+        "tile": 260,
+        "x": 64,
+        "y": 64,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 261,
+        "x": 80,
+        "y": 64,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 262,
+        "x": 96,
+        "y": 64,
+        "width": 16,
+        "height": 16
+      },
+      "front": {
+        "tile": 263,
+        "x": 112,
+        "y": 64,
+        "width": 16,
+        "height": 16
+      },
+      "back": {
+        "tile": 264,
+        "x": 128,
+        "y": 64,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "dripstone_block": {
+      "top": {
+        "tile": 265,
+        "x": 144,
+        "y": 64,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 266,
+        "x": 160,
+        "y": 64,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 267,
+        "x": 176,
+        "y": 64,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "dropper": {
+      "top": {
+        "tile": 268,
+        "x": 192,
+        "y": 64,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 269,
+        "x": 208,
+        "y": 64,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 270,
+        "x": 224,
+        "y": 64,
+        "width": 16,
+        "height": 16
+      },
+      "front": {
+        "tile": 271,
+        "x": 240,
+        "y": 64,
+        "width": 16,
+        "height": 16
+      },
+      "back": {
+        "tile": 272,
+        "x": 256,
+        "y": 64,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "emerald_block": {
+      "top": {
+        "tile": 273,
+        "x": 272,
+        "y": 64,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 274,
+        "x": 288,
+        "y": 64,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 275,
+        "x": 304,
+        "y": 64,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "emerald_ore": {
+      "top": {
+        "tile": 276,
+        "x": 320,
+        "y": 64,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 277,
+        "x": 336,
+        "y": 64,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 278,
+        "x": 352,
+        "y": 64,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "end_portal": {
+      "top": {
+        "tile": 279,
+        "x": 368,
+        "y": 64,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 280,
+        "x": 384,
+        "y": 64,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 281,
+        "x": 400,
+        "y": 64,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "end_portal_frame": {
+      "top": {
+        "tile": 282,
+        "x": 416,
+        "y": 64,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 283,
+        "x": 432,
+        "y": 64,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 284,
+        "x": 448,
+        "y": 64,
+        "width": 16,
+        "height": 16
+      },
+      "eye_top": {
+        "tile": 285,
+        "x": 464,
+        "y": 64,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "end_rod": {
+      "top": {
+        "tile": 286,
+        "x": 480,
+        "y": 64,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 287,
+        "x": 496,
+        "y": 64,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 288,
+        "x": 512,
+        "y": 64,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "end_stone": {
+      "top": {
+        "tile": 289,
+        "x": 528,
+        "y": 64,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 290,
+        "x": 544,
+        "y": 64,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 291,
+        "x": 560,
+        "y": 64,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "farmland": {
+      "top": {
+        "tile": 292,
+        "x": 576,
+        "y": 64,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 293,
+        "x": 592,
+        "y": 64,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 294,
+        "x": 608,
+        "y": 64,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "flower_pot": {
+      "top": {
+        "tile": 295,
+        "x": 624,
+        "y": 64,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 296,
+        "x": 640,
+        "y": 64,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 297,
+        "x": 656,
+        "y": 64,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "furnace": {
+      "top": {
+        "tile": 298,
+        "x": 672,
+        "y": 64,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 299,
+        "x": 688,
+        "y": 64,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 300,
+        "x": 704,
+        "y": 64,
+        "width": 16,
+        "height": 16
+      },
+      "front": {
+        "tile": 301,
+        "x": 720,
+        "y": 64,
+        "width": 16,
+        "height": 16
+      },
+      "back": {
+        "tile": 302,
+        "x": 736,
+        "y": 64,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "glass": {
+      "top": {
+        "tile": 303,
+        "x": 752,
+        "y": 64,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 304,
+        "x": 768,
+        "y": 64,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 305,
+        "x": 784,
+        "y": 64,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "glowstone": {
+      "top": {
+        "tile": 306,
+        "x": 800,
+        "y": 64,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 307,
+        "x": 816,
+        "y": 64,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 308,
+        "x": 832,
+        "y": 64,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "gold_block": {
+      "top": {
+        "tile": 309,
+        "x": 848,
+        "y": 64,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 310,
+        "x": 864,
+        "y": 64,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 311,
+        "x": 880,
+        "y": 64,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "gold_ore": {
+      "top": {
+        "tile": 312,
+        "x": 896,
+        "y": 64,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 313,
+        "x": 912,
+        "y": 64,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 314,
+        "x": 928,
+        "y": 64,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "grass_block": {
+      "top": {
+        "tile": 315,
+        "x": 944,
+        "y": 64,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 316,
+        "x": 960,
+        "y": 64,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 317,
+        "x": 976,
+        "y": 64,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "gravel": {
+      "top": {
+        "tile": 318,
+        "x": 992,
+        "y": 64,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 319,
+        "x": 1008,
+        "y": 64,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 320,
+        "x": 0,
+        "y": 80,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "gray_concrete": {
+      "top": {
+        "tile": 321,
+        "x": 16,
+        "y": 80,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 322,
+        "x": 32,
+        "y": 80,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 323,
+        "x": 48,
+        "y": 80,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "gray_concrete_slab": {
+      "top": {
+        "tile": 324,
+        "x": 64,
+        "y": 80,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 325,
+        "x": 80,
+        "y": 80,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 326,
+        "x": 96,
+        "y": 80,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "gray_concrete_stairs": {
+      "top": {
+        "tile": 327,
+        "x": 112,
+        "y": 80,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 328,
+        "x": 128,
+        "y": 80,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 329,
+        "x": 144,
+        "y": 80,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "gray_wool": {
+      "top": {
+        "tile": 330,
+        "x": 160,
+        "y": 80,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 331,
+        "x": 176,
+        "y": 80,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 332,
+        "x": 192,
+        "y": 80,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "gray_wool_slab": {
+      "top": {
+        "tile": 333,
+        "x": 208,
+        "y": 80,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 334,
+        "x": 224,
+        "y": 80,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 335,
+        "x": 240,
+        "y": 80,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "gray_wool_stairs": {
+      "top": {
+        "tile": 336,
+        "x": 256,
+        "y": 80,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 337,
+        "x": 272,
+        "y": 80,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 338,
+        "x": 288,
+        "y": 80,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "green_concrete": {
+      "top": {
+        "tile": 339,
+        "x": 304,
+        "y": 80,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 340,
+        "x": 320,
+        "y": 80,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 341,
+        "x": 336,
+        "y": 80,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "green_concrete_slab": {
+      "top": {
+        "tile": 342,
+        "x": 352,
+        "y": 80,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 343,
+        "x": 368,
+        "y": 80,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 344,
+        "x": 384,
+        "y": 80,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "green_concrete_stairs": {
+      "top": {
+        "tile": 345,
+        "x": 400,
+        "y": 80,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 346,
+        "x": 416,
+        "y": 80,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 347,
+        "x": 432,
+        "y": 80,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "green_wool": {
+      "top": {
+        "tile": 348,
+        "x": 448,
+        "y": 80,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 349,
+        "x": 464,
+        "y": 80,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 350,
+        "x": 480,
+        "y": 80,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "green_wool_slab": {
+      "top": {
+        "tile": 351,
+        "x": 496,
+        "y": 80,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 352,
+        "x": 512,
+        "y": 80,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 353,
+        "x": 528,
+        "y": 80,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "green_wool_stairs": {
+      "top": {
+        "tile": 354,
+        "x": 544,
+        "y": 80,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 355,
+        "x": 560,
+        "y": 80,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 356,
+        "x": 576,
+        "y": 80,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "hay_block": {
+      "top": {
+        "tile": 357,
+        "x": 592,
+        "y": 80,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 358,
+        "x": 608,
+        "y": 80,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 359,
+        "x": 624,
+        "y": 80,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "heavy_weighted_pressure_plate": {
+      "top": {
+        "tile": 360,
+        "x": 640,
+        "y": 80,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 361,
+        "x": 656,
+        "y": 80,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 362,
+        "x": 672,
+        "y": 80,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "hopper": {
+      "top": {
+        "tile": 363,
+        "x": 688,
+        "y": 80,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 364,
+        "x": 704,
+        "y": 80,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 365,
+        "x": 720,
+        "y": 80,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "ice": {
+      "top": {
+        "tile": 366,
+        "x": 736,
+        "y": 80,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 367,
+        "x": 752,
+        "y": 80,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 368,
+        "x": 768,
+        "y": 80,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "iron_block": {
+      "top": {
+        "tile": 369,
+        "x": 784,
+        "y": 80,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 370,
+        "x": 800,
+        "y": 80,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 371,
+        "x": 816,
+        "y": 80,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "iron_door": {
+      "top": {
+        "tile": 372,
+        "x": 832,
+        "y": 80,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 373,
+        "x": 848,
+        "y": 80,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 374,
+        "x": 864,
+        "y": 80,
+        "width": 16,
+        "height": 16
+      },
+      "front": {
+        "tile": 375,
+        "x": 880,
+        "y": 80,
+        "width": 16,
+        "height": 16
+      },
+      "back": {
+        "tile": 376,
+        "x": 896,
+        "y": 80,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "iron_ore": {
+      "top": {
+        "tile": 377,
+        "x": 912,
+        "y": 80,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 378,
+        "x": 928,
+        "y": 80,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 379,
+        "x": 944,
+        "y": 80,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "iron_trapdoor": {
+      "top": {
+        "tile": 380,
+        "x": 960,
+        "y": 80,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 381,
+        "x": 976,
+        "y": 80,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 382,
+        "x": 992,
+        "y": 80,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "jack_o_lantern": {
+      "top": {
+        "tile": 383,
+        "x": 1008,
+        "y": 80,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 384,
+        "x": 0,
+        "y": 96,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 385,
+        "x": 16,
+        "y": 96,
+        "width": 16,
+        "height": 16
+      },
+      "front": {
+        "tile": 386,
+        "x": 32,
+        "y": 96,
+        "width": 16,
+        "height": 16
+      },
+      "back": {
+        "tile": 387,
+        "x": 48,
+        "y": 96,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "jungle_log": {
+      "top": {
+        "tile": 388,
+        "x": 64,
+        "y": 96,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 389,
+        "x": 80,
+        "y": 96,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 390,
+        "x": 96,
+        "y": 96,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "jungle_planks": {
+      "top": {
+        "tile": 391,
+        "x": 112,
+        "y": 96,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 392,
+        "x": 128,
+        "y": 96,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 393,
+        "x": 144,
+        "y": 96,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "ladder": {
+      "top": {
+        "tile": 394,
+        "x": 160,
+        "y": 96,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 395,
+        "x": 176,
+        "y": 96,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 396,
+        "x": 192,
+        "y": 96,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "lantern": {
+      "top": {
+        "tile": 397,
+        "x": 208,
+        "y": 96,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 398,
+        "x": 224,
+        "y": 96,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 399,
+        "x": 240,
+        "y": 96,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "lapis_ore": {
+      "top": {
+        "tile": 400,
+        "x": 256,
+        "y": 96,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 401,
+        "x": 272,
+        "y": 96,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 402,
+        "x": 288,
+        "y": 96,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "lava": {
+      "top": {
+        "tile": 403,
+        "x": 304,
+        "y": 96,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 404,
+        "x": 320,
+        "y": 96,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 405,
+        "x": 336,
+        "y": 96,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "leaf_litter": {
+      "top": {
+        "tile": 406,
+        "x": 352,
+        "y": 96,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 407,
+        "x": 368,
+        "y": 96,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 408,
+        "x": 384,
+        "y": 96,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "lever": {
+      "top": {
+        "tile": 409,
+        "x": 400,
+        "y": 96,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 410,
+        "x": 416,
+        "y": 96,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 411,
+        "x": 432,
+        "y": 96,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "light_blue_concrete": {
+      "top": {
+        "tile": 412,
+        "x": 448,
+        "y": 96,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 413,
+        "x": 464,
+        "y": 96,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 414,
+        "x": 480,
+        "y": 96,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "light_blue_concrete_slab": {
+      "top": {
+        "tile": 415,
+        "x": 496,
+        "y": 96,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 416,
+        "x": 512,
+        "y": 96,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 417,
+        "x": 528,
+        "y": 96,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "light_blue_concrete_stairs": {
+      "top": {
+        "tile": 418,
+        "x": 544,
+        "y": 96,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 419,
+        "x": 560,
+        "y": 96,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 420,
+        "x": 576,
+        "y": 96,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "light_blue_wool": {
+      "top": {
+        "tile": 421,
+        "x": 592,
+        "y": 96,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 422,
+        "x": 608,
+        "y": 96,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 423,
+        "x": 624,
+        "y": 96,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "light_blue_wool_slab": {
+      "top": {
+        "tile": 424,
+        "x": 640,
+        "y": 96,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 425,
+        "x": 656,
+        "y": 96,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 426,
+        "x": 672,
+        "y": 96,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "light_blue_wool_stairs": {
+      "top": {
+        "tile": 427,
+        "x": 688,
+        "y": 96,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 428,
+        "x": 704,
+        "y": 96,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 429,
+        "x": 720,
+        "y": 96,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "light_gray_concrete": {
+      "top": {
+        "tile": 430,
+        "x": 736,
+        "y": 96,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 431,
+        "x": 752,
+        "y": 96,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 432,
+        "x": 768,
+        "y": 96,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "light_gray_concrete_slab": {
+      "top": {
+        "tile": 433,
+        "x": 784,
+        "y": 96,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 434,
+        "x": 800,
+        "y": 96,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 435,
+        "x": 816,
+        "y": 96,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "light_gray_concrete_stairs": {
+      "top": {
+        "tile": 436,
+        "x": 832,
+        "y": 96,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 437,
+        "x": 848,
+        "y": 96,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 438,
+        "x": 864,
+        "y": 96,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "light_gray_wool": {
+      "top": {
+        "tile": 439,
+        "x": 880,
+        "y": 96,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 440,
+        "x": 896,
+        "y": 96,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 441,
+        "x": 912,
+        "y": 96,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "light_gray_wool_slab": {
+      "top": {
+        "tile": 442,
+        "x": 928,
+        "y": 96,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 443,
+        "x": 944,
+        "y": 96,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 444,
+        "x": 960,
+        "y": 96,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "light_gray_wool_stairs": {
+      "top": {
+        "tile": 445,
+        "x": 976,
+        "y": 96,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 446,
+        "x": 992,
+        "y": 96,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 447,
+        "x": 1008,
+        "y": 96,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "light_weighted_pressure_plate": {
+      "top": {
+        "tile": 448,
+        "x": 0,
+        "y": 112,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 449,
+        "x": 16,
+        "y": 112,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 450,
+        "x": 32,
+        "y": 112,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "lime_concrete": {
+      "top": {
+        "tile": 451,
+        "x": 48,
+        "y": 112,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 452,
+        "x": 64,
+        "y": 112,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 453,
+        "x": 80,
+        "y": 112,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "lime_concrete_slab": {
+      "top": {
+        "tile": 454,
+        "x": 96,
+        "y": 112,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 455,
+        "x": 112,
+        "y": 112,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 456,
+        "x": 128,
+        "y": 112,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "lime_concrete_stairs": {
+      "top": {
+        "tile": 457,
+        "x": 144,
+        "y": 112,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 458,
+        "x": 160,
+        "y": 112,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 459,
+        "x": 176,
+        "y": 112,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "lime_wool": {
+      "top": {
+        "tile": 460,
+        "x": 192,
+        "y": 112,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 461,
+        "x": 208,
+        "y": 112,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 462,
+        "x": 224,
+        "y": 112,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "lime_wool_slab": {
+      "top": {
+        "tile": 463,
+        "x": 240,
+        "y": 112,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 464,
+        "x": 256,
+        "y": 112,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 465,
+        "x": 272,
+        "y": 112,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "lime_wool_stairs": {
+      "top": {
+        "tile": 466,
+        "x": 288,
+        "y": 112,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 467,
+        "x": 304,
+        "y": 112,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 468,
+        "x": 320,
+        "y": 112,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "magenta_concrete": {
+      "top": {
+        "tile": 469,
+        "x": 336,
+        "y": 112,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 470,
+        "x": 352,
+        "y": 112,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 471,
+        "x": 368,
+        "y": 112,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "magenta_concrete_slab": {
+      "top": {
+        "tile": 472,
+        "x": 384,
+        "y": 112,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 473,
+        "x": 400,
+        "y": 112,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 474,
+        "x": 416,
+        "y": 112,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "magenta_concrete_stairs": {
+      "top": {
+        "tile": 475,
+        "x": 432,
+        "y": 112,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 476,
+        "x": 448,
+        "y": 112,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 477,
+        "x": 464,
+        "y": 112,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "magenta_wool": {
+      "top": {
+        "tile": 478,
+        "x": 480,
+        "y": 112,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 479,
+        "x": 496,
+        "y": 112,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 480,
+        "x": 512,
+        "y": 112,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "magenta_wool_slab": {
+      "top": {
+        "tile": 481,
+        "x": 528,
+        "y": 112,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 482,
+        "x": 544,
+        "y": 112,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 483,
+        "x": 560,
+        "y": 112,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "magenta_wool_stairs": {
+      "top": {
+        "tile": 484,
+        "x": 576,
+        "y": 112,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 485,
+        "x": 592,
+        "y": 112,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 486,
+        "x": 608,
+        "y": 112,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "magma_block": {
+      "top": {
+        "tile": 487,
+        "x": 624,
+        "y": 112,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 488,
+        "x": 640,
+        "y": 112,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 489,
+        "x": 656,
+        "y": 112,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "mangrove_log": {
+      "top": {
+        "tile": 490,
+        "x": 672,
+        "y": 112,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 491,
+        "x": 688,
+        "y": 112,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 492,
+        "x": 704,
+        "y": 112,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "mangrove_planks": {
+      "top": {
+        "tile": 493,
+        "x": 720,
+        "y": 112,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 494,
+        "x": 736,
+        "y": 112,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 495,
+        "x": 752,
+        "y": 112,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "moss_block": {
+      "top": {
+        "tile": 496,
+        "x": 768,
+        "y": 112,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 497,
+        "x": 784,
+        "y": 112,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 498,
+        "x": 800,
+        "y": 112,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "mossy_cobblestone": {
+      "top": {
+        "tile": 499,
+        "x": 816,
+        "y": 112,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 500,
+        "x": 832,
+        "y": 112,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 501,
+        "x": 848,
+        "y": 112,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "mossy_stone_bricks": {
+      "top": {
+        "tile": 502,
+        "x": 864,
+        "y": 112,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 503,
+        "x": 880,
+        "y": 112,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 504,
+        "x": 896,
+        "y": 112,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "mud": {
+      "top": {
+        "tile": 505,
+        "x": 912,
+        "y": 112,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 506,
+        "x": 928,
+        "y": 112,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 507,
+        "x": 944,
+        "y": 112,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "mycelium": {
+      "top": {
+        "tile": 508,
+        "x": 960,
+        "y": 112,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 509,
+        "x": 976,
+        "y": 112,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 510,
+        "x": 992,
+        "y": 112,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "nether_bricks": {
+      "top": {
+        "tile": 511,
+        "x": 1008,
+        "y": 112,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 512,
+        "x": 0,
+        "y": 128,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 513,
+        "x": 16,
+        "y": 128,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "nether_gold_ore": {
+      "top": {
+        "tile": 514,
+        "x": 32,
+        "y": 128,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 515,
+        "x": 48,
+        "y": 128,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 516,
+        "x": 64,
+        "y": 128,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "nether_portal": {
+      "top": {
+        "tile": 517,
+        "x": 80,
+        "y": 128,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 518,
+        "x": 96,
+        "y": 128,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 519,
+        "x": 112,
+        "y": 128,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "nether_quartz_ore": {
+      "top": {
+        "tile": 520,
+        "x": 128,
+        "y": 128,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 521,
+        "x": 144,
+        "y": 128,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 522,
+        "x": 160,
+        "y": 128,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "nether_wart_block": {
+      "top": {
+        "tile": 523,
+        "x": 176,
+        "y": 128,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 524,
+        "x": 192,
+        "y": 128,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 525,
+        "x": 208,
+        "y": 128,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "netherrack": {
+      "top": {
+        "tile": 526,
+        "x": 224,
+        "y": 128,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 527,
+        "x": 240,
+        "y": 128,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 528,
+        "x": 256,
+        "y": 128,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "note_block": {
+      "top": {
+        "tile": 529,
+        "x": 272,
+        "y": 128,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 530,
+        "x": 288,
+        "y": 128,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 531,
+        "x": 304,
+        "y": 128,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "oak_door": {
+      "top": {
+        "tile": 532,
+        "x": 320,
+        "y": 128,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 533,
+        "x": 336,
+        "y": 128,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 534,
+        "x": 352,
+        "y": 128,
+        "width": 16,
+        "height": 16
+      },
+      "front": {
+        "tile": 535,
+        "x": 368,
+        "y": 128,
+        "width": 16,
+        "height": 16
+      },
+      "back": {
+        "tile": 536,
+        "x": 384,
+        "y": 128,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "oak_fence": {
+      "top": {
+        "tile": 537,
+        "x": 400,
+        "y": 128,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 538,
+        "x": 416,
+        "y": 128,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 539,
+        "x": 432,
+        "y": 128,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "oak_fence_gate": {
+      "top": {
+        "tile": 540,
+        "x": 448,
+        "y": 128,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 541,
+        "x": 464,
+        "y": 128,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 542,
+        "x": 480,
+        "y": 128,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "oak_leaves": {
+      "top": {
+        "tile": 543,
+        "x": 496,
+        "y": 128,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 544,
+        "x": 512,
+        "y": 128,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 545,
+        "x": 528,
+        "y": 128,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "oak_log": {
+      "top": {
+        "tile": 546,
+        "x": 544,
+        "y": 128,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 547,
+        "x": 560,
+        "y": 128,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 548,
+        "x": 576,
+        "y": 128,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "oak_planks": {
+      "top": {
+        "tile": 549,
+        "x": 592,
+        "y": 128,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 550,
+        "x": 608,
+        "y": 128,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 551,
+        "x": 624,
+        "y": 128,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "oak_sapling": {
+      "top": {
+        "tile": 552,
+        "x": 640,
+        "y": 128,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 553,
+        "x": 656,
+        "y": 128,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 554,
+        "x": 672,
+        "y": 128,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "oak_slab": {
+      "top": {
+        "tile": 555,
+        "x": 688,
+        "y": 128,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 556,
+        "x": 704,
+        "y": 128,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 557,
+        "x": 720,
+        "y": 128,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "oak_stairs": {
+      "top": {
+        "tile": 558,
+        "x": 736,
+        "y": 128,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 559,
+        "x": 752,
+        "y": 128,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 560,
+        "x": 768,
+        "y": 128,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "oak_trapdoor": {
+      "top": {
+        "tile": 561,
+        "x": 784,
+        "y": 128,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 562,
+        "x": 800,
+        "y": 128,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 563,
+        "x": 816,
+        "y": 128,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "observer": {
+      "top": {
+        "tile": 564,
+        "x": 832,
+        "y": 128,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 565,
+        "x": 848,
+        "y": 128,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 566,
+        "x": 864,
+        "y": 128,
+        "width": 16,
+        "height": 16
+      },
+      "front": {
+        "tile": 567,
+        "x": 880,
+        "y": 128,
+        "width": 16,
+        "height": 16
+      },
+      "back": {
+        "tile": 568,
+        "x": 896,
+        "y": 128,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "obsidian": {
+      "top": {
+        "tile": 569,
+        "x": 912,
+        "y": 128,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 570,
+        "x": 928,
+        "y": 128,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 571,
+        "x": 944,
+        "y": 128,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "orange_concrete": {
+      "top": {
+        "tile": 572,
+        "x": 960,
+        "y": 128,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 573,
+        "x": 976,
+        "y": 128,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 574,
+        "x": 992,
+        "y": 128,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "orange_concrete_slab": {
+      "top": {
+        "tile": 575,
+        "x": 1008,
+        "y": 128,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 576,
+        "x": 0,
+        "y": 144,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 577,
+        "x": 16,
+        "y": 144,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "orange_concrete_stairs": {
+      "top": {
+        "tile": 578,
+        "x": 32,
+        "y": 144,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 579,
+        "x": 48,
+        "y": 144,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 580,
+        "x": 64,
+        "y": 144,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "orange_poplar_leaves": {
+      "top": {
+        "tile": 581,
+        "x": 80,
+        "y": 144,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 582,
+        "x": 96,
+        "y": 144,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 583,
+        "x": 112,
+        "y": 144,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "orange_wool": {
+      "top": {
+        "tile": 584,
+        "x": 128,
+        "y": 144,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 585,
+        "x": 144,
+        "y": 144,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 586,
+        "x": 160,
+        "y": 144,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "orange_wool_slab": {
+      "top": {
+        "tile": 587,
+        "x": 176,
+        "y": 144,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 588,
+        "x": 192,
+        "y": 144,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 589,
+        "x": 208,
+        "y": 144,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "orange_wool_stairs": {
+      "top": {
+        "tile": 590,
+        "x": 224,
+        "y": 144,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 591,
+        "x": 240,
+        "y": 144,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 592,
+        "x": 256,
+        "y": 144,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "packed_ice": {
+      "top": {
+        "tile": 593,
+        "x": 272,
+        "y": 144,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 594,
+        "x": 288,
+        "y": 144,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 595,
+        "x": 304,
+        "y": 144,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "packed_mud": {
+      "top": {
+        "tile": 596,
+        "x": 320,
+        "y": 144,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 597,
+        "x": 336,
+        "y": 144,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 598,
+        "x": 352,
+        "y": 144,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "pink_concrete": {
+      "top": {
+        "tile": 599,
+        "x": 368,
+        "y": 144,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 600,
+        "x": 384,
+        "y": 144,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 601,
+        "x": 400,
+        "y": 144,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "pink_concrete_slab": {
+      "top": {
+        "tile": 602,
+        "x": 416,
+        "y": 144,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 603,
+        "x": 432,
+        "y": 144,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 604,
+        "x": 448,
+        "y": 144,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "pink_concrete_stairs": {
+      "top": {
+        "tile": 605,
+        "x": 464,
+        "y": 144,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 606,
+        "x": 480,
+        "y": 144,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 607,
+        "x": 496,
+        "y": 144,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "pink_wool": {
+      "top": {
+        "tile": 608,
+        "x": 512,
+        "y": 144,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 609,
+        "x": 528,
+        "y": 144,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 610,
+        "x": 544,
+        "y": 144,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "pink_wool_slab": {
+      "top": {
+        "tile": 611,
+        "x": 560,
+        "y": 144,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 612,
+        "x": 576,
+        "y": 144,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 613,
+        "x": 592,
+        "y": 144,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "pink_wool_stairs": {
+      "top": {
+        "tile": 614,
+        "x": 608,
+        "y": 144,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 615,
+        "x": 624,
+        "y": 144,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 616,
+        "x": 640,
+        "y": 144,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "piston": {
+      "top": {
+        "tile": 617,
+        "x": 656,
+        "y": 144,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 618,
+        "x": 672,
+        "y": 144,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 619,
+        "x": 688,
+        "y": 144,
+        "width": 16,
+        "height": 16
+      },
+      "front": {
+        "tile": 620,
+        "x": 704,
+        "y": 144,
+        "width": 16,
+        "height": 16
+      },
+      "back": {
+        "tile": 621,
+        "x": 720,
+        "y": 144,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "piston_head": {
+      "top": {
+        "tile": 622,
+        "x": 736,
+        "y": 144,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 623,
+        "x": 752,
+        "y": 144,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 624,
+        "x": 768,
+        "y": 144,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "podzol": {
+      "top": {
+        "tile": 625,
+        "x": 784,
+        "y": 144,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 626,
+        "x": 800,
+        "y": 144,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 627,
+        "x": 816,
+        "y": 144,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "polished_andesite": {
+      "top": {
+        "tile": 628,
+        "x": 832,
+        "y": 144,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 629,
+        "x": 848,
+        "y": 144,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 630,
+        "x": 864,
+        "y": 144,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "polished_diorite": {
+      "top": {
+        "tile": 631,
+        "x": 880,
+        "y": 144,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 632,
+        "x": 896,
+        "y": 144,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 633,
+        "x": 912,
+        "y": 144,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "polished_granite": {
+      "top": {
+        "tile": 634,
+        "x": 928,
+        "y": 144,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 635,
+        "x": 944,
+        "y": 144,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 636,
+        "x": 960,
+        "y": 144,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "poplar_button": {
+      "top": {
+        "tile": 637,
+        "x": 976,
+        "y": 144,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 638,
+        "x": 992,
+        "y": 144,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 639,
+        "x": 1008,
+        "y": 144,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "poplar_door": {
+      "top": {
+        "tile": 640,
+        "x": 0,
+        "y": 160,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 641,
+        "x": 16,
+        "y": 160,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 642,
+        "x": 32,
+        "y": 160,
+        "width": 16,
+        "height": 16
+      },
+      "front": {
+        "tile": 643,
+        "x": 48,
+        "y": 160,
+        "width": 16,
+        "height": 16
+      },
+      "back": {
+        "tile": 644,
+        "x": 64,
+        "y": 160,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "poplar_fence": {
+      "top": {
+        "tile": 645,
+        "x": 80,
+        "y": 160,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 646,
+        "x": 96,
+        "y": 160,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 647,
+        "x": 112,
+        "y": 160,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "poplar_fence_gate": {
+      "top": {
+        "tile": 648,
+        "x": 128,
+        "y": 160,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 649,
+        "x": 144,
+        "y": 160,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 650,
+        "x": 160,
+        "y": 160,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "poplar_hanging_sign": {
+      "top": {
+        "tile": 651,
+        "x": 176,
+        "y": 160,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 652,
+        "x": 192,
+        "y": 160,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 653,
+        "x": 208,
+        "y": 160,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "poplar_log": {
+      "top": {
+        "tile": 654,
+        "x": 224,
+        "y": 160,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 655,
+        "x": 240,
+        "y": 160,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 656,
+        "x": 256,
+        "y": 160,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "poplar_planks": {
+      "top": {
+        "tile": 657,
+        "x": 272,
+        "y": 160,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 658,
+        "x": 288,
+        "y": 160,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 659,
+        "x": 304,
+        "y": 160,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "poplar_pressure_plate": {
+      "top": {
+        "tile": 660,
+        "x": 320,
+        "y": 160,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 661,
+        "x": 336,
+        "y": 160,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 662,
+        "x": 352,
+        "y": 160,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "poplar_sapling": {
+      "top": {
+        "tile": 663,
+        "x": 368,
+        "y": 160,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 664,
+        "x": 384,
+        "y": 160,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 665,
+        "x": 400,
+        "y": 160,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "poplar_sign": {
+      "top": {
+        "tile": 666,
+        "x": 416,
+        "y": 160,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 667,
+        "x": 432,
+        "y": 160,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 668,
+        "x": 448,
+        "y": 160,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "poplar_slab": {
+      "top": {
+        "tile": 669,
+        "x": 464,
+        "y": 160,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 670,
+        "x": 480,
+        "y": 160,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 671,
+        "x": 496,
+        "y": 160,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "poplar_stairs": {
+      "top": {
+        "tile": 672,
+        "x": 512,
+        "y": 160,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 673,
+        "x": 528,
+        "y": 160,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 674,
+        "x": 544,
+        "y": 160,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "poplar_trapdoor": {
+      "top": {
+        "tile": 675,
+        "x": 560,
+        "y": 160,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 676,
+        "x": 576,
+        "y": 160,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 677,
+        "x": 592,
+        "y": 160,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "poplar_wood": {
+      "top": {
+        "tile": 678,
+        "x": 608,
+        "y": 160,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 679,
+        "x": 624,
+        "y": 160,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 680,
+        "x": 640,
+        "y": 160,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "poppy": {
+      "top": {
+        "tile": 681,
+        "x": 656,
+        "y": 160,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 682,
+        "x": 672,
+        "y": 160,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 683,
+        "x": 688,
+        "y": 160,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "potatoes": {
+      "top": {
+        "tile": 684,
+        "x": 704,
+        "y": 160,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 685,
+        "x": 720,
+        "y": 160,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 686,
+        "x": 736,
+        "y": 160,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "powered_rail": {
+      "top": {
+        "tile": 687,
+        "x": 752,
+        "y": 160,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 688,
+        "x": 768,
+        "y": 160,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 689,
+        "x": 784,
+        "y": 160,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "pumpkin": {
+      "top": {
+        "tile": 690,
+        "x": 800,
+        "y": 160,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 691,
+        "x": 816,
+        "y": 160,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 692,
+        "x": 832,
+        "y": 160,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "purple_concrete": {
+      "top": {
+        "tile": 693,
+        "x": 848,
+        "y": 160,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 694,
+        "x": 864,
+        "y": 160,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 695,
+        "x": 880,
+        "y": 160,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "purple_concrete_slab": {
+      "top": {
+        "tile": 696,
+        "x": 896,
+        "y": 160,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 697,
+        "x": 912,
+        "y": 160,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 698,
+        "x": 928,
+        "y": 160,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "purple_concrete_stairs": {
+      "top": {
+        "tile": 699,
+        "x": 944,
+        "y": 160,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 700,
+        "x": 960,
+        "y": 160,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 701,
+        "x": 976,
+        "y": 160,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "purple_wool": {
+      "top": {
+        "tile": 702,
+        "x": 992,
+        "y": 160,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 703,
+        "x": 1008,
+        "y": 160,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 704,
+        "x": 0,
+        "y": 176,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "purple_wool_slab": {
+      "top": {
+        "tile": 705,
+        "x": 16,
+        "y": 176,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 706,
+        "x": 32,
+        "y": 176,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 707,
+        "x": 48,
+        "y": 176,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "purple_wool_stairs": {
+      "top": {
+        "tile": 708,
+        "x": 64,
+        "y": 176,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 709,
+        "x": 80,
+        "y": 176,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 710,
+        "x": 96,
+        "y": 176,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "quartz_block": {
+      "top": {
+        "tile": 711,
+        "x": 112,
+        "y": 176,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 712,
+        "x": 128,
+        "y": 176,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 713,
+        "x": 144,
+        "y": 176,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "rail": {
+      "top": {
+        "tile": 714,
+        "x": 160,
+        "y": 176,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 715,
+        "x": 176,
+        "y": 176,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 716,
+        "x": 192,
+        "y": 176,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "raw_copper_block": {
+      "top": {
+        "tile": 717,
+        "x": 208,
+        "y": 176,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 718,
+        "x": 224,
+        "y": 176,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 719,
+        "x": 240,
+        "y": 176,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "raw_gold_block": {
+      "top": {
+        "tile": 720,
+        "x": 256,
+        "y": 176,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 721,
+        "x": 272,
+        "y": 176,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 722,
+        "x": 288,
+        "y": 176,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "raw_iron_block": {
+      "top": {
+        "tile": 723,
+        "x": 304,
+        "y": 176,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 724,
+        "x": 320,
+        "y": 176,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 725,
+        "x": 336,
+        "y": 176,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "red_concrete": {
+      "top": {
+        "tile": 726,
+        "x": 352,
+        "y": 176,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 727,
+        "x": 368,
+        "y": 176,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 728,
+        "x": 384,
+        "y": 176,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "red_concrete_slab": {
+      "top": {
+        "tile": 729,
+        "x": 400,
+        "y": 176,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 730,
+        "x": 416,
+        "y": 176,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 731,
+        "x": 432,
+        "y": 176,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "red_concrete_stairs": {
+      "top": {
+        "tile": 732,
+        "x": 448,
+        "y": 176,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 733,
+        "x": 464,
+        "y": 176,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 734,
+        "x": 480,
+        "y": 176,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "red_poplar_leaves": {
+      "top": {
+        "tile": 735,
+        "x": 496,
+        "y": 176,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 736,
+        "x": 512,
+        "y": 176,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 737,
+        "x": 528,
+        "y": 176,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "red_sand": {
+      "top": {
+        "tile": 738,
+        "x": 544,
+        "y": 176,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 739,
+        "x": 560,
+        "y": 176,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 740,
+        "x": 576,
+        "y": 176,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "red_sandstone": {
+      "top": {
+        "tile": 741,
+        "x": 592,
+        "y": 176,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 742,
+        "x": 608,
+        "y": 176,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 743,
+        "x": 624,
+        "y": 176,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "red_shrub": {
+      "top": {
+        "tile": 744,
+        "x": 640,
+        "y": 176,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 745,
+        "x": 656,
+        "y": 176,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 746,
+        "x": 672,
+        "y": 176,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "red_wool": {
+      "top": {
+        "tile": 747,
+        "x": 688,
+        "y": 176,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 748,
+        "x": 704,
+        "y": 176,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 749,
+        "x": 720,
+        "y": 176,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "red_wool_slab": {
+      "top": {
+        "tile": 750,
+        "x": 736,
+        "y": 176,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 751,
+        "x": 752,
+        "y": 176,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 752,
+        "x": 768,
+        "y": 176,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "red_wool_stairs": {
+      "top": {
+        "tile": 753,
+        "x": 784,
+        "y": 176,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 754,
+        "x": 800,
+        "y": 176,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 755,
+        "x": 816,
+        "y": 176,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "redstone_block": {
+      "top": {
+        "tile": 756,
+        "x": 832,
+        "y": 176,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 757,
+        "x": 848,
+        "y": 176,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 758,
+        "x": 864,
+        "y": 176,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "redstone_lamp": {
+      "top": {
+        "tile": 759,
+        "x": 880,
+        "y": 176,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 760,
+        "x": 896,
+        "y": 176,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 761,
+        "x": 912,
+        "y": 176,
+        "width": 16,
+        "height": 16
+      },
+      "lit_top": {
+        "tile": 762,
+        "x": 928,
+        "y": 176,
+        "width": 16,
+        "height": 16
+      },
+      "lit_side": {
+        "tile": 763,
+        "x": 944,
+        "y": 176,
+        "width": 16,
+        "height": 16
+      },
+      "lit_bottom": {
+        "tile": 764,
+        "x": 960,
+        "y": 176,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "redstone_ore": {
+      "top": {
+        "tile": 765,
+        "x": 976,
+        "y": 176,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 766,
+        "x": 992,
+        "y": 176,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 767,
+        "x": 1008,
+        "y": 176,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "redstone_torch": {
+      "top": {
+        "tile": 768,
+        "x": 0,
+        "y": 192,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 769,
+        "x": 16,
+        "y": 192,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 770,
+        "x": 32,
+        "y": 192,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "redstone_wire": {
+      "top": {
+        "tile": 771,
+        "x": 48,
+        "y": 192,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 772,
+        "x": 64,
+        "y": 192,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 773,
+        "x": 80,
+        "y": 192,
+        "width": 16,
+        "height": 16
+      },
+      "powered_top": {
+        "tile": 774,
+        "x": 96,
+        "y": 192,
+        "width": 16,
+        "height": 16
+      },
+      "powered_side": {
+        "tile": 775,
+        "x": 112,
+        "y": 192,
+        "width": 16,
+        "height": 16
+      },
+      "powered_bottom": {
+        "tile": 776,
+        "x": 128,
+        "y": 192,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "repeater": {
+      "top": {
+        "tile": 777,
+        "x": 144,
+        "y": 192,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 778,
+        "x": 160,
+        "y": 192,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 779,
+        "x": 176,
+        "y": 192,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "rooted_dirt": {
+      "top": {
+        "tile": 780,
+        "x": 192,
+        "y": 192,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 781,
+        "x": 208,
+        "y": 192,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 782,
+        "x": 224,
+        "y": 192,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "sand": {
+      "top": {
+        "tile": 783,
+        "x": 240,
+        "y": 192,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 784,
+        "x": 256,
+        "y": 192,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 785,
+        "x": 272,
+        "y": 192,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "sandstone": {
+      "top": {
+        "tile": 786,
+        "x": 288,
+        "y": 192,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 787,
+        "x": 304,
+        "y": 192,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 788,
+        "x": 320,
+        "y": 192,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "sea_lantern": {
+      "top": {
+        "tile": 789,
+        "x": 336,
+        "y": 192,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 790,
+        "x": 352,
+        "y": 192,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 791,
+        "x": 368,
+        "y": 192,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "shelf_mushroom": {
+      "top": {
+        "tile": 792,
+        "x": 384,
+        "y": 192,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 793,
+        "x": 400,
+        "y": 192,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 794,
+        "x": 416,
+        "y": 192,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "short_grass": {
+      "top": {
+        "tile": 795,
+        "x": 432,
+        "y": 192,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 796,
+        "x": 448,
+        "y": 192,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 797,
+        "x": 464,
+        "y": 192,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "shulker_box": {
+      "top": {
+        "tile": 798,
+        "x": 480,
+        "y": 192,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 799,
+        "x": 496,
+        "y": 192,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 800,
+        "x": 512,
+        "y": 192,
+        "width": 16,
+        "height": 16
+      },
+      "front": {
+        "tile": 801,
+        "x": 528,
+        "y": 192,
+        "width": 16,
+        "height": 16
+      },
+      "back": {
+        "tile": 802,
+        "x": 544,
+        "y": 192,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "snow_block": {
+      "top": {
+        "tile": 803,
+        "x": 560,
+        "y": 192,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 804,
+        "x": 576,
+        "y": 192,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 805,
+        "x": 592,
+        "y": 192,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "soul_sand": {
+      "top": {
+        "tile": 806,
+        "x": 608,
+        "y": 192,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 807,
+        "x": 624,
+        "y": 192,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 808,
+        "x": 640,
+        "y": 192,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "soul_soil": {
+      "top": {
+        "tile": 809,
+        "x": 656,
+        "y": 192,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 810,
+        "x": 672,
+        "y": 192,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 811,
+        "x": 688,
+        "y": 192,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "sponge": {
+      "top": {
+        "tile": 812,
+        "x": 704,
+        "y": 192,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 813,
+        "x": 720,
+        "y": 192,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 814,
+        "x": 736,
+        "y": 192,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "spruce_leaves": {
+      "top": {
+        "tile": 815,
+        "x": 752,
+        "y": 192,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 816,
+        "x": 768,
+        "y": 192,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 817,
+        "x": 784,
+        "y": 192,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "spruce_log": {
+      "top": {
+        "tile": 818,
+        "x": 800,
+        "y": 192,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 819,
+        "x": 816,
+        "y": 192,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 820,
+        "x": 832,
+        "y": 192,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "spruce_planks": {
+      "top": {
+        "tile": 821,
+        "x": 848,
+        "y": 192,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 822,
+        "x": 864,
+        "y": 192,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 823,
+        "x": 880,
+        "y": 192,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "spruce_sapling": {
+      "top": {
+        "tile": 824,
+        "x": 896,
+        "y": 192,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 825,
+        "x": 912,
+        "y": 192,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 826,
+        "x": 928,
+        "y": 192,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "sticky_piston": {
+      "top": {
+        "tile": 827,
+        "x": 944,
+        "y": 192,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 828,
+        "x": 960,
+        "y": 192,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 829,
+        "x": 976,
+        "y": 192,
+        "width": 16,
+        "height": 16
+      },
+      "front": {
+        "tile": 830,
+        "x": 992,
+        "y": 192,
+        "width": 16,
+        "height": 16
+      },
+      "back": {
+        "tile": 831,
+        "x": 1008,
+        "y": 192,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "stone": {
+      "top": {
+        "tile": 832,
+        "x": 0,
+        "y": 208,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 833,
+        "x": 16,
+        "y": 208,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 834,
+        "x": 32,
+        "y": 208,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "stone_bricks": {
+      "top": {
+        "tile": 835,
+        "x": 48,
+        "y": 208,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 836,
+        "x": 64,
+        "y": 208,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 837,
+        "x": 80,
+        "y": 208,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "stone_button": {
+      "top": {
+        "tile": 838,
+        "x": 96,
+        "y": 208,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 839,
+        "x": 112,
+        "y": 208,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 840,
+        "x": 128,
+        "y": 208,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "stone_pressure_plate": {
+      "top": {
+        "tile": 841,
+        "x": 144,
+        "y": 208,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 842,
+        "x": 160,
+        "y": 208,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 843,
+        "x": 176,
+        "y": 208,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "stone_slab": {
+      "top": {
+        "tile": 844,
+        "x": 192,
+        "y": 208,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 845,
+        "x": 208,
+        "y": 208,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 846,
+        "x": 224,
+        "y": 208,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "stone_stairs": {
+      "top": {
+        "tile": 847,
+        "x": 240,
+        "y": 208,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 848,
+        "x": 256,
+        "y": 208,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 849,
+        "x": 272,
+        "y": 208,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "straw_bed": {
+      "top": {
+        "tile": 850,
+        "x": 288,
+        "y": 208,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 851,
+        "x": 304,
+        "y": 208,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 852,
+        "x": 320,
+        "y": 208,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "stripped_poplar_log": {
+      "top": {
+        "tile": 853,
+        "x": 336,
+        "y": 208,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 854,
+        "x": 352,
+        "y": 208,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 855,
+        "x": 368,
+        "y": 208,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "stripped_poplar_wood": {
+      "top": {
+        "tile": 856,
+        "x": 384,
+        "y": 208,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 857,
+        "x": 400,
+        "y": 208,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 858,
+        "x": 416,
+        "y": 208,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "target": {
+      "top": {
+        "tile": 859,
+        "x": 432,
+        "y": 208,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 860,
+        "x": 448,
+        "y": 208,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 861,
+        "x": 464,
+        "y": 208,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "terracotta": {
+      "top": {
+        "tile": 862,
+        "x": 480,
+        "y": 208,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 863,
+        "x": 496,
+        "y": 208,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 864,
+        "x": 512,
+        "y": 208,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "tinted_glass": {
+      "top": {
+        "tile": 865,
+        "x": 528,
+        "y": 208,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 866,
+        "x": 544,
+        "y": 208,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 867,
+        "x": 560,
+        "y": 208,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "tnt": {
+      "top": {
+        "tile": 868,
+        "x": 576,
+        "y": 208,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 869,
+        "x": 592,
+        "y": 208,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 870,
+        "x": 608,
+        "y": 208,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "torch": {
+      "top": {
+        "tile": 871,
+        "x": 624,
+        "y": 208,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 872,
+        "x": 640,
+        "y": 208,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 873,
+        "x": 656,
+        "y": 208,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "tripwire": {
+      "top": {
+        "tile": 874,
+        "x": 672,
+        "y": 208,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 875,
+        "x": 688,
+        "y": 208,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 876,
+        "x": 704,
+        "y": 208,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "tripwire_hook": {
+      "top": {
+        "tile": 877,
+        "x": 720,
+        "y": 208,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 878,
+        "x": 736,
+        "y": 208,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 879,
+        "x": 752,
+        "y": 208,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "tuff": {
+      "top": {
+        "tile": 880,
+        "x": 768,
+        "y": 208,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 881,
+        "x": 784,
+        "y": 208,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 882,
+        "x": 800,
+        "y": 208,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "warped_stem": {
+      "top": {
+        "tile": 883,
+        "x": 816,
+        "y": 208,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 884,
+        "x": 832,
+        "y": 208,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 885,
+        "x": 848,
+        "y": 208,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "water": {
+      "top": {
+        "tile": 886,
+        "x": 864,
+        "y": 208,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 887,
+        "x": 880,
+        "y": 208,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 888,
+        "x": 896,
+        "y": 208,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "wet_sponge": {
+      "top": {
+        "tile": 889,
+        "x": 912,
+        "y": 208,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 890,
+        "x": 928,
+        "y": 208,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 891,
+        "x": 944,
+        "y": 208,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "wheat": {
+      "top": {
+        "tile": 892,
+        "x": 960,
+        "y": 208,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 893,
+        "x": 976,
+        "y": 208,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 894,
+        "x": 992,
+        "y": 208,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "white_concrete": {
+      "top": {
+        "tile": 895,
+        "x": 1008,
+        "y": 208,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 896,
+        "x": 0,
+        "y": 224,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 897,
+        "x": 16,
+        "y": 224,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "white_concrete_slab": {
+      "top": {
+        "tile": 898,
+        "x": 32,
+        "y": 224,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 899,
+        "x": 48,
+        "y": 224,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 900,
+        "x": 64,
+        "y": 224,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "white_concrete_stairs": {
+      "top": {
+        "tile": 901,
+        "x": 80,
+        "y": 224,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 902,
+        "x": 96,
+        "y": 224,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 903,
+        "x": 112,
+        "y": 224,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "white_wool": {
+      "top": {
+        "tile": 904,
+        "x": 128,
+        "y": 224,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 905,
+        "x": 144,
+        "y": 224,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 906,
+        "x": 160,
+        "y": 224,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "white_wool_slab": {
+      "top": {
+        "tile": 907,
+        "x": 176,
+        "y": 224,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 908,
+        "x": 192,
+        "y": 224,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 909,
+        "x": 208,
+        "y": 224,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "white_wool_stairs": {
+      "top": {
+        "tile": 910,
+        "x": 224,
+        "y": 224,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 911,
+        "x": 240,
+        "y": 224,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 912,
+        "x": 256,
+        "y": 224,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "yellow_concrete": {
+      "top": {
+        "tile": 913,
+        "x": 272,
+        "y": 224,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 914,
+        "x": 288,
+        "y": 224,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 915,
+        "x": 304,
+        "y": 224,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "yellow_concrete_slab": {
+      "top": {
+        "tile": 916,
+        "x": 320,
+        "y": 224,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 917,
+        "x": 336,
+        "y": 224,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 918,
+        "x": 352,
+        "y": 224,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "yellow_concrete_stairs": {
+      "top": {
+        "tile": 919,
+        "x": 368,
+        "y": 224,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 920,
+        "x": 384,
+        "y": 224,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 921,
+        "x": 400,
+        "y": 224,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "yellow_poplar_leaves": {
+      "top": {
+        "tile": 922,
+        "x": 416,
+        "y": 224,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 923,
+        "x": 432,
+        "y": 224,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 924,
+        "x": 448,
+        "y": 224,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "yellow_wool": {
+      "top": {
+        "tile": 925,
+        "x": 464,
+        "y": 224,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 926,
+        "x": 480,
+        "y": 224,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 927,
+        "x": 496,
+        "y": 224,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "yellow_wool_slab": {
+      "top": {
+        "tile": 928,
+        "x": 512,
+        "y": 224,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 929,
+        "x": 528,
+        "y": 224,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 930,
+        "x": 544,
+        "y": 224,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "yellow_wool_stairs": {
+      "top": {
+        "tile": 931,
+        "x": 560,
+        "y": 224,
+        "width": 16,
+        "height": 16
+      },
+      "side": {
+        "tile": 932,
+        "x": 576,
+        "y": 224,
+        "width": 16,
+        "height": 16
+      },
+      "bottom": {
+        "tile": 933,
+        "x": 592,
+        "y": 224,
+        "width": 16,
+        "height": 16
+      }
+    }
+  }
+}

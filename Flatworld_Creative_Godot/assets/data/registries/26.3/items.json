@@ -1,0 +1,3144 @@
+{
+  "schema_version": 2,
+  "minecraft_version": "26.3",
+  "registry_kind": "canonical_item_registry_subset",
+  "source_status": "partial canonical item subset; map variants normalized to filled_map; exact authoritative item report import pending",
+  "items": {
+    "acacia_log": {
+      "id": "acacia_log",
+      "name": "Acacia Log",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "acacia_planks": {
+      "id": "acacia_planks",
+      "name": "Acacia Planks",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "activator_rail": {
+      "id": "activator_rail",
+      "name": "Activator Rail",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "amethyst_block": {
+      "id": "amethyst_block",
+      "name": "Amethyst Block",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "ancient_debris": {
+      "id": "ancient_debris",
+      "name": "Ancient Debris",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "anvil": {
+      "id": "anvil",
+      "name": "Anvil",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "apple": {
+      "id": "apple",
+      "name": "Apple",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "arrow": {
+      "id": "arrow",
+      "name": "Arrow",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "barrel": {
+      "id": "barrel",
+      "name": "Barrel",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "basalt": {
+      "id": "basalt",
+      "name": "Basalt",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "beacon": {
+      "id": "beacon",
+      "name": "Beacon",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "bedrock": {
+      "id": "bedrock",
+      "name": "Bedrock",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "beef": {
+      "id": "beef",
+      "name": "Raw Beef",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "beetroot": {
+      "id": "beetroot",
+      "name": "Beetroot",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "beetroot_seeds": {
+      "id": "beetroot_seeds",
+      "name": "Beetroot Seeds",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "birch_leaves": {
+      "id": "birch_leaves",
+      "name": "Birch Leaves",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "birch_log": {
+      "id": "birch_log",
+      "name": "Birch Log",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "birch_planks": {
+      "id": "birch_planks",
+      "name": "Birch Planks",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "birch_sapling": {
+      "id": "birch_sapling",
+      "name": "Birch Sapling",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "black_concrete": {
+      "id": "black_concrete",
+      "name": "Black Concrete",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "black_concrete_slab": {
+      "id": "black_concrete_slab",
+      "name": "Black Concrete Slab",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "black_concrete_stairs": {
+      "id": "black_concrete_stairs",
+      "name": "Black Concrete Stairs",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "black_wool": {
+      "id": "black_wool",
+      "name": "Black Wool",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "black_wool_slab": {
+      "id": "black_wool_slab",
+      "name": "Black Wool Slab",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "black_wool_stairs": {
+      "id": "black_wool_stairs",
+      "name": "Black Wool Stairs",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "blackstone": {
+      "id": "blackstone",
+      "name": "Blackstone",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "blaze_powder": {
+      "id": "blaze_powder",
+      "name": "Blaze Powder",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "blaze_rod": {
+      "id": "blaze_rod",
+      "name": "Blaze Rod",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "blue_concrete": {
+      "id": "blue_concrete",
+      "name": "Blue Concrete",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "blue_concrete_slab": {
+      "id": "blue_concrete_slab",
+      "name": "Blue Concrete Slab",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "blue_concrete_stairs": {
+      "id": "blue_concrete_stairs",
+      "name": "Blue Concrete Stairs",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "blue_ice": {
+      "id": "blue_ice",
+      "name": "Blue Ice",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "blue_wool": {
+      "id": "blue_wool",
+      "name": "Blue Wool",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "blue_wool_slab": {
+      "id": "blue_wool_slab",
+      "name": "Blue Wool Slab",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "blue_wool_stairs": {
+      "id": "blue_wool_stairs",
+      "name": "Blue Wool Stairs",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "bone": {
+      "id": "bone",
+      "name": "Bone",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "bone_meal": {
+      "id": "bone_meal",
+      "name": "Bone Meal",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "book": {
+      "id": "book",
+      "name": "Book",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "bookshelf": {
+      "id": "bookshelf",
+      "name": "Bookshelf",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "bow": {
+      "id": "bow",
+      "name": "Bow",
+      "max_stack_size": 1,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "bowl": {
+      "id": "bowl",
+      "name": "Bowl",
+      "max_stack_size": 1,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "bread": {
+      "id": "bread",
+      "name": "Bread",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "bricks": {
+      "id": "bricks",
+      "name": "Bricks",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "brown_concrete": {
+      "id": "brown_concrete",
+      "name": "Brown Concrete",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "brown_concrete_slab": {
+      "id": "brown_concrete_slab",
+      "name": "Brown Concrete Slab",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "brown_concrete_stairs": {
+      "id": "brown_concrete_stairs",
+      "name": "Brown Concrete Stairs",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "brown_wool": {
+      "id": "brown_wool",
+      "name": "Brown Wool",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "brown_wool_slab": {
+      "id": "brown_wool_slab",
+      "name": "Brown Wool Slab",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "brown_wool_stairs": {
+      "id": "brown_wool_stairs",
+      "name": "Brown Wool Stairs",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "bucket": {
+      "id": "bucket",
+      "name": "Bucket",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "cactus": {
+      "id": "cactus",
+      "name": "Cactus",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "calcite": {
+      "id": "calcite",
+      "name": "Calcite",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "campfire": {
+      "id": "campfire",
+      "name": "Campfire",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "carrot": {
+      "id": "carrot",
+      "name": "Carrot",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "carved_pumpkin": {
+      "id": "carved_pumpkin",
+      "name": "Carved Pumpkin",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "charcoal": {
+      "id": "charcoal",
+      "name": "Charcoal",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "cherry_log": {
+      "id": "cherry_log",
+      "name": "Cherry Log",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "cherry_planks": {
+      "id": "cherry_planks",
+      "name": "Cherry Planks",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "chest": {
+      "id": "chest",
+      "name": "Chest",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "chicken": {
+      "id": "chicken",
+      "name": "Raw Chicken",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "clay": {
+      "id": "clay",
+      "name": "Clay",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "clock": {
+      "id": "clock",
+      "name": "Clock",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "coal": {
+      "id": "coal",
+      "name": "Coal",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "coal_ore": {
+      "id": "coal_ore",
+      "name": "Coal Ore",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "coarse_dirt": {
+      "id": "coarse_dirt",
+      "name": "Coarse Dirt",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "cobbled_deepslate": {
+      "id": "cobbled_deepslate",
+      "name": "Cobbled Deepslate",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "cobblestone": {
+      "id": "cobblestone",
+      "name": "Cobblestone",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "cobblestone_slab": {
+      "id": "cobblestone_slab",
+      "name": "Cobblestone Slab",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "cobblestone_stairs": {
+      "id": "cobblestone_stairs",
+      "name": "Cobblestone Stairs",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "comparator": {
+      "id": "comparator",
+      "name": "Redstone Comparator",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "compass": {
+      "id": "compass",
+      "name": "Compass",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "composter": {
+      "id": "composter",
+      "name": "Composter",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "cooked_beef": {
+      "id": "cooked_beef",
+      "name": "Cooked Beef",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "cooked_chicken": {
+      "id": "cooked_chicken",
+      "name": "Cooked Chicken",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "cooked_mutton": {
+      "id": "cooked_mutton",
+      "name": "Cooked Mutton",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "cooked_porkchop": {
+      "id": "cooked_porkchop",
+      "name": "Cooked Porkchop",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "cooked_rabbit": {
+      "id": "cooked_rabbit",
+      "name": "Cooked Rabbit",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "copper_block": {
+      "id": "copper_block",
+      "name": "Block of Copper",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "copper_ingot": {
+      "id": "copper_ingot",
+      "name": "Copper Ingot",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "copper_ore": {
+      "id": "copper_ore",
+      "name": "Copper Ore",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "cracked_stone_bricks": {
+      "id": "cracked_stone_bricks",
+      "name": "Cracked Stone Bricks",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "crafting_table": {
+      "id": "crafting_table",
+      "name": "Crafting Table",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "crimson_stem": {
+      "id": "crimson_stem",
+      "name": "Crimson Stem",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "cushion": {
+      "id": "cushion",
+      "name": "Cushion",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "cyan_concrete": {
+      "id": "cyan_concrete",
+      "name": "Cyan Concrete",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "cyan_concrete_slab": {
+      "id": "cyan_concrete_slab",
+      "name": "Cyan Concrete Slab",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "cyan_concrete_stairs": {
+      "id": "cyan_concrete_stairs",
+      "name": "Cyan Concrete Stairs",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "cyan_wool": {
+      "id": "cyan_wool",
+      "name": "Cyan Wool",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "cyan_wool_slab": {
+      "id": "cyan_wool_slab",
+      "name": "Cyan Wool Slab",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "cyan_wool_stairs": {
+      "id": "cyan_wool_stairs",
+      "name": "Cyan Wool Stairs",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "dandelion": {
+      "id": "dandelion",
+      "name": "Dandelion",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "dark_oak_log": {
+      "id": "dark_oak_log",
+      "name": "Dark Oak Log",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "dark_oak_planks": {
+      "id": "dark_oak_planks",
+      "name": "Dark Oak Planks",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "daylight_detector": {
+      "id": "daylight_detector",
+      "name": "Daylight Detector",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "deepslate": {
+      "id": "deepslate",
+      "name": "Deepslate",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "deepslate_coal_ore": {
+      "id": "deepslate_coal_ore",
+      "name": "Deepslate Coal Ore",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "deepslate_copper_ore": {
+      "id": "deepslate_copper_ore",
+      "name": "Deepslate Copper Ore",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "deepslate_diamond_ore": {
+      "id": "deepslate_diamond_ore",
+      "name": "Deepslate Diamond Ore",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "deepslate_emerald_ore": {
+      "id": "deepslate_emerald_ore",
+      "name": "Deepslate Emerald Ore",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "deepslate_gold_ore": {
+      "id": "deepslate_gold_ore",
+      "name": "Deepslate Gold Ore",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "deepslate_iron_ore": {
+      "id": "deepslate_iron_ore",
+      "name": "Deepslate Iron Ore",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "deepslate_lapis_ore": {
+      "id": "deepslate_lapis_ore",
+      "name": "Deepslate Lapis Lazuli Ore",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "deepslate_redstone_ore": {
+      "id": "deepslate_redstone_ore",
+      "name": "Deepslate Redstone Ore",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "detector_rail": {
+      "id": "detector_rail",
+      "name": "Detector Rail",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "diamond": {
+      "id": "diamond",
+      "name": "Diamond",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "diamond_axe": {
+      "id": "diamond_axe",
+      "name": "Diamond Axe",
+      "max_stack_size": 1,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "diamond_block": {
+      "id": "diamond_block",
+      "name": "Block of Diamond",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "diamond_hoe": {
+      "id": "diamond_hoe",
+      "name": "Diamond Hoe",
+      "max_stack_size": 1,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "diamond_ore": {
+      "id": "diamond_ore",
+      "name": "Diamond Ore",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "diamond_pickaxe": {
+      "id": "diamond_pickaxe",
+      "name": "Diamond Pickaxe",
+      "max_stack_size": 1,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "diamond_shovel": {
+      "id": "diamond_shovel",
+      "name": "Diamond Shovel",
+      "max_stack_size": 1,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "diamond_sword": {
+      "id": "diamond_sword",
+      "name": "Diamond Sword",
+      "max_stack_size": 1,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "dirt": {
+      "id": "dirt",
+      "name": "Dirt",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "dispenser": {
+      "id": "dispenser",
+      "name": "Dispenser",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "dripstone_block": {
+      "id": "dripstone_block",
+      "name": "Dripstone Block",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "dropper": {
+      "id": "dropper",
+      "name": "Dropper",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "egg": {
+      "id": "egg",
+      "name": "Egg",
+      "max_stack_size": 16,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "elytra": {
+      "id": "elytra",
+      "name": "Elytra",
+      "max_stack_size": 1,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "emerald": {
+      "id": "emerald",
+      "name": "Emerald",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "emerald_block": {
+      "id": "emerald_block",
+      "name": "Block of Emerald",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "emerald_ore": {
+      "id": "emerald_ore",
+      "name": "Emerald Ore",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "enchanted_book": {
+      "id": "enchanted_book",
+      "name": "Enchanted Book",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "end_portal_frame": {
+      "id": "end_portal_frame",
+      "name": "End Portal Frame",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "end_rod": {
+      "id": "end_rod",
+      "name": "End Rod",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "end_stone": {
+      "id": "end_stone",
+      "name": "End Stone",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "ender_eye": {
+      "id": "ender_eye",
+      "name": "Eye of Ender",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "ender_pearl": {
+      "id": "ender_pearl",
+      "name": "Ender Pearl",
+      "max_stack_size": 16,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "feather": {
+      "id": "feather",
+      "name": "Feather",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "filled_map": {
+      "id": "filled_map",
+      "name": "Filled Map",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "known_vanilla_item_id; component values await exact Mojang 26.3 report import"
+    },
+    "fire_charge": {
+      "id": "fire_charge",
+      "name": "Fire Charge",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "firework_rocket": {
+      "id": "firework_rocket",
+      "name": "Firework Rocket",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "flint": {
+      "id": "flint",
+      "name": "Flint",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "flint_and_steel": {
+      "id": "flint_and_steel",
+      "name": "Flint and Steel",
+      "max_stack_size": 1,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "flower_pot": {
+      "id": "flower_pot",
+      "name": "Flower Pot",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "furnace": {
+      "id": "furnace",
+      "name": "Furnace",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "ghast_tear": {
+      "id": "ghast_tear",
+      "name": "Ghast Tear",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "glass": {
+      "id": "glass",
+      "name": "Glass",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "glowstone": {
+      "id": "glowstone",
+      "name": "Glowstone",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "gold_block": {
+      "id": "gold_block",
+      "name": "Block of Gold",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "gold_ingot": {
+      "id": "gold_ingot",
+      "name": "Gold Ingot",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "gold_nugget": {
+      "id": "gold_nugget",
+      "name": "Gold Nugget",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "gold_ore": {
+      "id": "gold_ore",
+      "name": "Gold Ore",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "golden_axe": {
+      "id": "golden_axe",
+      "name": "Golden Axe",
+      "max_stack_size": 1,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "golden_hoe": {
+      "id": "golden_hoe",
+      "name": "Golden Hoe",
+      "max_stack_size": 1,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "golden_pickaxe": {
+      "id": "golden_pickaxe",
+      "name": "Golden Pickaxe",
+      "max_stack_size": 1,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "golden_shovel": {
+      "id": "golden_shovel",
+      "name": "Golden Shovel",
+      "max_stack_size": 1,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "golden_sword": {
+      "id": "golden_sword",
+      "name": "Golden Sword",
+      "max_stack_size": 1,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "grass_block": {
+      "id": "grass_block",
+      "name": "Grass Block",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "gravel": {
+      "id": "gravel",
+      "name": "Gravel",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "gray_concrete": {
+      "id": "gray_concrete",
+      "name": "Gray Concrete",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "gray_concrete_slab": {
+      "id": "gray_concrete_slab",
+      "name": "Gray Concrete Slab",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "gray_concrete_stairs": {
+      "id": "gray_concrete_stairs",
+      "name": "Gray Concrete Stairs",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "gray_wool": {
+      "id": "gray_wool",
+      "name": "Gray Wool",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "gray_wool_slab": {
+      "id": "gray_wool_slab",
+      "name": "Gray Wool Slab",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "gray_wool_stairs": {
+      "id": "gray_wool_stairs",
+      "name": "Gray Wool Stairs",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "green_concrete": {
+      "id": "green_concrete",
+      "name": "Green Concrete",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "green_concrete_slab": {
+      "id": "green_concrete_slab",
+      "name": "Green Concrete Slab",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "green_concrete_stairs": {
+      "id": "green_concrete_stairs",
+      "name": "Green Concrete Stairs",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "green_wool": {
+      "id": "green_wool",
+      "name": "Green Wool",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "green_wool_slab": {
+      "id": "green_wool_slab",
+      "name": "Green Wool Slab",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "green_wool_stairs": {
+      "id": "green_wool_stairs",
+      "name": "Green Wool Stairs",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "gunpowder": {
+      "id": "gunpowder",
+      "name": "Gunpowder",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "hay_block": {
+      "id": "hay_block",
+      "name": "Hay Bale",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "heavy_weighted_pressure_plate": {
+      "id": "heavy_weighted_pressure_plate",
+      "name": "Heavy Weighted Pressure Plate",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "hopper": {
+      "id": "hopper",
+      "name": "Hopper",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "ice": {
+      "id": "ice",
+      "name": "Ice",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "iron_axe": {
+      "id": "iron_axe",
+      "name": "Iron Axe",
+      "max_stack_size": 1,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "iron_block": {
+      "id": "iron_block",
+      "name": "Block of Iron",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "iron_door": {
+      "id": "iron_door",
+      "name": "Iron Door",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "iron_hoe": {
+      "id": "iron_hoe",
+      "name": "Iron Hoe",
+      "max_stack_size": 1,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "iron_ingot": {
+      "id": "iron_ingot",
+      "name": "Iron Ingot",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "iron_nugget": {
+      "id": "iron_nugget",
+      "name": "Iron Nugget",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "iron_ore": {
+      "id": "iron_ore",
+      "name": "Iron Ore",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "iron_pickaxe": {
+      "id": "iron_pickaxe",
+      "name": "Iron Pickaxe",
+      "max_stack_size": 1,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "iron_shovel": {
+      "id": "iron_shovel",
+      "name": "Iron Shovel",
+      "max_stack_size": 1,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "iron_sword": {
+      "id": "iron_sword",
+      "name": "Iron Sword",
+      "max_stack_size": 1,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "iron_trapdoor": {
+      "id": "iron_trapdoor",
+      "name": "Iron Trapdoor",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "jack_o_lantern": {
+      "id": "jack_o_lantern",
+      "name": "Jack o Lantern",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "jungle_log": {
+      "id": "jungle_log",
+      "name": "Jungle Log",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "jungle_planks": {
+      "id": "jungle_planks",
+      "name": "Jungle Planks",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "ladder": {
+      "id": "ladder",
+      "name": "Ladder",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "lantern": {
+      "id": "lantern",
+      "name": "Lantern",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "lapis_lazuli": {
+      "id": "lapis_lazuli",
+      "name": "Lapis Lazuli",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "lapis_ore": {
+      "id": "lapis_ore",
+      "name": "Lapis Lazuli Ore",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "lava_bucket": {
+      "id": "lava_bucket",
+      "name": "Lava Bucket",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "leaf_litter": {
+      "id": "leaf_litter",
+      "name": "Leaf Litter",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "leather": {
+      "id": "leather",
+      "name": "Leather",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "lever": {
+      "id": "lever",
+      "name": "Lever",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "light_blue_concrete": {
+      "id": "light_blue_concrete",
+      "name": "Light Blue Concrete",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "light_blue_concrete_slab": {
+      "id": "light_blue_concrete_slab",
+      "name": "Light Blue Concrete Slab",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "light_blue_concrete_stairs": {
+      "id": "light_blue_concrete_stairs",
+      "name": "Light Blue Concrete Stairs",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "light_blue_wool": {
+      "id": "light_blue_wool",
+      "name": "Light Blue Wool",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "light_blue_wool_slab": {
+      "id": "light_blue_wool_slab",
+      "name": "Light Blue Wool Slab",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "light_blue_wool_stairs": {
+      "id": "light_blue_wool_stairs",
+      "name": "Light Blue Wool Stairs",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "light_gray_concrete": {
+      "id": "light_gray_concrete",
+      "name": "Light Gray Concrete",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "light_gray_concrete_slab": {
+      "id": "light_gray_concrete_slab",
+      "name": "Light Gray Concrete Slab",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "light_gray_concrete_stairs": {
+      "id": "light_gray_concrete_stairs",
+      "name": "Light Gray Concrete Stairs",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "light_gray_wool": {
+      "id": "light_gray_wool",
+      "name": "Light Gray Wool",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "light_gray_wool_slab": {
+      "id": "light_gray_wool_slab",
+      "name": "Light Gray Wool Slab",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "light_gray_wool_stairs": {
+      "id": "light_gray_wool_stairs",
+      "name": "Light Gray Wool Stairs",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "light_weighted_pressure_plate": {
+      "id": "light_weighted_pressure_plate",
+      "name": "Light Weighted Pressure Plate",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "lime_concrete": {
+      "id": "lime_concrete",
+      "name": "Lime Concrete",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "lime_concrete_slab": {
+      "id": "lime_concrete_slab",
+      "name": "Lime Concrete Slab",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "lime_concrete_stairs": {
+      "id": "lime_concrete_stairs",
+      "name": "Lime Concrete Stairs",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "lime_wool": {
+      "id": "lime_wool",
+      "name": "Lime Wool",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "lime_wool_slab": {
+      "id": "lime_wool_slab",
+      "name": "Lime Wool Slab",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "lime_wool_stairs": {
+      "id": "lime_wool_stairs",
+      "name": "Lime Wool Stairs",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "magenta_concrete": {
+      "id": "magenta_concrete",
+      "name": "Magenta Concrete",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "magenta_concrete_slab": {
+      "id": "magenta_concrete_slab",
+      "name": "Magenta Concrete Slab",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "magenta_concrete_stairs": {
+      "id": "magenta_concrete_stairs",
+      "name": "Magenta Concrete Stairs",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "magenta_wool": {
+      "id": "magenta_wool",
+      "name": "Magenta Wool",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "magenta_wool_slab": {
+      "id": "magenta_wool_slab",
+      "name": "Magenta Wool Slab",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "magenta_wool_stairs": {
+      "id": "magenta_wool_stairs",
+      "name": "Magenta Wool Stairs",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "magma_block": {
+      "id": "magma_block",
+      "name": "Magma Block",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "mangrove_log": {
+      "id": "mangrove_log",
+      "name": "Mangrove Log",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "mangrove_planks": {
+      "id": "mangrove_planks",
+      "name": "Mangrove Planks",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "map": {
+      "id": "map",
+      "name": "Map",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "moss_block": {
+      "id": "moss_block",
+      "name": "Moss Block",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "mossy_cobblestone": {
+      "id": "mossy_cobblestone",
+      "name": "Mossy Cobblestone",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "mossy_stone_bricks": {
+      "id": "mossy_stone_bricks",
+      "name": "Mossy Stone Bricks",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "mud": {
+      "id": "mud",
+      "name": "Mud",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "mushroom_stew": {
+      "id": "mushroom_stew",
+      "name": "Mushroom Stew",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "mutton": {
+      "id": "mutton",
+      "name": "Raw Mutton",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "mycelium": {
+      "id": "mycelium",
+      "name": "Mycelium",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "name_tag": {
+      "id": "name_tag",
+      "name": "Name Tag",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "nether_bricks": {
+      "id": "nether_bricks",
+      "name": "Nether Bricks",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "nether_gold_ore": {
+      "id": "nether_gold_ore",
+      "name": "Nether Gold Ore",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "nether_quartz_ore": {
+      "id": "nether_quartz_ore",
+      "name": "Nether Quartz Ore",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "nether_star": {
+      "id": "nether_star",
+      "name": "Nether Star",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "nether_wart": {
+      "id": "nether_wart",
+      "name": "Nether Wart",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "nether_wart_block": {
+      "id": "nether_wart_block",
+      "name": "Nether Wart Block",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "netherite_axe": {
+      "id": "netherite_axe",
+      "name": "Netherite Axe",
+      "max_stack_size": 1,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "netherite_hoe": {
+      "id": "netherite_hoe",
+      "name": "Netherite Hoe",
+      "max_stack_size": 1,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "netherite_pickaxe": {
+      "id": "netherite_pickaxe",
+      "name": "Netherite Pickaxe",
+      "max_stack_size": 1,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "netherite_shovel": {
+      "id": "netherite_shovel",
+      "name": "Netherite Shovel",
+      "max_stack_size": 1,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "netherite_sword": {
+      "id": "netherite_sword",
+      "name": "Netherite Sword",
+      "max_stack_size": 1,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "netherrack": {
+      "id": "netherrack",
+      "name": "Netherrack",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "note_block": {
+      "id": "note_block",
+      "name": "Note Block",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "oak_door": {
+      "id": "oak_door",
+      "name": "Oak Door",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "oak_fence": {
+      "id": "oak_fence",
+      "name": "Oak Fence",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "oak_fence_gate": {
+      "id": "oak_fence_gate",
+      "name": "Oak Fence Gate",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "oak_leaves": {
+      "id": "oak_leaves",
+      "name": "Oak Leaves",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "oak_log": {
+      "id": "oak_log",
+      "name": "Oak Log",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "oak_planks": {
+      "id": "oak_planks",
+      "name": "Oak Planks",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "oak_sapling": {
+      "id": "oak_sapling",
+      "name": "Oak Sapling",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "oak_slab": {
+      "id": "oak_slab",
+      "name": "Oak Slab",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "oak_stairs": {
+      "id": "oak_stairs",
+      "name": "Oak Stairs",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "oak_trapdoor": {
+      "id": "oak_trapdoor",
+      "name": "Oak Trapdoor",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "observer": {
+      "id": "observer",
+      "name": "Observer",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "obsidian": {
+      "id": "obsidian",
+      "name": "Obsidian",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "orange_concrete": {
+      "id": "orange_concrete",
+      "name": "Orange Concrete",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "orange_concrete_slab": {
+      "id": "orange_concrete_slab",
+      "name": "Orange Concrete Slab",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "orange_concrete_stairs": {
+      "id": "orange_concrete_stairs",
+      "name": "Orange Concrete Stairs",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "orange_poplar_leaves": {
+      "id": "orange_poplar_leaves",
+      "name": "Orange Poplar Leaves",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "orange_wool": {
+      "id": "orange_wool",
+      "name": "Orange Wool",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "orange_wool_slab": {
+      "id": "orange_wool_slab",
+      "name": "Orange Wool Slab",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "orange_wool_stairs": {
+      "id": "orange_wool_stairs",
+      "name": "Orange Wool Stairs",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "packed_ice": {
+      "id": "packed_ice",
+      "name": "Packed Ice",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "packed_mud": {
+      "id": "packed_mud",
+      "name": "Packed Mud",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "pink_concrete": {
+      "id": "pink_concrete",
+      "name": "Pink Concrete",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "pink_concrete_slab": {
+      "id": "pink_concrete_slab",
+      "name": "Pink Concrete Slab",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "pink_concrete_stairs": {
+      "id": "pink_concrete_stairs",
+      "name": "Pink Concrete Stairs",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "pink_wool": {
+      "id": "pink_wool",
+      "name": "Pink Wool",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "pink_wool_slab": {
+      "id": "pink_wool_slab",
+      "name": "Pink Wool Slab",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "pink_wool_stairs": {
+      "id": "pink_wool_stairs",
+      "name": "Pink Wool Stairs",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "piston": {
+      "id": "piston",
+      "name": "Piston",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "podzol": {
+      "id": "podzol",
+      "name": "Podzol",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "polished_andesite": {
+      "id": "polished_andesite",
+      "name": "Polished Andesite",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "polished_diorite": {
+      "id": "polished_diorite",
+      "name": "Polished Diorite",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "polished_granite": {
+      "id": "polished_granite",
+      "name": "Polished Granite",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "poplar_button": {
+      "id": "poplar_button",
+      "name": "Poplar Button",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "poplar_door": {
+      "id": "poplar_door",
+      "name": "Poplar Door",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "poplar_fence": {
+      "id": "poplar_fence",
+      "name": "Poplar Fence",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "poplar_fence_gate": {
+      "id": "poplar_fence_gate",
+      "name": "Poplar Fence Gate",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "poplar_hanging_sign": {
+      "id": "poplar_hanging_sign",
+      "name": "Poplar Hanging Sign",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "poplar_log": {
+      "id": "poplar_log",
+      "name": "Poplar Log",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "poplar_planks": {
+      "id": "poplar_planks",
+      "name": "Poplar Planks",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "poplar_pressure_plate": {
+      "id": "poplar_pressure_plate",
+      "name": "Poplar Pressure Plate",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "poplar_sapling": {
+      "id": "poplar_sapling",
+      "name": "Poplar Sapling",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "poplar_sign": {
+      "id": "poplar_sign",
+      "name": "Poplar Sign",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "poplar_slab": {
+      "id": "poplar_slab",
+      "name": "Poplar Slab",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "poplar_stairs": {
+      "id": "poplar_stairs",
+      "name": "Poplar Stairs",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "poplar_trapdoor": {
+      "id": "poplar_trapdoor",
+      "name": "Poplar Trapdoor",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "poplar_wood": {
+      "id": "poplar_wood",
+      "name": "Poplar Wood",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "poppy": {
+      "id": "poppy",
+      "name": "Poppy",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "porkchop": {
+      "id": "porkchop",
+      "name": "Raw Porkchop",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "potato": {
+      "id": "potato",
+      "name": "Potato",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "powered_rail": {
+      "id": "powered_rail",
+      "name": "Powered Rail",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "pumpkin": {
+      "id": "pumpkin",
+      "name": "Pumpkin",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "pumpkin_seeds": {
+      "id": "pumpkin_seeds",
+      "name": "Pumpkin Seeds",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "purple_concrete": {
+      "id": "purple_concrete",
+      "name": "Purple Concrete",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "purple_concrete_slab": {
+      "id": "purple_concrete_slab",
+      "name": "Purple Concrete Slab",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "purple_concrete_stairs": {
+      "id": "purple_concrete_stairs",
+      "name": "Purple Concrete Stairs",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "purple_wool": {
+      "id": "purple_wool",
+      "name": "Purple Wool",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "purple_wool_slab": {
+      "id": "purple_wool_slab",
+      "name": "Purple Wool Slab",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "purple_wool_stairs": {
+      "id": "purple_wool_stairs",
+      "name": "Purple Wool Stairs",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "quartz": {
+      "id": "quartz",
+      "name": "Nether Quartz",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "quartz_block": {
+      "id": "quartz_block",
+      "name": "Quartz Block",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "rabbit": {
+      "id": "rabbit",
+      "name": "Raw Rabbit",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "rail": {
+      "id": "rail",
+      "name": "Rail",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "raw_copper": {
+      "id": "raw_copper",
+      "name": "Raw Copper",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "raw_copper_block": {
+      "id": "raw_copper_block",
+      "name": "Raw Copper Block",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "canonical_known_item_report_pending"
+    },
+    "raw_gold": {
+      "id": "raw_gold",
+      "name": "Raw Gold",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "raw_gold_block": {
+      "id": "raw_gold_block",
+      "name": "Raw Gold Block",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "canonical_known_item_report_pending"
+    },
+    "raw_iron": {
+      "id": "raw_iron",
+      "name": "Raw Iron",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "raw_iron_block": {
+      "id": "raw_iron_block",
+      "name": "Raw Iron Block",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "canonical_known_item_report_pending"
+    },
+    "red_concrete": {
+      "id": "red_concrete",
+      "name": "Red Concrete",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "red_concrete_slab": {
+      "id": "red_concrete_slab",
+      "name": "Red Concrete Slab",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "red_concrete_stairs": {
+      "id": "red_concrete_stairs",
+      "name": "Red Concrete Stairs",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "red_poplar_leaves": {
+      "id": "red_poplar_leaves",
+      "name": "Red Poplar Leaves",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "red_sand": {
+      "id": "red_sand",
+      "name": "Red Sand",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "red_sandstone": {
+      "id": "red_sandstone",
+      "name": "Red Sandstone",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "red_shrub": {
+      "id": "red_shrub",
+      "name": "Red Shrub",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "red_wool": {
+      "id": "red_wool",
+      "name": "Red Wool",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "red_wool_slab": {
+      "id": "red_wool_slab",
+      "name": "Red Wool Slab",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "red_wool_stairs": {
+      "id": "red_wool_stairs",
+      "name": "Red Wool Stairs",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "redstone": {
+      "id": "redstone",
+      "name": "Redstone Dust",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "canonical_known_item_report_pending"
+    },
+    "redstone_block": {
+      "id": "redstone_block",
+      "name": "Block of Redstone",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "redstone_lamp": {
+      "id": "redstone_lamp",
+      "name": "Redstone Lamp",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "redstone_ore": {
+      "id": "redstone_ore",
+      "name": "Redstone Ore",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "redstone_torch": {
+      "id": "redstone_torch",
+      "name": "Redstone Torch",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "repeater": {
+      "id": "repeater",
+      "name": "Redstone Repeater",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "rooted_dirt": {
+      "id": "rooted_dirt",
+      "name": "Rooted Dirt",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "rotten_flesh": {
+      "id": "rotten_flesh",
+      "name": "Rotten Flesh",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "saddle": {
+      "id": "saddle",
+      "name": "Saddle",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "sand": {
+      "id": "sand",
+      "name": "Sand",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "sandstone": {
+      "id": "sandstone",
+      "name": "Sandstone",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "sea_lantern": {
+      "id": "sea_lantern",
+      "name": "Sea Lantern",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "shelf_mushroom": {
+      "id": "shelf_mushroom",
+      "name": "Shelf Mushroom",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "shield": {
+      "id": "shield",
+      "name": "Shield",
+      "max_stack_size": 1,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "short_grass": {
+      "id": "short_grass",
+      "name": "Short Grass",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "shulker_box": {
+      "id": "shulker_box",
+      "name": "Shulker Box",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "slime_ball": {
+      "id": "slime_ball",
+      "name": "Slimeball",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "snow_block": {
+      "id": "snow_block",
+      "name": "Snow Block",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "soul_sand": {
+      "id": "soul_sand",
+      "name": "Soul Sand",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "soul_soil": {
+      "id": "soul_soil",
+      "name": "Soul Soil",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "spider_eye": {
+      "id": "spider_eye",
+      "name": "Spider Eye",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "sponge": {
+      "id": "sponge",
+      "name": "Sponge",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "spruce_leaves": {
+      "id": "spruce_leaves",
+      "name": "Spruce Leaves",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "spruce_log": {
+      "id": "spruce_log",
+      "name": "Spruce Log",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "spruce_planks": {
+      "id": "spruce_planks",
+      "name": "Spruce Planks",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "spruce_sapling": {
+      "id": "spruce_sapling",
+      "name": "Spruce Sapling",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "stick": {
+      "id": "stick",
+      "name": "Stick",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "sticky_piston": {
+      "id": "sticky_piston",
+      "name": "Sticky Piston",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "stone": {
+      "id": "stone",
+      "name": "Stone",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "stone_axe": {
+      "id": "stone_axe",
+      "name": "Stone Axe",
+      "max_stack_size": 1,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "stone_bricks": {
+      "id": "stone_bricks",
+      "name": "Stone Bricks",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "stone_button": {
+      "id": "stone_button",
+      "name": "Stone Button",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "stone_hoe": {
+      "id": "stone_hoe",
+      "name": "Stone Hoe",
+      "max_stack_size": 1,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "stone_pickaxe": {
+      "id": "stone_pickaxe",
+      "name": "Stone Pickaxe",
+      "max_stack_size": 1,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "stone_pressure_plate": {
+      "id": "stone_pressure_plate",
+      "name": "Stone Pressure Plate",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "stone_shovel": {
+      "id": "stone_shovel",
+      "name": "Stone Shovel",
+      "max_stack_size": 1,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "stone_slab": {
+      "id": "stone_slab",
+      "name": "Stone Slab",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "stone_stairs": {
+      "id": "stone_stairs",
+      "name": "Stone Stairs",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "stone_sword": {
+      "id": "stone_sword",
+      "name": "Stone Sword",
+      "max_stack_size": 1,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "straw_bed": {
+      "id": "straw_bed",
+      "name": "Straw Bed",
+      "max_stack_size": 16,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "string": {
+      "id": "string",
+      "name": "String",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "stripped_poplar_log": {
+      "id": "stripped_poplar_log",
+      "name": "Stripped Poplar Log",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "stripped_poplar_wood": {
+      "id": "stripped_poplar_wood",
+      "name": "Stripped Poplar Wood",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "suspicious_stew": {
+      "id": "suspicious_stew",
+      "name": "Suspicious Stew",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "target": {
+      "id": "target",
+      "name": "Target",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "terracotta": {
+      "id": "terracotta",
+      "name": "Terracotta",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "tinted_glass": {
+      "id": "tinted_glass",
+      "name": "Tinted Glass",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "tnt": {
+      "id": "tnt",
+      "name": "TNT",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "torch": {
+      "id": "torch",
+      "name": "Torch",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "totem_of_undying": {
+      "id": "totem_of_undying",
+      "name": "Totem of Undying",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "tripwire": {
+      "id": "tripwire",
+      "name": "Tripwire",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "tripwire_hook": {
+      "id": "tripwire_hook",
+      "name": "Tripwire Hook",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "tuff": {
+      "id": "tuff",
+      "name": "Tuff",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "warped_stem": {
+      "id": "warped_stem",
+      "name": "Warped Stem",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "water_bucket": {
+      "id": "water_bucket",
+      "name": "Water Bucket",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "wet_sponge": {
+      "id": "wet_sponge",
+      "name": "Wet Sponge",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "wheat": {
+      "id": "wheat",
+      "name": "Wheat",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "wheat_seeds": {
+      "id": "wheat_seeds",
+      "name": "Wheat Seeds",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "white_concrete": {
+      "id": "white_concrete",
+      "name": "White Concrete",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "white_concrete_slab": {
+      "id": "white_concrete_slab",
+      "name": "White Concrete Slab",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "white_concrete_stairs": {
+      "id": "white_concrete_stairs",
+      "name": "White Concrete Stairs",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "white_wool": {
+      "id": "white_wool",
+      "name": "White Wool",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "white_wool_slab": {
+      "id": "white_wool_slab",
+      "name": "White Wool Slab",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "white_wool_stairs": {
+      "id": "white_wool_stairs",
+      "name": "White Wool Stairs",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "wooden_axe": {
+      "id": "wooden_axe",
+      "name": "Wooden Axe",
+      "max_stack_size": 1,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "wooden_hoe": {
+      "id": "wooden_hoe",
+      "name": "Wooden Hoe",
+      "max_stack_size": 1,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "wooden_pickaxe": {
+      "id": "wooden_pickaxe",
+      "name": "Wooden Pickaxe",
+      "max_stack_size": 1,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "wooden_shovel": {
+      "id": "wooden_shovel",
+      "name": "Wooden Shovel",
+      "max_stack_size": 1,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "wooden_sword": {
+      "id": "wooden_sword",
+      "name": "Wooden Sword",
+      "max_stack_size": 1,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "yellow_concrete": {
+      "id": "yellow_concrete",
+      "name": "Yellow Concrete",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "yellow_concrete_slab": {
+      "id": "yellow_concrete_slab",
+      "name": "Yellow Concrete Slab",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "yellow_concrete_stairs": {
+      "id": "yellow_concrete_stairs",
+      "name": "Yellow Concrete Stairs",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "yellow_poplar_leaves": {
+      "id": "yellow_poplar_leaves",
+      "name": "Yellow Poplar Leaves",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "yellow_wool": {
+      "id": "yellow_wool",
+      "name": "Yellow Wool",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "yellow_wool_slab": {
+      "id": "yellow_wool_slab",
+      "name": "Yellow Wool Slab",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    },
+    "yellow_wool_stairs": {
+      "id": "yellow_wool_stairs",
+      "name": "Yellow Wool Stairs",
+      "max_stack_size": 64,
+      "max_damage": null,
+      "components": {},
+      "reference_status": "partial_project_subset; authoritative_item_report_import_pending"
+    }
+  }
+}

@@ -1,0 +1,6056 @@
+{
+  "schema_version": 3,
+  "atlas_tile_size": 16,
+  "atlas_columns": 64,
+  "atlas_rows": 15,
+  "registry_schema": "canonical_block_render_definitions",
+  "blocks": {
+    "acacia_log": {
+      "name": "Acacia Log",
+      "category": "Wood",
+      "color": "#695b47",
+      "pattern": "log",
+      "solid": true,
+      "placeable": true,
+      "hardness": 2.0,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 0,
+        "side": 1,
+        "bottom": 2
+      },
+      "top_color": "#7e6d55",
+      "side_color": "#695b47",
+      "bottom_color": "#7e6d55"
+    },
+    "acacia_planks": {
+      "name": "Acacia Planks",
+      "category": "Wood",
+      "color": "#ac5b36",
+      "pattern": "planks",
+      "solid": true,
+      "placeable": true,
+      "hardness": 2.0,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 3,
+        "side": 4,
+        "bottom": 5
+      },
+      "top_color": "#ac5b36",
+      "side_color": "#ac5b36",
+      "bottom_color": "#89482b"
+    },
+    "activator_rail": {
+      "name": "Activator Rail",
+      "category": "Transport",
+      "color": "#8C7661",
+      "pattern": "metal",
+      "solid": false,
+      "placeable": true,
+      "hardness": 1.0,
+      "transparent": true,
+      "emission": 0.0,
+      "top_color": "#8C7661",
+      "side_color": "#8C7661",
+      "bottom_color": "#8C7661",
+      "shape": "rail",
+      "tiles": {
+        "top": 6,
+        "side": 7,
+        "bottom": 8
+      }
+    },
+    "amethyst_block": {
+      "name": "Amethyst Block",
+      "category": "Caves",
+      "color": "#936fbe",
+      "pattern": "crystal",
+      "solid": true,
+      "placeable": true,
+      "hardness": 1.5,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 9,
+        "side": 10,
+        "bottom": 11
+      },
+      "top_color": "#936fbe",
+      "side_color": "#936fbe",
+      "bottom_color": "#755898"
+    },
+    "ancient_debris": {
+      "name": "Ancient Debris",
+      "category": "Ores",
+      "color": "#654c42",
+      "pattern": "ancient_debris",
+      "solid": true,
+      "placeable": true,
+      "hardness": 30,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 12,
+        "side": 13,
+        "bottom": 14
+      },
+      "top_color": "#654c42",
+      "side_color": "#654c42",
+      "bottom_color": "#503c34"
+    },
+    "anvil": {
+      "name": "Anvil",
+      "category": "Functional",
+      "color": "#4a4b52",
+      "pattern": "metal",
+      "solid": true,
+      "placeable": true,
+      "hardness": 5.0,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 15,
+        "side": 16,
+        "bottom": 17
+      },
+      "top_color": "#4a4b52",
+      "side_color": "#4a4b52",
+      "bottom_color": "#3b3c41"
+    },
+    "barrel": {
+      "name": "Barrel",
+      "category": "Functional",
+      "color": "#865f35",
+      "pattern": "barrel",
+      "solid": true,
+      "placeable": true,
+      "hardness": 2.5,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 18,
+        "side": 19,
+        "bottom": 20,
+        "front": 21,
+        "back": 22
+      },
+      "top_color": "#865f35",
+      "side_color": "#865f35",
+      "bottom_color": "#6b4c2a"
+    },
+    "basalt": {
+      "name": "Basalt",
+      "category": "Nether",
+      "color": "#4f4e52",
+      "pattern": "basalt",
+      "solid": true,
+      "placeable": true,
+      "hardness": 1.25,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 23,
+        "side": 24,
+        "bottom": 25
+      },
+      "top_color": "#4f4e52",
+      "side_color": "#4f4e52",
+      "bottom_color": "#3f3e41"
+    },
+    "beacon": {
+      "name": "Beacon",
+      "category": "Functional",
+      "color": "#90d6d0",
+      "pattern": "glass",
+      "solid": true,
+      "placeable": true,
+      "hardness": 3.0,
+      "transparent": true,
+      "emission": 0.0,
+      "tiles": {
+        "top": 26,
+        "side": 27,
+        "bottom": 28
+      },
+      "top_color": "#90d6d0",
+      "side_color": "#90d6d0",
+      "bottom_color": "#73aba6"
+    },
+    "bedrock": {
+      "name": "Bedrock",
+      "category": "Terrain",
+      "color": "#37373a",
+      "pattern": "bedrock",
+      "solid": true,
+      "placeable": true,
+      "hardness": 999,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 29,
+        "side": 30,
+        "bottom": 31
+      },
+      "top_color": "#37373a",
+      "side_color": "#37373a",
+      "bottom_color": "#2c2c2e"
+    },
+    "beetroots": {
+      "name": "Beetroots",
+      "category": "Farming",
+      "color": "#77923C",
+      "pattern": "flower",
+      "solid": false,
+      "placeable": true,
+      "hardness": 0,
+      "transparent": true,
+      "emission": 0.0,
+      "tiles": {
+        "top": 32,
+        "side": 33,
+        "bottom": 34
+      },
+      "top_color": "#77923C",
+      "side_color": "#77923C",
+      "bottom_color": "#77923C",
+      "shape": "plant",
+      "tags": [
+        "crop"
+      ]
+    },
+    "birch_leaves": {
+      "name": "Birch Leaves",
+      "category": "Nature",
+      "color": "#5c8b41",
+      "pattern": "leaves",
+      "solid": true,
+      "placeable": true,
+      "hardness": 0.2,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 35,
+        "side": 36,
+        "bottom": 37
+      },
+      "top_color": "#5c8b41",
+      "side_color": "#5c8b41",
+      "bottom_color": "#496f34"
+    },
+    "birch_log": {
+      "name": "Birch Log",
+      "category": "Wood",
+      "color": "#d3caa9",
+      "pattern": "birch_log",
+      "solid": true,
+      "placeable": true,
+      "hardness": 2.0,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 38,
+        "side": 39,
+        "bottom": 40
+      },
+      "top_color": "#fdf2ca",
+      "side_color": "#d3caa9",
+      "bottom_color": "#fdf2ca"
+    },
+    "birch_planks": {
+      "name": "Birch Planks",
+      "category": "Wood",
+      "color": "#beb083",
+      "pattern": "planks",
+      "solid": true,
+      "placeable": true,
+      "hardness": 2.0,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 41,
+        "side": 42,
+        "bottom": 43
+      },
+      "top_color": "#beb083",
+      "side_color": "#beb083",
+      "bottom_color": "#988c68"
+    },
+    "birch_sapling": {
+      "name": "Birch Sapling",
+      "category": "Nature",
+      "color": "#81A94A",
+      "pattern": "leaves",
+      "solid": false,
+      "placeable": true,
+      "hardness": 0.0,
+      "transparent": true,
+      "emission": 0.0,
+      "tiles": {
+        "top": 44,
+        "side": 45,
+        "bottom": 46
+      },
+      "top_color": "#81A94A",
+      "side_color": "#81A94A",
+      "bottom_color": "#81A94A",
+      "shape": "plant",
+      "tags": [
+        "sapling"
+      ]
+    },
+    "black_concrete": {
+      "name": "Black Concrete",
+      "category": "Building",
+      "color": "#27272A",
+      "pattern": "concrete",
+      "solid": true,
+      "placeable": true,
+      "hardness": 1.8,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 47,
+        "side": 48,
+        "bottom": 49
+      },
+      "top_color": "#27272A",
+      "side_color": "#27272A",
+      "bottom_color": "#27272A"
+    },
+    "black_concrete_slab": {
+      "name": "Black Concrete Slab",
+      "category": "Building",
+      "color": "#27272A",
+      "pattern": "concrete",
+      "solid": true,
+      "placeable": true,
+      "hardness": 1.8,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 50,
+        "side": 51,
+        "bottom": 52
+      },
+      "top_color": "#27272A",
+      "side_color": "#27272A",
+      "bottom_color": "#27272A",
+      "shape": "slab",
+      "variant_of": "black_concrete",
+      "stonecutter": true
+    },
+    "black_concrete_stairs": {
+      "name": "Black Concrete Stairs",
+      "category": "Building",
+      "color": "#27272A",
+      "pattern": "concrete",
+      "solid": true,
+      "placeable": true,
+      "hardness": 1.8,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 53,
+        "side": 54,
+        "bottom": 55
+      },
+      "top_color": "#27272A",
+      "side_color": "#27272A",
+      "bottom_color": "#27272A",
+      "shape": "stair",
+      "variant_of": "black_concrete",
+      "stonecutter": true
+    },
+    "black_wool": {
+      "name": "Black Wool",
+      "category": "Decorative",
+      "color": "#1f1e23",
+      "pattern": "wool",
+      "solid": true,
+      "placeable": true,
+      "hardness": 0.8,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 56,
+        "side": 57,
+        "bottom": 58
+      },
+      "top_color": "#1f1e23",
+      "side_color": "#1f1e23",
+      "bottom_color": "#18181c"
+    },
+    "black_wool_slab": {
+      "name": "Black Wool Slab",
+      "category": "Building",
+      "color": "#27272A",
+      "pattern": "wool",
+      "solid": true,
+      "placeable": true,
+      "hardness": 0.8,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 59,
+        "side": 60,
+        "bottom": 61
+      },
+      "top_color": "#27272A",
+      "side_color": "#27272A",
+      "bottom_color": "#27272A",
+      "shape": "slab",
+      "variant_of": "black_wool"
+    },
+    "black_wool_stairs": {
+      "name": "Black Wool Stairs",
+      "category": "Building",
+      "color": "#27272A",
+      "pattern": "wool",
+      "solid": true,
+      "placeable": true,
+      "hardness": 0.8,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 62,
+        "side": 63,
+        "bottom": 64
+      },
+      "top_color": "#27272A",
+      "side_color": "#27272A",
+      "bottom_color": "#27272A",
+      "shape": "stair",
+      "variant_of": "black_wool"
+    },
+    "blackstone": {
+      "name": "Blackstone",
+      "category": "Nether",
+      "color": "#312f34",
+      "pattern": "stone",
+      "solid": true,
+      "placeable": true,
+      "hardness": 1.5,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 65,
+        "side": 66,
+        "bottom": 67
+      },
+      "top_color": "#312f34",
+      "side_color": "#312f34",
+      "bottom_color": "#272529"
+    },
+    "blue_concrete": {
+      "name": "Blue Concrete",
+      "category": "Building",
+      "color": "#414FA8",
+      "pattern": "concrete",
+      "solid": true,
+      "placeable": true,
+      "hardness": 1.8,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 68,
+        "side": 69,
+        "bottom": 70
+      },
+      "top_color": "#414FA8",
+      "side_color": "#414FA8",
+      "bottom_color": "#414FA8"
+    },
+    "blue_concrete_slab": {
+      "name": "Blue Concrete Slab",
+      "category": "Building",
+      "color": "#414FA8",
+      "pattern": "concrete",
+      "solid": true,
+      "placeable": true,
+      "hardness": 1.8,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 71,
+        "side": 72,
+        "bottom": 73
+      },
+      "top_color": "#414FA8",
+      "side_color": "#414FA8",
+      "bottom_color": "#414FA8",
+      "shape": "slab",
+      "variant_of": "blue_concrete",
+      "stonecutter": true
+    },
+    "blue_concrete_stairs": {
+      "name": "Blue Concrete Stairs",
+      "category": "Building",
+      "color": "#414FA8",
+      "pattern": "concrete",
+      "solid": true,
+      "placeable": true,
+      "hardness": 1.8,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 74,
+        "side": 75,
+        "bottom": 76
+      },
+      "top_color": "#414FA8",
+      "side_color": "#414FA8",
+      "bottom_color": "#414FA8",
+      "shape": "stair",
+      "variant_of": "blue_concrete",
+      "stonecutter": true
+    },
+    "blue_ice": {
+      "name": "Blue Ice",
+      "category": "Terrain",
+      "color": "#5b98d4",
+      "pattern": "ice",
+      "solid": true,
+      "placeable": true,
+      "hardness": 2.8,
+      "transparent": true,
+      "emission": 0.0,
+      "tiles": {
+        "top": 77,
+        "side": 78,
+        "bottom": 79
+      },
+      "top_color": "#5b98d4",
+      "side_color": "#5b98d4",
+      "bottom_color": "#4879a9"
+    },
+    "blue_wool": {
+      "name": "Blue Wool",
+      "category": "Decorative",
+      "color": "#3148a6",
+      "pattern": "wool",
+      "solid": true,
+      "placeable": true,
+      "hardness": 0.8,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 80,
+        "side": 81,
+        "bottom": 82
+      },
+      "top_color": "#3148a6",
+      "side_color": "#3148a6",
+      "bottom_color": "#273984"
+    },
+    "blue_wool_slab": {
+      "name": "Blue Wool Slab",
+      "category": "Building",
+      "color": "#414FA8",
+      "pattern": "wool",
+      "solid": true,
+      "placeable": true,
+      "hardness": 0.8,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 83,
+        "side": 84,
+        "bottom": 85
+      },
+      "top_color": "#414FA8",
+      "side_color": "#414FA8",
+      "bottom_color": "#414FA8",
+      "shape": "slab",
+      "variant_of": "blue_wool"
+    },
+    "blue_wool_stairs": {
+      "name": "Blue Wool Stairs",
+      "category": "Building",
+      "color": "#414FA8",
+      "pattern": "wool",
+      "solid": true,
+      "placeable": true,
+      "hardness": 0.8,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 86,
+        "side": 87,
+        "bottom": 88
+      },
+      "top_color": "#414FA8",
+      "side_color": "#414FA8",
+      "bottom_color": "#414FA8",
+      "shape": "stair",
+      "variant_of": "blue_wool"
+    },
+    "bookshelf": {
+      "name": "Bookshelf",
+      "category": "Decorative",
+      "color": "#976e41",
+      "pattern": "bookshelf",
+      "solid": true,
+      "placeable": true,
+      "hardness": 1.5,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 89,
+        "side": 90,
+        "bottom": 91
+      },
+      "top_color": "#976e41",
+      "side_color": "#976e41",
+      "bottom_color": "#785834"
+    },
+    "bricks": {
+      "name": "Bricks",
+      "category": "Building",
+      "color": "#975043",
+      "pattern": "brick",
+      "solid": true,
+      "placeable": true,
+      "hardness": 2.0,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 92,
+        "side": 93,
+        "bottom": 94
+      },
+      "top_color": "#975043",
+      "side_color": "#975043",
+      "bottom_color": "#784035"
+    },
+    "brown_concrete": {
+      "name": "Brown Concrete",
+      "category": "Building",
+      "color": "#72503B",
+      "pattern": "concrete",
+      "solid": true,
+      "placeable": true,
+      "hardness": 1.8,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 95,
+        "side": 96,
+        "bottom": 97
+      },
+      "top_color": "#72503B",
+      "side_color": "#72503B",
+      "bottom_color": "#72503B"
+    },
+    "brown_concrete_slab": {
+      "name": "Brown Concrete Slab",
+      "category": "Building",
+      "color": "#72503B",
+      "pattern": "concrete",
+      "solid": true,
+      "placeable": true,
+      "hardness": 1.8,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 98,
+        "side": 99,
+        "bottom": 100
+      },
+      "top_color": "#72503B",
+      "side_color": "#72503B",
+      "bottom_color": "#72503B",
+      "shape": "slab",
+      "variant_of": "brown_concrete",
+      "stonecutter": true
+    },
+    "brown_concrete_stairs": {
+      "name": "Brown Concrete Stairs",
+      "category": "Building",
+      "color": "#72503B",
+      "pattern": "concrete",
+      "solid": true,
+      "placeable": true,
+      "hardness": 1.8,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 101,
+        "side": 102,
+        "bottom": 103
+      },
+      "top_color": "#72503B",
+      "side_color": "#72503B",
+      "bottom_color": "#72503B",
+      "shape": "stair",
+      "variant_of": "brown_concrete",
+      "stonecutter": true
+    },
+    "brown_wool": {
+      "name": "Brown Wool",
+      "category": "Decorative",
+      "color": "#72503B",
+      "pattern": "wool",
+      "solid": true,
+      "placeable": true,
+      "hardness": 0.8,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 104,
+        "side": 105,
+        "bottom": 106
+      },
+      "top_color": "#72503B",
+      "side_color": "#72503B",
+      "bottom_color": "#72503B"
+    },
+    "brown_wool_slab": {
+      "name": "Brown Wool Slab",
+      "category": "Building",
+      "color": "#72503B",
+      "pattern": "wool",
+      "solid": true,
+      "placeable": true,
+      "hardness": 0.8,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 107,
+        "side": 108,
+        "bottom": 109
+      },
+      "top_color": "#72503B",
+      "side_color": "#72503B",
+      "bottom_color": "#72503B",
+      "shape": "slab",
+      "variant_of": "brown_wool"
+    },
+    "brown_wool_stairs": {
+      "name": "Brown Wool Stairs",
+      "category": "Building",
+      "color": "#72503B",
+      "pattern": "wool",
+      "solid": true,
+      "placeable": true,
+      "hardness": 0.8,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 110,
+        "side": 111,
+        "bottom": 112
+      },
+      "top_color": "#72503B",
+      "side_color": "#72503B",
+      "bottom_color": "#72503B",
+      "shape": "stair",
+      "variant_of": "brown_wool"
+    },
+    "cactus": {
+      "name": "Cactus",
+      "category": "Nature",
+      "color": "#3d753d",
+      "pattern": "cactus",
+      "solid": true,
+      "placeable": true,
+      "hardness": 0.4,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 113,
+        "side": 114,
+        "bottom": 115
+      },
+      "top_color": "#3d753d",
+      "side_color": "#3d753d",
+      "bottom_color": "#305d30"
+    },
+    "calcite": {
+      "name": "Calcite",
+      "category": "Caves",
+      "color": "#dddbd3",
+      "pattern": "stone",
+      "solid": true,
+      "placeable": true,
+      "hardness": 0.75,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 116,
+        "side": 117,
+        "bottom": 118
+      },
+      "top_color": "#dddbd3",
+      "side_color": "#dddbd3",
+      "bottom_color": "#b0afa8"
+    },
+    "campfire": {
+      "name": "Campfire",
+      "category": "Functional",
+      "color": "#624732",
+      "pattern": "campfire",
+      "solid": true,
+      "placeable": true,
+      "hardness": 2.0,
+      "transparent": false,
+      "emission": 1.0,
+      "tiles": {
+        "top": 119,
+        "side": 120,
+        "bottom": 121
+      },
+      "top_color": "#624732",
+      "side_color": "#624732",
+      "bottom_color": "#4e3828"
+    },
+    "carrots": {
+      "name": "Carrots",
+      "category": "Farming",
+      "color": "#659B38",
+      "pattern": "flower",
+      "solid": false,
+      "placeable": true,
+      "hardness": 0,
+      "transparent": true,
+      "emission": 0.0,
+      "tiles": {
+        "top": 122,
+        "side": 123,
+        "bottom": 124
+      },
+      "top_color": "#659B38",
+      "side_color": "#659B38",
+      "bottom_color": "#659B38",
+      "shape": "plant",
+      "tags": [
+        "crop"
+      ]
+    },
+    "carved_pumpkin": {
+      "name": "Carved Pumpkin",
+      "category": "Nature",
+      "color": "#CF812A",
+      "pattern": "pumpkin",
+      "solid": true,
+      "placeable": true,
+      "hardness": 1.0,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 125,
+        "side": 126,
+        "bottom": 127,
+        "front": 128,
+        "back": 129
+      },
+      "top_color": "#CF812A",
+      "side_color": "#CF812A",
+      "bottom_color": "#CF812A",
+      "shape": "cube"
+    },
+    "cherry_log": {
+      "name": "Cherry Log",
+      "category": "Wood",
+      "color": "#9e716d",
+      "pattern": "log",
+      "solid": true,
+      "placeable": true,
+      "hardness": 2.0,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 130,
+        "side": 131,
+        "bottom": 132
+      },
+      "top_color": "#bd8782",
+      "side_color": "#9e716d",
+      "bottom_color": "#bd8782"
+    },
+    "cherry_planks": {
+      "name": "Cherry Planks",
+      "category": "Wood",
+      "color": "#e2b1b7",
+      "pattern": "planks",
+      "solid": true,
+      "placeable": true,
+      "hardness": 2.0,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 133,
+        "side": 134,
+        "bottom": 135
+      },
+      "top_color": "#e2b1b7",
+      "side_color": "#e2b1b7",
+      "bottom_color": "#b48d92"
+    },
+    "chest": {
+      "name": "Chest",
+      "category": "Functional",
+      "color": "#976530",
+      "pattern": "chest",
+      "solid": true,
+      "placeable": true,
+      "hardness": 2.5,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 136,
+        "side": 137,
+        "bottom": 138,
+        "front": 139,
+        "back": 140
+      },
+      "top_color": "#976530",
+      "side_color": "#976530",
+      "bottom_color": "#785026"
+    },
+    "clay": {
+      "name": "Clay",
+      "category": "Terrain",
+      "color": "#97a3aa",
+      "pattern": "clay",
+      "solid": true,
+      "placeable": true,
+      "hardness": 0.6,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 141,
+        "side": 142,
+        "bottom": 143
+      },
+      "top_color": "#97a3aa",
+      "side_color": "#97a3aa",
+      "bottom_color": "#788288"
+    },
+    "coal_ore": {
+      "name": "Coal Ore",
+      "category": "Ores",
+      "color": "#5b5b5b",
+      "pattern": "ore_coal",
+      "solid": true,
+      "placeable": true,
+      "hardness": 3.0,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 144,
+        "side": 145,
+        "bottom": 146
+      },
+      "top_color": "#5b5b5b",
+      "side_color": "#5b5b5b",
+      "bottom_color": "#484848"
+    },
+    "coarse_dirt": {
+      "name": "Coarse Dirt",
+      "category": "Terrain",
+      "color": "#7c5b3d",
+      "pattern": "dirt",
+      "solid": true,
+      "placeable": true,
+      "hardness": 0.6,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 147,
+        "side": 148,
+        "bottom": 149
+      },
+      "top_color": "#7c5b3d",
+      "side_color": "#7c5b3d",
+      "bottom_color": "#634830"
+    },
+    "cobbled_deepslate": {
+      "name": "Cobbled Deepslate",
+      "category": "Terrain",
+      "color": "#43444a",
+      "pattern": "cobble",
+      "solid": true,
+      "placeable": true,
+      "hardness": 3.5,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 150,
+        "side": 151,
+        "bottom": 152
+      },
+      "top_color": "#43444a",
+      "side_color": "#43444a",
+      "bottom_color": "#35363b"
+    },
+    "cobblestone": {
+      "name": "Cobblestone",
+      "category": "Terrain",
+      "color": "#707070",
+      "pattern": "cobble",
+      "solid": true,
+      "placeable": true,
+      "hardness": 2.0,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 153,
+        "side": 154,
+        "bottom": 155
+      },
+      "top_color": "#707070",
+      "side_color": "#707070",
+      "bottom_color": "#595959"
+    },
+    "cobblestone_slab": {
+      "name": "Cobblestone Slab",
+      "category": "Building",
+      "color": "#707070",
+      "pattern": "cobble",
+      "solid": true,
+      "placeable": true,
+      "hardness": 2.0,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 156,
+        "side": 157,
+        "bottom": 158
+      },
+      "top_color": "#707070",
+      "side_color": "#707070",
+      "bottom_color": "#595959",
+      "shape": "slab"
+    },
+    "cobblestone_stairs": {
+      "name": "Cobblestone Stairs",
+      "category": "Building",
+      "color": "#707070",
+      "pattern": "cobble",
+      "solid": true,
+      "placeable": true,
+      "hardness": 2.0,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 159,
+        "side": 160,
+        "bottom": 161
+      },
+      "top_color": "#707070",
+      "side_color": "#707070",
+      "bottom_color": "#595959",
+      "shape": "stair"
+    },
+    "comparator": {
+      "name": "Redstone Comparator",
+      "category": "Redstone",
+      "color": "#844d35",
+      "pattern": "redstone_component",
+      "solid": false,
+      "placeable": true,
+      "hardness": 0,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 162,
+        "side": 163,
+        "bottom": 164
+      },
+      "top_color": "#844d35",
+      "side_color": "#844d35",
+      "bottom_color": "#693d2a",
+      "tags": [
+        "redstone_component"
+      ],
+      "shape": "comparator"
+    },
+    "composter": {
+      "name": "Composter",
+      "category": "Functional",
+      "color": "#9A7143",
+      "pattern": "wood",
+      "solid": true,
+      "placeable": true,
+      "hardness": 0.6,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 165,
+        "side": 166,
+        "bottom": 167
+      },
+      "top_color": "#9A7143",
+      "side_color": "#9A7143",
+      "bottom_color": "#9A7143"
+    },
+    "copper_block": {
+      "name": "Block of Copper",
+      "category": "Storage",
+      "color": "#b9694a",
+      "pattern": "metal",
+      "solid": true,
+      "placeable": true,
+      "hardness": 3.0,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 168,
+        "side": 169,
+        "bottom": 170
+      },
+      "top_color": "#b9694a",
+      "side_color": "#b9694a",
+      "bottom_color": "#94543b"
+    },
+    "copper_ore": {
+      "name": "Copper Ore",
+      "category": "Ores",
+      "color": "#9e694d",
+      "pattern": "ore_copper",
+      "solid": true,
+      "placeable": true,
+      "hardness": 3.0,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 171,
+        "side": 172,
+        "bottom": 173
+      },
+      "top_color": "#9e694d",
+      "side_color": "#9e694d",
+      "bottom_color": "#7e543d"
+    },
+    "cracked_stone_bricks": {
+      "name": "Cracked Stone Bricks",
+      "category": "Building",
+      "color": "#71706f",
+      "pattern": "cracked_brick",
+      "solid": true,
+      "placeable": true,
+      "hardness": 1.5,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 174,
+        "side": 175,
+        "bottom": 176
+      },
+      "top_color": "#71706f",
+      "side_color": "#71706f",
+      "bottom_color": "#5a5958"
+    },
+    "crafting_table": {
+      "name": "Crafting Table",
+      "category": "Functional",
+      "color": "#8c5e36",
+      "pattern": "crafting",
+      "solid": true,
+      "placeable": true,
+      "hardness": 2.5,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 177,
+        "side": 178,
+        "bottom": 179,
+        "front": 180,
+        "back": 181
+      },
+      "top_color": "#8c5e36",
+      "side_color": "#8c5e36",
+      "bottom_color": "#704b2b"
+    },
+    "crimson_stem": {
+      "name": "Crimson Stem",
+      "category": "Nether",
+      "color": "#6d2937",
+      "pattern": "log",
+      "solid": true,
+      "placeable": true,
+      "hardness": 2.0,
+      "transparent": false,
+      "emission": 0.0,
+      "top_color": "#6d2937",
+      "side_color": "#6d2937",
+      "bottom_color": "#6d2937",
+      "tiles": {
+        "top": 182,
+        "side": 183,
+        "bottom": 184
+      }
+    },
+    "cushion": {
+      "name": "Cushion",
+      "category": "Decorative",
+      "color": "#ac5b2d",
+      "pattern": "wool",
+      "solid": false,
+      "placeable": true,
+      "hardness": 0.2,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 185,
+        "side": 186,
+        "bottom": 187
+      },
+      "top_color": "#ac5b2d",
+      "side_color": "#ac5b2d",
+      "bottom_color": "#894824",
+      "shape": "cushion",
+      "height": 0.23,
+      "width": 0.86
+    },
+    "cyan_concrete": {
+      "name": "Cyan Concrete",
+      "category": "Building",
+      "color": "#398F97",
+      "pattern": "concrete",
+      "solid": true,
+      "placeable": true,
+      "hardness": 1.8,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 188,
+        "side": 189,
+        "bottom": 190
+      },
+      "top_color": "#398F97",
+      "side_color": "#398F97",
+      "bottom_color": "#398F97"
+    },
+    "cyan_concrete_slab": {
+      "name": "Cyan Concrete Slab",
+      "category": "Building",
+      "color": "#398F97",
+      "pattern": "concrete",
+      "solid": true,
+      "placeable": true,
+      "hardness": 1.8,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 191,
+        "side": 192,
+        "bottom": 193
+      },
+      "top_color": "#398F97",
+      "side_color": "#398F97",
+      "bottom_color": "#398F97",
+      "shape": "slab",
+      "variant_of": "cyan_concrete",
+      "stonecutter": true
+    },
+    "cyan_concrete_stairs": {
+      "name": "Cyan Concrete Stairs",
+      "category": "Building",
+      "color": "#398F97",
+      "pattern": "concrete",
+      "solid": true,
+      "placeable": true,
+      "hardness": 1.8,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 194,
+        "side": 195,
+        "bottom": 196
+      },
+      "top_color": "#398F97",
+      "side_color": "#398F97",
+      "bottom_color": "#398F97",
+      "shape": "stair",
+      "variant_of": "cyan_concrete",
+      "stonecutter": true
+    },
+    "cyan_wool": {
+      "name": "Cyan Wool",
+      "category": "Decorative",
+      "color": "#398F97",
+      "pattern": "wool",
+      "solid": true,
+      "placeable": true,
+      "hardness": 0.8,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 197,
+        "side": 198,
+        "bottom": 199
+      },
+      "top_color": "#398F97",
+      "side_color": "#398F97",
+      "bottom_color": "#398F97"
+    },
+    "cyan_wool_slab": {
+      "name": "Cyan Wool Slab",
+      "category": "Building",
+      "color": "#398F97",
+      "pattern": "wool",
+      "solid": true,
+      "placeable": true,
+      "hardness": 0.8,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 200,
+        "side": 201,
+        "bottom": 202
+      },
+      "top_color": "#398F97",
+      "side_color": "#398F97",
+      "bottom_color": "#398F97",
+      "shape": "slab",
+      "variant_of": "cyan_wool"
+    },
+    "cyan_wool_stairs": {
+      "name": "Cyan Wool Stairs",
+      "category": "Building",
+      "color": "#398F97",
+      "pattern": "wool",
+      "solid": true,
+      "placeable": true,
+      "hardness": 0.8,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 203,
+        "side": 204,
+        "bottom": 205
+      },
+      "top_color": "#398F97",
+      "side_color": "#398F97",
+      "bottom_color": "#398F97",
+      "shape": "stair",
+      "variant_of": "cyan_wool"
+    },
+    "dandelion": {
+      "name": "Dandelion",
+      "category": "Nature",
+      "color": "#e5be2f",
+      "pattern": "flower",
+      "solid": false,
+      "placeable": true,
+      "hardness": 0,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 206,
+        "side": 207,
+        "bottom": 208
+      },
+      "top_color": "#e5be2f",
+      "side_color": "#e5be2f",
+      "bottom_color": "#b79825",
+      "shape": "plant"
+    },
+    "dark_oak_log": {
+      "name": "Dark Oak Log",
+      "category": "Wood",
+      "color": "#3d2d1d",
+      "pattern": "log",
+      "solid": true,
+      "placeable": true,
+      "hardness": 2.0,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 209,
+        "side": 210,
+        "bottom": 211
+      },
+      "top_color": "#493622",
+      "side_color": "#3d2d1d",
+      "bottom_color": "#493622"
+    },
+    "dark_oak_planks": {
+      "name": "Dark Oak Planks",
+      "category": "Wood",
+      "color": "#4a331f",
+      "pattern": "planks",
+      "solid": true,
+      "placeable": true,
+      "hardness": 2.0,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 212,
+        "side": 213,
+        "bottom": 214
+      },
+      "top_color": "#4a331f",
+      "side_color": "#4a331f",
+      "bottom_color": "#3b2818"
+    },
+    "daylight_detector": {
+      "name": "Daylight Detector",
+      "category": "Functional",
+      "color": "#9D7952",
+      "pattern": "planks",
+      "solid": true,
+      "placeable": true,
+      "hardness": 1.0,
+      "transparent": false,
+      "emission": 0.0,
+      "top_color": "#9D7952",
+      "side_color": "#9D7952",
+      "bottom_color": "#9D7952",
+      "shape": "slab",
+      "tiles": {
+        "top": 215,
+        "side": 216,
+        "bottom": 217
+      }
+    },
+    "deepslate": {
+      "name": "Deepslate",
+      "category": "Terrain",
+      "color": "#4b4c52",
+      "pattern": "deepslate",
+      "solid": true,
+      "placeable": true,
+      "hardness": 3.0,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 218,
+        "side": 219,
+        "bottom": 220
+      },
+      "top_color": "#4b4c52",
+      "side_color": "#4b4c52",
+      "bottom_color": "#3c3c41"
+    },
+    "deepslate_coal_ore": {
+      "name": "Deepslate Coal Ore",
+      "category": "Ores",
+      "color": "#3B3B40",
+      "pattern": "ore_coal",
+      "solid": true,
+      "placeable": true,
+      "hardness": 4.5,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 221,
+        "side": 222,
+        "bottom": 223
+      },
+      "top_color": "#3B3B40",
+      "side_color": "#3B3B40",
+      "bottom_color": "#3B3B40",
+      "shape": "cube"
+    },
+    "deepslate_copper_ore": {
+      "name": "Deepslate Copper Ore",
+      "category": "Ores",
+      "color": "#3B3B40",
+      "pattern": "ore_copper",
+      "solid": true,
+      "placeable": true,
+      "hardness": 4.5,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 224,
+        "side": 225,
+        "bottom": 226
+      },
+      "top_color": "#3B3B40",
+      "side_color": "#3B3B40",
+      "bottom_color": "#3B3B40",
+      "shape": "cube"
+    },
+    "deepslate_diamond_ore": {
+      "name": "Deepslate Diamond Ore",
+      "category": "Ores",
+      "color": "#3B3B40",
+      "pattern": "ore_diamond",
+      "solid": true,
+      "placeable": true,
+      "hardness": 4.5,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 227,
+        "side": 228,
+        "bottom": 229
+      },
+      "top_color": "#3B3B40",
+      "side_color": "#3B3B40",
+      "bottom_color": "#3B3B40",
+      "shape": "cube"
+    },
+    "deepslate_emerald_ore": {
+      "name": "Deepslate Emerald Ore",
+      "category": "Ores",
+      "color": "#3B3B40",
+      "pattern": "ore_emerald",
+      "solid": true,
+      "placeable": true,
+      "hardness": 4.5,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 230,
+        "side": 231,
+        "bottom": 232
+      },
+      "top_color": "#3B3B40",
+      "side_color": "#3B3B40",
+      "bottom_color": "#3B3B40",
+      "shape": "cube"
+    },
+    "deepslate_gold_ore": {
+      "name": "Deepslate Gold Ore",
+      "category": "Ores",
+      "color": "#3B3B40",
+      "pattern": "ore_gold",
+      "solid": true,
+      "placeable": true,
+      "hardness": 4.5,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 233,
+        "side": 234,
+        "bottom": 235
+      },
+      "top_color": "#3B3B40",
+      "side_color": "#3B3B40",
+      "bottom_color": "#3B3B40",
+      "shape": "cube"
+    },
+    "deepslate_iron_ore": {
+      "name": "Deepslate Iron Ore",
+      "category": "Ores",
+      "color": "#3B3B40",
+      "pattern": "ore_iron",
+      "solid": true,
+      "placeable": true,
+      "hardness": 4.5,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 236,
+        "side": 237,
+        "bottom": 238
+      },
+      "top_color": "#3B3B40",
+      "side_color": "#3B3B40",
+      "bottom_color": "#3B3B40",
+      "shape": "cube"
+    },
+    "deepslate_lapis_ore": {
+      "name": "Deepslate Lapis Lazuli Ore",
+      "category": "Ores",
+      "color": "#3B3B40",
+      "pattern": "ore_lapis",
+      "solid": true,
+      "placeable": true,
+      "hardness": 4.5,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 239,
+        "side": 240,
+        "bottom": 241
+      },
+      "top_color": "#3B3B40",
+      "side_color": "#3B3B40",
+      "bottom_color": "#3B3B40",
+      "shape": "cube"
+    },
+    "deepslate_redstone_ore": {
+      "name": "Deepslate Redstone Ore",
+      "category": "Ores",
+      "color": "#3B3B40",
+      "pattern": "ore_redstone",
+      "solid": true,
+      "placeable": true,
+      "hardness": 4.5,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 242,
+        "side": 243,
+        "bottom": 244
+      },
+      "top_color": "#3B3B40",
+      "side_color": "#3B3B40",
+      "bottom_color": "#3B3B40",
+      "shape": "cube"
+    },
+    "detector_rail": {
+      "name": "Detector Rail",
+      "category": "Transport",
+      "color": "#978B7B",
+      "pattern": "metal",
+      "solid": false,
+      "placeable": true,
+      "hardness": 1.0,
+      "transparent": true,
+      "emission": 0.0,
+      "top_color": "#978B7B",
+      "side_color": "#978B7B",
+      "bottom_color": "#978B7B",
+      "shape": "rail",
+      "tiles": {
+        "top": 245,
+        "side": 246,
+        "bottom": 247
+      }
+    },
+    "diamond_block": {
+      "name": "Block of Diamond",
+      "category": "Storage",
+      "color": "#45cfbf",
+      "pattern": "metal",
+      "solid": true,
+      "placeable": true,
+      "hardness": 5.0,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 248,
+        "side": 249,
+        "bottom": 250
+      },
+      "top_color": "#45cfbf",
+      "side_color": "#45cfbf",
+      "bottom_color": "#37a598"
+    },
+    "diamond_ore": {
+      "name": "Diamond Ore",
+      "category": "Ores",
+      "color": "#548f8d",
+      "pattern": "ore_diamond",
+      "solid": true,
+      "placeable": true,
+      "hardness": 3.0,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 251,
+        "side": 252,
+        "bottom": 253
+      },
+      "top_color": "#548f8d",
+      "side_color": "#548f8d",
+      "bottom_color": "#437270"
+    },
+    "dirt": {
+      "name": "Dirt",
+      "category": "Terrain",
+      "color": "#7d5534",
+      "pattern": "dirt",
+      "solid": true,
+      "placeable": true,
+      "hardness": 0.5,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 254,
+        "side": 255,
+        "bottom": 256
+      },
+      "top_color": "#7d5534",
+      "side_color": "#7d5534",
+      "bottom_color": "#644429"
+    },
+    "dirt_path": {
+      "name": "Dirt Path",
+      "category": "Terrain",
+      "color": "#8C7049",
+      "pattern": "dirt_path",
+      "solid": true,
+      "placeable": true,
+      "hardness": 0.65,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 257,
+        "side": 258,
+        "bottom": 259
+      },
+      "top_color": "#AD9267",
+      "side_color": "#765432",
+      "bottom_color": "#64452B",
+      "shape": "dirt_path"
+    },
+    "dispenser": {
+      "name": "Dispenser",
+      "category": "Redstone",
+      "color": "#707070",
+      "pattern": "furnace",
+      "solid": true,
+      "placeable": true,
+      "hardness": 3.5,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 260,
+        "side": 261,
+        "bottom": 262,
+        "front": 263,
+        "back": 264
+      },
+      "top_color": "#707070",
+      "side_color": "#707070",
+      "bottom_color": "#595959"
+    },
+    "dripstone_block": {
+      "name": "Dripstone Block",
+      "category": "Caves",
+      "color": "#8f5b45",
+      "pattern": "stone",
+      "solid": true,
+      "placeable": true,
+      "hardness": 1.5,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 265,
+        "side": 266,
+        "bottom": 267
+      },
+      "top_color": "#8f5b45",
+      "side_color": "#8f5b45",
+      "bottom_color": "#724837"
+    },
+    "dropper": {
+      "name": "Dropper",
+      "category": "Redstone",
+      "color": "#707070",
+      "pattern": "furnace",
+      "solid": true,
+      "placeable": true,
+      "hardness": 3.5,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 268,
+        "side": 269,
+        "bottom": 270,
+        "front": 271,
+        "back": 272
+      },
+      "top_color": "#707070",
+      "side_color": "#707070",
+      "bottom_color": "#595959"
+    },
+    "emerald_block": {
+      "name": "Block of Emerald",
+      "category": "Storage",
+      "color": "#40b45b",
+      "pattern": "metal",
+      "solid": true,
+      "placeable": true,
+      "hardness": 5.0,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 273,
+        "side": 274,
+        "bottom": 275
+      },
+      "top_color": "#40b45b",
+      "side_color": "#40b45b",
+      "bottom_color": "#339048"
+    },
+    "emerald_ore": {
+      "name": "Emerald Ore",
+      "category": "Ores",
+      "color": "#538c55",
+      "pattern": "ore_emerald",
+      "solid": true,
+      "placeable": true,
+      "hardness": 3.0,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 276,
+        "side": 277,
+        "bottom": 278
+      },
+      "top_color": "#538c55",
+      "side_color": "#538c55",
+      "bottom_color": "#427044"
+    },
+    "end_portal": {
+      "name": "End Portal",
+      "category": "The End",
+      "color": "#151126",
+      "pattern": "portal",
+      "solid": false,
+      "placeable": false,
+      "hardness": 0.0,
+      "transparent": true,
+      "emission": 0.8,
+      "top_color": "#151126",
+      "side_color": "#151126",
+      "bottom_color": "#151126",
+      "shape": "portal",
+      "tiles": {
+        "top": 279,
+        "side": 280,
+        "bottom": 281
+      }
+    },
+    "end_portal_frame": {
+      "name": "End Portal Frame",
+      "category": "Natural",
+      "color": "#4C7569",
+      "pattern": "stone",
+      "solid": true,
+      "placeable": true,
+      "hardness": 1.0,
+      "transparent": false,
+      "emission": 0.0,
+      "top_color": "#4C7569",
+      "side_color": "#4C7569",
+      "bottom_color": "#4C7569",
+      "shape": "cube",
+      "tiles": {
+        "top": 282,
+        "side": 283,
+        "bottom": 284,
+        "eye_top": 285
+      }
+    },
+    "end_rod": {
+      "name": "End Rod",
+      "category": "Lighting",
+      "color": "#d8d7d3",
+      "pattern": "glow",
+      "solid": false,
+      "placeable": true,
+      "hardness": 0,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 286,
+        "side": 287,
+        "bottom": 288
+      },
+      "top_color": "#d8d7d3",
+      "side_color": "#d8d7d3",
+      "bottom_color": "#acaca8"
+    },
+    "end_stone": {
+      "name": "End Stone",
+      "category": "End",
+      "color": "#dada9b",
+      "pattern": "endstone",
+      "solid": true,
+      "placeable": true,
+      "hardness": 3.0,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 289,
+        "side": 290,
+        "bottom": 291
+      },
+      "top_color": "#dada9b",
+      "side_color": "#dada9b",
+      "bottom_color": "#aeae7c"
+    },
+    "farmland": {
+      "name": "Farmland",
+      "category": "Farming",
+      "color": "#765432",
+      "pattern": "farmland",
+      "solid": true,
+      "placeable": true,
+      "hardness": 0.6,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 292,
+        "side": 293,
+        "bottom": 294
+      },
+      "top_color": "#60472D",
+      "side_color": "#765432",
+      "bottom_color": "#64452B",
+      "shape": "farmland"
+    },
+    "flower_pot": {
+      "name": "Flower Pot",
+      "category": "Decorative",
+      "color": "#894c33",
+      "pattern": "terracotta",
+      "solid": true,
+      "placeable": true,
+      "hardness": 0.5,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 295,
+        "side": 296,
+        "bottom": 297
+      },
+      "top_color": "#894c33",
+      "side_color": "#894c33",
+      "bottom_color": "#6d3c28"
+    },
+    "furnace": {
+      "name": "Furnace",
+      "category": "Functional",
+      "color": "#6f6f6f",
+      "pattern": "furnace",
+      "solid": true,
+      "placeable": true,
+      "hardness": 3.5,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 298,
+        "side": 299,
+        "bottom": 300,
+        "front": 301,
+        "back": 302
+      },
+      "top_color": "#6f6f6f",
+      "side_color": "#6f6f6f",
+      "bottom_color": "#585858"
+    },
+    "glass": {
+      "name": "Glass",
+      "category": "Building",
+      "color": "#bfdee6",
+      "pattern": "glass",
+      "solid": true,
+      "placeable": true,
+      "hardness": 0.3,
+      "transparent": true,
+      "emission": 0.0,
+      "tiles": {
+        "top": 303,
+        "side": 304,
+        "bottom": 305
+      },
+      "top_color": "#bfdee6",
+      "side_color": "#bfdee6",
+      "bottom_color": "#98b1b8"
+    },
+    "glowstone": {
+      "name": "Glowstone",
+      "category": "Lighting",
+      "color": "#e0b056",
+      "pattern": "glow",
+      "solid": true,
+      "placeable": true,
+      "hardness": 0.3,
+      "transparent": false,
+      "emission": 1.0,
+      "tiles": {
+        "top": 306,
+        "side": 307,
+        "bottom": 308
+      },
+      "top_color": "#e0b056",
+      "side_color": "#e0b056",
+      "bottom_color": "#b38c44"
+    },
+    "gold_block": {
+      "name": "Block of Gold",
+      "category": "Storage",
+      "color": "#ecca3f",
+      "pattern": "metal",
+      "solid": true,
+      "placeable": true,
+      "hardness": 3.0,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 309,
+        "side": 310,
+        "bottom": 311
+      },
+      "top_color": "#ecca3f",
+      "side_color": "#ecca3f",
+      "bottom_color": "#bca132"
+    },
+    "gold_ore": {
+      "name": "Gold Ore",
+      "category": "Ores",
+      "color": "#978551",
+      "pattern": "ore_gold",
+      "solid": true,
+      "placeable": true,
+      "hardness": 3.0,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 312,
+        "side": 313,
+        "bottom": 314
+      },
+      "top_color": "#978551",
+      "side_color": "#978551",
+      "bottom_color": "#786a40"
+    },
+    "grass_block": {
+      "name": "Grass Block",
+      "category": "Terrain",
+      "color": "#5a9741",
+      "pattern": "grass",
+      "solid": true,
+      "placeable": true,
+      "hardness": 0.6,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 315,
+        "side": 316,
+        "bottom": 317
+      },
+      "top_color": "#599a3d",
+      "side_color": "#765b35",
+      "bottom_color": "#775331"
+    },
+    "gravel": {
+      "name": "Gravel",
+      "category": "Terrain",
+      "color": "#85827b",
+      "pattern": "gravel",
+      "solid": true,
+      "placeable": true,
+      "hardness": 0.6,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 318,
+        "side": 319,
+        "bottom": 320
+      },
+      "top_color": "#85827b",
+      "side_color": "#85827b",
+      "bottom_color": "#6a6862"
+    },
+    "gray_concrete": {
+      "name": "Gray Concrete",
+      "category": "Building",
+      "color": "#55575C",
+      "pattern": "concrete",
+      "solid": true,
+      "placeable": true,
+      "hardness": 1.8,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 321,
+        "side": 322,
+        "bottom": 323
+      },
+      "top_color": "#55575C",
+      "side_color": "#55575C",
+      "bottom_color": "#55575C"
+    },
+    "gray_concrete_slab": {
+      "name": "Gray Concrete Slab",
+      "category": "Building",
+      "color": "#55575C",
+      "pattern": "concrete",
+      "solid": true,
+      "placeable": true,
+      "hardness": 1.8,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 324,
+        "side": 325,
+        "bottom": 326
+      },
+      "top_color": "#55575C",
+      "side_color": "#55575C",
+      "bottom_color": "#55575C",
+      "shape": "slab",
+      "variant_of": "gray_concrete",
+      "stonecutter": true
+    },
+    "gray_concrete_stairs": {
+      "name": "Gray Concrete Stairs",
+      "category": "Building",
+      "color": "#55575C",
+      "pattern": "concrete",
+      "solid": true,
+      "placeable": true,
+      "hardness": 1.8,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 327,
+        "side": 328,
+        "bottom": 329
+      },
+      "top_color": "#55575C",
+      "side_color": "#55575C",
+      "bottom_color": "#55575C",
+      "shape": "stair",
+      "variant_of": "gray_concrete",
+      "stonecutter": true
+    },
+    "gray_wool": {
+      "name": "Gray Wool",
+      "category": "Decorative",
+      "color": "#55575C",
+      "pattern": "wool",
+      "solid": true,
+      "placeable": true,
+      "hardness": 0.8,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 330,
+        "side": 331,
+        "bottom": 332
+      },
+      "top_color": "#55575C",
+      "side_color": "#55575C",
+      "bottom_color": "#55575C"
+    },
+    "gray_wool_slab": {
+      "name": "Gray Wool Slab",
+      "category": "Building",
+      "color": "#55575C",
+      "pattern": "wool",
+      "solid": true,
+      "placeable": true,
+      "hardness": 0.8,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 333,
+        "side": 334,
+        "bottom": 335
+      },
+      "top_color": "#55575C",
+      "side_color": "#55575C",
+      "bottom_color": "#55575C",
+      "shape": "slab",
+      "variant_of": "gray_wool"
+    },
+    "gray_wool_stairs": {
+      "name": "Gray Wool Stairs",
+      "category": "Building",
+      "color": "#55575C",
+      "pattern": "wool",
+      "solid": true,
+      "placeable": true,
+      "hardness": 0.8,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 336,
+        "side": 337,
+        "bottom": 338
+      },
+      "top_color": "#55575C",
+      "side_color": "#55575C",
+      "bottom_color": "#55575C",
+      "shape": "stair",
+      "variant_of": "gray_wool"
+    },
+    "green_concrete": {
+      "name": "Green Concrete",
+      "category": "Building",
+      "color": "#536D32",
+      "pattern": "concrete",
+      "solid": true,
+      "placeable": true,
+      "hardness": 1.8,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 339,
+        "side": 340,
+        "bottom": 341
+      },
+      "top_color": "#536D32",
+      "side_color": "#536D32",
+      "bottom_color": "#536D32"
+    },
+    "green_concrete_slab": {
+      "name": "Green Concrete Slab",
+      "category": "Building",
+      "color": "#536D32",
+      "pattern": "concrete",
+      "solid": true,
+      "placeable": true,
+      "hardness": 1.8,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 342,
+        "side": 343,
+        "bottom": 344
+      },
+      "top_color": "#536D32",
+      "side_color": "#536D32",
+      "bottom_color": "#536D32",
+      "shape": "slab",
+      "variant_of": "green_concrete",
+      "stonecutter": true
+    },
+    "green_concrete_stairs": {
+      "name": "Green Concrete Stairs",
+      "category": "Building",
+      "color": "#536D32",
+      "pattern": "concrete",
+      "solid": true,
+      "placeable": true,
+      "hardness": 1.8,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 345,
+        "side": 346,
+        "bottom": 347
+      },
+      "top_color": "#536D32",
+      "side_color": "#536D32",
+      "bottom_color": "#536D32",
+      "shape": "stair",
+      "variant_of": "green_concrete",
+      "stonecutter": true
+    },
+    "green_wool": {
+      "name": "Green Wool",
+      "category": "Decorative",
+      "color": "#536D32",
+      "pattern": "wool",
+      "solid": true,
+      "placeable": true,
+      "hardness": 0.8,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 348,
+        "side": 349,
+        "bottom": 350
+      },
+      "top_color": "#536D32",
+      "side_color": "#536D32",
+      "bottom_color": "#536D32"
+    },
+    "green_wool_slab": {
+      "name": "Green Wool Slab",
+      "category": "Building",
+      "color": "#536D32",
+      "pattern": "wool",
+      "solid": true,
+      "placeable": true,
+      "hardness": 0.8,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 351,
+        "side": 352,
+        "bottom": 353
+      },
+      "top_color": "#536D32",
+      "side_color": "#536D32",
+      "bottom_color": "#536D32",
+      "shape": "slab",
+      "variant_of": "green_wool"
+    },
+    "green_wool_stairs": {
+      "name": "Green Wool Stairs",
+      "category": "Building",
+      "color": "#536D32",
+      "pattern": "wool",
+      "solid": true,
+      "placeable": true,
+      "hardness": 0.8,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 354,
+        "side": 355,
+        "bottom": 356
+      },
+      "top_color": "#536D32",
+      "side_color": "#536D32",
+      "bottom_color": "#536D32",
+      "shape": "stair",
+      "variant_of": "green_wool"
+    },
+    "hay_block": {
+      "name": "Hay Bale",
+      "category": "Farming",
+      "color": "#c5ab3a",
+      "pattern": "hay",
+      "solid": true,
+      "placeable": true,
+      "hardness": 0.5,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 357,
+        "side": 358,
+        "bottom": 359
+      },
+      "top_color": "#c5ab3a",
+      "side_color": "#c5ab3a",
+      "bottom_color": "#9d882e"
+    },
+    "heavy_weighted_pressure_plate": {
+      "name": "Heavy Weighted Pressure Plate",
+      "category": "Functional",
+      "color": "#E5D2A0",
+      "pattern": "metal",
+      "solid": false,
+      "placeable": true,
+      "hardness": 1.0,
+      "transparent": true,
+      "emission": 0.0,
+      "top_color": "#E5D2A0",
+      "side_color": "#E5D2A0",
+      "bottom_color": "#E5D2A0",
+      "shape": "pressure_plate",
+      "tiles": {
+        "top": 360,
+        "side": 361,
+        "bottom": 362
+      }
+    },
+    "hopper": {
+      "name": "Hopper",
+      "category": "Redstone",
+      "color": "#4e4e50",
+      "pattern": "metal",
+      "solid": true,
+      "placeable": true,
+      "hardness": 3.0,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 363,
+        "side": 364,
+        "bottom": 365
+      },
+      "top_color": "#4e4e50",
+      "side_color": "#4e4e50",
+      "bottom_color": "#3e3e40"
+    },
+    "ice": {
+      "name": "Ice",
+      "category": "Terrain",
+      "color": "#a6cfed",
+      "pattern": "ice",
+      "solid": true,
+      "placeable": true,
+      "hardness": 0.5,
+      "transparent": true,
+      "emission": 0.0,
+      "tiles": {
+        "top": 366,
+        "side": 367,
+        "bottom": 368
+      },
+      "top_color": "#a6cfed",
+      "side_color": "#a6cfed",
+      "bottom_color": "#84a5bd"
+    },
+    "iron_block": {
+      "name": "Block of Iron",
+      "category": "Storage",
+      "color": "#c0c3c5",
+      "pattern": "metal",
+      "solid": true,
+      "placeable": true,
+      "hardness": 5.0,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 369,
+        "side": 370,
+        "bottom": 371
+      },
+      "top_color": "#c0c3c5",
+      "side_color": "#c0c3c5",
+      "bottom_color": "#999c9d"
+    },
+    "iron_door": {
+      "name": "Iron Door",
+      "category": "Functional",
+      "color": "#A4A5A2",
+      "pattern": "metal",
+      "solid": true,
+      "placeable": true,
+      "hardness": 1.0,
+      "transparent": false,
+      "emission": 0.0,
+      "top_color": "#A4A5A2",
+      "side_color": "#A4A5A2",
+      "bottom_color": "#A4A5A2",
+      "shape": "door",
+      "tiles": {
+        "top": 372,
+        "side": 373,
+        "bottom": 374,
+        "front": 375,
+        "back": 376
+      }
+    },
+    "iron_ore": {
+      "name": "Iron Ore",
+      "category": "Ores",
+      "color": "#8c7769",
+      "pattern": "ore_iron",
+      "solid": true,
+      "placeable": true,
+      "hardness": 3.0,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 377,
+        "side": 378,
+        "bottom": 379
+      },
+      "top_color": "#8c7769",
+      "side_color": "#8c7769",
+      "bottom_color": "#705f54"
+    },
+    "iron_trapdoor": {
+      "name": "Iron Trapdoor",
+      "category": "Functional",
+      "color": "#90918F",
+      "pattern": "metal",
+      "solid": true,
+      "placeable": true,
+      "hardness": 1.0,
+      "transparent": false,
+      "emission": 0.0,
+      "top_color": "#90918F",
+      "side_color": "#90918F",
+      "bottom_color": "#90918F",
+      "shape": "trapdoor",
+      "tiles": {
+        "top": 380,
+        "side": 381,
+        "bottom": 382
+      }
+    },
+    "jack_o_lantern": {
+      "name": "Jack o Lantern",
+      "category": "Lighting",
+      "color": "#e1892b",
+      "pattern": "pumpkin",
+      "solid": true,
+      "placeable": true,
+      "hardness": 1.0,
+      "transparent": false,
+      "emission": 1.0,
+      "tiles": {
+        "top": 383,
+        "side": 384,
+        "bottom": 385,
+        "front": 386,
+        "back": 387
+      },
+      "top_color": "#e1892b",
+      "side_color": "#e1892b",
+      "bottom_color": "#b46d22"
+    },
+    "jungle_log": {
+      "name": "Jungle Log",
+      "category": "Wood",
+      "color": "#755b39",
+      "pattern": "log",
+      "solid": true,
+      "placeable": true,
+      "hardness": 2.0,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 388,
+        "side": 389,
+        "bottom": 390
+      },
+      "top_color": "#8c6d44",
+      "side_color": "#755b39",
+      "bottom_color": "#8c6d44"
+    },
+    "jungle_planks": {
+      "name": "Jungle Planks",
+      "category": "Wood",
+      "color": "#a97a4e",
+      "pattern": "planks",
+      "solid": true,
+      "placeable": true,
+      "hardness": 2.0,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 391,
+        "side": 392,
+        "bottom": 393
+      },
+      "top_color": "#a97a4e",
+      "side_color": "#a97a4e",
+      "bottom_color": "#87613e"
+    },
+    "ladder": {
+      "name": "Ladder",
+      "category": "Functional",
+      "color": "#a67745",
+      "pattern": "ladder",
+      "solid": false,
+      "placeable": true,
+      "hardness": 0.4,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 394,
+        "side": 395,
+        "bottom": 396
+      },
+      "top_color": "#a67745",
+      "side_color": "#a67745",
+      "bottom_color": "#845f37"
+    },
+    "lantern": {
+      "name": "Lantern",
+      "category": "Lighting",
+      "color": "#c79141",
+      "pattern": "lantern",
+      "solid": true,
+      "placeable": true,
+      "hardness": 3.5,
+      "transparent": false,
+      "emission": 1.0,
+      "tiles": {
+        "top": 397,
+        "side": 398,
+        "bottom": 399
+      },
+      "top_color": "#c79141",
+      "side_color": "#c79141",
+      "bottom_color": "#9f7434"
+    },
+    "lapis_ore": {
+      "name": "Lapis Lazuli Ore",
+      "category": "Ores",
+      "color": "#486297",
+      "pattern": "ore_lapis",
+      "solid": true,
+      "placeable": true,
+      "hardness": 3.0,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 400,
+        "side": 401,
+        "bottom": 402
+      },
+      "top_color": "#486297",
+      "side_color": "#486297",
+      "bottom_color": "#394e78"
+    },
+    "lava": {
+      "name": "Lava",
+      "category": "Liquids",
+      "color": "#ee5f19",
+      "pattern": "lava",
+      "solid": false,
+      "placeable": true,
+      "hardness": 100,
+      "transparent": true,
+      "emission": 1.0,
+      "tiles": {
+        "top": 403,
+        "side": 404,
+        "bottom": 405
+      },
+      "top_color": "#ee5f19",
+      "side_color": "#ee5f19",
+      "bottom_color": "#be4c14",
+      "shape": "fluid"
+    },
+    "leaf_litter": {
+      "name": "Leaf Litter",
+      "category": "Nature",
+      "color": "#9D6F3E",
+      "pattern": "leaf_litter",
+      "solid": false,
+      "placeable": true,
+      "hardness": 0.0,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 406,
+        "side": 407,
+        "bottom": 408
+      },
+      "top_color": "#9D6F3E",
+      "side_color": "#9D6F3E",
+      "bottom_color": "#9D6F3E",
+      "shape": "leaf_litter",
+      "height": 0.08,
+      "tags": [
+        "compostable"
+      ]
+    },
+    "lever": {
+      "name": "Lever",
+      "category": "Redstone",
+      "color": "#7c6348",
+      "pattern": "lever",
+      "solid": false,
+      "placeable": true,
+      "hardness": 0.5,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 409,
+        "side": 410,
+        "bottom": 411
+      },
+      "top_color": "#7c6348",
+      "side_color": "#7c6348",
+      "bottom_color": "#634f39",
+      "shape": "lever",
+      "tags": [
+        "redstone_component"
+      ]
+    },
+    "light_blue_concrete": {
+      "name": "Light Blue Concrete",
+      "category": "Building",
+      "color": "#709EC9",
+      "pattern": "concrete",
+      "solid": true,
+      "placeable": true,
+      "hardness": 1.8,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 412,
+        "side": 413,
+        "bottom": 414
+      },
+      "top_color": "#709EC9",
+      "side_color": "#709EC9",
+      "bottom_color": "#709EC9"
+    },
+    "light_blue_concrete_slab": {
+      "name": "Light Blue Concrete Slab",
+      "category": "Building",
+      "color": "#709EC9",
+      "pattern": "concrete",
+      "solid": true,
+      "placeable": true,
+      "hardness": 1.8,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 415,
+        "side": 416,
+        "bottom": 417
+      },
+      "top_color": "#709EC9",
+      "side_color": "#709EC9",
+      "bottom_color": "#709EC9",
+      "shape": "slab",
+      "variant_of": "light_blue_concrete",
+      "stonecutter": true
+    },
+    "light_blue_concrete_stairs": {
+      "name": "Light Blue Concrete Stairs",
+      "category": "Building",
+      "color": "#709EC9",
+      "pattern": "concrete",
+      "solid": true,
+      "placeable": true,
+      "hardness": 1.8,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 418,
+        "side": 419,
+        "bottom": 420
+      },
+      "top_color": "#709EC9",
+      "side_color": "#709EC9",
+      "bottom_color": "#709EC9",
+      "shape": "stair",
+      "variant_of": "light_blue_concrete",
+      "stonecutter": true
+    },
+    "light_blue_wool": {
+      "name": "Light Blue Wool",
+      "category": "Decorative",
+      "color": "#709EC9",
+      "pattern": "wool",
+      "solid": true,
+      "placeable": true,
+      "hardness": 0.8,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 421,
+        "side": 422,
+        "bottom": 423
+      },
+      "top_color": "#709EC9",
+      "side_color": "#709EC9",
+      "bottom_color": "#709EC9"
+    },
+    "light_blue_wool_slab": {
+      "name": "Light Blue Wool Slab",
+      "category": "Building",
+      "color": "#709EC9",
+      "pattern": "wool",
+      "solid": true,
+      "placeable": true,
+      "hardness": 0.8,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 424,
+        "side": 425,
+        "bottom": 426
+      },
+      "top_color": "#709EC9",
+      "side_color": "#709EC9",
+      "bottom_color": "#709EC9",
+      "shape": "slab",
+      "variant_of": "light_blue_wool"
+    },
+    "light_blue_wool_stairs": {
+      "name": "Light Blue Wool Stairs",
+      "category": "Building",
+      "color": "#709EC9",
+      "pattern": "wool",
+      "solid": true,
+      "placeable": true,
+      "hardness": 0.8,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 427,
+        "side": 428,
+        "bottom": 429
+      },
+      "top_color": "#709EC9",
+      "side_color": "#709EC9",
+      "bottom_color": "#709EC9",
+      "shape": "stair",
+      "variant_of": "light_blue_wool"
+    },
+    "light_gray_concrete": {
+      "name": "Light Gray Concrete",
+      "category": "Building",
+      "color": "#A3A5A6",
+      "pattern": "concrete",
+      "solid": true,
+      "placeable": true,
+      "hardness": 1.8,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 430,
+        "side": 431,
+        "bottom": 432
+      },
+      "top_color": "#A3A5A6",
+      "side_color": "#A3A5A6",
+      "bottom_color": "#A3A5A6"
+    },
+    "light_gray_concrete_slab": {
+      "name": "Light Gray Concrete Slab",
+      "category": "Building",
+      "color": "#A3A5A6",
+      "pattern": "concrete",
+      "solid": true,
+      "placeable": true,
+      "hardness": 1.8,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 433,
+        "side": 434,
+        "bottom": 435
+      },
+      "top_color": "#A3A5A6",
+      "side_color": "#A3A5A6",
+      "bottom_color": "#A3A5A6",
+      "shape": "slab",
+      "variant_of": "light_gray_concrete",
+      "stonecutter": true
+    },
+    "light_gray_concrete_stairs": {
+      "name": "Light Gray Concrete Stairs",
+      "category": "Building",
+      "color": "#A3A5A6",
+      "pattern": "concrete",
+      "solid": true,
+      "placeable": true,
+      "hardness": 1.8,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 436,
+        "side": 437,
+        "bottom": 438
+      },
+      "top_color": "#A3A5A6",
+      "side_color": "#A3A5A6",
+      "bottom_color": "#A3A5A6",
+      "shape": "stair",
+      "variant_of": "light_gray_concrete",
+      "stonecutter": true
+    },
+    "light_gray_wool": {
+      "name": "Light Gray Wool",
+      "category": "Decorative",
+      "color": "#A3A5A6",
+      "pattern": "wool",
+      "solid": true,
+      "placeable": true,
+      "hardness": 0.8,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 439,
+        "side": 440,
+        "bottom": 441
+      },
+      "top_color": "#A3A5A6",
+      "side_color": "#A3A5A6",
+      "bottom_color": "#A3A5A6"
+    },
+    "light_gray_wool_slab": {
+      "name": "Light Gray Wool Slab",
+      "category": "Building",
+      "color": "#A3A5A6",
+      "pattern": "wool",
+      "solid": true,
+      "placeable": true,
+      "hardness": 0.8,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 442,
+        "side": 443,
+        "bottom": 444
+      },
+      "top_color": "#A3A5A6",
+      "side_color": "#A3A5A6",
+      "bottom_color": "#A3A5A6",
+      "shape": "slab",
+      "variant_of": "light_gray_wool"
+    },
+    "light_gray_wool_stairs": {
+      "name": "Light Gray Wool Stairs",
+      "category": "Building",
+      "color": "#A3A5A6",
+      "pattern": "wool",
+      "solid": true,
+      "placeable": true,
+      "hardness": 0.8,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 445,
+        "side": 446,
+        "bottom": 447
+      },
+      "top_color": "#A3A5A6",
+      "side_color": "#A3A5A6",
+      "bottom_color": "#A3A5A6",
+      "shape": "stair",
+      "variant_of": "light_gray_wool"
+    },
+    "light_weighted_pressure_plate": {
+      "name": "Light Weighted Pressure Plate",
+      "category": "Functional",
+      "color": "#D8AF40",
+      "pattern": "metal",
+      "solid": false,
+      "placeable": true,
+      "hardness": 1.0,
+      "transparent": true,
+      "emission": 0.0,
+      "top_color": "#D8AF40",
+      "side_color": "#D8AF40",
+      "bottom_color": "#D8AF40",
+      "shape": "pressure_plate",
+      "tiles": {
+        "top": 448,
+        "side": 449,
+        "bottom": 450
+      }
+    },
+    "lime_concrete": {
+      "name": "Lime Concrete",
+      "category": "Building",
+      "color": "#8BBF42",
+      "pattern": "concrete",
+      "solid": true,
+      "placeable": true,
+      "hardness": 1.8,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 451,
+        "side": 452,
+        "bottom": 453
+      },
+      "top_color": "#8BBF42",
+      "side_color": "#8BBF42",
+      "bottom_color": "#8BBF42"
+    },
+    "lime_concrete_slab": {
+      "name": "Lime Concrete Slab",
+      "category": "Building",
+      "color": "#8BBF42",
+      "pattern": "concrete",
+      "solid": true,
+      "placeable": true,
+      "hardness": 1.8,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 454,
+        "side": 455,
+        "bottom": 456
+      },
+      "top_color": "#8BBF42",
+      "side_color": "#8BBF42",
+      "bottom_color": "#8BBF42",
+      "shape": "slab",
+      "variant_of": "lime_concrete",
+      "stonecutter": true
+    },
+    "lime_concrete_stairs": {
+      "name": "Lime Concrete Stairs",
+      "category": "Building",
+      "color": "#8BBF42",
+      "pattern": "concrete",
+      "solid": true,
+      "placeable": true,
+      "hardness": 1.8,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 457,
+        "side": 458,
+        "bottom": 459
+      },
+      "top_color": "#8BBF42",
+      "side_color": "#8BBF42",
+      "bottom_color": "#8BBF42",
+      "shape": "stair",
+      "variant_of": "lime_concrete",
+      "stonecutter": true
+    },
+    "lime_wool": {
+      "name": "Lime Wool",
+      "category": "Decorative",
+      "color": "#8BBF42",
+      "pattern": "wool",
+      "solid": true,
+      "placeable": true,
+      "hardness": 0.8,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 460,
+        "side": 461,
+        "bottom": 462
+      },
+      "top_color": "#8BBF42",
+      "side_color": "#8BBF42",
+      "bottom_color": "#8BBF42"
+    },
+    "lime_wool_slab": {
+      "name": "Lime Wool Slab",
+      "category": "Building",
+      "color": "#8BBF42",
+      "pattern": "wool",
+      "solid": true,
+      "placeable": true,
+      "hardness": 0.8,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 463,
+        "side": 464,
+        "bottom": 465
+      },
+      "top_color": "#8BBF42",
+      "side_color": "#8BBF42",
+      "bottom_color": "#8BBF42",
+      "shape": "slab",
+      "variant_of": "lime_wool"
+    },
+    "lime_wool_stairs": {
+      "name": "Lime Wool Stairs",
+      "category": "Building",
+      "color": "#8BBF42",
+      "pattern": "wool",
+      "solid": true,
+      "placeable": true,
+      "hardness": 0.8,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 466,
+        "side": 467,
+        "bottom": 468
+      },
+      "top_color": "#8BBF42",
+      "side_color": "#8BBF42",
+      "bottom_color": "#8BBF42",
+      "shape": "stair",
+      "variant_of": "lime_wool"
+    },
+    "magenta_concrete": {
+      "name": "Magenta Concrete",
+      "category": "Building",
+      "color": "#AD4B99",
+      "pattern": "concrete",
+      "solid": true,
+      "placeable": true,
+      "hardness": 1.8,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 469,
+        "side": 470,
+        "bottom": 471
+      },
+      "top_color": "#AD4B99",
+      "side_color": "#AD4B99",
+      "bottom_color": "#AD4B99"
+    },
+    "magenta_concrete_slab": {
+      "name": "Magenta Concrete Slab",
+      "category": "Building",
+      "color": "#AD4B99",
+      "pattern": "concrete",
+      "solid": true,
+      "placeable": true,
+      "hardness": 1.8,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 472,
+        "side": 473,
+        "bottom": 474
+      },
+      "top_color": "#AD4B99",
+      "side_color": "#AD4B99",
+      "bottom_color": "#AD4B99",
+      "shape": "slab",
+      "variant_of": "magenta_concrete",
+      "stonecutter": true
+    },
+    "magenta_concrete_stairs": {
+      "name": "Magenta Concrete Stairs",
+      "category": "Building",
+      "color": "#AD4B99",
+      "pattern": "concrete",
+      "solid": true,
+      "placeable": true,
+      "hardness": 1.8,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 475,
+        "side": 476,
+        "bottom": 477
+      },
+      "top_color": "#AD4B99",
+      "side_color": "#AD4B99",
+      "bottom_color": "#AD4B99",
+      "shape": "stair",
+      "variant_of": "magenta_concrete",
+      "stonecutter": true
+    },
+    "magenta_wool": {
+      "name": "Magenta Wool",
+      "category": "Decorative",
+      "color": "#AD4B99",
+      "pattern": "wool",
+      "solid": true,
+      "placeable": true,
+      "hardness": 0.8,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 478,
+        "side": 479,
+        "bottom": 480
+      },
+      "top_color": "#AD4B99",
+      "side_color": "#AD4B99",
+      "bottom_color": "#AD4B99"
+    },
+    "magenta_wool_slab": {
+      "name": "Magenta Wool Slab",
+      "category": "Building",
+      "color": "#AD4B99",
+      "pattern": "wool",
+      "solid": true,
+      "placeable": true,
+      "hardness": 0.8,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 481,
+        "side": 482,
+        "bottom": 483
+      },
+      "top_color": "#AD4B99",
+      "side_color": "#AD4B99",
+      "bottom_color": "#AD4B99",
+      "shape": "slab",
+      "variant_of": "magenta_wool"
+    },
+    "magenta_wool_stairs": {
+      "name": "Magenta Wool Stairs",
+      "category": "Building",
+      "color": "#AD4B99",
+      "pattern": "wool",
+      "solid": true,
+      "placeable": true,
+      "hardness": 0.8,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 484,
+        "side": 485,
+        "bottom": 486
+      },
+      "top_color": "#AD4B99",
+      "side_color": "#AD4B99",
+      "bottom_color": "#AD4B99",
+      "shape": "stair",
+      "variant_of": "magenta_wool"
+    },
+    "magma_block": {
+      "name": "Magma Block",
+      "category": "Nether",
+      "color": "#8f402b",
+      "pattern": "magma",
+      "solid": true,
+      "placeable": true,
+      "hardness": 0.5,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 487,
+        "side": 488,
+        "bottom": 489
+      },
+      "top_color": "#8f402b",
+      "side_color": "#8f402b",
+      "bottom_color": "#723322"
+    },
+    "mangrove_log": {
+      "name": "Mangrove Log",
+      "category": "Wood",
+      "color": "#5f3e31",
+      "pattern": "log",
+      "solid": true,
+      "placeable": true,
+      "hardness": 2.0,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 490,
+        "side": 491,
+        "bottom": 492
+      },
+      "top_color": "#724a3a",
+      "side_color": "#5f3e31",
+      "bottom_color": "#724a3a"
+    },
+    "mangrove_planks": {
+      "name": "Mangrove Planks",
+      "category": "Wood",
+      "color": "#774334",
+      "pattern": "planks",
+      "solid": true,
+      "placeable": true,
+      "hardness": 2.0,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 493,
+        "side": 494,
+        "bottom": 495
+      },
+      "top_color": "#774334",
+      "side_color": "#774334",
+      "bottom_color": "#5f3529"
+    },
+    "moss_block": {
+      "name": "Moss Block",
+      "category": "Nature",
+      "color": "#5b8b41",
+      "pattern": "moss",
+      "solid": true,
+      "placeable": true,
+      "hardness": 0.1,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 496,
+        "side": 497,
+        "bottom": 498
+      },
+      "top_color": "#5b8b41",
+      "side_color": "#5b8b41",
+      "bottom_color": "#486f34"
+    },
+    "mossy_cobblestone": {
+      "name": "Mossy Cobblestone",
+      "category": "Terrain",
+      "color": "#5b6f4f",
+      "pattern": "mossy_cobble",
+      "solid": true,
+      "placeable": true,
+      "hardness": 2.0,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 499,
+        "side": 500,
+        "bottom": 501
+      },
+      "top_color": "#5b6f4f",
+      "side_color": "#5b6f4f",
+      "bottom_color": "#48583f"
+    },
+    "mossy_stone_bricks": {
+      "name": "Mossy Stone Bricks",
+      "category": "Building",
+      "color": "#607453",
+      "pattern": "mossy_brick",
+      "solid": true,
+      "placeable": true,
+      "hardness": 1.5,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 502,
+        "side": 503,
+        "bottom": 504
+      },
+      "top_color": "#607453",
+      "side_color": "#607453",
+      "bottom_color": "#4c5c42"
+    },
+    "mud": {
+      "name": "Mud",
+      "category": "Terrain",
+      "color": "#4c473d",
+      "pattern": "mud",
+      "solid": true,
+      "placeable": true,
+      "hardness": 0.5,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 505,
+        "side": 506,
+        "bottom": 507
+      },
+      "top_color": "#4c473d",
+      "side_color": "#4c473d",
+      "bottom_color": "#3c3830"
+    },
+    "mycelium": {
+      "name": "Mycelium",
+      "category": "Terrain",
+      "color": "#6c5b71",
+      "pattern": "grass_side",
+      "solid": true,
+      "placeable": true,
+      "hardness": 0.6,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 508,
+        "side": 509,
+        "bottom": 510
+      },
+      "top_color": "#6c5b71",
+      "side_color": "#594B4C",
+      "bottom_color": "#43383C"
+    },
+    "nether_bricks": {
+      "name": "Nether Bricks",
+      "category": "Nether",
+      "color": "#3c2427",
+      "pattern": "brick",
+      "solid": true,
+      "placeable": true,
+      "hardness": 2.0,
+      "transparent": false,
+      "emission": 0.0,
+      "top_color": "#3c2427",
+      "side_color": "#3c2427",
+      "bottom_color": "#3c2427",
+      "tiles": {
+        "top": 511,
+        "side": 512,
+        "bottom": 513
+      }
+    },
+    "nether_gold_ore": {
+      "name": "Nether Gold Ore",
+      "category": "Ores",
+      "color": "#885038",
+      "pattern": "ore_gold",
+      "solid": true,
+      "placeable": true,
+      "hardness": 3.0,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 514,
+        "side": 515,
+        "bottom": 516
+      },
+      "top_color": "#885038",
+      "side_color": "#885038",
+      "bottom_color": "#6c402c"
+    },
+    "nether_portal": {
+      "name": "Nether Portal",
+      "category": "Functional",
+      "color": "#5B2B87",
+      "pattern": "glass",
+      "solid": false,
+      "placeable": false,
+      "hardness": 1.0,
+      "transparent": true,
+      "emission": 0.5,
+      "top_color": "#5B2B87",
+      "side_color": "#5B2B87",
+      "bottom_color": "#5B2B87",
+      "shape": "portal",
+      "tiles": {
+        "top": 517,
+        "side": 518,
+        "bottom": 519
+      }
+    },
+    "nether_quartz_ore": {
+      "name": "Nether Quartz Ore",
+      "category": "Nether",
+      "color": "#e7d7c4",
+      "pattern": "ore_quartz",
+      "solid": true,
+      "placeable": true,
+      "hardness": 3.0,
+      "transparent": false,
+      "emission": 0.0,
+      "top_color": "#e7d7c4",
+      "side_color": "#e7d7c4",
+      "bottom_color": "#e7d7c4",
+      "tiles": {
+        "top": 520,
+        "side": 521,
+        "bottom": 522
+      }
+    },
+    "nether_wart_block": {
+      "name": "Nether Wart Block",
+      "category": "Nether",
+      "color": "#741b27",
+      "pattern": "roots",
+      "solid": true,
+      "placeable": true,
+      "hardness": 1.0,
+      "transparent": false,
+      "emission": 0.0,
+      "top_color": "#741b27",
+      "side_color": "#741b27",
+      "bottom_color": "#741b27",
+      "tiles": {
+        "top": 523,
+        "side": 524,
+        "bottom": 525
+      }
+    },
+    "netherrack": {
+      "name": "Netherrack",
+      "category": "Nether",
+      "color": "#853a30",
+      "pattern": "netherrack",
+      "solid": true,
+      "placeable": true,
+      "hardness": 0.4,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 526,
+        "side": 527,
+        "bottom": 528
+      },
+      "top_color": "#853a30",
+      "side_color": "#853a30",
+      "bottom_color": "#6a2e26"
+    },
+    "note_block": {
+      "name": "Note Block",
+      "category": "Functional",
+      "color": "#9E7345",
+      "pattern": "planks",
+      "solid": true,
+      "placeable": true,
+      "hardness": 1.0,
+      "transparent": false,
+      "emission": 0.0,
+      "top_color": "#9E7345",
+      "side_color": "#9E7345",
+      "bottom_color": "#9E7345",
+      "shape": "cube",
+      "tiles": {
+        "top": 529,
+        "side": 530,
+        "bottom": 531
+      }
+    },
+    "oak_door": {
+      "name": "Oak Door",
+      "category": "Functional",
+      "color": "#97693c",
+      "pattern": "planks",
+      "solid": true,
+      "placeable": true,
+      "hardness": 3.0,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 532,
+        "side": 533,
+        "bottom": 534,
+        "front": 535,
+        "back": 536
+      },
+      "top_color": "#97693c",
+      "side_color": "#97693c",
+      "bottom_color": "#785430",
+      "shape": "door"
+    },
+    "oak_fence": {
+      "name": "Oak Fence",
+      "category": "Functional",
+      "color": "#97693c",
+      "pattern": "planks",
+      "solid": true,
+      "placeable": true,
+      "hardness": 2.0,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 537,
+        "side": 538,
+        "bottom": 539
+      },
+      "top_color": "#97693c",
+      "side_color": "#97693c",
+      "bottom_color": "#785430",
+      "shape": "fence"
+    },
+    "oak_fence_gate": {
+      "name": "Oak Fence Gate",
+      "category": "Functional",
+      "color": "#97693c",
+      "pattern": "planks",
+      "solid": true,
+      "placeable": true,
+      "hardness": 2.0,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 540,
+        "side": 541,
+        "bottom": 542
+      },
+      "top_color": "#97693c",
+      "side_color": "#97693c",
+      "bottom_color": "#785430",
+      "shape": "fence_gate"
+    },
+    "oak_leaves": {
+      "name": "Oak Leaves",
+      "category": "Nature",
+      "color": "#4d8539",
+      "pattern": "leaves",
+      "solid": true,
+      "placeable": true,
+      "hardness": 0.2,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 543,
+        "side": 544,
+        "bottom": 545
+      },
+      "top_color": "#4d8539",
+      "side_color": "#4d8539",
+      "bottom_color": "#3d6a2d"
+    },
+    "oak_log": {
+      "name": "Oak Log",
+      "category": "Wood",
+      "color": "#715333",
+      "pattern": "log",
+      "solid": true,
+      "placeable": true,
+      "hardness": 2.0,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 546,
+        "side": 547,
+        "bottom": 548
+      },
+      "top_color": "#87633d",
+      "side_color": "#715333",
+      "bottom_color": "#87633d"
+    },
+    "oak_planks": {
+      "name": "Oak Planks",
+      "category": "Wood",
+      "color": "#a67e4e",
+      "pattern": "planks",
+      "solid": true,
+      "placeable": true,
+      "hardness": 2.0,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 549,
+        "side": 550,
+        "bottom": 551
+      },
+      "top_color": "#a67e4e",
+      "side_color": "#a67e4e",
+      "bottom_color": "#84643e"
+    },
+    "oak_sapling": {
+      "name": "Oak Sapling",
+      "category": "Nature",
+      "color": "#5D963D",
+      "pattern": "leaves",
+      "solid": false,
+      "placeable": true,
+      "hardness": 0.0,
+      "transparent": true,
+      "emission": 0.0,
+      "tiles": {
+        "top": 552,
+        "side": 553,
+        "bottom": 554
+      },
+      "top_color": "#5D963D",
+      "side_color": "#5D963D",
+      "bottom_color": "#5D963D",
+      "shape": "plant",
+      "tags": [
+        "sapling"
+      ]
+    },
+    "oak_slab": {
+      "name": "Oak Slab",
+      "category": "Building",
+      "color": "#a67e4e",
+      "pattern": "planks",
+      "solid": true,
+      "placeable": true,
+      "hardness": 2.0,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 555,
+        "side": 556,
+        "bottom": 557
+      },
+      "top_color": "#a67e4e",
+      "side_color": "#a67e4e",
+      "bottom_color": "#84643e",
+      "shape": "slab"
+    },
+    "oak_stairs": {
+      "name": "Oak Stairs",
+      "category": "Building",
+      "color": "#a67e4e",
+      "pattern": "planks",
+      "solid": true,
+      "placeable": true,
+      "hardness": 2.0,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 558,
+        "side": 559,
+        "bottom": 560
+      },
+      "top_color": "#a67e4e",
+      "side_color": "#a67e4e",
+      "bottom_color": "#84643e",
+      "shape": "stair"
+    },
+    "oak_trapdoor": {
+      "name": "Oak Trapdoor",
+      "category": "Functional",
+      "color": "#A67E4E",
+      "pattern": "planks",
+      "solid": true,
+      "placeable": true,
+      "hardness": 1.0,
+      "transparent": false,
+      "emission": 0.0,
+      "top_color": "#A67E4E",
+      "side_color": "#A67E4E",
+      "bottom_color": "#A67E4E",
+      "shape": "trapdoor",
+      "tiles": {
+        "top": 561,
+        "side": 562,
+        "bottom": 563
+      }
+    },
+    "observer": {
+      "name": "Observer",
+      "category": "Redstone",
+      "color": "#67655e",
+      "pattern": "observer",
+      "solid": true,
+      "placeable": true,
+      "hardness": 3.0,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 564,
+        "side": 565,
+        "bottom": 566,
+        "front": 567,
+        "back": 568
+      },
+      "top_color": "#67655e",
+      "side_color": "#67655e",
+      "bottom_color": "#52504b"
+    },
+    "obsidian": {
+      "name": "Obsidian",
+      "category": "Terrain",
+      "color": "#2b2241",
+      "pattern": "obsidian",
+      "solid": true,
+      "placeable": true,
+      "hardness": 50,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 569,
+        "side": 570,
+        "bottom": 571
+      },
+      "top_color": "#2b2241",
+      "side_color": "#2b2241",
+      "bottom_color": "#221b34"
+    },
+    "orange_concrete": {
+      "name": "Orange Concrete",
+      "category": "Building",
+      "color": "#D77B32",
+      "pattern": "concrete",
+      "solid": true,
+      "placeable": true,
+      "hardness": 1.8,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 572,
+        "side": 573,
+        "bottom": 574
+      },
+      "top_color": "#D77B32",
+      "side_color": "#D77B32",
+      "bottom_color": "#D77B32"
+    },
+    "orange_concrete_slab": {
+      "name": "Orange Concrete Slab",
+      "category": "Building",
+      "color": "#D77B32",
+      "pattern": "concrete",
+      "solid": true,
+      "placeable": true,
+      "hardness": 1.8,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 575,
+        "side": 576,
+        "bottom": 577
+      },
+      "top_color": "#D77B32",
+      "side_color": "#D77B32",
+      "bottom_color": "#D77B32",
+      "shape": "slab",
+      "variant_of": "orange_concrete",
+      "stonecutter": true
+    },
+    "orange_concrete_stairs": {
+      "name": "Orange Concrete Stairs",
+      "category": "Building",
+      "color": "#D77B32",
+      "pattern": "concrete",
+      "solid": true,
+      "placeable": true,
+      "hardness": 1.8,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 578,
+        "side": 579,
+        "bottom": 580
+      },
+      "top_color": "#D77B32",
+      "side_color": "#D77B32",
+      "bottom_color": "#D77B32",
+      "shape": "stair",
+      "variant_of": "orange_concrete",
+      "stonecutter": true
+    },
+    "orange_poplar_leaves": {
+      "name": "Orange Poplar Leaves",
+      "category": "Nature",
+      "color": "#C77732",
+      "pattern": "autumn_leaves",
+      "solid": true,
+      "placeable": true,
+      "hardness": 0.2,
+      "transparent": true,
+      "emission": 0.0,
+      "tiles": {
+        "top": 581,
+        "side": 582,
+        "bottom": 583
+      },
+      "top_color": "#C77732",
+      "side_color": "#C77732",
+      "bottom_color": "#C77732"
+    },
+    "orange_wool": {
+      "name": "Orange Wool",
+      "category": "Decorative",
+      "color": "#D77B32",
+      "pattern": "wool",
+      "solid": true,
+      "placeable": true,
+      "hardness": 0.8,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 584,
+        "side": 585,
+        "bottom": 586
+      },
+      "top_color": "#D77B32",
+      "side_color": "#D77B32",
+      "bottom_color": "#D77B32"
+    },
+    "orange_wool_slab": {
+      "name": "Orange Wool Slab",
+      "category": "Building",
+      "color": "#D77B32",
+      "pattern": "wool",
+      "solid": true,
+      "placeable": true,
+      "hardness": 0.8,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 587,
+        "side": 588,
+        "bottom": 589
+      },
+      "top_color": "#D77B32",
+      "side_color": "#D77B32",
+      "bottom_color": "#D77B32",
+      "shape": "slab",
+      "variant_of": "orange_wool"
+    },
+    "orange_wool_stairs": {
+      "name": "Orange Wool Stairs",
+      "category": "Building",
+      "color": "#D77B32",
+      "pattern": "wool",
+      "solid": true,
+      "placeable": true,
+      "hardness": 0.8,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 590,
+        "side": 591,
+        "bottom": 592
+      },
+      "top_color": "#D77B32",
+      "side_color": "#D77B32",
+      "bottom_color": "#D77B32",
+      "shape": "stair",
+      "variant_of": "orange_wool"
+    },
+    "packed_ice": {
+      "name": "Packed Ice",
+      "category": "Terrain",
+      "color": "#8dbae7",
+      "pattern": "ice",
+      "solid": true,
+      "placeable": true,
+      "hardness": 0.5,
+      "transparent": true,
+      "emission": 0.0,
+      "tiles": {
+        "top": 593,
+        "side": 594,
+        "bottom": 595
+      },
+      "top_color": "#8dbae7",
+      "side_color": "#8dbae7",
+      "bottom_color": "#7094b8"
+    },
+    "packed_mud": {
+      "name": "Packed Mud",
+      "category": "Building",
+      "color": "#896342",
+      "pattern": "brick",
+      "solid": true,
+      "placeable": true,
+      "hardness": 1.5,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 596,
+        "side": 597,
+        "bottom": 598
+      },
+      "top_color": "#896342",
+      "side_color": "#896342",
+      "bottom_color": "#6d4f34"
+    },
+    "pink_concrete": {
+      "name": "Pink Concrete",
+      "category": "Building",
+      "color": "#D989A5",
+      "pattern": "concrete",
+      "solid": true,
+      "placeable": true,
+      "hardness": 1.8,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 599,
+        "side": 600,
+        "bottom": 601
+      },
+      "top_color": "#D989A5",
+      "side_color": "#D989A5",
+      "bottom_color": "#D989A5"
+    },
+    "pink_concrete_slab": {
+      "name": "Pink Concrete Slab",
+      "category": "Building",
+      "color": "#D989A5",
+      "pattern": "concrete",
+      "solid": true,
+      "placeable": true,
+      "hardness": 1.8,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 602,
+        "side": 603,
+        "bottom": 604
+      },
+      "top_color": "#D989A5",
+      "side_color": "#D989A5",
+      "bottom_color": "#D989A5",
+      "shape": "slab",
+      "variant_of": "pink_concrete",
+      "stonecutter": true
+    },
+    "pink_concrete_stairs": {
+      "name": "Pink Concrete Stairs",
+      "category": "Building",
+      "color": "#D989A5",
+      "pattern": "concrete",
+      "solid": true,
+      "placeable": true,
+      "hardness": 1.8,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 605,
+        "side": 606,
+        "bottom": 607
+      },
+      "top_color": "#D989A5",
+      "side_color": "#D989A5",
+      "bottom_color": "#D989A5",
+      "shape": "stair",
+      "variant_of": "pink_concrete",
+      "stonecutter": true
+    },
+    "pink_wool": {
+      "name": "Pink Wool",
+      "category": "Decorative",
+      "color": "#D989A5",
+      "pattern": "wool",
+      "solid": true,
+      "placeable": true,
+      "hardness": 0.8,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 608,
+        "side": 609,
+        "bottom": 610
+      },
+      "top_color": "#D989A5",
+      "side_color": "#D989A5",
+      "bottom_color": "#D989A5"
+    },
+    "pink_wool_slab": {
+      "name": "Pink Wool Slab",
+      "category": "Building",
+      "color": "#D989A5",
+      "pattern": "wool",
+      "solid": true,
+      "placeable": true,
+      "hardness": 0.8,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 611,
+        "side": 612,
+        "bottom": 613
+      },
+      "top_color": "#D989A5",
+      "side_color": "#D989A5",
+      "bottom_color": "#D989A5",
+      "shape": "slab",
+      "variant_of": "pink_wool"
+    },
+    "pink_wool_stairs": {
+      "name": "Pink Wool Stairs",
+      "category": "Building",
+      "color": "#D989A5",
+      "pattern": "wool",
+      "solid": true,
+      "placeable": true,
+      "hardness": 0.8,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 614,
+        "side": 615,
+        "bottom": 616
+      },
+      "top_color": "#D989A5",
+      "side_color": "#D989A5",
+      "bottom_color": "#D989A5",
+      "shape": "stair",
+      "variant_of": "pink_wool"
+    },
+    "piston": {
+      "name": "Piston",
+      "category": "Redstone",
+      "color": "#846f4f",
+      "pattern": "piston",
+      "solid": true,
+      "placeable": true,
+      "hardness": 1.5,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 617,
+        "side": 618,
+        "bottom": 619,
+        "front": 620,
+        "back": 621
+      },
+      "top_color": "#846f4f",
+      "side_color": "#846f4f",
+      "bottom_color": "#69583f"
+    },
+    "piston_head": {
+      "name": "Piston Head",
+      "category": "Functional",
+      "color": "#98764C",
+      "pattern": "piston",
+      "solid": true,
+      "placeable": false,
+      "hardness": 1.0,
+      "transparent": false,
+      "emission": 0.0,
+      "top_color": "#98764C",
+      "side_color": "#98764C",
+      "bottom_color": "#98764C",
+      "shape": "piston_head",
+      "tiles": {
+        "top": 622,
+        "side": 623,
+        "bottom": 624
+      }
+    },
+    "podzol": {
+      "name": "Podzol",
+      "category": "Terrain",
+      "color": "#65462c",
+      "pattern": "grass_side",
+      "solid": true,
+      "placeable": true,
+      "hardness": 0.5,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 625,
+        "side": 626,
+        "bottom": 627
+      },
+      "top_color": "#65462c",
+      "side_color": "#51351F",
+      "bottom_color": "#503823"
+    },
+    "polished_andesite": {
+      "name": "Polished Andesite",
+      "category": "Building",
+      "color": "#868787",
+      "pattern": "stone",
+      "solid": true,
+      "placeable": true,
+      "hardness": 1.5,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 628,
+        "side": 629,
+        "bottom": 630
+      },
+      "top_color": "#868787",
+      "side_color": "#868787",
+      "bottom_color": "#6b6c6c"
+    },
+    "polished_diorite": {
+      "name": "Polished Diorite",
+      "category": "Building",
+      "color": "#bebdb9",
+      "pattern": "stone",
+      "solid": true,
+      "placeable": true,
+      "hardness": 1.5,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 631,
+        "side": 632,
+        "bottom": 633
+      },
+      "top_color": "#bebdb9",
+      "side_color": "#bebdb9",
+      "bottom_color": "#989794"
+    },
+    "polished_granite": {
+      "name": "Polished Granite",
+      "category": "Building",
+      "color": "#996c62",
+      "pattern": "stone",
+      "solid": true,
+      "placeable": true,
+      "hardness": 1.5,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 634,
+        "side": 635,
+        "bottom": 636
+      },
+      "top_color": "#996c62",
+      "side_color": "#996c62",
+      "bottom_color": "#7a564e"
+    },
+    "poplar_button": {
+      "name": "Poplar Button",
+      "category": "Wood",
+      "color": "#B18554",
+      "pattern": "planks",
+      "solid": false,
+      "placeable": true,
+      "hardness": 2.0,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 637,
+        "side": 638,
+        "bottom": 639
+      },
+      "top_color": "#B18554",
+      "side_color": "#B18554",
+      "bottom_color": "#B18554",
+      "wood_type": "poplar",
+      "shape": "button",
+      "tags": [
+        "redstone_component"
+      ]
+    },
+    "poplar_door": {
+      "name": "Poplar Door",
+      "category": "Wood",
+      "color": "#B18554",
+      "pattern": "planks",
+      "solid": true,
+      "placeable": true,
+      "hardness": 2.0,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 640,
+        "side": 641,
+        "bottom": 642,
+        "front": 643,
+        "back": 644
+      },
+      "top_color": "#B18554",
+      "side_color": "#B18554",
+      "bottom_color": "#B18554",
+      "wood_type": "poplar",
+      "shape": "door"
+    },
+    "poplar_fence": {
+      "name": "Poplar Fence",
+      "category": "Wood",
+      "color": "#B18554",
+      "pattern": "planks",
+      "solid": true,
+      "placeable": true,
+      "hardness": 2.0,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 645,
+        "side": 646,
+        "bottom": 647
+      },
+      "top_color": "#B18554",
+      "side_color": "#B18554",
+      "bottom_color": "#B18554",
+      "wood_type": "poplar",
+      "shape": "fence"
+    },
+    "poplar_fence_gate": {
+      "name": "Poplar Fence Gate",
+      "category": "Wood",
+      "color": "#B18554",
+      "pattern": "planks",
+      "solid": true,
+      "placeable": true,
+      "hardness": 2.0,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 648,
+        "side": 649,
+        "bottom": 650
+      },
+      "top_color": "#B18554",
+      "side_color": "#B18554",
+      "bottom_color": "#B18554",
+      "wood_type": "poplar",
+      "shape": "fence_gate"
+    },
+    "poplar_hanging_sign": {
+      "name": "Poplar Hanging Sign",
+      "category": "Wood",
+      "color": "#B18554",
+      "pattern": "planks",
+      "solid": false,
+      "placeable": true,
+      "hardness": 2.0,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 651,
+        "side": 652,
+        "bottom": 653
+      },
+      "top_color": "#B18554",
+      "side_color": "#B18554",
+      "bottom_color": "#B18554",
+      "wood_type": "poplar"
+    },
+    "poplar_log": {
+      "name": "Poplar Log",
+      "category": "Wood",
+      "color": "#775936",
+      "pattern": "poplar_log",
+      "solid": true,
+      "placeable": true,
+      "hardness": 2.0,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 654,
+        "side": 655,
+        "bottom": 656
+      },
+      "top_color": "#8e6a40",
+      "side_color": "#775936",
+      "bottom_color": "#8e6a40"
+    },
+    "poplar_planks": {
+      "name": "Poplar Planks",
+      "category": "Wood",
+      "color": "#b18453",
+      "pattern": "planks",
+      "solid": true,
+      "placeable": true,
+      "hardness": 2.0,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 657,
+        "side": 658,
+        "bottom": 659
+      },
+      "top_color": "#b18453",
+      "side_color": "#b18453",
+      "bottom_color": "#8d6942"
+    },
+    "poplar_pressure_plate": {
+      "name": "Poplar Pressure Plate",
+      "category": "Wood",
+      "color": "#B18554",
+      "pattern": "planks",
+      "solid": false,
+      "placeable": true,
+      "hardness": 2.0,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 660,
+        "side": 661,
+        "bottom": 662
+      },
+      "top_color": "#B18554",
+      "side_color": "#B18554",
+      "bottom_color": "#B18554",
+      "wood_type": "poplar",
+      "shape": "pressure_plate",
+      "tags": [
+        "redstone_component"
+      ]
+    },
+    "poplar_sapling": {
+      "name": "Poplar Sapling",
+      "category": "Nature",
+      "color": "#8E9E42",
+      "pattern": "leaves",
+      "solid": false,
+      "placeable": true,
+      "hardness": 0.0,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 663,
+        "side": 664,
+        "bottom": 665
+      },
+      "top_color": "#8E9E42",
+      "side_color": "#8E9E42",
+      "bottom_color": "#8E9E42",
+      "shape": "plant",
+      "height": 0.78,
+      "width": 0.6,
+      "tags": [
+        "sapling"
+      ]
+    },
+    "poplar_sign": {
+      "name": "Poplar Sign",
+      "category": "Wood",
+      "color": "#B18554",
+      "pattern": "planks",
+      "solid": false,
+      "placeable": true,
+      "hardness": 2.0,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 666,
+        "side": 667,
+        "bottom": 668
+      },
+      "top_color": "#B18554",
+      "side_color": "#B18554",
+      "bottom_color": "#B18554",
+      "wood_type": "poplar"
+    },
+    "poplar_slab": {
+      "name": "Poplar Slab",
+      "category": "Building",
+      "color": "#B18554",
+      "pattern": "planks",
+      "solid": true,
+      "placeable": true,
+      "hardness": 2.0,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 669,
+        "side": 670,
+        "bottom": 671
+      },
+      "top_color": "#B18554",
+      "side_color": "#B18554",
+      "bottom_color": "#B18554",
+      "shape": "slab",
+      "variant_of": "poplar_planks"
+    },
+    "poplar_stairs": {
+      "name": "Poplar Stairs",
+      "category": "Building",
+      "color": "#B18554",
+      "pattern": "planks",
+      "solid": true,
+      "placeable": true,
+      "hardness": 2.0,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 672,
+        "side": 673,
+        "bottom": 674
+      },
+      "top_color": "#B18554",
+      "side_color": "#B18554",
+      "bottom_color": "#B18554",
+      "shape": "stair",
+      "variant_of": "poplar_planks"
+    },
+    "poplar_trapdoor": {
+      "name": "Poplar Trapdoor",
+      "category": "Wood",
+      "color": "#B18554",
+      "pattern": "planks",
+      "solid": true,
+      "placeable": true,
+      "hardness": 2.0,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 675,
+        "side": 676,
+        "bottom": 677
+      },
+      "top_color": "#B18554",
+      "side_color": "#B18554",
+      "bottom_color": "#B18554",
+      "wood_type": "poplar",
+      "shape": "trapdoor"
+    },
+    "poplar_wood": {
+      "name": "Poplar Wood",
+      "category": "Wood",
+      "color": "#8D683F",
+      "pattern": "poplar_log",
+      "solid": true,
+      "placeable": true,
+      "hardness": 2.0,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 678,
+        "side": 679,
+        "bottom": 680
+      },
+      "top_color": "#8D683F",
+      "side_color": "#8D683F",
+      "bottom_color": "#8D683F"
+    },
+    "poppy": {
+      "name": "Poppy",
+      "category": "Nature",
+      "color": "#c52f2b",
+      "pattern": "flower",
+      "solid": false,
+      "placeable": true,
+      "hardness": 0,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 681,
+        "side": 682,
+        "bottom": 683
+      },
+      "top_color": "#c52f2b",
+      "side_color": "#c52f2b",
+      "bottom_color": "#9d2522",
+      "shape": "plant"
+    },
+    "potatoes": {
+      "name": "Potatoes",
+      "category": "Farming",
+      "color": "#8D9A42",
+      "pattern": "flower",
+      "solid": false,
+      "placeable": true,
+      "hardness": 0,
+      "transparent": true,
+      "emission": 0.0,
+      "tiles": {
+        "top": 684,
+        "side": 685,
+        "bottom": 686
+      },
+      "top_color": "#8D9A42",
+      "side_color": "#8D9A42",
+      "bottom_color": "#8D9A42",
+      "shape": "plant",
+      "tags": [
+        "crop"
+      ]
+    },
+    "powered_rail": {
+      "name": "Powered Rail",
+      "category": "Transport",
+      "color": "#A67A32",
+      "pattern": "metal",
+      "solid": false,
+      "placeable": true,
+      "hardness": 1.0,
+      "transparent": true,
+      "emission": 0.0,
+      "top_color": "#A67A32",
+      "side_color": "#A67A32",
+      "bottom_color": "#A67A32",
+      "shape": "rail",
+      "tiles": {
+        "top": 687,
+        "side": 688,
+        "bottom": 689
+      }
+    },
+    "pumpkin": {
+      "name": "Pumpkin",
+      "category": "Farming",
+      "color": "#c87020",
+      "pattern": "pumpkin",
+      "solid": true,
+      "placeable": true,
+      "hardness": 1.0,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 690,
+        "side": 691,
+        "bottom": 692
+      },
+      "top_color": "#c87020",
+      "side_color": "#c87020",
+      "bottom_color": "#a05919"
+    },
+    "purple_concrete": {
+      "name": "Purple Concrete",
+      "category": "Building",
+      "color": "#8250A7",
+      "pattern": "concrete",
+      "solid": true,
+      "placeable": true,
+      "hardness": 1.8,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 693,
+        "side": 694,
+        "bottom": 695
+      },
+      "top_color": "#8250A7",
+      "side_color": "#8250A7",
+      "bottom_color": "#8250A7"
+    },
+    "purple_concrete_slab": {
+      "name": "Purple Concrete Slab",
+      "category": "Building",
+      "color": "#8250A7",
+      "pattern": "concrete",
+      "solid": true,
+      "placeable": true,
+      "hardness": 1.8,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 696,
+        "side": 697,
+        "bottom": 698
+      },
+      "top_color": "#8250A7",
+      "side_color": "#8250A7",
+      "bottom_color": "#8250A7",
+      "shape": "slab",
+      "variant_of": "purple_concrete",
+      "stonecutter": true
+    },
+    "purple_concrete_stairs": {
+      "name": "Purple Concrete Stairs",
+      "category": "Building",
+      "color": "#8250A7",
+      "pattern": "concrete",
+      "solid": true,
+      "placeable": true,
+      "hardness": 1.8,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 699,
+        "side": 700,
+        "bottom": 701
+      },
+      "top_color": "#8250A7",
+      "side_color": "#8250A7",
+      "bottom_color": "#8250A7",
+      "shape": "stair",
+      "variant_of": "purple_concrete",
+      "stonecutter": true
+    },
+    "purple_wool": {
+      "name": "Purple Wool",
+      "category": "Decorative",
+      "color": "#8250A7",
+      "pattern": "wool",
+      "solid": true,
+      "placeable": true,
+      "hardness": 0.8,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 702,
+        "side": 703,
+        "bottom": 704
+      },
+      "top_color": "#8250A7",
+      "side_color": "#8250A7",
+      "bottom_color": "#8250A7"
+    },
+    "purple_wool_slab": {
+      "name": "Purple Wool Slab",
+      "category": "Building",
+      "color": "#8250A7",
+      "pattern": "wool",
+      "solid": true,
+      "placeable": true,
+      "hardness": 0.8,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 705,
+        "side": 706,
+        "bottom": 707
+      },
+      "top_color": "#8250A7",
+      "side_color": "#8250A7",
+      "bottom_color": "#8250A7",
+      "shape": "slab",
+      "variant_of": "purple_wool"
+    },
+    "purple_wool_stairs": {
+      "name": "Purple Wool Stairs",
+      "category": "Building",
+      "color": "#8250A7",
+      "pattern": "wool",
+      "solid": true,
+      "placeable": true,
+      "hardness": 0.8,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 708,
+        "side": 709,
+        "bottom": 710
+      },
+      "top_color": "#8250A7",
+      "side_color": "#8250A7",
+      "bottom_color": "#8250A7",
+      "shape": "stair",
+      "variant_of": "purple_wool"
+    },
+    "quartz_block": {
+      "name": "Quartz Block",
+      "category": "Building",
+      "color": "#e6e1d9",
+      "pattern": "quartz",
+      "solid": true,
+      "placeable": true,
+      "hardness": 0.8,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 711,
+        "side": 712,
+        "bottom": 713
+      },
+      "top_color": "#e6e1d9",
+      "side_color": "#e6e1d9",
+      "bottom_color": "#b8b4ad"
+    },
+    "rail": {
+      "name": "Rail",
+      "category": "Transport",
+      "color": "#8E8A80",
+      "pattern": "metal",
+      "solid": false,
+      "placeable": true,
+      "hardness": 1.0,
+      "transparent": true,
+      "emission": 0.0,
+      "top_color": "#8E8A80",
+      "side_color": "#8E8A80",
+      "bottom_color": "#8E8A80",
+      "shape": "rail",
+      "tiles": {
+        "top": 714,
+        "side": 715,
+        "bottom": 716
+      }
+    },
+    "raw_copper_block": {
+      "name": "Raw Copper Block",
+      "category": "Materials",
+      "color": "#975e3d",
+      "pattern": "raw_copper_block",
+      "solid": true,
+      "placeable": true,
+      "hardness": 5.0,
+      "transparent": false,
+      "emission": 0.0,
+      "top_color": "#cc9058",
+      "side_color": "#975e3d",
+      "bottom_color": "#4c3a31",
+      "tiles": {
+        "top": 717,
+        "side": 718,
+        "bottom": 719
+      },
+      "shape": "cube"
+    },
+    "raw_gold_block": {
+      "name": "Raw Gold Block",
+      "category": "Materials",
+      "color": "#a1842a",
+      "pattern": "raw_gold_block",
+      "solid": true,
+      "placeable": true,
+      "hardness": 5.0,
+      "transparent": false,
+      "emission": 0.0,
+      "top_color": "#e8c64a",
+      "side_color": "#a1842a",
+      "bottom_color": "#624b19",
+      "tiles": {
+        "top": 720,
+        "side": 721,
+        "bottom": 722
+      },
+      "shape": "cube"
+    },
+    "raw_iron_block": {
+      "name": "Raw Iron Block",
+      "category": "Materials",
+      "color": "#94755b",
+      "pattern": "raw_iron_block",
+      "solid": true,
+      "placeable": true,
+      "hardness": 5.0,
+      "transparent": false,
+      "emission": 0.0,
+      "top_color": "#ceac89",
+      "side_color": "#94755b",
+      "bottom_color": "#5b4538",
+      "tiles": {
+        "top": 723,
+        "side": 724,
+        "bottom": 725
+      },
+      "shape": "cube"
+    },
+    "red_concrete": {
+      "name": "Red Concrete",
+      "category": "Building",
+      "color": "#A9302C",
+      "pattern": "concrete",
+      "solid": true,
+      "placeable": true,
+      "hardness": 1.8,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 726,
+        "side": 727,
+        "bottom": 728
+      },
+      "top_color": "#A9302C",
+      "side_color": "#A9302C",
+      "bottom_color": "#A9302C"
+    },
+    "red_concrete_slab": {
+      "name": "Red Concrete Slab",
+      "category": "Building",
+      "color": "#A9302C",
+      "pattern": "concrete",
+      "solid": true,
+      "placeable": true,
+      "hardness": 1.8,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 729,
+        "side": 730,
+        "bottom": 731
+      },
+      "top_color": "#A9302C",
+      "side_color": "#A9302C",
+      "bottom_color": "#A9302C",
+      "shape": "slab",
+      "variant_of": "red_concrete",
+      "stonecutter": true
+    },
+    "red_concrete_stairs": {
+      "name": "Red Concrete Stairs",
+      "category": "Building",
+      "color": "#A9302C",
+      "pattern": "concrete",
+      "solid": true,
+      "placeable": true,
+      "hardness": 1.8,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 732,
+        "side": 733,
+        "bottom": 734
+      },
+      "top_color": "#A9302C",
+      "side_color": "#A9302C",
+      "bottom_color": "#A9302C",
+      "shape": "stair",
+      "variant_of": "red_concrete",
+      "stonecutter": true
+    },
+    "red_poplar_leaves": {
+      "name": "Red Poplar Leaves",
+      "category": "Nature",
+      "color": "#9D493A",
+      "pattern": "autumn_leaves",
+      "solid": true,
+      "placeable": true,
+      "hardness": 0.2,
+      "transparent": true,
+      "emission": 0.0,
+      "tiles": {
+        "top": 735,
+        "side": 736,
+        "bottom": 737
+      },
+      "top_color": "#9D493A",
+      "side_color": "#9D493A",
+      "bottom_color": "#9D493A"
+    },
+    "red_sand": {
+      "name": "Red Sand",
+      "category": "Terrain",
+      "color": "#be693d",
+      "pattern": "sand",
+      "solid": true,
+      "placeable": true,
+      "hardness": 0.5,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 738,
+        "side": 739,
+        "bottom": 740
+      },
+      "top_color": "#be693d",
+      "side_color": "#be693d",
+      "bottom_color": "#b45f33"
+    },
+    "red_sandstone": {
+      "name": "Red Sandstone",
+      "category": "Terrain",
+      "color": "#b05b33",
+      "pattern": "sandstone",
+      "solid": true,
+      "placeable": true,
+      "hardness": 0.8,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 741,
+        "side": 742,
+        "bottom": 743
+      },
+      "top_color": "#b05b33",
+      "side_color": "#b05b33",
+      "bottom_color": "#a65129"
+    },
+    "red_shrub": {
+      "name": "Red Shrub",
+      "category": "Nature",
+      "color": "#a74631",
+      "pattern": "autumn_leaves",
+      "solid": false,
+      "placeable": true,
+      "hardness": 0,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 744,
+        "side": 745,
+        "bottom": 746
+      },
+      "top_color": "#a74631",
+      "side_color": "#a74631",
+      "bottom_color": "#853827",
+      "shape": "plant"
+    },
+    "red_wool": {
+      "name": "Red Wool",
+      "category": "Decorative",
+      "color": "#a9302a",
+      "pattern": "wool",
+      "solid": true,
+      "placeable": true,
+      "hardness": 0.8,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 747,
+        "side": 748,
+        "bottom": 749
+      },
+      "top_color": "#a9302a",
+      "side_color": "#a9302a",
+      "bottom_color": "#872621"
+    },
+    "red_wool_slab": {
+      "name": "Red Wool Slab",
+      "category": "Building",
+      "color": "#A9302C",
+      "pattern": "wool",
+      "solid": true,
+      "placeable": true,
+      "hardness": 0.8,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 750,
+        "side": 751,
+        "bottom": 752
+      },
+      "top_color": "#A9302C",
+      "side_color": "#A9302C",
+      "bottom_color": "#A9302C",
+      "shape": "slab",
+      "variant_of": "red_wool"
+    },
+    "red_wool_stairs": {
+      "name": "Red Wool Stairs",
+      "category": "Building",
+      "color": "#A9302C",
+      "pattern": "wool",
+      "solid": true,
+      "placeable": true,
+      "hardness": 0.8,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 753,
+        "side": 754,
+        "bottom": 755
+      },
+      "top_color": "#A9302C",
+      "side_color": "#A9302C",
+      "bottom_color": "#A9302C",
+      "shape": "stair",
+      "variant_of": "red_wool"
+    },
+    "redstone_block": {
+      "name": "Block of Redstone",
+      "category": "Redstone",
+      "color": "#a4312c",
+      "pattern": "metal",
+      "solid": true,
+      "placeable": true,
+      "hardness": 5.0,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 756,
+        "side": 757,
+        "bottom": 758
+      },
+      "top_color": "#a4312c",
+      "side_color": "#a4312c",
+      "bottom_color": "#832723"
+    },
+    "redstone_lamp": {
+      "name": "Redstone Lamp",
+      "category": "Functional",
+      "color": "#8A704B",
+      "pattern": "stone",
+      "solid": true,
+      "placeable": true,
+      "hardness": 1.0,
+      "transparent": false,
+      "emission": 0.0,
+      "top_color": "#8A704B",
+      "side_color": "#8A704B",
+      "bottom_color": "#8A704B",
+      "shape": "cube",
+      "tiles": {
+        "top": 759,
+        "side": 760,
+        "bottom": 761,
+        "lit_top": 762,
+        "lit_side": 763,
+        "lit_bottom": 764
+      },
+      "emission_when_powered": 1.0
+    },
+    "redstone_ore": {
+      "name": "Redstone Ore",
+      "category": "Ores",
+      "color": "#80403e",
+      "pattern": "ore_redstone",
+      "solid": true,
+      "placeable": true,
+      "hardness": 3.0,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 765,
+        "side": 766,
+        "bottom": 767
+      },
+      "top_color": "#80403e",
+      "side_color": "#80403e",
+      "bottom_color": "#663331"
+    },
+    "redstone_torch": {
+      "name": "Redstone Torch",
+      "category": "Functional",
+      "color": "#D75A28",
+      "pattern": "torch",
+      "solid": false,
+      "placeable": true,
+      "hardness": 1.0,
+      "transparent": true,
+      "emission": 0.7,
+      "top_color": "#D75A28",
+      "side_color": "#D75A28",
+      "bottom_color": "#D75A28",
+      "shape": "torch",
+      "tiles": {
+        "top": 768,
+        "side": 769,
+        "bottom": 770
+      },
+      "tags": [
+        "redstone_component"
+      ]
+    },
+    "redstone_wire": {
+      "name": "Redstone Wire",
+      "category": "Materials",
+      "color": "#b32b2a",
+      "pattern": "redstone_component",
+      "solid": false,
+      "placeable": true,
+      "hardness": 0,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 771,
+        "side": 772,
+        "bottom": 773,
+        "powered_top": 774,
+        "powered_side": 775,
+        "powered_bottom": 776
+      },
+      "top_color": "#b32b2a",
+      "side_color": "#b32b2a",
+      "bottom_color": "#b32b2a",
+      "shape": "redstone_dust",
+      "tags": [
+        "redstone_component"
+      ]
+    },
+    "repeater": {
+      "name": "Redstone Repeater",
+      "category": "Redstone",
+      "color": "#844d35",
+      "pattern": "redstone_component",
+      "solid": false,
+      "placeable": true,
+      "hardness": 0,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 777,
+        "side": 778,
+        "bottom": 779
+      },
+      "top_color": "#844d35",
+      "side_color": "#844d35",
+      "bottom_color": "#693d2a",
+      "tags": [
+        "redstone_component"
+      ],
+      "shape": "repeater"
+    },
+    "rooted_dirt": {
+      "name": "Rooted Dirt",
+      "category": "Terrain",
+      "color": "#7d5433",
+      "pattern": "roots",
+      "solid": true,
+      "placeable": true,
+      "hardness": 0.6,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 780,
+        "side": 781,
+        "bottom": 782
+      },
+      "top_color": "#7d5433",
+      "side_color": "#7d5433",
+      "bottom_color": "#644328"
+    },
+    "sand": {
+      "name": "Sand",
+      "category": "Terrain",
+      "color": "#dbcd91",
+      "pattern": "sand",
+      "solid": true,
+      "placeable": true,
+      "hardness": 0.5,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 783,
+        "side": 784,
+        "bottom": 785
+      },
+      "top_color": "#dbcd91",
+      "side_color": "#dbcd91",
+      "bottom_color": "#d1c387"
+    },
+    "sandstone": {
+      "name": "Sandstone",
+      "category": "Terrain",
+      "color": "#dac98c",
+      "pattern": "sandstone",
+      "solid": true,
+      "placeable": true,
+      "hardness": 0.8,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 786,
+        "side": 787,
+        "bottom": 788
+      },
+      "top_color": "#dac98c",
+      "side_color": "#dac98c",
+      "bottom_color": "#d0bf82"
+    },
+    "sea_lantern": {
+      "name": "Sea Lantern",
+      "category": "Lighting",
+      "color": "#a8d2c8",
+      "pattern": "glow",
+      "solid": true,
+      "placeable": true,
+      "hardness": 0.3,
+      "transparent": false,
+      "emission": 1.0,
+      "tiles": {
+        "top": 789,
+        "side": 790,
+        "bottom": 791
+      },
+      "top_color": "#a8d2c8",
+      "side_color": "#a8d2c8",
+      "bottom_color": "#86a8a0"
+    },
+    "shelf_mushroom": {
+      "name": "Shelf Mushroom",
+      "category": "Nature",
+      "color": "#A97C60",
+      "pattern": "mushroom",
+      "solid": false,
+      "placeable": true,
+      "hardness": 0.0,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 792,
+        "side": 793,
+        "bottom": 794
+      },
+      "top_color": "#A97C60",
+      "side_color": "#A97C60",
+      "bottom_color": "#A97C60",
+      "shape": "plant",
+      "height": 0.28,
+      "width": 0.62,
+      "tags": [
+        "mushroom",
+        "compostable"
+      ],
+      "states": {
+        "age": [
+          0,
+          1
+        ],
+        "facing": [
+          "north",
+          "south",
+          "west",
+          "east"
+        ]
+      }
+    },
+    "short_grass": {
+      "name": "Short Grass",
+      "category": "Nature",
+      "color": "#569a3f",
+      "pattern": "leaves",
+      "solid": false,
+      "placeable": true,
+      "hardness": 0,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 795,
+        "side": 796,
+        "bottom": 797
+      },
+      "top_color": "#569a3f",
+      "side_color": "#569a3f",
+      "bottom_color": "#447b32",
+      "shape": "plant"
+    },
+    "shulker_box": {
+      "name": "Shulker Box",
+      "category": "Storage",
+      "color": "#8e53a4",
+      "pattern": "chest",
+      "solid": true,
+      "placeable": true,
+      "hardness": 2.0,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 798,
+        "side": 799,
+        "bottom": 800,
+        "front": 801,
+        "back": 802
+      },
+      "top_color": "#8e53a4",
+      "side_color": "#8e53a4",
+      "bottom_color": "#714283"
+    },
+    "snow_block": {
+      "name": "Snow Block",
+      "category": "Terrain",
+      "color": "#eef3f6",
+      "pattern": "snow",
+      "solid": true,
+      "placeable": true,
+      "hardness": 0.2,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 803,
+        "side": 804,
+        "bottom": 805
+      },
+      "top_color": "#eef3f6",
+      "side_color": "#eef3f6",
+      "bottom_color": "#bec2c4"
+    },
+    "soul_sand": {
+      "name": "Soul Sand",
+      "category": "Nether",
+      "color": "#543e32",
+      "pattern": "soul_sand",
+      "solid": true,
+      "placeable": true,
+      "hardness": 0.5,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 806,
+        "side": 807,
+        "bottom": 808
+      },
+      "top_color": "#543e32",
+      "side_color": "#543e32",
+      "bottom_color": "#433128"
+    },
+    "soul_soil": {
+      "name": "Soul Soil",
+      "category": "Nether",
+      "color": "#4a3a30",
+      "pattern": "soul_sand",
+      "solid": true,
+      "placeable": true,
+      "hardness": 0.5,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 809,
+        "side": 810,
+        "bottom": 811
+      },
+      "top_color": "#4a3a30",
+      "side_color": "#4a3a30",
+      "bottom_color": "#3b2e26"
+    },
+    "sponge": {
+      "name": "Sponge",
+      "category": "Building",
+      "color": "#D2C85C",
+      "pattern": "wool",
+      "solid": true,
+      "placeable": true,
+      "hardness": 0.6,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 812,
+        "side": 813,
+        "bottom": 814
+      },
+      "top_color": "#D2C85C",
+      "side_color": "#D2C85C",
+      "bottom_color": "#D2C85C",
+      "shape": "cube"
+    },
+    "spruce_leaves": {
+      "name": "Spruce Leaves",
+      "category": "Nature",
+      "color": "#37633a",
+      "pattern": "leaves",
+      "solid": true,
+      "placeable": true,
+      "hardness": 0.2,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 815,
+        "side": 816,
+        "bottom": 817
+      },
+      "top_color": "#37633a",
+      "side_color": "#37633a",
+      "bottom_color": "#2c4f2e"
+    },
+    "spruce_log": {
+      "name": "Spruce Log",
+      "category": "Wood",
+      "color": "#533e2b",
+      "pattern": "log",
+      "solid": true,
+      "placeable": true,
+      "hardness": 2.0,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 818,
+        "side": 819,
+        "bottom": 820
+      },
+      "top_color": "#634a33",
+      "side_color": "#533e2b",
+      "bottom_color": "#634a33"
+    },
+    "spruce_planks": {
+      "name": "Spruce Planks",
+      "category": "Wood",
+      "color": "#735233",
+      "pattern": "planks",
+      "solid": true,
+      "placeable": true,
+      "hardness": 2.0,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 821,
+        "side": 822,
+        "bottom": 823
+      },
+      "top_color": "#735233",
+      "side_color": "#735233",
+      "bottom_color": "#5c4128"
+    },
+    "spruce_sapling": {
+      "name": "Spruce Sapling",
+      "category": "Nature",
+      "color": "#406E3C",
+      "pattern": "leaves",
+      "solid": false,
+      "placeable": true,
+      "hardness": 0.0,
+      "transparent": true,
+      "emission": 0.0,
+      "tiles": {
+        "top": 824,
+        "side": 825,
+        "bottom": 826
+      },
+      "top_color": "#406E3C",
+      "side_color": "#406E3C",
+      "bottom_color": "#406E3C",
+      "shape": "plant",
+      "tags": [
+        "sapling"
+      ]
+    },
+    "sticky_piston": {
+      "name": "Sticky Piston",
+      "category": "Redstone",
+      "color": "#5e8449",
+      "pattern": "piston",
+      "solid": true,
+      "placeable": true,
+      "hardness": 1.5,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 827,
+        "side": 828,
+        "bottom": 829,
+        "front": 830,
+        "back": 831
+      },
+      "top_color": "#5e8449",
+      "side_color": "#5e8449",
+      "bottom_color": "#4b693a"
+    },
+    "stone": {
+      "name": "Stone",
+      "category": "Terrain",
+      "color": "#7b7b7b",
+      "pattern": "stone",
+      "solid": true,
+      "placeable": true,
+      "hardness": 1.5,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 832,
+        "side": 833,
+        "bottom": 834
+      },
+      "top_color": "#7b7b7b",
+      "side_color": "#7b7b7b",
+      "bottom_color": "#626262"
+    },
+    "stone_bricks": {
+      "name": "Stone Bricks",
+      "category": "Building",
+      "color": "#7b7b7b",
+      "pattern": "brick",
+      "solid": true,
+      "placeable": true,
+      "hardness": 1.5,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 835,
+        "side": 836,
+        "bottom": 837
+      },
+      "top_color": "#7b7b7b",
+      "side_color": "#7b7b7b",
+      "bottom_color": "#626262"
+    },
+    "stone_button": {
+      "name": "Stone Button",
+      "category": "Redstone",
+      "color": "#7b7b7b",
+      "pattern": "stone",
+      "solid": false,
+      "placeable": true,
+      "hardness": 0.5,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 838,
+        "side": 839,
+        "bottom": 840
+      },
+      "top_color": "#7b7b7b",
+      "side_color": "#7b7b7b",
+      "bottom_color": "#626262",
+      "shape": "button",
+      "tags": [
+        "redstone_component"
+      ]
+    },
+    "stone_pressure_plate": {
+      "name": "Stone Pressure Plate",
+      "category": "Redstone",
+      "color": "#7b7b7b",
+      "pattern": "stone",
+      "solid": false,
+      "placeable": true,
+      "hardness": 0.5,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 841,
+        "side": 842,
+        "bottom": 843
+      },
+      "top_color": "#7b7b7b",
+      "side_color": "#7b7b7b",
+      "bottom_color": "#626262",
+      "shape": "pressure_plate",
+      "tags": [
+        "redstone_component"
+      ]
+    },
+    "stone_slab": {
+      "name": "Stone Slab",
+      "category": "Building",
+      "color": "#7b7b7b",
+      "pattern": "stone",
+      "solid": true,
+      "placeable": true,
+      "hardness": 1.5,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 844,
+        "side": 845,
+        "bottom": 846
+      },
+      "top_color": "#7b7b7b",
+      "side_color": "#7b7b7b",
+      "bottom_color": "#626262",
+      "shape": "slab"
+    },
+    "stone_stairs": {
+      "name": "Stone Stairs",
+      "category": "Building",
+      "color": "#7b7b7b",
+      "pattern": "stone",
+      "solid": true,
+      "placeable": true,
+      "hardness": 1.5,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 847,
+        "side": 848,
+        "bottom": 849
+      },
+      "top_color": "#7b7b7b",
+      "side_color": "#7b7b7b",
+      "bottom_color": "#626262",
+      "shape": "stair"
+    },
+    "straw_bed": {
+      "name": "Straw Bed",
+      "category": "Decorative",
+      "color": "#d6b86c",
+      "pattern": "hay",
+      "solid": true,
+      "placeable": true,
+      "hardness": 0.2,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 850,
+        "side": 851,
+        "bottom": 852
+      },
+      "top_color": "#d6b86c",
+      "side_color": "#d6b86c",
+      "bottom_color": "#ab9356",
+      "shape": "straw_bed",
+      "height": 0.33,
+      "width": 1.0
+    },
+    "stripped_poplar_log": {
+      "name": "Stripped Poplar Log",
+      "category": "Wood",
+      "color": "#B99A6A",
+      "pattern": "poplar_log",
+      "solid": true,
+      "placeable": true,
+      "hardness": 2.0,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 853,
+        "side": 854,
+        "bottom": 855
+      },
+      "top_color": "#B99A6A",
+      "side_color": "#B99A6A",
+      "bottom_color": "#B99A6A"
+    },
+    "stripped_poplar_wood": {
+      "name": "Stripped Poplar Wood",
+      "category": "Wood",
+      "color": "#B99A6A",
+      "pattern": "poplar_log",
+      "solid": true,
+      "placeable": true,
+      "hardness": 2.0,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 856,
+        "side": 857,
+        "bottom": 858
+      },
+      "top_color": "#B99A6A",
+      "side_color": "#B99A6A",
+      "bottom_color": "#B99A6A"
+    },
+    "target": {
+      "name": "Target",
+      "category": "Functional",
+      "color": "#D9D1BD",
+      "pattern": "target",
+      "solid": true,
+      "placeable": true,
+      "hardness": 1.0,
+      "transparent": false,
+      "emission": 0.0,
+      "top_color": "#D9D1BD",
+      "side_color": "#D9D1BD",
+      "bottom_color": "#D9D1BD",
+      "shape": "cube",
+      "tiles": {
+        "top": 859,
+        "side": 860,
+        "bottom": 861
+      }
+    },
+    "terracotta": {
+      "name": "Terracotta",
+      "category": "Building",
+      "color": "#985b43",
+      "pattern": "terracotta",
+      "solid": true,
+      "placeable": true,
+      "hardness": 1.25,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 862,
+        "side": 863,
+        "bottom": 864
+      },
+      "top_color": "#985b43",
+      "side_color": "#985b43",
+      "bottom_color": "#794835"
+    },
+    "tinted_glass": {
+      "name": "Tinted Glass",
+      "category": "Building",
+      "color": "#393744",
+      "pattern": "glass",
+      "solid": true,
+      "placeable": true,
+      "hardness": 0.3,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 865,
+        "side": 866,
+        "bottom": 867
+      },
+      "top_color": "#393744",
+      "side_color": "#393744",
+      "bottom_color": "#2d2c36"
+    },
+    "tnt": {
+      "name": "TNT",
+      "category": "Redstone",
+      "color": "#B83A32",
+      "pattern": "brick",
+      "solid": true,
+      "placeable": true,
+      "hardness": 1.0,
+      "transparent": false,
+      "emission": 0.0,
+      "top_color": "#B83A32",
+      "side_color": "#B83A32",
+      "bottom_color": "#B83A32",
+      "shape": "cube",
+      "tiles": {
+        "top": 868,
+        "side": 869,
+        "bottom": 870
+      }
+    },
+    "torch": {
+      "name": "Torch",
+      "category": "Lighting",
+      "color": "#f3ad4b",
+      "pattern": "torch",
+      "solid": false,
+      "placeable": true,
+      "hardness": 0,
+      "transparent": false,
+      "emission": 1.0,
+      "tiles": {
+        "top": 871,
+        "side": 872,
+        "bottom": 873
+      },
+      "top_color": "#f3ad4b",
+      "side_color": "#f3ad4b",
+      "bottom_color": "#c28a3c",
+      "shape": "torch"
+    },
+    "tripwire": {
+      "name": "Tripwire",
+      "category": "Functional",
+      "color": "#B8B39B",
+      "pattern": "item",
+      "solid": false,
+      "placeable": true,
+      "hardness": 1.0,
+      "transparent": true,
+      "emission": 0.0,
+      "top_color": "#B8B39B",
+      "side_color": "#B8B39B",
+      "bottom_color": "#B8B39B",
+      "shape": "plant",
+      "tiles": {
+        "top": 874,
+        "side": 875,
+        "bottom": 876
+      }
+    },
+    "tripwire_hook": {
+      "name": "Tripwire Hook",
+      "category": "Functional",
+      "color": "#85817A",
+      "pattern": "metal",
+      "solid": false,
+      "placeable": true,
+      "hardness": 1.0,
+      "transparent": true,
+      "emission": 0.0,
+      "top_color": "#85817A",
+      "side_color": "#85817A",
+      "bottom_color": "#85817A",
+      "shape": "button",
+      "tiles": {
+        "top": 877,
+        "side": 878,
+        "bottom": 879
+      }
+    },
+    "tuff": {
+      "name": "Tuff",
+      "category": "Caves",
+      "color": "#6c746b",
+      "pattern": "stone",
+      "solid": true,
+      "placeable": true,
+      "hardness": 1.5,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 880,
+        "side": 881,
+        "bottom": 882
+      },
+      "top_color": "#6c746b",
+      "side_color": "#6c746b",
+      "bottom_color": "#565c55"
+    },
+    "warped_stem": {
+      "name": "Warped Stem",
+      "category": "Nether",
+      "color": "#287f78",
+      "pattern": "log",
+      "solid": true,
+      "placeable": true,
+      "hardness": 2.0,
+      "transparent": false,
+      "emission": 0.0,
+      "top_color": "#287f78",
+      "side_color": "#287f78",
+      "bottom_color": "#287f78",
+      "tiles": {
+        "top": 883,
+        "side": 884,
+        "bottom": 885
+      }
+    },
+    "water": {
+      "name": "Water",
+      "category": "Liquids",
+      "color": "#3268c4",
+      "pattern": "water",
+      "solid": false,
+      "placeable": true,
+      "hardness": 100,
+      "transparent": true,
+      "emission": 0.0,
+      "tiles": {
+        "top": 886,
+        "side": 887,
+        "bottom": 888
+      },
+      "top_color": "#3268c4",
+      "side_color": "#3268c4",
+      "bottom_color": "#28539c",
+      "shape": "fluid"
+    },
+    "wet_sponge": {
+      "name": "Wet Sponge",
+      "category": "Building",
+      "color": "#9BAF56",
+      "pattern": "wool",
+      "solid": true,
+      "placeable": true,
+      "hardness": 0.6,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 889,
+        "side": 890,
+        "bottom": 891
+      },
+      "top_color": "#9BAF56",
+      "side_color": "#9BAF56",
+      "bottom_color": "#9BAF56",
+      "shape": "cube"
+    },
+    "wheat": {
+      "name": "Wheat",
+      "category": "Farming",
+      "color": "#83A93F",
+      "pattern": "flower",
+      "solid": false,
+      "placeable": true,
+      "hardness": 0,
+      "transparent": true,
+      "emission": 0.0,
+      "tiles": {
+        "top": 892,
+        "side": 893,
+        "bottom": 894
+      },
+      "top_color": "#83A93F",
+      "side_color": "#83A93F",
+      "bottom_color": "#83A93F",
+      "shape": "plant",
+      "tags": [
+        "crop"
+      ]
+    },
+    "white_concrete": {
+      "name": "White Concrete",
+      "category": "Building",
+      "color": "#E9E9E4",
+      "pattern": "concrete",
+      "solid": true,
+      "placeable": true,
+      "hardness": 1.8,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 895,
+        "side": 896,
+        "bottom": 897
+      },
+      "top_color": "#E9E9E4",
+      "side_color": "#E9E9E4",
+      "bottom_color": "#E9E9E4"
+    },
+    "white_concrete_slab": {
+      "name": "White Concrete Slab",
+      "category": "Building",
+      "color": "#E9E9E4",
+      "pattern": "concrete",
+      "solid": true,
+      "placeable": true,
+      "hardness": 1.8,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 898,
+        "side": 899,
+        "bottom": 900
+      },
+      "top_color": "#E9E9E4",
+      "side_color": "#E9E9E4",
+      "bottom_color": "#E9E9E4",
+      "shape": "slab",
+      "variant_of": "white_concrete",
+      "stonecutter": true
+    },
+    "white_concrete_stairs": {
+      "name": "White Concrete Stairs",
+      "category": "Building",
+      "color": "#E9E9E4",
+      "pattern": "concrete",
+      "solid": true,
+      "placeable": true,
+      "hardness": 1.8,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 901,
+        "side": 902,
+        "bottom": 903
+      },
+      "top_color": "#E9E9E4",
+      "side_color": "#E9E9E4",
+      "bottom_color": "#E9E9E4",
+      "shape": "stair",
+      "variant_of": "white_concrete",
+      "stonecutter": true
+    },
+    "white_wool": {
+      "name": "White Wool",
+      "category": "Decorative",
+      "color": "#e7e7e1",
+      "pattern": "wool",
+      "solid": true,
+      "placeable": true,
+      "hardness": 0.8,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 904,
+        "side": 905,
+        "bottom": 906
+      },
+      "top_color": "#e7e7e1",
+      "side_color": "#e7e7e1",
+      "bottom_color": "#b8b8b4"
+    },
+    "white_wool_slab": {
+      "name": "White Wool Slab",
+      "category": "Building",
+      "color": "#E9E9E4",
+      "pattern": "wool",
+      "solid": true,
+      "placeable": true,
+      "hardness": 0.8,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 907,
+        "side": 908,
+        "bottom": 909
+      },
+      "top_color": "#E9E9E4",
+      "side_color": "#E9E9E4",
+      "bottom_color": "#E9E9E4",
+      "shape": "slab",
+      "variant_of": "white_wool"
+    },
+    "white_wool_stairs": {
+      "name": "White Wool Stairs",
+      "category": "Building",
+      "color": "#E9E9E4",
+      "pattern": "wool",
+      "solid": true,
+      "placeable": true,
+      "hardness": 0.8,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 910,
+        "side": 911,
+        "bottom": 912
+      },
+      "top_color": "#E9E9E4",
+      "side_color": "#E9E9E4",
+      "bottom_color": "#E9E9E4",
+      "shape": "stair",
+      "variant_of": "white_wool"
+    },
+    "yellow_concrete": {
+      "name": "Yellow Concrete",
+      "category": "Building",
+      "color": "#E5BD3A",
+      "pattern": "concrete",
+      "solid": true,
+      "placeable": true,
+      "hardness": 1.8,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 913,
+        "side": 914,
+        "bottom": 915
+      },
+      "top_color": "#E5BD3A",
+      "side_color": "#E5BD3A",
+      "bottom_color": "#E5BD3A"
+    },
+    "yellow_concrete_slab": {
+      "name": "Yellow Concrete Slab",
+      "category": "Building",
+      "color": "#E5BD3A",
+      "pattern": "concrete",
+      "solid": true,
+      "placeable": true,
+      "hardness": 1.8,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 916,
+        "side": 917,
+        "bottom": 918
+      },
+      "top_color": "#E5BD3A",
+      "side_color": "#E5BD3A",
+      "bottom_color": "#E5BD3A",
+      "shape": "slab",
+      "variant_of": "yellow_concrete",
+      "stonecutter": true
+    },
+    "yellow_concrete_stairs": {
+      "name": "Yellow Concrete Stairs",
+      "category": "Building",
+      "color": "#E5BD3A",
+      "pattern": "concrete",
+      "solid": true,
+      "placeable": true,
+      "hardness": 1.8,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 919,
+        "side": 920,
+        "bottom": 921
+      },
+      "top_color": "#E5BD3A",
+      "side_color": "#E5BD3A",
+      "bottom_color": "#E5BD3A",
+      "shape": "stair",
+      "variant_of": "yellow_concrete",
+      "stonecutter": true
+    },
+    "yellow_poplar_leaves": {
+      "name": "Yellow Poplar Leaves",
+      "category": "Nature",
+      "color": "#BDA344",
+      "pattern": "autumn_leaves",
+      "solid": true,
+      "placeable": true,
+      "hardness": 0.2,
+      "transparent": true,
+      "emission": 0.0,
+      "tiles": {
+        "top": 922,
+        "side": 923,
+        "bottom": 924
+      },
+      "top_color": "#BDA344",
+      "side_color": "#BDA344",
+      "bottom_color": "#BDA344"
+    },
+    "yellow_wool": {
+      "name": "Yellow Wool",
+      "category": "Decorative",
+      "color": "#e5bd3a",
+      "pattern": "wool",
+      "solid": true,
+      "placeable": true,
+      "hardness": 0.8,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 925,
+        "side": 926,
+        "bottom": 927
+      },
+      "top_color": "#e5bd3a",
+      "side_color": "#e5bd3a",
+      "bottom_color": "#b7972e"
+    },
+    "yellow_wool_slab": {
+      "name": "Yellow Wool Slab",
+      "category": "Building",
+      "color": "#E5BD3A",
+      "pattern": "wool",
+      "solid": true,
+      "placeable": true,
+      "hardness": 0.8,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 928,
+        "side": 929,
+        "bottom": 930
+      },
+      "top_color": "#E5BD3A",
+      "side_color": "#E5BD3A",
+      "bottom_color": "#E5BD3A",
+      "shape": "slab",
+      "variant_of": "yellow_wool"
+    },
+    "yellow_wool_stairs": {
+      "name": "Yellow Wool Stairs",
+      "category": "Building",
+      "color": "#E5BD3A",
+      "pattern": "wool",
+      "solid": true,
+      "placeable": true,
+      "hardness": 0.8,
+      "transparent": false,
+      "emission": 0.0,
+      "tiles": {
+        "top": 931,
+        "side": 932,
+        "bottom": 933
+      },
+      "top_color": "#E5BD3A",
+      "side_color": "#E5BD3A",
+      "bottom_color": "#E5BD3A",
+      "shape": "stair",
+      "variant_of": "yellow_wool"
+    }
+  }
+}

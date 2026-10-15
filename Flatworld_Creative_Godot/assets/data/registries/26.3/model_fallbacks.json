@@ -1,0 +1,3333 @@
+{
+  "schema_version": 1,
+  "minecraft_version": "26.3",
+  "source_status": "fallback-only; not Java models",
+  "models": {
+    "acacia_log": {
+      "model_id": "flatworld:block/acacia_log",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:0",
+        "side": "atlas_tile:1",
+        "bottom": "atlas_tile:2"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "acacia_planks": {
+      "model_id": "flatworld:block/acacia_planks",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:3",
+        "side": "atlas_tile:4",
+        "bottom": "atlas_tile:5"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "activator_rail": {
+      "model_id": "flatworld:block/activator_rail",
+      "shape": "rail",
+      "textures": {
+        "top": "atlas_tile:6",
+        "side": "atlas_tile:7",
+        "bottom": "atlas_tile:8"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "amethyst_block": {
+      "model_id": "flatworld:block/amethyst_block",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:9",
+        "side": "atlas_tile:10",
+        "bottom": "atlas_tile:11"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "ancient_debris": {
+      "model_id": "flatworld:block/ancient_debris",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:12",
+        "side": "atlas_tile:13",
+        "bottom": "atlas_tile:14"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "anvil": {
+      "model_id": "flatworld:block/anvil",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:15",
+        "side": "atlas_tile:16",
+        "bottom": "atlas_tile:17"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "barrel": {
+      "model_id": "flatworld:block/barrel",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:18",
+        "side": "atlas_tile:19",
+        "bottom": "atlas_tile:20",
+        "front": "atlas_tile:21",
+        "back": "atlas_tile:22"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "basalt": {
+      "model_id": "flatworld:block/basalt",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:23",
+        "side": "atlas_tile:24",
+        "bottom": "atlas_tile:25"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "beacon": {
+      "model_id": "flatworld:block/beacon",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:26",
+        "side": "atlas_tile:27",
+        "bottom": "atlas_tile:28"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "bedrock": {
+      "model_id": "flatworld:block/bedrock",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:29",
+        "side": "atlas_tile:30",
+        "bottom": "atlas_tile:31"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "beetroots": {
+      "model_id": "flatworld:block/beetroots",
+      "shape": "plant",
+      "textures": {
+        "top": "atlas_tile:32",
+        "side": "atlas_tile:33",
+        "bottom": "atlas_tile:34"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "birch_leaves": {
+      "model_id": "flatworld:block/birch_leaves",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:35",
+        "side": "atlas_tile:36",
+        "bottom": "atlas_tile:37"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "birch_log": {
+      "model_id": "flatworld:block/birch_log",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:38",
+        "side": "atlas_tile:39",
+        "bottom": "atlas_tile:40"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "birch_planks": {
+      "model_id": "flatworld:block/birch_planks",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:41",
+        "side": "atlas_tile:42",
+        "bottom": "atlas_tile:43"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "birch_sapling": {
+      "model_id": "flatworld:block/birch_sapling",
+      "shape": "plant",
+      "textures": {
+        "top": "atlas_tile:44",
+        "side": "atlas_tile:45",
+        "bottom": "atlas_tile:46"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "black_concrete": {
+      "model_id": "flatworld:block/black_concrete",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:47",
+        "side": "atlas_tile:48",
+        "bottom": "atlas_tile:49"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "black_wool": {
+      "model_id": "flatworld:block/black_wool",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:56",
+        "side": "atlas_tile:57",
+        "bottom": "atlas_tile:58"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "blackstone": {
+      "model_id": "flatworld:block/blackstone",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:65",
+        "side": "atlas_tile:66",
+        "bottom": "atlas_tile:67"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "blue_concrete": {
+      "model_id": "flatworld:block/blue_concrete",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:68",
+        "side": "atlas_tile:69",
+        "bottom": "atlas_tile:70"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "blue_ice": {
+      "model_id": "flatworld:block/blue_ice",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:77",
+        "side": "atlas_tile:78",
+        "bottom": "atlas_tile:79"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "blue_wool": {
+      "model_id": "flatworld:block/blue_wool",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:80",
+        "side": "atlas_tile:81",
+        "bottom": "atlas_tile:82"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "bookshelf": {
+      "model_id": "flatworld:block/bookshelf",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:89",
+        "side": "atlas_tile:90",
+        "bottom": "atlas_tile:91"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "bricks": {
+      "model_id": "flatworld:block/bricks",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:92",
+        "side": "atlas_tile:93",
+        "bottom": "atlas_tile:94"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "brown_concrete": {
+      "model_id": "flatworld:block/brown_concrete",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:95",
+        "side": "atlas_tile:96",
+        "bottom": "atlas_tile:97"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "brown_wool": {
+      "model_id": "flatworld:block/brown_wool",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:104",
+        "side": "atlas_tile:105",
+        "bottom": "atlas_tile:106"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "cactus": {
+      "model_id": "flatworld:block/cactus",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:113",
+        "side": "atlas_tile:114",
+        "bottom": "atlas_tile:115"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "calcite": {
+      "model_id": "flatworld:block/calcite",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:116",
+        "side": "atlas_tile:117",
+        "bottom": "atlas_tile:118"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "campfire": {
+      "model_id": "flatworld:block/campfire",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:119",
+        "side": "atlas_tile:120",
+        "bottom": "atlas_tile:121"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "carrots": {
+      "model_id": "flatworld:block/carrots",
+      "shape": "plant",
+      "textures": {
+        "top": "atlas_tile:122",
+        "side": "atlas_tile:123",
+        "bottom": "atlas_tile:124"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "carved_pumpkin": {
+      "model_id": "flatworld:block/carved_pumpkin",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:125",
+        "side": "atlas_tile:126",
+        "bottom": "atlas_tile:127",
+        "front": "atlas_tile:128",
+        "back": "atlas_tile:129"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "cherry_log": {
+      "model_id": "flatworld:block/cherry_log",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:130",
+        "side": "atlas_tile:131",
+        "bottom": "atlas_tile:132"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "cherry_planks": {
+      "model_id": "flatworld:block/cherry_planks",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:133",
+        "side": "atlas_tile:134",
+        "bottom": "atlas_tile:135"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "chest": {
+      "model_id": "flatworld:block/chest",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:136",
+        "side": "atlas_tile:137",
+        "bottom": "atlas_tile:138",
+        "front": "atlas_tile:139",
+        "back": "atlas_tile:140"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "clay": {
+      "model_id": "flatworld:block/clay",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:141",
+        "side": "atlas_tile:142",
+        "bottom": "atlas_tile:143"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "coal_ore": {
+      "model_id": "flatworld:block/coal_ore",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:144",
+        "side": "atlas_tile:145",
+        "bottom": "atlas_tile:146"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "coarse_dirt": {
+      "model_id": "flatworld:block/coarse_dirt",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:147",
+        "side": "atlas_tile:148",
+        "bottom": "atlas_tile:149"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "cobbled_deepslate": {
+      "model_id": "flatworld:block/cobbled_deepslate",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:150",
+        "side": "atlas_tile:151",
+        "bottom": "atlas_tile:152"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "cobblestone": {
+      "model_id": "flatworld:block/cobblestone",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:153",
+        "side": "atlas_tile:154",
+        "bottom": "atlas_tile:155"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "cobblestone_slab": {
+      "model_id": "flatworld:block/cobblestone_slab",
+      "shape": "slab",
+      "textures": {
+        "top": "atlas_tile:156",
+        "side": "atlas_tile:157",
+        "bottom": "atlas_tile:158"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "cobblestone_stairs": {
+      "model_id": "flatworld:block/cobblestone_stairs",
+      "shape": "stair",
+      "textures": {
+        "top": "atlas_tile:159",
+        "side": "atlas_tile:160",
+        "bottom": "atlas_tile:161"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "comparator": {
+      "model_id": "flatworld:block/comparator",
+      "shape": "comparator",
+      "textures": {
+        "top": "atlas_tile:162",
+        "side": "atlas_tile:163",
+        "bottom": "atlas_tile:164"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "composter": {
+      "model_id": "flatworld:block/composter",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:165",
+        "side": "atlas_tile:166",
+        "bottom": "atlas_tile:167"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "copper_block": {
+      "model_id": "flatworld:block/copper_block",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:168",
+        "side": "atlas_tile:169",
+        "bottom": "atlas_tile:170"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "copper_ore": {
+      "model_id": "flatworld:block/copper_ore",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:171",
+        "side": "atlas_tile:172",
+        "bottom": "atlas_tile:173"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "cracked_stone_bricks": {
+      "model_id": "flatworld:block/cracked_stone_bricks",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:174",
+        "side": "atlas_tile:175",
+        "bottom": "atlas_tile:176"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "crafting_table": {
+      "model_id": "flatworld:block/crafting_table",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:177",
+        "side": "atlas_tile:178",
+        "bottom": "atlas_tile:179",
+        "front": "atlas_tile:180",
+        "back": "atlas_tile:181"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "crimson_stem": {
+      "model_id": "flatworld:block/crimson_stem",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:182",
+        "side": "atlas_tile:183",
+        "bottom": "atlas_tile:184"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "cushion": {
+      "model_id": "flatworld:block/cushion",
+      "shape": "cushion",
+      "textures": {
+        "top": "atlas_tile:185",
+        "side": "atlas_tile:186",
+        "bottom": "atlas_tile:187"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "cyan_concrete": {
+      "model_id": "flatworld:block/cyan_concrete",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:188",
+        "side": "atlas_tile:189",
+        "bottom": "atlas_tile:190"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "cyan_wool": {
+      "model_id": "flatworld:block/cyan_wool",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:197",
+        "side": "atlas_tile:198",
+        "bottom": "atlas_tile:199"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "dandelion": {
+      "model_id": "flatworld:block/dandelion",
+      "shape": "plant",
+      "textures": {
+        "top": "atlas_tile:206",
+        "side": "atlas_tile:207",
+        "bottom": "atlas_tile:208"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "dark_oak_log": {
+      "model_id": "flatworld:block/dark_oak_log",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:209",
+        "side": "atlas_tile:210",
+        "bottom": "atlas_tile:211"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "dark_oak_planks": {
+      "model_id": "flatworld:block/dark_oak_planks",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:212",
+        "side": "atlas_tile:213",
+        "bottom": "atlas_tile:214"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "daylight_detector": {
+      "model_id": "flatworld:block/daylight_detector",
+      "shape": "slab",
+      "textures": {
+        "top": "atlas_tile:215",
+        "side": "atlas_tile:216",
+        "bottom": "atlas_tile:217"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "deepslate": {
+      "model_id": "flatworld:block/deepslate",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:218",
+        "side": "atlas_tile:219",
+        "bottom": "atlas_tile:220"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "deepslate_coal_ore": {
+      "model_id": "flatworld:block/deepslate_coal_ore",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:221",
+        "side": "atlas_tile:222",
+        "bottom": "atlas_tile:223"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "deepslate_copper_ore": {
+      "model_id": "flatworld:block/deepslate_copper_ore",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:224",
+        "side": "atlas_tile:225",
+        "bottom": "atlas_tile:226"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "deepslate_diamond_ore": {
+      "model_id": "flatworld:block/deepslate_diamond_ore",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:227",
+        "side": "atlas_tile:228",
+        "bottom": "atlas_tile:229"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "deepslate_emerald_ore": {
+      "model_id": "flatworld:block/deepslate_emerald_ore",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:230",
+        "side": "atlas_tile:231",
+        "bottom": "atlas_tile:232"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "deepslate_gold_ore": {
+      "model_id": "flatworld:block/deepslate_gold_ore",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:233",
+        "side": "atlas_tile:234",
+        "bottom": "atlas_tile:235"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "deepslate_iron_ore": {
+      "model_id": "flatworld:block/deepslate_iron_ore",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:236",
+        "side": "atlas_tile:237",
+        "bottom": "atlas_tile:238"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "deepslate_lapis_ore": {
+      "model_id": "flatworld:block/deepslate_lapis_ore",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:239",
+        "side": "atlas_tile:240",
+        "bottom": "atlas_tile:241"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "deepslate_redstone_ore": {
+      "model_id": "flatworld:block/deepslate_redstone_ore",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:242",
+        "side": "atlas_tile:243",
+        "bottom": "atlas_tile:244"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "detector_rail": {
+      "model_id": "flatworld:block/detector_rail",
+      "shape": "rail",
+      "textures": {
+        "top": "atlas_tile:245",
+        "side": "atlas_tile:246",
+        "bottom": "atlas_tile:247"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "diamond_block": {
+      "model_id": "flatworld:block/diamond_block",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:248",
+        "side": "atlas_tile:249",
+        "bottom": "atlas_tile:250"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "diamond_ore": {
+      "model_id": "flatworld:block/diamond_ore",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:251",
+        "side": "atlas_tile:252",
+        "bottom": "atlas_tile:253"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "dirt": {
+      "model_id": "flatworld:block/dirt",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:254",
+        "side": "atlas_tile:255",
+        "bottom": "atlas_tile:256"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "dirt_path": {
+      "model_id": "flatworld:block/dirt_path",
+      "shape": "dirt_path",
+      "textures": {
+        "top": "atlas_tile:257",
+        "side": "atlas_tile:258",
+        "bottom": "atlas_tile:259"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "dispenser": {
+      "model_id": "flatworld:block/dispenser",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:260",
+        "side": "atlas_tile:261",
+        "bottom": "atlas_tile:262",
+        "front": "atlas_tile:263",
+        "back": "atlas_tile:264"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "dripstone_block": {
+      "model_id": "flatworld:block/dripstone_block",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:265",
+        "side": "atlas_tile:266",
+        "bottom": "atlas_tile:267"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "dropper": {
+      "model_id": "flatworld:block/dropper",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:268",
+        "side": "atlas_tile:269",
+        "bottom": "atlas_tile:270",
+        "front": "atlas_tile:271",
+        "back": "atlas_tile:272"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "emerald_block": {
+      "model_id": "flatworld:block/emerald_block",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:273",
+        "side": "atlas_tile:274",
+        "bottom": "atlas_tile:275"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "emerald_ore": {
+      "model_id": "flatworld:block/emerald_ore",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:276",
+        "side": "atlas_tile:277",
+        "bottom": "atlas_tile:278"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "end_portal": {
+      "model_id": "flatworld:block/end_portal",
+      "shape": "portal",
+      "textures": {
+        "top": "atlas_tile:279",
+        "side": "atlas_tile:280",
+        "bottom": "atlas_tile:281"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "end_portal_frame": {
+      "model_id": "flatworld:block/end_portal_frame",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:282",
+        "side": "atlas_tile:283",
+        "bottom": "atlas_tile:284",
+        "eye_top": "atlas_tile:285"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "end_rod": {
+      "model_id": "flatworld:block/end_rod",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:286",
+        "side": "atlas_tile:287",
+        "bottom": "atlas_tile:288"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "end_stone": {
+      "model_id": "flatworld:block/end_stone",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:289",
+        "side": "atlas_tile:290",
+        "bottom": "atlas_tile:291"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "farmland": {
+      "model_id": "flatworld:block/farmland",
+      "shape": "farmland",
+      "textures": {
+        "top": "atlas_tile:292",
+        "side": "atlas_tile:293",
+        "bottom": "atlas_tile:294"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "flower_pot": {
+      "model_id": "flatworld:block/flower_pot",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:295",
+        "side": "atlas_tile:296",
+        "bottom": "atlas_tile:297"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "furnace": {
+      "model_id": "flatworld:block/furnace",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:298",
+        "side": "atlas_tile:299",
+        "bottom": "atlas_tile:300",
+        "front": "atlas_tile:301",
+        "back": "atlas_tile:302"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "glass": {
+      "model_id": "flatworld:block/glass",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:303",
+        "side": "atlas_tile:304",
+        "bottom": "atlas_tile:305"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "glowstone": {
+      "model_id": "flatworld:block/glowstone",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:306",
+        "side": "atlas_tile:307",
+        "bottom": "atlas_tile:308"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "gold_block": {
+      "model_id": "flatworld:block/gold_block",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:309",
+        "side": "atlas_tile:310",
+        "bottom": "atlas_tile:311"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "gold_ore": {
+      "model_id": "flatworld:block/gold_ore",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:312",
+        "side": "atlas_tile:313",
+        "bottom": "atlas_tile:314"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "grass_block": {
+      "model_id": "flatworld:block/grass_block",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:315",
+        "side": "atlas_tile:316",
+        "bottom": "atlas_tile:317"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "gravel": {
+      "model_id": "flatworld:block/gravel",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:318",
+        "side": "atlas_tile:319",
+        "bottom": "atlas_tile:320"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "gray_concrete": {
+      "model_id": "flatworld:block/gray_concrete",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:321",
+        "side": "atlas_tile:322",
+        "bottom": "atlas_tile:323"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "gray_wool": {
+      "model_id": "flatworld:block/gray_wool",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:330",
+        "side": "atlas_tile:331",
+        "bottom": "atlas_tile:332"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "green_concrete": {
+      "model_id": "flatworld:block/green_concrete",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:339",
+        "side": "atlas_tile:340",
+        "bottom": "atlas_tile:341"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "green_wool": {
+      "model_id": "flatworld:block/green_wool",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:348",
+        "side": "atlas_tile:349",
+        "bottom": "atlas_tile:350"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "hay_block": {
+      "model_id": "flatworld:block/hay_block",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:357",
+        "side": "atlas_tile:358",
+        "bottom": "atlas_tile:359"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "heavy_weighted_pressure_plate": {
+      "model_id": "flatworld:block/heavy_weighted_pressure_plate",
+      "shape": "pressure_plate",
+      "textures": {
+        "top": "atlas_tile:360",
+        "side": "atlas_tile:361",
+        "bottom": "atlas_tile:362"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "hopper": {
+      "model_id": "flatworld:block/hopper",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:363",
+        "side": "atlas_tile:364",
+        "bottom": "atlas_tile:365"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "ice": {
+      "model_id": "flatworld:block/ice",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:366",
+        "side": "atlas_tile:367",
+        "bottom": "atlas_tile:368"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "iron_block": {
+      "model_id": "flatworld:block/iron_block",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:369",
+        "side": "atlas_tile:370",
+        "bottom": "atlas_tile:371"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "iron_door": {
+      "model_id": "flatworld:block/iron_door",
+      "shape": "door",
+      "textures": {
+        "top": "atlas_tile:372",
+        "side": "atlas_tile:373",
+        "bottom": "atlas_tile:374",
+        "front": "atlas_tile:375",
+        "back": "atlas_tile:376"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "iron_ore": {
+      "model_id": "flatworld:block/iron_ore",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:377",
+        "side": "atlas_tile:378",
+        "bottom": "atlas_tile:379"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "iron_trapdoor": {
+      "model_id": "flatworld:block/iron_trapdoor",
+      "shape": "trapdoor",
+      "textures": {
+        "top": "atlas_tile:380",
+        "side": "atlas_tile:381",
+        "bottom": "atlas_tile:382"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "jack_o_lantern": {
+      "model_id": "flatworld:block/jack_o_lantern",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:383",
+        "side": "atlas_tile:384",
+        "bottom": "atlas_tile:385",
+        "front": "atlas_tile:386",
+        "back": "atlas_tile:387"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "jungle_log": {
+      "model_id": "flatworld:block/jungle_log",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:388",
+        "side": "atlas_tile:389",
+        "bottom": "atlas_tile:390"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "jungle_planks": {
+      "model_id": "flatworld:block/jungle_planks",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:391",
+        "side": "atlas_tile:392",
+        "bottom": "atlas_tile:393"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "ladder": {
+      "model_id": "flatworld:block/ladder",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:394",
+        "side": "atlas_tile:395",
+        "bottom": "atlas_tile:396"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "lantern": {
+      "model_id": "flatworld:block/lantern",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:397",
+        "side": "atlas_tile:398",
+        "bottom": "atlas_tile:399"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "lapis_ore": {
+      "model_id": "flatworld:block/lapis_ore",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:400",
+        "side": "atlas_tile:401",
+        "bottom": "atlas_tile:402"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "lava": {
+      "model_id": "flatworld:block/lava",
+      "shape": "fluid",
+      "textures": {
+        "top": "atlas_tile:403",
+        "side": "atlas_tile:404",
+        "bottom": "atlas_tile:405"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "leaf_litter": {
+      "model_id": "flatworld:block/leaf_litter",
+      "shape": "leaf_litter",
+      "textures": {
+        "top": "atlas_tile:406",
+        "side": "atlas_tile:407",
+        "bottom": "atlas_tile:408"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "lever": {
+      "model_id": "flatworld:block/lever",
+      "shape": "lever",
+      "textures": {
+        "top": "atlas_tile:409",
+        "side": "atlas_tile:410",
+        "bottom": "atlas_tile:411"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "light_blue_concrete": {
+      "model_id": "flatworld:block/light_blue_concrete",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:412",
+        "side": "atlas_tile:413",
+        "bottom": "atlas_tile:414"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "light_blue_wool": {
+      "model_id": "flatworld:block/light_blue_wool",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:421",
+        "side": "atlas_tile:422",
+        "bottom": "atlas_tile:423"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "light_gray_concrete": {
+      "model_id": "flatworld:block/light_gray_concrete",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:430",
+        "side": "atlas_tile:431",
+        "bottom": "atlas_tile:432"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "light_gray_wool": {
+      "model_id": "flatworld:block/light_gray_wool",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:439",
+        "side": "atlas_tile:440",
+        "bottom": "atlas_tile:441"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "light_weighted_pressure_plate": {
+      "model_id": "flatworld:block/light_weighted_pressure_plate",
+      "shape": "pressure_plate",
+      "textures": {
+        "top": "atlas_tile:448",
+        "side": "atlas_tile:449",
+        "bottom": "atlas_tile:450"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "lime_concrete": {
+      "model_id": "flatworld:block/lime_concrete",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:451",
+        "side": "atlas_tile:452",
+        "bottom": "atlas_tile:453"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "lime_wool": {
+      "model_id": "flatworld:block/lime_wool",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:460",
+        "side": "atlas_tile:461",
+        "bottom": "atlas_tile:462"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "magenta_concrete": {
+      "model_id": "flatworld:block/magenta_concrete",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:469",
+        "side": "atlas_tile:470",
+        "bottom": "atlas_tile:471"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "magenta_wool": {
+      "model_id": "flatworld:block/magenta_wool",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:478",
+        "side": "atlas_tile:479",
+        "bottom": "atlas_tile:480"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "magma_block": {
+      "model_id": "flatworld:block/magma_block",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:487",
+        "side": "atlas_tile:488",
+        "bottom": "atlas_tile:489"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "mangrove_log": {
+      "model_id": "flatworld:block/mangrove_log",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:490",
+        "side": "atlas_tile:491",
+        "bottom": "atlas_tile:492"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "mangrove_planks": {
+      "model_id": "flatworld:block/mangrove_planks",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:493",
+        "side": "atlas_tile:494",
+        "bottom": "atlas_tile:495"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "moss_block": {
+      "model_id": "flatworld:block/moss_block",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:496",
+        "side": "atlas_tile:497",
+        "bottom": "atlas_tile:498"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "mossy_cobblestone": {
+      "model_id": "flatworld:block/mossy_cobblestone",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:499",
+        "side": "atlas_tile:500",
+        "bottom": "atlas_tile:501"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "mossy_stone_bricks": {
+      "model_id": "flatworld:block/mossy_stone_bricks",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:502",
+        "side": "atlas_tile:503",
+        "bottom": "atlas_tile:504"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "mud": {
+      "model_id": "flatworld:block/mud",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:505",
+        "side": "atlas_tile:506",
+        "bottom": "atlas_tile:507"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "mycelium": {
+      "model_id": "flatworld:block/mycelium",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:508",
+        "side": "atlas_tile:509",
+        "bottom": "atlas_tile:510"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "nether_bricks": {
+      "model_id": "flatworld:block/nether_bricks",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:511",
+        "side": "atlas_tile:512",
+        "bottom": "atlas_tile:513"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "nether_gold_ore": {
+      "model_id": "flatworld:block/nether_gold_ore",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:514",
+        "side": "atlas_tile:515",
+        "bottom": "atlas_tile:516"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "nether_portal": {
+      "model_id": "flatworld:block/nether_portal",
+      "shape": "portal",
+      "textures": {
+        "top": "atlas_tile:517",
+        "side": "atlas_tile:518",
+        "bottom": "atlas_tile:519"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "nether_wart_block": {
+      "model_id": "flatworld:block/nether_wart_block",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:523",
+        "side": "atlas_tile:524",
+        "bottom": "atlas_tile:525"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "netherrack": {
+      "model_id": "flatworld:block/netherrack",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:526",
+        "side": "atlas_tile:527",
+        "bottom": "atlas_tile:528"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "note_block": {
+      "model_id": "flatworld:block/note_block",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:529",
+        "side": "atlas_tile:530",
+        "bottom": "atlas_tile:531"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "oak_door": {
+      "model_id": "flatworld:block/oak_door",
+      "shape": "door",
+      "textures": {
+        "top": "atlas_tile:532",
+        "side": "atlas_tile:533",
+        "bottom": "atlas_tile:534",
+        "front": "atlas_tile:535",
+        "back": "atlas_tile:536"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "oak_fence": {
+      "model_id": "flatworld:block/oak_fence",
+      "shape": "fence",
+      "textures": {
+        "top": "atlas_tile:537",
+        "side": "atlas_tile:538",
+        "bottom": "atlas_tile:539"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "oak_fence_gate": {
+      "model_id": "flatworld:block/oak_fence_gate",
+      "shape": "fence_gate",
+      "textures": {
+        "top": "atlas_tile:540",
+        "side": "atlas_tile:541",
+        "bottom": "atlas_tile:542"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "oak_leaves": {
+      "model_id": "flatworld:block/oak_leaves",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:543",
+        "side": "atlas_tile:544",
+        "bottom": "atlas_tile:545"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "oak_log": {
+      "model_id": "flatworld:block/oak_log",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:546",
+        "side": "atlas_tile:547",
+        "bottom": "atlas_tile:548"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "oak_planks": {
+      "model_id": "flatworld:block/oak_planks",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:549",
+        "side": "atlas_tile:550",
+        "bottom": "atlas_tile:551"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "oak_sapling": {
+      "model_id": "flatworld:block/oak_sapling",
+      "shape": "plant",
+      "textures": {
+        "top": "atlas_tile:552",
+        "side": "atlas_tile:553",
+        "bottom": "atlas_tile:554"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "oak_slab": {
+      "model_id": "flatworld:block/oak_slab",
+      "shape": "slab",
+      "textures": {
+        "top": "atlas_tile:555",
+        "side": "atlas_tile:556",
+        "bottom": "atlas_tile:557"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "oak_stairs": {
+      "model_id": "flatworld:block/oak_stairs",
+      "shape": "stair",
+      "textures": {
+        "top": "atlas_tile:558",
+        "side": "atlas_tile:559",
+        "bottom": "atlas_tile:560"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "oak_trapdoor": {
+      "model_id": "flatworld:block/oak_trapdoor",
+      "shape": "trapdoor",
+      "textures": {
+        "top": "atlas_tile:561",
+        "side": "atlas_tile:562",
+        "bottom": "atlas_tile:563"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "observer": {
+      "model_id": "flatworld:block/observer",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:564",
+        "side": "atlas_tile:565",
+        "bottom": "atlas_tile:566",
+        "front": "atlas_tile:567",
+        "back": "atlas_tile:568"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "obsidian": {
+      "model_id": "flatworld:block/obsidian",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:569",
+        "side": "atlas_tile:570",
+        "bottom": "atlas_tile:571"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "orange_concrete": {
+      "model_id": "flatworld:block/orange_concrete",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:572",
+        "side": "atlas_tile:573",
+        "bottom": "atlas_tile:574"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "orange_poplar_leaves": {
+      "model_id": "flatworld:block/orange_poplar_leaves",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:581",
+        "side": "atlas_tile:582",
+        "bottom": "atlas_tile:583"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "orange_wool": {
+      "model_id": "flatworld:block/orange_wool",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:584",
+        "side": "atlas_tile:585",
+        "bottom": "atlas_tile:586"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "packed_ice": {
+      "model_id": "flatworld:block/packed_ice",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:593",
+        "side": "atlas_tile:594",
+        "bottom": "atlas_tile:595"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "packed_mud": {
+      "model_id": "flatworld:block/packed_mud",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:596",
+        "side": "atlas_tile:597",
+        "bottom": "atlas_tile:598"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "pink_concrete": {
+      "model_id": "flatworld:block/pink_concrete",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:599",
+        "side": "atlas_tile:600",
+        "bottom": "atlas_tile:601"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "pink_wool": {
+      "model_id": "flatworld:block/pink_wool",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:608",
+        "side": "atlas_tile:609",
+        "bottom": "atlas_tile:610"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "piston": {
+      "model_id": "flatworld:block/piston",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:617",
+        "side": "atlas_tile:618",
+        "bottom": "atlas_tile:619",
+        "front": "atlas_tile:620",
+        "back": "atlas_tile:621"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "piston_head": {
+      "model_id": "flatworld:block/piston_head",
+      "shape": "piston_head",
+      "textures": {
+        "top": "atlas_tile:622",
+        "side": "atlas_tile:623",
+        "bottom": "atlas_tile:624"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "podzol": {
+      "model_id": "flatworld:block/podzol",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:625",
+        "side": "atlas_tile:626",
+        "bottom": "atlas_tile:627"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "polished_andesite": {
+      "model_id": "flatworld:block/polished_andesite",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:628",
+        "side": "atlas_tile:629",
+        "bottom": "atlas_tile:630"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "polished_diorite": {
+      "model_id": "flatworld:block/polished_diorite",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:631",
+        "side": "atlas_tile:632",
+        "bottom": "atlas_tile:633"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "polished_granite": {
+      "model_id": "flatworld:block/polished_granite",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:634",
+        "side": "atlas_tile:635",
+        "bottom": "atlas_tile:636"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "poplar_button": {
+      "model_id": "flatworld:block/poplar_button",
+      "shape": "button",
+      "textures": {
+        "top": "atlas_tile:637",
+        "side": "atlas_tile:638",
+        "bottom": "atlas_tile:639"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "poplar_door": {
+      "model_id": "flatworld:block/poplar_door",
+      "shape": "door",
+      "textures": {
+        "top": "atlas_tile:640",
+        "side": "atlas_tile:641",
+        "bottom": "atlas_tile:642",
+        "front": "atlas_tile:643",
+        "back": "atlas_tile:644"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "poplar_fence": {
+      "model_id": "flatworld:block/poplar_fence",
+      "shape": "fence",
+      "textures": {
+        "top": "atlas_tile:645",
+        "side": "atlas_tile:646",
+        "bottom": "atlas_tile:647"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "poplar_fence_gate": {
+      "model_id": "flatworld:block/poplar_fence_gate",
+      "shape": "fence_gate",
+      "textures": {
+        "top": "atlas_tile:648",
+        "side": "atlas_tile:649",
+        "bottom": "atlas_tile:650"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "poplar_hanging_sign": {
+      "model_id": "flatworld:block/poplar_hanging_sign",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:651",
+        "side": "atlas_tile:652",
+        "bottom": "atlas_tile:653"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "poplar_log": {
+      "model_id": "flatworld:block/poplar_log",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:654",
+        "side": "atlas_tile:655",
+        "bottom": "atlas_tile:656"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "poplar_planks": {
+      "model_id": "flatworld:block/poplar_planks",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:657",
+        "side": "atlas_tile:658",
+        "bottom": "atlas_tile:659"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "poplar_pressure_plate": {
+      "model_id": "flatworld:block/poplar_pressure_plate",
+      "shape": "pressure_plate",
+      "textures": {
+        "top": "atlas_tile:660",
+        "side": "atlas_tile:661",
+        "bottom": "atlas_tile:662"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "poplar_sapling": {
+      "model_id": "flatworld:block/poplar_sapling",
+      "shape": "plant",
+      "textures": {
+        "top": "atlas_tile:663",
+        "side": "atlas_tile:664",
+        "bottom": "atlas_tile:665"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "poplar_sign": {
+      "model_id": "flatworld:block/poplar_sign",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:666",
+        "side": "atlas_tile:667",
+        "bottom": "atlas_tile:668"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "poplar_slab": {
+      "model_id": "flatworld:block/poplar_slab",
+      "shape": "slab",
+      "textures": {
+        "top": "atlas_tile:669",
+        "side": "atlas_tile:670",
+        "bottom": "atlas_tile:671"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "poplar_stairs": {
+      "model_id": "flatworld:block/poplar_stairs",
+      "shape": "stair",
+      "textures": {
+        "top": "atlas_tile:672",
+        "side": "atlas_tile:673",
+        "bottom": "atlas_tile:674"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "poplar_trapdoor": {
+      "model_id": "flatworld:block/poplar_trapdoor",
+      "shape": "trapdoor",
+      "textures": {
+        "top": "atlas_tile:675",
+        "side": "atlas_tile:676",
+        "bottom": "atlas_tile:677"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "poplar_wood": {
+      "model_id": "flatworld:block/poplar_wood",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:678",
+        "side": "atlas_tile:679",
+        "bottom": "atlas_tile:680"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "poppy": {
+      "model_id": "flatworld:block/poppy",
+      "shape": "plant",
+      "textures": {
+        "top": "atlas_tile:681",
+        "side": "atlas_tile:682",
+        "bottom": "atlas_tile:683"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "potatoes": {
+      "model_id": "flatworld:block/potatoes",
+      "shape": "plant",
+      "textures": {
+        "top": "atlas_tile:684",
+        "side": "atlas_tile:685",
+        "bottom": "atlas_tile:686"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "powered_rail": {
+      "model_id": "flatworld:block/powered_rail",
+      "shape": "rail",
+      "textures": {
+        "top": "atlas_tile:687",
+        "side": "atlas_tile:688",
+        "bottom": "atlas_tile:689"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "stone_pressure_plate": {
+      "model_id": "flatworld:block/stone_pressure_plate",
+      "shape": "pressure_plate",
+      "textures": {
+        "top": "atlas_tile:841",
+        "side": "atlas_tile:842",
+        "bottom": "atlas_tile:843"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "pumpkin": {
+      "model_id": "flatworld:block/pumpkin",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:690",
+        "side": "atlas_tile:691",
+        "bottom": "atlas_tile:692"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "purple_concrete": {
+      "model_id": "flatworld:block/purple_concrete",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:693",
+        "side": "atlas_tile:694",
+        "bottom": "atlas_tile:695"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "purple_wool": {
+      "model_id": "flatworld:block/purple_wool",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:702",
+        "side": "atlas_tile:703",
+        "bottom": "atlas_tile:704"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "quartz_block": {
+      "model_id": "flatworld:block/quartz_block",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:711",
+        "side": "atlas_tile:712",
+        "bottom": "atlas_tile:713"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "nether_quartz_ore": {
+      "model_id": "flatworld:block/nether_quartz_ore",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:520",
+        "side": "atlas_tile:521",
+        "bottom": "atlas_tile:522"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "rail": {
+      "model_id": "flatworld:block/rail",
+      "shape": "rail",
+      "textures": {
+        "top": "atlas_tile:714",
+        "side": "atlas_tile:715",
+        "bottom": "atlas_tile:716"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "red_concrete": {
+      "model_id": "flatworld:block/red_concrete",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:726",
+        "side": "atlas_tile:727",
+        "bottom": "atlas_tile:728"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "red_poplar_leaves": {
+      "model_id": "flatworld:block/red_poplar_leaves",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:735",
+        "side": "atlas_tile:736",
+        "bottom": "atlas_tile:737"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "red_sand": {
+      "model_id": "flatworld:block/red_sand",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:738",
+        "side": "atlas_tile:739",
+        "bottom": "atlas_tile:740"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "red_sandstone": {
+      "model_id": "flatworld:block/red_sandstone",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:741",
+        "side": "atlas_tile:742",
+        "bottom": "atlas_tile:743"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "red_shrub": {
+      "model_id": "flatworld:block/red_shrub",
+      "shape": "plant",
+      "textures": {
+        "top": "atlas_tile:744",
+        "side": "atlas_tile:745",
+        "bottom": "atlas_tile:746"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "red_wool": {
+      "model_id": "flatworld:block/red_wool",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:747",
+        "side": "atlas_tile:748",
+        "bottom": "atlas_tile:749"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "redstone_block": {
+      "model_id": "flatworld:block/redstone_block",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:756",
+        "side": "atlas_tile:757",
+        "bottom": "atlas_tile:758"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "redstone_wire": {
+      "model_id": "flatworld:block/redstone_wire",
+      "shape": "redstone_dust",
+      "textures": {
+        "top": "atlas_tile:771",
+        "side": "atlas_tile:772",
+        "bottom": "atlas_tile:773",
+        "powered_top": "atlas_tile:774",
+        "powered_side": "atlas_tile:775",
+        "powered_bottom": "atlas_tile:776"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "redstone_lamp": {
+      "model_id": "flatworld:block/redstone_lamp",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:759",
+        "side": "atlas_tile:760",
+        "bottom": "atlas_tile:761",
+        "lit_top": "atlas_tile:762",
+        "lit_side": "atlas_tile:763",
+        "lit_bottom": "atlas_tile:764"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "redstone_ore": {
+      "model_id": "flatworld:block/redstone_ore",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:765",
+        "side": "atlas_tile:766",
+        "bottom": "atlas_tile:767"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "redstone_torch": {
+      "model_id": "flatworld:block/redstone_torch",
+      "shape": "torch",
+      "textures": {
+        "top": "atlas_tile:768",
+        "side": "atlas_tile:769",
+        "bottom": "atlas_tile:770"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "repeater": {
+      "model_id": "flatworld:block/repeater",
+      "shape": "repeater",
+      "textures": {
+        "top": "atlas_tile:777",
+        "side": "atlas_tile:778",
+        "bottom": "atlas_tile:779"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "rooted_dirt": {
+      "model_id": "flatworld:block/rooted_dirt",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:780",
+        "side": "atlas_tile:781",
+        "bottom": "atlas_tile:782"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "sand": {
+      "model_id": "flatworld:block/sand",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:783",
+        "side": "atlas_tile:784",
+        "bottom": "atlas_tile:785"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "sandstone": {
+      "model_id": "flatworld:block/sandstone",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:786",
+        "side": "atlas_tile:787",
+        "bottom": "atlas_tile:788"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "sea_lantern": {
+      "model_id": "flatworld:block/sea_lantern",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:789",
+        "side": "atlas_tile:790",
+        "bottom": "atlas_tile:791"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "shelf_mushroom": {
+      "model_id": "flatworld:block/shelf_mushroom",
+      "shape": "plant",
+      "textures": {
+        "top": "atlas_tile:792",
+        "side": "atlas_tile:793",
+        "bottom": "atlas_tile:794"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "short_grass": {
+      "model_id": "flatworld:block/short_grass",
+      "shape": "plant",
+      "textures": {
+        "top": "atlas_tile:795",
+        "side": "atlas_tile:796",
+        "bottom": "atlas_tile:797"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "shulker_box": {
+      "model_id": "flatworld:block/shulker_box",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:798",
+        "side": "atlas_tile:799",
+        "bottom": "atlas_tile:800",
+        "front": "atlas_tile:801",
+        "back": "atlas_tile:802"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "snow_block": {
+      "model_id": "flatworld:block/snow_block",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:803",
+        "side": "atlas_tile:804",
+        "bottom": "atlas_tile:805"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "soul_sand": {
+      "model_id": "flatworld:block/soul_sand",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:806",
+        "side": "atlas_tile:807",
+        "bottom": "atlas_tile:808"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "soul_soil": {
+      "model_id": "flatworld:block/soul_soil",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:809",
+        "side": "atlas_tile:810",
+        "bottom": "atlas_tile:811"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "sponge": {
+      "model_id": "flatworld:block/sponge",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:812",
+        "side": "atlas_tile:813",
+        "bottom": "atlas_tile:814"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "spruce_leaves": {
+      "model_id": "flatworld:block/spruce_leaves",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:815",
+        "side": "atlas_tile:816",
+        "bottom": "atlas_tile:817"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "spruce_log": {
+      "model_id": "flatworld:block/spruce_log",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:818",
+        "side": "atlas_tile:819",
+        "bottom": "atlas_tile:820"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "spruce_planks": {
+      "model_id": "flatworld:block/spruce_planks",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:821",
+        "side": "atlas_tile:822",
+        "bottom": "atlas_tile:823"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "spruce_sapling": {
+      "model_id": "flatworld:block/spruce_sapling",
+      "shape": "plant",
+      "textures": {
+        "top": "atlas_tile:824",
+        "side": "atlas_tile:825",
+        "bottom": "atlas_tile:826"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "sticky_piston": {
+      "model_id": "flatworld:block/sticky_piston",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:827",
+        "side": "atlas_tile:828",
+        "bottom": "atlas_tile:829",
+        "front": "atlas_tile:830",
+        "back": "atlas_tile:831"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "stone": {
+      "model_id": "flatworld:block/stone",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:832",
+        "side": "atlas_tile:833",
+        "bottom": "atlas_tile:834"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "stone_bricks": {
+      "model_id": "flatworld:block/stone_bricks",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:835",
+        "side": "atlas_tile:836",
+        "bottom": "atlas_tile:837"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "stone_button": {
+      "model_id": "flatworld:block/stone_button",
+      "shape": "button",
+      "textures": {
+        "top": "atlas_tile:838",
+        "side": "atlas_tile:839",
+        "bottom": "atlas_tile:840"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "stone_slab": {
+      "model_id": "flatworld:block/stone_slab",
+      "shape": "slab",
+      "textures": {
+        "top": "atlas_tile:844",
+        "side": "atlas_tile:845",
+        "bottom": "atlas_tile:846"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "stone_stairs": {
+      "model_id": "flatworld:block/stone_stairs",
+      "shape": "stair",
+      "textures": {
+        "top": "atlas_tile:847",
+        "side": "atlas_tile:848",
+        "bottom": "atlas_tile:849"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "straw_bed": {
+      "model_id": "flatworld:block/straw_bed",
+      "shape": "straw_bed",
+      "textures": {
+        "top": "atlas_tile:850",
+        "side": "atlas_tile:851",
+        "bottom": "atlas_tile:852"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "stripped_poplar_log": {
+      "model_id": "flatworld:block/stripped_poplar_log",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:853",
+        "side": "atlas_tile:854",
+        "bottom": "atlas_tile:855"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "stripped_poplar_wood": {
+      "model_id": "flatworld:block/stripped_poplar_wood",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:856",
+        "side": "atlas_tile:857",
+        "bottom": "atlas_tile:858"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "target": {
+      "model_id": "flatworld:block/target",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:859",
+        "side": "atlas_tile:860",
+        "bottom": "atlas_tile:861"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "terracotta": {
+      "model_id": "flatworld:block/terracotta",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:862",
+        "side": "atlas_tile:863",
+        "bottom": "atlas_tile:864"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "tinted_glass": {
+      "model_id": "flatworld:block/tinted_glass",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:865",
+        "side": "atlas_tile:866",
+        "bottom": "atlas_tile:867"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "tnt": {
+      "model_id": "flatworld:block/tnt",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:868",
+        "side": "atlas_tile:869",
+        "bottom": "atlas_tile:870"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "torch": {
+      "model_id": "flatworld:block/torch",
+      "shape": "torch",
+      "textures": {
+        "top": "atlas_tile:871",
+        "side": "atlas_tile:872",
+        "bottom": "atlas_tile:873"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "tripwire": {
+      "model_id": "flatworld:block/tripwire",
+      "shape": "plant",
+      "textures": {
+        "top": "atlas_tile:874",
+        "side": "atlas_tile:875",
+        "bottom": "atlas_tile:876"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "tripwire_hook": {
+      "model_id": "flatworld:block/tripwire_hook",
+      "shape": "button",
+      "textures": {
+        "top": "atlas_tile:877",
+        "side": "atlas_tile:878",
+        "bottom": "atlas_tile:879"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "tuff": {
+      "model_id": "flatworld:block/tuff",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:880",
+        "side": "atlas_tile:881",
+        "bottom": "atlas_tile:882"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "warped_stem": {
+      "model_id": "flatworld:block/warped_stem",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:883",
+        "side": "atlas_tile:884",
+        "bottom": "atlas_tile:885"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "water": {
+      "model_id": "flatworld:block/water",
+      "shape": "fluid",
+      "textures": {
+        "top": "atlas_tile:886",
+        "side": "atlas_tile:887",
+        "bottom": "atlas_tile:888"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "wet_sponge": {
+      "model_id": "flatworld:block/wet_sponge",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:889",
+        "side": "atlas_tile:890",
+        "bottom": "atlas_tile:891"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "wheat": {
+      "model_id": "flatworld:block/wheat",
+      "shape": "plant",
+      "textures": {
+        "top": "atlas_tile:892",
+        "side": "atlas_tile:893",
+        "bottom": "atlas_tile:894"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "white_concrete": {
+      "model_id": "flatworld:block/white_concrete",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:895",
+        "side": "atlas_tile:896",
+        "bottom": "atlas_tile:897"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "white_wool": {
+      "model_id": "flatworld:block/white_wool",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:904",
+        "side": "atlas_tile:905",
+        "bottom": "atlas_tile:906"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "yellow_concrete": {
+      "model_id": "flatworld:block/yellow_concrete",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:913",
+        "side": "atlas_tile:914",
+        "bottom": "atlas_tile:915"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "yellow_poplar_leaves": {
+      "model_id": "flatworld:block/yellow_poplar_leaves",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:922",
+        "side": "atlas_tile:923",
+        "bottom": "atlas_tile:924"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "yellow_wool": {
+      "model_id": "flatworld:block/yellow_wool",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:925",
+        "side": "atlas_tile:926",
+        "bottom": "atlas_tile:927"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "black_concrete_slab": {
+      "model_id": "flatworld:block/black_concrete_slab",
+      "shape": "slab",
+      "textures": {
+        "top": "atlas_tile:50",
+        "side": "atlas_tile:51",
+        "bottom": "atlas_tile:52"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "black_concrete_stairs": {
+      "model_id": "flatworld:block/black_concrete_stairs",
+      "shape": "stair",
+      "textures": {
+        "top": "atlas_tile:53",
+        "side": "atlas_tile:54",
+        "bottom": "atlas_tile:55"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "blue_concrete_slab": {
+      "model_id": "flatworld:block/blue_concrete_slab",
+      "shape": "slab",
+      "textures": {
+        "top": "atlas_tile:71",
+        "side": "atlas_tile:72",
+        "bottom": "atlas_tile:73"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "blue_concrete_stairs": {
+      "model_id": "flatworld:block/blue_concrete_stairs",
+      "shape": "stair",
+      "textures": {
+        "top": "atlas_tile:74",
+        "side": "atlas_tile:75",
+        "bottom": "atlas_tile:76"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "brown_concrete_slab": {
+      "model_id": "flatworld:block/brown_concrete_slab",
+      "shape": "slab",
+      "textures": {
+        "top": "atlas_tile:98",
+        "side": "atlas_tile:99",
+        "bottom": "atlas_tile:100"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "brown_concrete_stairs": {
+      "model_id": "flatworld:block/brown_concrete_stairs",
+      "shape": "stair",
+      "textures": {
+        "top": "atlas_tile:101",
+        "side": "atlas_tile:102",
+        "bottom": "atlas_tile:103"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "cyan_concrete_slab": {
+      "model_id": "flatworld:block/cyan_concrete_slab",
+      "shape": "slab",
+      "textures": {
+        "top": "atlas_tile:191",
+        "side": "atlas_tile:192",
+        "bottom": "atlas_tile:193"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "cyan_concrete_stairs": {
+      "model_id": "flatworld:block/cyan_concrete_stairs",
+      "shape": "stair",
+      "textures": {
+        "top": "atlas_tile:194",
+        "side": "atlas_tile:195",
+        "bottom": "atlas_tile:196"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "gray_concrete_slab": {
+      "model_id": "flatworld:block/gray_concrete_slab",
+      "shape": "slab",
+      "textures": {
+        "top": "atlas_tile:324",
+        "side": "atlas_tile:325",
+        "bottom": "atlas_tile:326"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "gray_concrete_stairs": {
+      "model_id": "flatworld:block/gray_concrete_stairs",
+      "shape": "stair",
+      "textures": {
+        "top": "atlas_tile:327",
+        "side": "atlas_tile:328",
+        "bottom": "atlas_tile:329"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "green_concrete_slab": {
+      "model_id": "flatworld:block/green_concrete_slab",
+      "shape": "slab",
+      "textures": {
+        "top": "atlas_tile:342",
+        "side": "atlas_tile:343",
+        "bottom": "atlas_tile:344"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "green_concrete_stairs": {
+      "model_id": "flatworld:block/green_concrete_stairs",
+      "shape": "stair",
+      "textures": {
+        "top": "atlas_tile:345",
+        "side": "atlas_tile:346",
+        "bottom": "atlas_tile:347"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "light_blue_concrete_slab": {
+      "model_id": "flatworld:block/light_blue_concrete_slab",
+      "shape": "slab",
+      "textures": {
+        "top": "atlas_tile:415",
+        "side": "atlas_tile:416",
+        "bottom": "atlas_tile:417"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "light_blue_concrete_stairs": {
+      "model_id": "flatworld:block/light_blue_concrete_stairs",
+      "shape": "stair",
+      "textures": {
+        "top": "atlas_tile:418",
+        "side": "atlas_tile:419",
+        "bottom": "atlas_tile:420"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "light_gray_concrete_slab": {
+      "model_id": "flatworld:block/light_gray_concrete_slab",
+      "shape": "slab",
+      "textures": {
+        "top": "atlas_tile:433",
+        "side": "atlas_tile:434",
+        "bottom": "atlas_tile:435"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "light_gray_concrete_stairs": {
+      "model_id": "flatworld:block/light_gray_concrete_stairs",
+      "shape": "stair",
+      "textures": {
+        "top": "atlas_tile:436",
+        "side": "atlas_tile:437",
+        "bottom": "atlas_tile:438"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "lime_concrete_slab": {
+      "model_id": "flatworld:block/lime_concrete_slab",
+      "shape": "slab",
+      "textures": {
+        "top": "atlas_tile:454",
+        "side": "atlas_tile:455",
+        "bottom": "atlas_tile:456"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "lime_concrete_stairs": {
+      "model_id": "flatworld:block/lime_concrete_stairs",
+      "shape": "stair",
+      "textures": {
+        "top": "atlas_tile:457",
+        "side": "atlas_tile:458",
+        "bottom": "atlas_tile:459"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "magenta_concrete_slab": {
+      "model_id": "flatworld:block/magenta_concrete_slab",
+      "shape": "slab",
+      "textures": {
+        "top": "atlas_tile:472",
+        "side": "atlas_tile:473",
+        "bottom": "atlas_tile:474"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "magenta_concrete_stairs": {
+      "model_id": "flatworld:block/magenta_concrete_stairs",
+      "shape": "stair",
+      "textures": {
+        "top": "atlas_tile:475",
+        "side": "atlas_tile:476",
+        "bottom": "atlas_tile:477"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "orange_concrete_slab": {
+      "model_id": "flatworld:block/orange_concrete_slab",
+      "shape": "slab",
+      "textures": {
+        "top": "atlas_tile:575",
+        "side": "atlas_tile:576",
+        "bottom": "atlas_tile:577"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "orange_concrete_stairs": {
+      "model_id": "flatworld:block/orange_concrete_stairs",
+      "shape": "stair",
+      "textures": {
+        "top": "atlas_tile:578",
+        "side": "atlas_tile:579",
+        "bottom": "atlas_tile:580"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "pink_concrete_slab": {
+      "model_id": "flatworld:block/pink_concrete_slab",
+      "shape": "slab",
+      "textures": {
+        "top": "atlas_tile:602",
+        "side": "atlas_tile:603",
+        "bottom": "atlas_tile:604"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "pink_concrete_stairs": {
+      "model_id": "flatworld:block/pink_concrete_stairs",
+      "shape": "stair",
+      "textures": {
+        "top": "atlas_tile:605",
+        "side": "atlas_tile:606",
+        "bottom": "atlas_tile:607"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "purple_concrete_slab": {
+      "model_id": "flatworld:block/purple_concrete_slab",
+      "shape": "slab",
+      "textures": {
+        "top": "atlas_tile:696",
+        "side": "atlas_tile:697",
+        "bottom": "atlas_tile:698"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "purple_concrete_stairs": {
+      "model_id": "flatworld:block/purple_concrete_stairs",
+      "shape": "stair",
+      "textures": {
+        "top": "atlas_tile:699",
+        "side": "atlas_tile:700",
+        "bottom": "atlas_tile:701"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "red_concrete_slab": {
+      "model_id": "flatworld:block/red_concrete_slab",
+      "shape": "slab",
+      "textures": {
+        "top": "atlas_tile:729",
+        "side": "atlas_tile:730",
+        "bottom": "atlas_tile:731"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "red_concrete_stairs": {
+      "model_id": "flatworld:block/red_concrete_stairs",
+      "shape": "stair",
+      "textures": {
+        "top": "atlas_tile:732",
+        "side": "atlas_tile:733",
+        "bottom": "atlas_tile:734"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "white_concrete_slab": {
+      "model_id": "flatworld:block/white_concrete_slab",
+      "shape": "slab",
+      "textures": {
+        "top": "atlas_tile:898",
+        "side": "atlas_tile:899",
+        "bottom": "atlas_tile:900"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "white_concrete_stairs": {
+      "model_id": "flatworld:block/white_concrete_stairs",
+      "shape": "stair",
+      "textures": {
+        "top": "atlas_tile:901",
+        "side": "atlas_tile:902",
+        "bottom": "atlas_tile:903"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "yellow_concrete_slab": {
+      "model_id": "flatworld:block/yellow_concrete_slab",
+      "shape": "slab",
+      "textures": {
+        "top": "atlas_tile:916",
+        "side": "atlas_tile:917",
+        "bottom": "atlas_tile:918"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "yellow_concrete_stairs": {
+      "model_id": "flatworld:block/yellow_concrete_stairs",
+      "shape": "stair",
+      "textures": {
+        "top": "atlas_tile:919",
+        "side": "atlas_tile:920",
+        "bottom": "atlas_tile:921"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "black_wool_slab": {
+      "model_id": "flatworld:block/black_wool_slab",
+      "shape": "slab",
+      "textures": {
+        "top": "atlas_tile:59",
+        "side": "atlas_tile:60",
+        "bottom": "atlas_tile:61"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "black_wool_stairs": {
+      "model_id": "flatworld:block/black_wool_stairs",
+      "shape": "stair",
+      "textures": {
+        "top": "atlas_tile:62",
+        "side": "atlas_tile:63",
+        "bottom": "atlas_tile:64"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "blue_wool_slab": {
+      "model_id": "flatworld:block/blue_wool_slab",
+      "shape": "slab",
+      "textures": {
+        "top": "atlas_tile:83",
+        "side": "atlas_tile:84",
+        "bottom": "atlas_tile:85"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "blue_wool_stairs": {
+      "model_id": "flatworld:block/blue_wool_stairs",
+      "shape": "stair",
+      "textures": {
+        "top": "atlas_tile:86",
+        "side": "atlas_tile:87",
+        "bottom": "atlas_tile:88"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "brown_wool_slab": {
+      "model_id": "flatworld:block/brown_wool_slab",
+      "shape": "slab",
+      "textures": {
+        "top": "atlas_tile:107",
+        "side": "atlas_tile:108",
+        "bottom": "atlas_tile:109"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "brown_wool_stairs": {
+      "model_id": "flatworld:block/brown_wool_stairs",
+      "shape": "stair",
+      "textures": {
+        "top": "atlas_tile:110",
+        "side": "atlas_tile:111",
+        "bottom": "atlas_tile:112"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "cyan_wool_slab": {
+      "model_id": "flatworld:block/cyan_wool_slab",
+      "shape": "slab",
+      "textures": {
+        "top": "atlas_tile:200",
+        "side": "atlas_tile:201",
+        "bottom": "atlas_tile:202"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "cyan_wool_stairs": {
+      "model_id": "flatworld:block/cyan_wool_stairs",
+      "shape": "stair",
+      "textures": {
+        "top": "atlas_tile:203",
+        "side": "atlas_tile:204",
+        "bottom": "atlas_tile:205"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "gray_wool_slab": {
+      "model_id": "flatworld:block/gray_wool_slab",
+      "shape": "slab",
+      "textures": {
+        "top": "atlas_tile:333",
+        "side": "atlas_tile:334",
+        "bottom": "atlas_tile:335"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "gray_wool_stairs": {
+      "model_id": "flatworld:block/gray_wool_stairs",
+      "shape": "stair",
+      "textures": {
+        "top": "atlas_tile:336",
+        "side": "atlas_tile:337",
+        "bottom": "atlas_tile:338"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "green_wool_slab": {
+      "model_id": "flatworld:block/green_wool_slab",
+      "shape": "slab",
+      "textures": {
+        "top": "atlas_tile:351",
+        "side": "atlas_tile:352",
+        "bottom": "atlas_tile:353"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "green_wool_stairs": {
+      "model_id": "flatworld:block/green_wool_stairs",
+      "shape": "stair",
+      "textures": {
+        "top": "atlas_tile:354",
+        "side": "atlas_tile:355",
+        "bottom": "atlas_tile:356"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "light_blue_wool_slab": {
+      "model_id": "flatworld:block/light_blue_wool_slab",
+      "shape": "slab",
+      "textures": {
+        "top": "atlas_tile:424",
+        "side": "atlas_tile:425",
+        "bottom": "atlas_tile:426"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "light_blue_wool_stairs": {
+      "model_id": "flatworld:block/light_blue_wool_stairs",
+      "shape": "stair",
+      "textures": {
+        "top": "atlas_tile:427",
+        "side": "atlas_tile:428",
+        "bottom": "atlas_tile:429"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "light_gray_wool_slab": {
+      "model_id": "flatworld:block/light_gray_wool_slab",
+      "shape": "slab",
+      "textures": {
+        "top": "atlas_tile:442",
+        "side": "atlas_tile:443",
+        "bottom": "atlas_tile:444"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "light_gray_wool_stairs": {
+      "model_id": "flatworld:block/light_gray_wool_stairs",
+      "shape": "stair",
+      "textures": {
+        "top": "atlas_tile:445",
+        "side": "atlas_tile:446",
+        "bottom": "atlas_tile:447"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "lime_wool_slab": {
+      "model_id": "flatworld:block/lime_wool_slab",
+      "shape": "slab",
+      "textures": {
+        "top": "atlas_tile:463",
+        "side": "atlas_tile:464",
+        "bottom": "atlas_tile:465"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "lime_wool_stairs": {
+      "model_id": "flatworld:block/lime_wool_stairs",
+      "shape": "stair",
+      "textures": {
+        "top": "atlas_tile:466",
+        "side": "atlas_tile:467",
+        "bottom": "atlas_tile:468"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "magenta_wool_slab": {
+      "model_id": "flatworld:block/magenta_wool_slab",
+      "shape": "slab",
+      "textures": {
+        "top": "atlas_tile:481",
+        "side": "atlas_tile:482",
+        "bottom": "atlas_tile:483"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "magenta_wool_stairs": {
+      "model_id": "flatworld:block/magenta_wool_stairs",
+      "shape": "stair",
+      "textures": {
+        "top": "atlas_tile:484",
+        "side": "atlas_tile:485",
+        "bottom": "atlas_tile:486"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "orange_wool_slab": {
+      "model_id": "flatworld:block/orange_wool_slab",
+      "shape": "slab",
+      "textures": {
+        "top": "atlas_tile:587",
+        "side": "atlas_tile:588",
+        "bottom": "atlas_tile:589"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "orange_wool_stairs": {
+      "model_id": "flatworld:block/orange_wool_stairs",
+      "shape": "stair",
+      "textures": {
+        "top": "atlas_tile:590",
+        "side": "atlas_tile:591",
+        "bottom": "atlas_tile:592"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "pink_wool_slab": {
+      "model_id": "flatworld:block/pink_wool_slab",
+      "shape": "slab",
+      "textures": {
+        "top": "atlas_tile:611",
+        "side": "atlas_tile:612",
+        "bottom": "atlas_tile:613"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "pink_wool_stairs": {
+      "model_id": "flatworld:block/pink_wool_stairs",
+      "shape": "stair",
+      "textures": {
+        "top": "atlas_tile:614",
+        "side": "atlas_tile:615",
+        "bottom": "atlas_tile:616"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "purple_wool_slab": {
+      "model_id": "flatworld:block/purple_wool_slab",
+      "shape": "slab",
+      "textures": {
+        "top": "atlas_tile:705",
+        "side": "atlas_tile:706",
+        "bottom": "atlas_tile:707"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "purple_wool_stairs": {
+      "model_id": "flatworld:block/purple_wool_stairs",
+      "shape": "stair",
+      "textures": {
+        "top": "atlas_tile:708",
+        "side": "atlas_tile:709",
+        "bottom": "atlas_tile:710"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "red_wool_slab": {
+      "model_id": "flatworld:block/red_wool_slab",
+      "shape": "slab",
+      "textures": {
+        "top": "atlas_tile:750",
+        "side": "atlas_tile:751",
+        "bottom": "atlas_tile:752"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "red_wool_stairs": {
+      "model_id": "flatworld:block/red_wool_stairs",
+      "shape": "stair",
+      "textures": {
+        "top": "atlas_tile:753",
+        "side": "atlas_tile:754",
+        "bottom": "atlas_tile:755"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "white_wool_slab": {
+      "model_id": "flatworld:block/white_wool_slab",
+      "shape": "slab",
+      "textures": {
+        "top": "atlas_tile:907",
+        "side": "atlas_tile:908",
+        "bottom": "atlas_tile:909"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "white_wool_stairs": {
+      "model_id": "flatworld:block/white_wool_stairs",
+      "shape": "stair",
+      "textures": {
+        "top": "atlas_tile:910",
+        "side": "atlas_tile:911",
+        "bottom": "atlas_tile:912"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "yellow_wool_slab": {
+      "model_id": "flatworld:block/yellow_wool_slab",
+      "shape": "slab",
+      "textures": {
+        "top": "atlas_tile:928",
+        "side": "atlas_tile:929",
+        "bottom": "atlas_tile:930"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "yellow_wool_stairs": {
+      "model_id": "flatworld:block/yellow_wool_stairs",
+      "shape": "stair",
+      "textures": {
+        "top": "atlas_tile:931",
+        "side": "atlas_tile:932",
+        "bottom": "atlas_tile:933"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "raw_iron_block": {
+      "model_id": "flatworld:block/raw_iron_block",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:723",
+        "side": "atlas_tile:724",
+        "bottom": "atlas_tile:725"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "raw_gold_block": {
+      "model_id": "flatworld:block/raw_gold_block",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:720",
+        "side": "atlas_tile:721",
+        "bottom": "atlas_tile:722"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    },
+    "raw_copper_block": {
+      "model_id": "flatworld:block/raw_copper_block",
+      "shape": "cube",
+      "textures": {
+        "top": "atlas_tile:717",
+        "side": "atlas_tile:718",
+        "bottom": "atlas_tile:719"
+      },
+      "state_variants": {},
+      "source_status": "project_geometry_fallback_not_vanilla_model"
+    }
+  }
+}

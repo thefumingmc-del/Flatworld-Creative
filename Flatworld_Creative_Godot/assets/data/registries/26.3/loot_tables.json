@@ -1,0 +1,6 @@
+{
+  "schema_version": 1,
+  "minecraft_version": "26.3",
+  "source_status": "partial_entity_drop_behaviors_not_vanilla_loot_tables",
+  "tables": {}
+}

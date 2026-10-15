@@ -1,0 +1,41 @@
+{
+  "schema_version": 2,
+  "minecraft_version": "26.3",
+  "source_status": "incomplete_project_runtime_tags; official 26.3 files are indexed by tools/sync_java_26_3_reference.py and not yet imported",
+  "block_tags": {
+    "compostable": [
+      "leaf_litter",
+      "shelf_mushroom"
+    ],
+    "crop": [
+      "beetroots",
+      "carrots",
+      "potatoes",
+      "wheat"
+    ],
+    "mushroom": [
+      "shelf_mushroom"
+    ],
+    "redstone_component": [
+      "comparator",
+      "lever",
+      "poplar_button",
+      "poplar_pressure_plate",
+      "redstone_torch",
+      "redstone_wire",
+      "repeater",
+      "stone_button",
+      "stone_pressure_plate"
+    ],
+    "sapling": [
+      "birch_sapling",
+      "oak_sapling",
+      "poplar_sapling",
+      "spruce_sapling"
+    ]
+  },
+  "item_tags": {},
+  "entity_tags": {},
+  "biome_tags": {},
+  "completeness": "subset only; use all/block/item/entity_types indexes after verified official import"
+}

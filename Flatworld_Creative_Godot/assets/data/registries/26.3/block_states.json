@@ -1,0 +1,4118 @@
+{
+  "schema_version": 3,
+  "minecraft_version": "26.3",
+  "source_status": "partial_state_catalogue_block_ids_only; exact combinations and ids require official report import",
+  "block_states": {
+    "acacia_log": {
+      "properties": {
+        "axis": {
+          "type": "enum",
+          "values": [
+            "x",
+            "y",
+            "z"
+          ]
+        }
+      },
+      "source_status": "provisional_project_mapping",
+      "complete": false
+    },
+    "acacia_planks": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "activator_rail": {
+      "properties": {
+        "shape": {
+          "type": "enum",
+          "values": [
+            "north_south",
+            "east_west",
+            "ascending_east",
+            "ascending_west",
+            "ascending_north",
+            "ascending_south",
+            "south_east",
+            "south_west",
+            "north_west",
+            "north_east"
+          ]
+        },
+        "powered": {
+          "type": "bool",
+          "values": [
+            "false",
+            "true"
+          ]
+        }
+      },
+      "source_status": "provisional_project_mapping",
+      "complete": false
+    },
+    "air": {
+      "properties": {},
+      "source_status": "verified_registry_id_only",
+      "complete": false
+    },
+    "amethyst_block": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "ancient_debris": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "anvil": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "barrel": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "basalt": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "beacon": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "bedrock": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "beetroots": {
+      "properties": {
+        "age": {
+          "type": "int",
+          "min": 0,
+          "max": 3,
+          "values": [
+            "0",
+            "1",
+            "2",
+            "3"
+          ]
+        }
+      },
+      "source_status": "provisional_until_authoritative_26_3_report_import",
+      "complete": false
+    },
+    "birch_leaves": {
+      "properties": {
+        "distance": {
+          "type": "int",
+          "min": 1,
+          "max": 7
+        },
+        "persistent": {
+          "type": "bool",
+          "values": [
+            "false",
+            "true"
+          ]
+        },
+        "waterlogged": {
+          "type": "bool",
+          "values": [
+            "false",
+            "true"
+          ]
+        }
+      },
+      "source_status": "provisional_project_mapping",
+      "complete": false
+    },
+    "birch_log": {
+      "properties": {
+        "axis": {
+          "type": "enum",
+          "values": [
+            "x",
+            "y",
+            "z"
+          ]
+        }
+      },
+      "source_status": "provisional_project_mapping",
+      "complete": false
+    },
+    "birch_planks": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "birch_sapling": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "black_concrete": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "black_concrete_slab": {
+      "properties": {
+        "type": {
+          "type": "enum",
+          "values": [
+            "bottom",
+            "top",
+            "double"
+          ]
+        },
+        "waterlogged": {
+          "type": "bool",
+          "values": [
+            "false",
+            "true"
+          ]
+        }
+      },
+      "source_status": "provisional_project_mapping",
+      "complete": false
+    },
+    "black_concrete_stairs": {
+      "properties": {
+        "facing": {
+          "type": "enum",
+          "values": [
+            "north",
+            "south",
+            "west",
+            "east"
+          ]
+        },
+        "half": {
+          "type": "enum",
+          "values": [
+            "top",
+            "bottom"
+          ]
+        },
+        "shape": {
+          "type": "enum",
+          "values": [
+            "straight",
+            "inner_left",
+            "inner_right",
+            "outer_left",
+            "outer_right"
+          ]
+        },
+        "waterlogged": {
+          "type": "bool",
+          "values": [
+            "false",
+            "true"
+          ]
+        }
+      },
+      "source_status": "provisional_project_mapping",
+      "complete": false
+    },
+    "black_wool": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "black_wool_slab": {
+      "properties": {
+        "type": {
+          "type": "enum",
+          "values": [
+            "bottom",
+            "top",
+            "double"
+          ]
+        },
+        "waterlogged": {
+          "type": "bool",
+          "values": [
+            "false",
+            "true"
+          ]
+        }
+      },
+      "source_status": "provisional_project_mapping",
+      "complete": false
+    },
+    "black_wool_stairs": {
+      "properties": {
+        "facing": {
+          "type": "enum",
+          "values": [
+            "north",
+            "south",
+            "west",
+            "east"
+          ]
+        },
+        "half": {
+          "type": "enum",
+          "values": [
+            "top",
+            "bottom"
+          ]
+        },
+        "shape": {
+          "type": "enum",
+          "values": [
+            "straight",
+            "inner_left",
+            "inner_right",
+            "outer_left",
+            "outer_right"
+          ]
+        },
+        "waterlogged": {
+          "type": "bool",
+          "values": [
+            "false",
+            "true"
+          ]
+        }
+      },
+      "source_status": "provisional_project_mapping",
+      "complete": false
+    },
+    "blackstone": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "blue_concrete": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "blue_concrete_slab": {
+      "properties": {
+        "type": {
+          "type": "enum",
+          "values": [
+            "bottom",
+            "top",
+            "double"
+          ]
+        },
+        "waterlogged": {
+          "type": "bool",
+          "values": [
+            "false",
+            "true"
+          ]
+        }
+      },
+      "source_status": "provisional_project_mapping",
+      "complete": false
+    },
+    "blue_concrete_stairs": {
+      "properties": {
+        "facing": {
+          "type": "enum",
+          "values": [
+            "north",
+            "south",
+            "west",
+            "east"
+          ]
+        },
+        "half": {
+          "type": "enum",
+          "values": [
+            "top",
+            "bottom"
+          ]
+        },
+        "shape": {
+          "type": "enum",
+          "values": [
+            "straight",
+            "inner_left",
+            "inner_right",
+            "outer_left",
+            "outer_right"
+          ]
+        },
+        "waterlogged": {
+          "type": "bool",
+          "values": [
+            "false",
+            "true"
+          ]
+        }
+      },
+      "source_status": "provisional_project_mapping",
+      "complete": false
+    },
+    "blue_ice": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "blue_wool": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "blue_wool_slab": {
+      "properties": {
+        "type": {
+          "type": "enum",
+          "values": [
+            "bottom",
+            "top",
+            "double"
+          ]
+        },
+        "waterlogged": {
+          "type": "bool",
+          "values": [
+            "false",
+            "true"
+          ]
+        }
+      },
+      "source_status": "provisional_project_mapping",
+      "complete": false
+    },
+    "blue_wool_stairs": {
+      "properties": {
+        "facing": {
+          "type": "enum",
+          "values": [
+            "north",
+            "south",
+            "west",
+            "east"
+          ]
+        },
+        "half": {
+          "type": "enum",
+          "values": [
+            "top",
+            "bottom"
+          ]
+        },
+        "shape": {
+          "type": "enum",
+          "values": [
+            "straight",
+            "inner_left",
+            "inner_right",
+            "outer_left",
+            "outer_right"
+          ]
+        },
+        "waterlogged": {
+          "type": "bool",
+          "values": [
+            "false",
+            "true"
+          ]
+        }
+      },
+      "source_status": "provisional_project_mapping",
+      "complete": false
+    },
+    "bookshelf": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "bricks": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "brown_concrete": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "brown_concrete_slab": {
+      "properties": {
+        "type": {
+          "type": "enum",
+          "values": [
+            "bottom",
+            "top",
+            "double"
+          ]
+        },
+        "waterlogged": {
+          "type": "bool",
+          "values": [
+            "false",
+            "true"
+          ]
+        }
+      },
+      "source_status": "provisional_project_mapping",
+      "complete": false
+    },
+    "brown_concrete_stairs": {
+      "properties": {
+        "facing": {
+          "type": "enum",
+          "values": [
+            "north",
+            "south",
+            "west",
+            "east"
+          ]
+        },
+        "half": {
+          "type": "enum",
+          "values": [
+            "top",
+            "bottom"
+          ]
+        },
+        "shape": {
+          "type": "enum",
+          "values": [
+            "straight",
+            "inner_left",
+            "inner_right",
+            "outer_left",
+            "outer_right"
+          ]
+        },
+        "waterlogged": {
+          "type": "bool",
+          "values": [
+            "false",
+            "true"
+          ]
+        }
+      },
+      "source_status": "provisional_project_mapping",
+      "complete": false
+    },
+    "brown_wool": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "brown_wool_slab": {
+      "properties": {
+        "type": {
+          "type": "enum",
+          "values": [
+            "bottom",
+            "top",
+            "double"
+          ]
+        },
+        "waterlogged": {
+          "type": "bool",
+          "values": [
+            "false",
+            "true"
+          ]
+        }
+      },
+      "source_status": "provisional_project_mapping",
+      "complete": false
+    },
+    "brown_wool_stairs": {
+      "properties": {
+        "facing": {
+          "type": "enum",
+          "values": [
+            "north",
+            "south",
+            "west",
+            "east"
+          ]
+        },
+        "half": {
+          "type": "enum",
+          "values": [
+            "top",
+            "bottom"
+          ]
+        },
+        "shape": {
+          "type": "enum",
+          "values": [
+            "straight",
+            "inner_left",
+            "inner_right",
+            "outer_left",
+            "outer_right"
+          ]
+        },
+        "waterlogged": {
+          "type": "bool",
+          "values": [
+            "false",
+            "true"
+          ]
+        }
+      },
+      "source_status": "provisional_project_mapping",
+      "complete": false
+    },
+    "cactus": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "calcite": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "campfire": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "carrots": {
+      "properties": {
+        "age": {
+          "type": "int",
+          "min": 0,
+          "max": 7,
+          "values": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7"
+          ]
+        }
+      },
+      "source_status": "provisional_until_authoritative_26_3_report_import",
+      "complete": false
+    },
+    "carved_pumpkin": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "cherry_log": {
+      "properties": {
+        "axis": {
+          "type": "enum",
+          "values": [
+            "x",
+            "y",
+            "z"
+          ]
+        }
+      },
+      "source_status": "provisional_project_mapping",
+      "complete": false
+    },
+    "cherry_planks": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "chest": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "clay": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "coal_ore": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "coarse_dirt": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "cobbled_deepslate": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "cobblestone": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "cobblestone_slab": {
+      "properties": {
+        "type": {
+          "type": "enum",
+          "values": [
+            "bottom",
+            "top",
+            "double"
+          ]
+        },
+        "waterlogged": {
+          "type": "bool",
+          "values": [
+            "false",
+            "true"
+          ]
+        }
+      },
+      "source_status": "provisional_project_mapping",
+      "complete": false
+    },
+    "cobblestone_stairs": {
+      "properties": {
+        "facing": {
+          "type": "enum",
+          "values": [
+            "north",
+            "south",
+            "west",
+            "east"
+          ]
+        },
+        "half": {
+          "type": "enum",
+          "values": [
+            "top",
+            "bottom"
+          ]
+        },
+        "shape": {
+          "type": "enum",
+          "values": [
+            "straight",
+            "inner_left",
+            "inner_right",
+            "outer_left",
+            "outer_right"
+          ]
+        },
+        "waterlogged": {
+          "type": "bool",
+          "values": [
+            "false",
+            "true"
+          ]
+        }
+      },
+      "source_status": "provisional_project_mapping",
+      "complete": false
+    },
+    "comparator": {
+      "properties": {
+        "facing": {
+          "type": "enum",
+          "values": [
+            "north",
+            "south",
+            "west",
+            "east"
+          ]
+        },
+        "mode": {
+          "type": "enum",
+          "values": [
+            "compare",
+            "subtract"
+          ]
+        },
+        "powered": {
+          "type": "bool",
+          "values": [
+            "false",
+            "true"
+          ]
+        }
+      },
+      "source_status": "provisional_project_mapping",
+      "complete": false
+    },
+    "composter": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "copper_block": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "copper_ore": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "cracked_stone_bricks": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "crafting_table": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "crimson_stem": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "cushion": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "cyan_concrete": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "cyan_concrete_slab": {
+      "properties": {
+        "type": {
+          "type": "enum",
+          "values": [
+            "bottom",
+            "top",
+            "double"
+          ]
+        },
+        "waterlogged": {
+          "type": "bool",
+          "values": [
+            "false",
+            "true"
+          ]
+        }
+      },
+      "source_status": "provisional_project_mapping",
+      "complete": false
+    },
+    "cyan_concrete_stairs": {
+      "properties": {
+        "facing": {
+          "type": "enum",
+          "values": [
+            "north",
+            "south",
+            "west",
+            "east"
+          ]
+        },
+        "half": {
+          "type": "enum",
+          "values": [
+            "top",
+            "bottom"
+          ]
+        },
+        "shape": {
+          "type": "enum",
+          "values": [
+            "straight",
+            "inner_left",
+            "inner_right",
+            "outer_left",
+            "outer_right"
+          ]
+        },
+        "waterlogged": {
+          "type": "bool",
+          "values": [
+            "false",
+            "true"
+          ]
+        }
+      },
+      "source_status": "provisional_project_mapping",
+      "complete": false
+    },
+    "cyan_wool": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "cyan_wool_slab": {
+      "properties": {
+        "type": {
+          "type": "enum",
+          "values": [
+            "bottom",
+            "top",
+            "double"
+          ]
+        },
+        "waterlogged": {
+          "type": "bool",
+          "values": [
+            "false",
+            "true"
+          ]
+        }
+      },
+      "source_status": "provisional_project_mapping",
+      "complete": false
+    },
+    "cyan_wool_stairs": {
+      "properties": {
+        "facing": {
+          "type": "enum",
+          "values": [
+            "north",
+            "south",
+            "west",
+            "east"
+          ]
+        },
+        "half": {
+          "type": "enum",
+          "values": [
+            "top",
+            "bottom"
+          ]
+        },
+        "shape": {
+          "type": "enum",
+          "values": [
+            "straight",
+            "inner_left",
+            "inner_right",
+            "outer_left",
+            "outer_right"
+          ]
+        },
+        "waterlogged": {
+          "type": "bool",
+          "values": [
+            "false",
+            "true"
+          ]
+        }
+      },
+      "source_status": "provisional_project_mapping",
+      "complete": false
+    },
+    "dandelion": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "dark_oak_log": {
+      "properties": {
+        "axis": {
+          "type": "enum",
+          "values": [
+            "x",
+            "y",
+            "z"
+          ]
+        }
+      },
+      "source_status": "provisional_project_mapping",
+      "complete": false
+    },
+    "dark_oak_planks": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "daylight_detector": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "deepslate": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "deepslate_coal_ore": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "deepslate_copper_ore": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "deepslate_diamond_ore": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "deepslate_emerald_ore": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "deepslate_gold_ore": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "deepslate_iron_ore": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "deepslate_lapis_ore": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "deepslate_redstone_ore": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "detector_rail": {
+      "properties": {
+        "shape": {
+          "type": "enum",
+          "values": [
+            "north_south",
+            "east_west",
+            "ascending_east",
+            "ascending_west",
+            "ascending_north",
+            "ascending_south",
+            "south_east",
+            "south_west",
+            "north_west",
+            "north_east"
+          ]
+        },
+        "powered": {
+          "type": "bool",
+          "values": [
+            "false",
+            "true"
+          ]
+        }
+      },
+      "source_status": "provisional_project_mapping",
+      "complete": false
+    },
+    "diamond_block": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "diamond_ore": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "dirt": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "dirt_path": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "dispenser": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "dripstone_block": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "dropper": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "emerald_block": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "emerald_ore": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "end_portal": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "end_portal_frame": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "end_rod": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "end_stone": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "farmland": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "flower_pot": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "furnace": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "glass": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "glowstone": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "gold_block": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "gold_ore": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "grass_block": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "gravel": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "gray_concrete": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "gray_concrete_slab": {
+      "properties": {
+        "type": {
+          "type": "enum",
+          "values": [
+            "bottom",
+            "top",
+            "double"
+          ]
+        },
+        "waterlogged": {
+          "type": "bool",
+          "values": [
+            "false",
+            "true"
+          ]
+        }
+      },
+      "source_status": "provisional_project_mapping",
+      "complete": false
+    },
+    "gray_concrete_stairs": {
+      "properties": {
+        "facing": {
+          "type": "enum",
+          "values": [
+            "north",
+            "south",
+            "west",
+            "east"
+          ]
+        },
+        "half": {
+          "type": "enum",
+          "values": [
+            "top",
+            "bottom"
+          ]
+        },
+        "shape": {
+          "type": "enum",
+          "values": [
+            "straight",
+            "inner_left",
+            "inner_right",
+            "outer_left",
+            "outer_right"
+          ]
+        },
+        "waterlogged": {
+          "type": "bool",
+          "values": [
+            "false",
+            "true"
+          ]
+        }
+      },
+      "source_status": "provisional_project_mapping",
+      "complete": false
+    },
+    "gray_wool": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "gray_wool_slab": {
+      "properties": {
+        "type": {
+          "type": "enum",
+          "values": [
+            "bottom",
+            "top",
+            "double"
+          ]
+        },
+        "waterlogged": {
+          "type": "bool",
+          "values": [
+            "false",
+            "true"
+          ]
+        }
+      },
+      "source_status": "provisional_project_mapping",
+      "complete": false
+    },
+    "gray_wool_stairs": {
+      "properties": {
+        "facing": {
+          "type": "enum",
+          "values": [
+            "north",
+            "south",
+            "west",
+            "east"
+          ]
+        },
+        "half": {
+          "type": "enum",
+          "values": [
+            "top",
+            "bottom"
+          ]
+        },
+        "shape": {
+          "type": "enum",
+          "values": [
+            "straight",
+            "inner_left",
+            "inner_right",
+            "outer_left",
+            "outer_right"
+          ]
+        },
+        "waterlogged": {
+          "type": "bool",
+          "values": [
+            "false",
+            "true"
+          ]
+        }
+      },
+      "source_status": "provisional_project_mapping",
+      "complete": false
+    },
+    "green_concrete": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "green_concrete_slab": {
+      "properties": {
+        "type": {
+          "type": "enum",
+          "values": [
+            "bottom",
+            "top",
+            "double"
+          ]
+        },
+        "waterlogged": {
+          "type": "bool",
+          "values": [
+            "false",
+            "true"
+          ]
+        }
+      },
+      "source_status": "provisional_project_mapping",
+      "complete": false
+    },
+    "green_concrete_stairs": {
+      "properties": {
+        "facing": {
+          "type": "enum",
+          "values": [
+            "north",
+            "south",
+            "west",
+            "east"
+          ]
+        },
+        "half": {
+          "type": "enum",
+          "values": [
+            "top",
+            "bottom"
+          ]
+        },
+        "shape": {
+          "type": "enum",
+          "values": [
+            "straight",
+            "inner_left",
+            "inner_right",
+            "outer_left",
+            "outer_right"
+          ]
+        },
+        "waterlogged": {
+          "type": "bool",
+          "values": [
+            "false",
+            "true"
+          ]
+        }
+      },
+      "source_status": "provisional_project_mapping",
+      "complete": false
+    },
+    "green_wool": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "green_wool_slab": {
+      "properties": {
+        "type": {
+          "type": "enum",
+          "values": [
+            "bottom",
+            "top",
+            "double"
+          ]
+        },
+        "waterlogged": {
+          "type": "bool",
+          "values": [
+            "false",
+            "true"
+          ]
+        }
+      },
+      "source_status": "provisional_project_mapping",
+      "complete": false
+    },
+    "green_wool_stairs": {
+      "properties": {
+        "facing": {
+          "type": "enum",
+          "values": [
+            "north",
+            "south",
+            "west",
+            "east"
+          ]
+        },
+        "half": {
+          "type": "enum",
+          "values": [
+            "top",
+            "bottom"
+          ]
+        },
+        "shape": {
+          "type": "enum",
+          "values": [
+            "straight",
+            "inner_left",
+            "inner_right",
+            "outer_left",
+            "outer_right"
+          ]
+        },
+        "waterlogged": {
+          "type": "bool",
+          "values": [
+            "false",
+            "true"
+          ]
+        }
+      },
+      "source_status": "provisional_project_mapping",
+      "complete": false
+    },
+    "hay_block": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "heavy_weighted_pressure_plate": {
+      "properties": {
+        "powered": {
+          "type": "bool",
+          "values": [
+            "false",
+            "true"
+          ]
+        }
+      },
+      "source_status": "provisional_project_mapping",
+      "complete": false
+    },
+    "hopper": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "ice": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "iron_block": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "iron_door": {
+      "properties": {
+        "facing": {
+          "type": "enum",
+          "values": [
+            "north",
+            "south",
+            "west",
+            "east"
+          ]
+        },
+        "half": {
+          "type": "enum",
+          "values": [
+            "lower",
+            "upper"
+          ]
+        },
+        "hinge": {
+          "type": "enum",
+          "values": [
+            "left",
+            "right"
+          ]
+        },
+        "open": {
+          "type": "bool",
+          "values": [
+            "false",
+            "true"
+          ]
+        },
+        "powered": {
+          "type": "bool",
+          "values": [
+            "false",
+            "true"
+          ]
+        }
+      },
+      "source_status": "provisional_project_mapping",
+      "complete": false
+    },
+    "iron_ore": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "iron_trapdoor": {
+      "properties": {
+        "facing": {
+          "type": "enum",
+          "values": [
+            "north",
+            "south",
+            "west",
+            "east"
+          ]
+        },
+        "half": {
+          "type": "enum",
+          "values": [
+            "top",
+            "bottom"
+          ]
+        },
+        "open": {
+          "type": "bool",
+          "values": [
+            "false",
+            "true"
+          ]
+        },
+        "powered": {
+          "type": "bool",
+          "values": [
+            "false",
+            "true"
+          ]
+        },
+        "waterlogged": {
+          "type": "bool",
+          "values": [
+            "false",
+            "true"
+          ]
+        }
+      },
+      "source_status": "provisional_project_mapping",
+      "complete": false
+    },
+    "jack_o_lantern": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "jungle_log": {
+      "properties": {
+        "axis": {
+          "type": "enum",
+          "values": [
+            "x",
+            "y",
+            "z"
+          ]
+        }
+      },
+      "source_status": "provisional_project_mapping",
+      "complete": false
+    },
+    "jungle_planks": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "ladder": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "lantern": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "lapis_ore": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "lava": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "leaf_litter": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "lever": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "light_blue_concrete": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "light_blue_concrete_slab": {
+      "properties": {
+        "type": {
+          "type": "enum",
+          "values": [
+            "bottom",
+            "top",
+            "double"
+          ]
+        },
+        "waterlogged": {
+          "type": "bool",
+          "values": [
+            "false",
+            "true"
+          ]
+        }
+      },
+      "source_status": "provisional_project_mapping",
+      "complete": false
+    },
+    "light_blue_concrete_stairs": {
+      "properties": {
+        "facing": {
+          "type": "enum",
+          "values": [
+            "north",
+            "south",
+            "west",
+            "east"
+          ]
+        },
+        "half": {
+          "type": "enum",
+          "values": [
+            "top",
+            "bottom"
+          ]
+        },
+        "shape": {
+          "type": "enum",
+          "values": [
+            "straight",
+            "inner_left",
+            "inner_right",
+            "outer_left",
+            "outer_right"
+          ]
+        },
+        "waterlogged": {
+          "type": "bool",
+          "values": [
+            "false",
+            "true"
+          ]
+        }
+      },
+      "source_status": "provisional_project_mapping",
+      "complete": false
+    },
+    "light_blue_wool": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "light_blue_wool_slab": {
+      "properties": {
+        "type": {
+          "type": "enum",
+          "values": [
+            "bottom",
+            "top",
+            "double"
+          ]
+        },
+        "waterlogged": {
+          "type": "bool",
+          "values": [
+            "false",
+            "true"
+          ]
+        }
+      },
+      "source_status": "provisional_project_mapping",
+      "complete": false
+    },
+    "light_blue_wool_stairs": {
+      "properties": {
+        "facing": {
+          "type": "enum",
+          "values": [
+            "north",
+            "south",
+            "west",
+            "east"
+          ]
+        },
+        "half": {
+          "type": "enum",
+          "values": [
+            "top",
+            "bottom"
+          ]
+        },
+        "shape": {
+          "type": "enum",
+          "values": [
+            "straight",
+            "inner_left",
+            "inner_right",
+            "outer_left",
+            "outer_right"
+          ]
+        },
+        "waterlogged": {
+          "type": "bool",
+          "values": [
+            "false",
+            "true"
+          ]
+        }
+      },
+      "source_status": "provisional_project_mapping",
+      "complete": false
+    },
+    "light_gray_concrete": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "light_gray_concrete_slab": {
+      "properties": {
+        "type": {
+          "type": "enum",
+          "values": [
+            "bottom",
+            "top",
+            "double"
+          ]
+        },
+        "waterlogged": {
+          "type": "bool",
+          "values": [
+            "false",
+            "true"
+          ]
+        }
+      },
+      "source_status": "provisional_project_mapping",
+      "complete": false
+    },
+    "light_gray_concrete_stairs": {
+      "properties": {
+        "facing": {
+          "type": "enum",
+          "values": [
+            "north",
+            "south",
+            "west",
+            "east"
+          ]
+        },
+        "half": {
+          "type": "enum",
+          "values": [
+            "top",
+            "bottom"
+          ]
+        },
+        "shape": {
+          "type": "enum",
+          "values": [
+            "straight",
+            "inner_left",
+            "inner_right",
+            "outer_left",
+            "outer_right"
+          ]
+        },
+        "waterlogged": {
+          "type": "bool",
+          "values": [
+            "false",
+            "true"
+          ]
+        }
+      },
+      "source_status": "provisional_project_mapping",
+      "complete": false
+    },
+    "light_gray_wool": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "light_gray_wool_slab": {
+      "properties": {
+        "type": {
+          "type": "enum",
+          "values": [
+            "bottom",
+            "top",
+            "double"
+          ]
+        },
+        "waterlogged": {
+          "type": "bool",
+          "values": [
+            "false",
+            "true"
+          ]
+        }
+      },
+      "source_status": "provisional_project_mapping",
+      "complete": false
+    },
+    "light_gray_wool_stairs": {
+      "properties": {
+        "facing": {
+          "type": "enum",
+          "values": [
+            "north",
+            "south",
+            "west",
+            "east"
+          ]
+        },
+        "half": {
+          "type": "enum",
+          "values": [
+            "top",
+            "bottom"
+          ]
+        },
+        "shape": {
+          "type": "enum",
+          "values": [
+            "straight",
+            "inner_left",
+            "inner_right",
+            "outer_left",
+            "outer_right"
+          ]
+        },
+        "waterlogged": {
+          "type": "bool",
+          "values": [
+            "false",
+            "true"
+          ]
+        }
+      },
+      "source_status": "provisional_project_mapping",
+      "complete": false
+    },
+    "light_weighted_pressure_plate": {
+      "properties": {
+        "powered": {
+          "type": "bool",
+          "values": [
+            "false",
+            "true"
+          ]
+        }
+      },
+      "source_status": "provisional_project_mapping",
+      "complete": false
+    },
+    "lime_concrete": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "lime_concrete_slab": {
+      "properties": {
+        "type": {
+          "type": "enum",
+          "values": [
+            "bottom",
+            "top",
+            "double"
+          ]
+        },
+        "waterlogged": {
+          "type": "bool",
+          "values": [
+            "false",
+            "true"
+          ]
+        }
+      },
+      "source_status": "provisional_project_mapping",
+      "complete": false
+    },
+    "lime_concrete_stairs": {
+      "properties": {
+        "facing": {
+          "type": "enum",
+          "values": [
+            "north",
+            "south",
+            "west",
+            "east"
+          ]
+        },
+        "half": {
+          "type": "enum",
+          "values": [
+            "top",
+            "bottom"
+          ]
+        },
+        "shape": {
+          "type": "enum",
+          "values": [
+            "straight",
+            "inner_left",
+            "inner_right",
+            "outer_left",
+            "outer_right"
+          ]
+        },
+        "waterlogged": {
+          "type": "bool",
+          "values": [
+            "false",
+            "true"
+          ]
+        }
+      },
+      "source_status": "provisional_project_mapping",
+      "complete": false
+    },
+    "lime_wool": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "lime_wool_slab": {
+      "properties": {
+        "type": {
+          "type": "enum",
+          "values": [
+            "bottom",
+            "top",
+            "double"
+          ]
+        },
+        "waterlogged": {
+          "type": "bool",
+          "values": [
+            "false",
+            "true"
+          ]
+        }
+      },
+      "source_status": "provisional_project_mapping",
+      "complete": false
+    },
+    "lime_wool_stairs": {
+      "properties": {
+        "facing": {
+          "type": "enum",
+          "values": [
+            "north",
+            "south",
+            "west",
+            "east"
+          ]
+        },
+        "half": {
+          "type": "enum",
+          "values": [
+            "top",
+            "bottom"
+          ]
+        },
+        "shape": {
+          "type": "enum",
+          "values": [
+            "straight",
+            "inner_left",
+            "inner_right",
+            "outer_left",
+            "outer_right"
+          ]
+        },
+        "waterlogged": {
+          "type": "bool",
+          "values": [
+            "false",
+            "true"
+          ]
+        }
+      },
+      "source_status": "provisional_project_mapping",
+      "complete": false
+    },
+    "magenta_concrete": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "magenta_concrete_slab": {
+      "properties": {
+        "type": {
+          "type": "enum",
+          "values": [
+            "bottom",
+            "top",
+            "double"
+          ]
+        },
+        "waterlogged": {
+          "type": "bool",
+          "values": [
+            "false",
+            "true"
+          ]
+        }
+      },
+      "source_status": "provisional_project_mapping",
+      "complete": false
+    },
+    "magenta_concrete_stairs": {
+      "properties": {
+        "facing": {
+          "type": "enum",
+          "values": [
+            "north",
+            "south",
+            "west",
+            "east"
+          ]
+        },
+        "half": {
+          "type": "enum",
+          "values": [
+            "top",
+            "bottom"
+          ]
+        },
+        "shape": {
+          "type": "enum",
+          "values": [
+            "straight",
+            "inner_left",
+            "inner_right",
+            "outer_left",
+            "outer_right"
+          ]
+        },
+        "waterlogged": {
+          "type": "bool",
+          "values": [
+            "false",
+            "true"
+          ]
+        }
+      },
+      "source_status": "provisional_project_mapping",
+      "complete": false
+    },
+    "magenta_wool": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "magenta_wool_slab": {
+      "properties": {
+        "type": {
+          "type": "enum",
+          "values": [
+            "bottom",
+            "top",
+            "double"
+          ]
+        },
+        "waterlogged": {
+          "type": "bool",
+          "values": [
+            "false",
+            "true"
+          ]
+        }
+      },
+      "source_status": "provisional_project_mapping",
+      "complete": false
+    },
+    "magenta_wool_stairs": {
+      "properties": {
+        "facing": {
+          "type": "enum",
+          "values": [
+            "north",
+            "south",
+            "west",
+            "east"
+          ]
+        },
+        "half": {
+          "type": "enum",
+          "values": [
+            "top",
+            "bottom"
+          ]
+        },
+        "shape": {
+          "type": "enum",
+          "values": [
+            "straight",
+            "inner_left",
+            "inner_right",
+            "outer_left",
+            "outer_right"
+          ]
+        },
+        "waterlogged": {
+          "type": "bool",
+          "values": [
+            "false",
+            "true"
+          ]
+        }
+      },
+      "source_status": "provisional_project_mapping",
+      "complete": false
+    },
+    "magma_block": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "mangrove_log": {
+      "properties": {
+        "axis": {
+          "type": "enum",
+          "values": [
+            "x",
+            "y",
+            "z"
+          ]
+        }
+      },
+      "source_status": "provisional_project_mapping",
+      "complete": false
+    },
+    "mangrove_planks": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "moss_block": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "mossy_cobblestone": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "mossy_stone_bricks": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "mud": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "mycelium": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "nether_bricks": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "nether_gold_ore": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "nether_portal": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "nether_quartz_ore": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "nether_wart_block": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "netherrack": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "note_block": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "oak_door": {
+      "properties": {
+        "facing": {
+          "type": "enum",
+          "values": [
+            "north",
+            "south",
+            "west",
+            "east"
+          ]
+        },
+        "half": {
+          "type": "enum",
+          "values": [
+            "lower",
+            "upper"
+          ]
+        },
+        "hinge": {
+          "type": "enum",
+          "values": [
+            "left",
+            "right"
+          ]
+        },
+        "open": {
+          "type": "bool",
+          "values": [
+            "false",
+            "true"
+          ]
+        },
+        "powered": {
+          "type": "bool",
+          "values": [
+            "false",
+            "true"
+          ]
+        }
+      },
+      "source_status": "provisional_project_mapping",
+      "complete": false
+    },
+    "oak_fence": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "oak_fence_gate": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "oak_leaves": {
+      "properties": {
+        "distance": {
+          "type": "int",
+          "min": 1,
+          "max": 7
+        },
+        "persistent": {
+          "type": "bool",
+          "values": [
+            "false",
+            "true"
+          ]
+        },
+        "waterlogged": {
+          "type": "bool",
+          "values": [
+            "false",
+            "true"
+          ]
+        }
+      },
+      "source_status": "provisional_project_mapping",
+      "complete": false
+    },
+    "oak_log": {
+      "properties": {
+        "axis": {
+          "type": "enum",
+          "values": [
+            "x",
+            "y",
+            "z"
+          ]
+        }
+      },
+      "source_status": "provisional_project_mapping",
+      "complete": false
+    },
+    "oak_planks": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "oak_sapling": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "oak_slab": {
+      "properties": {
+        "type": {
+          "type": "enum",
+          "values": [
+            "bottom",
+            "top",
+            "double"
+          ]
+        },
+        "waterlogged": {
+          "type": "bool",
+          "values": [
+            "false",
+            "true"
+          ]
+        }
+      },
+      "source_status": "provisional_project_mapping",
+      "complete": false
+    },
+    "oak_stairs": {
+      "properties": {
+        "facing": {
+          "type": "enum",
+          "values": [
+            "north",
+            "south",
+            "west",
+            "east"
+          ]
+        },
+        "half": {
+          "type": "enum",
+          "values": [
+            "top",
+            "bottom"
+          ]
+        },
+        "shape": {
+          "type": "enum",
+          "values": [
+            "straight",
+            "inner_left",
+            "inner_right",
+            "outer_left",
+            "outer_right"
+          ]
+        },
+        "waterlogged": {
+          "type": "bool",
+          "values": [
+            "false",
+            "true"
+          ]
+        }
+      },
+      "source_status": "provisional_project_mapping",
+      "complete": false
+    },
+    "oak_trapdoor": {
+      "properties": {
+        "facing": {
+          "type": "enum",
+          "values": [
+            "north",
+            "south",
+            "west",
+            "east"
+          ]
+        },
+        "half": {
+          "type": "enum",
+          "values": [
+            "top",
+            "bottom"
+          ]
+        },
+        "open": {
+          "type": "bool",
+          "values": [
+            "false",
+            "true"
+          ]
+        },
+        "powered": {
+          "type": "bool",
+          "values": [
+            "false",
+            "true"
+          ]
+        },
+        "waterlogged": {
+          "type": "bool",
+          "values": [
+            "false",
+            "true"
+          ]
+        }
+      },
+      "source_status": "provisional_project_mapping",
+      "complete": false
+    },
+    "observer": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "obsidian": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "orange_concrete": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "orange_concrete_slab": {
+      "properties": {
+        "type": {
+          "type": "enum",
+          "values": [
+            "bottom",
+            "top",
+            "double"
+          ]
+        },
+        "waterlogged": {
+          "type": "bool",
+          "values": [
+            "false",
+            "true"
+          ]
+        }
+      },
+      "source_status": "provisional_project_mapping",
+      "complete": false
+    },
+    "orange_concrete_stairs": {
+      "properties": {
+        "facing": {
+          "type": "enum",
+          "values": [
+            "north",
+            "south",
+            "west",
+            "east"
+          ]
+        },
+        "half": {
+          "type": "enum",
+          "values": [
+            "top",
+            "bottom"
+          ]
+        },
+        "shape": {
+          "type": "enum",
+          "values": [
+            "straight",
+            "inner_left",
+            "inner_right",
+            "outer_left",
+            "outer_right"
+          ]
+        },
+        "waterlogged": {
+          "type": "bool",
+          "values": [
+            "false",
+            "true"
+          ]
+        }
+      },
+      "source_status": "provisional_project_mapping",
+      "complete": false
+    },
+    "orange_poplar_leaves": {
+      "properties": {
+        "distance": {
+          "type": "int",
+          "min": 1,
+          "max": 7
+        },
+        "persistent": {
+          "type": "bool",
+          "values": [
+            "false",
+            "true"
+          ]
+        },
+        "waterlogged": {
+          "type": "bool",
+          "values": [
+            "false",
+            "true"
+          ]
+        }
+      },
+      "source_status": "provisional_project_mapping",
+      "complete": false
+    },
+    "orange_wool": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "orange_wool_slab": {
+      "properties": {
+        "type": {
+          "type": "enum",
+          "values": [
+            "bottom",
+            "top",
+            "double"
+          ]
+        },
+        "waterlogged": {
+          "type": "bool",
+          "values": [
+            "false",
+            "true"
+          ]
+        }
+      },
+      "source_status": "provisional_project_mapping",
+      "complete": false
+    },
+    "orange_wool_stairs": {
+      "properties": {
+        "facing": {
+          "type": "enum",
+          "values": [
+            "north",
+            "south",
+            "west",
+            "east"
+          ]
+        },
+        "half": {
+          "type": "enum",
+          "values": [
+            "top",
+            "bottom"
+          ]
+        },
+        "shape": {
+          "type": "enum",
+          "values": [
+            "straight",
+            "inner_left",
+            "inner_right",
+            "outer_left",
+            "outer_right"
+          ]
+        },
+        "waterlogged": {
+          "type": "bool",
+          "values": [
+            "false",
+            "true"
+          ]
+        }
+      },
+      "source_status": "provisional_project_mapping",
+      "complete": false
+    },
+    "packed_ice": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "packed_mud": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "pink_concrete": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "pink_concrete_slab": {
+      "properties": {
+        "type": {
+          "type": "enum",
+          "values": [
+            "bottom",
+            "top",
+            "double"
+          ]
+        },
+        "waterlogged": {
+          "type": "bool",
+          "values": [
+            "false",
+            "true"
+          ]
+        }
+      },
+      "source_status": "provisional_project_mapping",
+      "complete": false
+    },
+    "pink_concrete_stairs": {
+      "properties": {
+        "facing": {
+          "type": "enum",
+          "values": [
+            "north",
+            "south",
+            "west",
+            "east"
+          ]
+        },
+        "half": {
+          "type": "enum",
+          "values": [
+            "top",
+            "bottom"
+          ]
+        },
+        "shape": {
+          "type": "enum",
+          "values": [
+            "straight",
+            "inner_left",
+            "inner_right",
+            "outer_left",
+            "outer_right"
+          ]
+        },
+        "waterlogged": {
+          "type": "bool",
+          "values": [
+            "false",
+            "true"
+          ]
+        }
+      },
+      "source_status": "provisional_project_mapping",
+      "complete": false
+    },
+    "pink_wool": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "pink_wool_slab": {
+      "properties": {
+        "type": {
+          "type": "enum",
+          "values": [
+            "bottom",
+            "top",
+            "double"
+          ]
+        },
+        "waterlogged": {
+          "type": "bool",
+          "values": [
+            "false",
+            "true"
+          ]
+        }
+      },
+      "source_status": "provisional_project_mapping",
+      "complete": false
+    },
+    "pink_wool_stairs": {
+      "properties": {
+        "facing": {
+          "type": "enum",
+          "values": [
+            "north",
+            "south",
+            "west",
+            "east"
+          ]
+        },
+        "half": {
+          "type": "enum",
+          "values": [
+            "top",
+            "bottom"
+          ]
+        },
+        "shape": {
+          "type": "enum",
+          "values": [
+            "straight",
+            "inner_left",
+            "inner_right",
+            "outer_left",
+            "outer_right"
+          ]
+        },
+        "waterlogged": {
+          "type": "bool",
+          "values": [
+            "false",
+            "true"
+          ]
+        }
+      },
+      "source_status": "provisional_project_mapping",
+      "complete": false
+    },
+    "piston": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "piston_head": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "podzol": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "polished_andesite": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "polished_diorite": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "polished_granite": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "poplar_button": {
+      "properties": {
+        "face": {
+          "type": "enum",
+          "values": [
+            "floor",
+            "wall",
+            "ceiling"
+          ]
+        },
+        "facing": {
+          "type": "enum",
+          "values": [
+            "north",
+            "south",
+            "west",
+            "east"
+          ]
+        },
+        "powered": {
+          "type": "bool",
+          "values": [
+            "false",
+            "true"
+          ]
+        }
+      },
+      "source_status": "provisional_project_mapping",
+      "complete": false
+    },
+    "poplar_door": {
+      "properties": {
+        "facing": {
+          "type": "enum",
+          "values": [
+            "north",
+            "south",
+            "west",
+            "east"
+          ]
+        },
+        "half": {
+          "type": "enum",
+          "values": [
+            "lower",
+            "upper"
+          ]
+        },
+        "hinge": {
+          "type": "enum",
+          "values": [
+            "left",
+            "right"
+          ]
+        },
+        "open": {
+          "type": "bool",
+          "values": [
+            "false",
+            "true"
+          ]
+        },
+        "powered": {
+          "type": "bool",
+          "values": [
+            "false",
+            "true"
+          ]
+        }
+      },
+      "source_status": "provisional_project_mapping",
+      "complete": false
+    },
+    "poplar_fence": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "poplar_fence_gate": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "poplar_hanging_sign": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "poplar_log": {
+      "properties": {
+        "axis": {
+          "type": "enum",
+          "values": [
+            "x",
+            "y",
+            "z"
+          ]
+        }
+      },
+      "source_status": "provisional_project_mapping",
+      "complete": false
+    },
+    "poplar_planks": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "poplar_pressure_plate": {
+      "properties": {
+        "powered": {
+          "type": "bool",
+          "values": [
+            "false",
+            "true"
+          ]
+        }
+      },
+      "source_status": "provisional_project_mapping",
+      "complete": false
+    },
+    "poplar_sapling": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "poplar_sign": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "poplar_slab": {
+      "properties": {
+        "type": {
+          "type": "enum",
+          "values": [
+            "bottom",
+            "top",
+            "double"
+          ]
+        },
+        "waterlogged": {
+          "type": "bool",
+          "values": [
+            "false",
+            "true"
+          ]
+        }
+      },
+      "source_status": "provisional_project_mapping",
+      "complete": false
+    },
+    "poplar_stairs": {
+      "properties": {
+        "facing": {
+          "type": "enum",
+          "values": [
+            "north",
+            "south",
+            "west",
+            "east"
+          ]
+        },
+        "half": {
+          "type": "enum",
+          "values": [
+            "top",
+            "bottom"
+          ]
+        },
+        "shape": {
+          "type": "enum",
+          "values": [
+            "straight",
+            "inner_left",
+            "inner_right",
+            "outer_left",
+            "outer_right"
+          ]
+        },
+        "waterlogged": {
+          "type": "bool",
+          "values": [
+            "false",
+            "true"
+          ]
+        }
+      },
+      "source_status": "provisional_project_mapping",
+      "complete": false
+    },
+    "poplar_trapdoor": {
+      "properties": {
+        "facing": {
+          "type": "enum",
+          "values": [
+            "north",
+            "south",
+            "west",
+            "east"
+          ]
+        },
+        "half": {
+          "type": "enum",
+          "values": [
+            "top",
+            "bottom"
+          ]
+        },
+        "open": {
+          "type": "bool",
+          "values": [
+            "false",
+            "true"
+          ]
+        },
+        "powered": {
+          "type": "bool",
+          "values": [
+            "false",
+            "true"
+          ]
+        },
+        "waterlogged": {
+          "type": "bool",
+          "values": [
+            "false",
+            "true"
+          ]
+        }
+      },
+      "source_status": "provisional_project_mapping",
+      "complete": false
+    },
+    "poplar_wood": {
+      "properties": {
+        "axis": {
+          "type": "enum",
+          "values": [
+            "x",
+            "y",
+            "z"
+          ]
+        }
+      },
+      "source_status": "provisional_project_mapping",
+      "complete": false
+    },
+    "poppy": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "potatoes": {
+      "properties": {
+        "age": {
+          "type": "int",
+          "min": 0,
+          "max": 7,
+          "values": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7"
+          ]
+        }
+      },
+      "source_status": "provisional_until_authoritative_26_3_report_import",
+      "complete": false
+    },
+    "powered_rail": {
+      "properties": {
+        "shape": {
+          "type": "enum",
+          "values": [
+            "north_south",
+            "east_west",
+            "ascending_east",
+            "ascending_west",
+            "ascending_north",
+            "ascending_south",
+            "south_east",
+            "south_west",
+            "north_west",
+            "north_east"
+          ]
+        },
+        "powered": {
+          "type": "bool",
+          "values": [
+            "false",
+            "true"
+          ]
+        }
+      },
+      "source_status": "provisional_project_mapping",
+      "complete": false
+    },
+    "pumpkin": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "purple_concrete": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "purple_concrete_slab": {
+      "properties": {
+        "type": {
+          "type": "enum",
+          "values": [
+            "bottom",
+            "top",
+            "double"
+          ]
+        },
+        "waterlogged": {
+          "type": "bool",
+          "values": [
+            "false",
+            "true"
+          ]
+        }
+      },
+      "source_status": "provisional_project_mapping",
+      "complete": false
+    },
+    "purple_concrete_stairs": {
+      "properties": {
+        "facing": {
+          "type": "enum",
+          "values": [
+            "north",
+            "south",
+            "west",
+            "east"
+          ]
+        },
+        "half": {
+          "type": "enum",
+          "values": [
+            "top",
+            "bottom"
+          ]
+        },
+        "shape": {
+          "type": "enum",
+          "values": [
+            "straight",
+            "inner_left",
+            "inner_right",
+            "outer_left",
+            "outer_right"
+          ]
+        },
+        "waterlogged": {
+          "type": "bool",
+          "values": [
+            "false",
+            "true"
+          ]
+        }
+      },
+      "source_status": "provisional_project_mapping",
+      "complete": false
+    },
+    "purple_wool": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "purple_wool_slab": {
+      "properties": {
+        "type": {
+          "type": "enum",
+          "values": [
+            "bottom",
+            "top",
+            "double"
+          ]
+        },
+        "waterlogged": {
+          "type": "bool",
+          "values": [
+            "false",
+            "true"
+          ]
+        }
+      },
+      "source_status": "provisional_project_mapping",
+      "complete": false
+    },
+    "purple_wool_stairs": {
+      "properties": {
+        "facing": {
+          "type": "enum",
+          "values": [
+            "north",
+            "south",
+            "west",
+            "east"
+          ]
+        },
+        "half": {
+          "type": "enum",
+          "values": [
+            "top",
+            "bottom"
+          ]
+        },
+        "shape": {
+          "type": "enum",
+          "values": [
+            "straight",
+            "inner_left",
+            "inner_right",
+            "outer_left",
+            "outer_right"
+          ]
+        },
+        "waterlogged": {
+          "type": "bool",
+          "values": [
+            "false",
+            "true"
+          ]
+        }
+      },
+      "source_status": "provisional_project_mapping",
+      "complete": false
+    },
+    "quartz_block": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "rail": {
+      "properties": {
+        "shape": {
+          "type": "enum",
+          "values": [
+            "north_south",
+            "east_west",
+            "ascending_east",
+            "ascending_west",
+            "ascending_north",
+            "ascending_south",
+            "south_east",
+            "south_west",
+            "north_west",
+            "north_east"
+          ]
+        }
+      },
+      "source_status": "provisional_project_mapping",
+      "complete": false
+    },
+    "raw_copper_block": {
+      "properties": {},
+      "source_status": "not_imported_from_authoritative_26_3_report",
+      "complete": false
+    },
+    "raw_gold_block": {
+      "properties": {},
+      "source_status": "not_imported_from_authoritative_26_3_report",
+      "complete": false
+    },
+    "raw_iron_block": {
+      "properties": {},
+      "source_status": "not_imported_from_authoritative_26_3_report",
+      "complete": false
+    },
+    "red_concrete": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "red_concrete_slab": {
+      "properties": {
+        "type": {
+          "type": "enum",
+          "values": [
+            "bottom",
+            "top",
+            "double"
+          ]
+        },
+        "waterlogged": {
+          "type": "bool",
+          "values": [
+            "false",
+            "true"
+          ]
+        }
+      },
+      "source_status": "provisional_project_mapping",
+      "complete": false
+    },
+    "red_concrete_stairs": {
+      "properties": {
+        "facing": {
+          "type": "enum",
+          "values": [
+            "north",
+            "south",
+            "west",
+            "east"
+          ]
+        },
+        "half": {
+          "type": "enum",
+          "values": [
+            "top",
+            "bottom"
+          ]
+        },
+        "shape": {
+          "type": "enum",
+          "values": [
+            "straight",
+            "inner_left",
+            "inner_right",
+            "outer_left",
+            "outer_right"
+          ]
+        },
+        "waterlogged": {
+          "type": "bool",
+          "values": [
+            "false",
+            "true"
+          ]
+        }
+      },
+      "source_status": "provisional_project_mapping",
+      "complete": false
+    },
+    "red_poplar_leaves": {
+      "properties": {
+        "distance": {
+          "type": "int",
+          "min": 1,
+          "max": 7
+        },
+        "persistent": {
+          "type": "bool",
+          "values": [
+            "false",
+            "true"
+          ]
+        },
+        "waterlogged": {
+          "type": "bool",
+          "values": [
+            "false",
+            "true"
+          ]
+        }
+      },
+      "source_status": "provisional_project_mapping",
+      "complete": false
+    },
+    "red_sand": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "red_sandstone": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "red_shrub": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "red_wool": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "red_wool_slab": {
+      "properties": {
+        "type": {
+          "type": "enum",
+          "values": [
+            "bottom",
+            "top",
+            "double"
+          ]
+        },
+        "waterlogged": {
+          "type": "bool",
+          "values": [
+            "false",
+            "true"
+          ]
+        }
+      },
+      "source_status": "provisional_project_mapping",
+      "complete": false
+    },
+    "red_wool_stairs": {
+      "properties": {
+        "facing": {
+          "type": "enum",
+          "values": [
+            "north",
+            "south",
+            "west",
+            "east"
+          ]
+        },
+        "half": {
+          "type": "enum",
+          "values": [
+            "top",
+            "bottom"
+          ]
+        },
+        "shape": {
+          "type": "enum",
+          "values": [
+            "straight",
+            "inner_left",
+            "inner_right",
+            "outer_left",
+            "outer_right"
+          ]
+        },
+        "waterlogged": {
+          "type": "bool",
+          "values": [
+            "false",
+            "true"
+          ]
+        }
+      },
+      "source_status": "provisional_project_mapping",
+      "complete": false
+    },
+    "redstone_block": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "redstone_lamp": {
+      "properties": {
+        "lit": {
+          "type": "bool",
+          "values": [
+            "false",
+            "true"
+          ]
+        }
+      },
+      "source_status": "provisional_project_mapping",
+      "complete": false
+    },
+    "redstone_ore": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "redstone_torch": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "redstone_wire": {
+      "properties": {
+        "north": {
+          "type": "enum",
+          "values": [
+            "none",
+            "side",
+            "up"
+          ]
+        },
+        "east": {
+          "type": "enum",
+          "values": [
+            "none",
+            "side",
+            "up"
+          ]
+        },
+        "south": {
+          "type": "enum",
+          "values": [
+            "none",
+            "side",
+            "up"
+          ]
+        },
+        "west": {
+          "type": "enum",
+          "values": [
+            "none",
+            "side",
+            "up"
+          ]
+        },
+        "power": {
+          "type": "int",
+          "min": 0,
+          "max": 15,
+          "values": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15"
+          ]
+        }
+      },
+      "source_status": "provisional_until_authoritative_26_3_report_import",
+      "complete": false
+    },
+    "repeater": {
+      "properties": {
+        "facing": {
+          "type": "enum",
+          "values": [
+            "north",
+            "south",
+            "west",
+            "east"
+          ]
+        },
+        "delay": {
+          "type": "int",
+          "min": 1,
+          "max": 4
+        },
+        "locked": {
+          "type": "bool",
+          "values": [
+            "false",
+            "true"
+          ]
+        },
+        "powered": {
+          "type": "bool",
+          "values": [
+            "false",
+            "true"
+          ]
+        }
+      },
+      "source_status": "provisional_project_mapping",
+      "complete": false
+    },
+    "rooted_dirt": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "sand": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "sandstone": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "sea_lantern": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "shelf_mushroom": {
+      "properties": {
+        "age": {
+          "type": "int",
+          "min": 0,
+          "max": 1,
+          "values": [
+            "0",
+            "1"
+          ]
+        },
+        "facing": {
+          "type": "enum",
+          "values": [
+            "north",
+            "east",
+            "south",
+            "west"
+          ]
+        }
+      },
+      "source_status": "provisional_until_authoritative_26_3_report_import",
+      "complete": false
+    },
+    "short_grass": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "shulker_box": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "snow_block": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "soul_sand": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "soul_soil": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "sponge": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "spruce_leaves": {
+      "properties": {
+        "distance": {
+          "type": "int",
+          "min": 1,
+          "max": 7
+        },
+        "persistent": {
+          "type": "bool",
+          "values": [
+            "false",
+            "true"
+          ]
+        },
+        "waterlogged": {
+          "type": "bool",
+          "values": [
+            "false",
+            "true"
+          ]
+        }
+      },
+      "source_status": "provisional_project_mapping",
+      "complete": false
+    },
+    "spruce_log": {
+      "properties": {
+        "axis": {
+          "type": "enum",
+          "values": [
+            "x",
+            "y",
+            "z"
+          ]
+        }
+      },
+      "source_status": "provisional_project_mapping",
+      "complete": false
+    },
+    "spruce_planks": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "spruce_sapling": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "sticky_piston": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "stone": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "stone_bricks": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "stone_button": {
+      "properties": {
+        "face": {
+          "type": "enum",
+          "values": [
+            "floor",
+            "wall",
+            "ceiling"
+          ]
+        },
+        "facing": {
+          "type": "enum",
+          "values": [
+            "north",
+            "south",
+            "west",
+            "east"
+          ]
+        },
+        "powered": {
+          "type": "bool",
+          "values": [
+            "false",
+            "true"
+          ]
+        }
+      },
+      "source_status": "provisional_project_mapping",
+      "complete": false
+    },
+    "stone_pressure_plate": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "stone_slab": {
+      "properties": {
+        "type": {
+          "type": "enum",
+          "values": [
+            "bottom",
+            "top",
+            "double"
+          ]
+        },
+        "waterlogged": {
+          "type": "bool",
+          "values": [
+            "false",
+            "true"
+          ]
+        }
+      },
+      "source_status": "provisional_project_mapping",
+      "complete": false
+    },
+    "stone_stairs": {
+      "properties": {
+        "facing": {
+          "type": "enum",
+          "values": [
+            "north",
+            "south",
+            "west",
+            "east"
+          ]
+        },
+        "half": {
+          "type": "enum",
+          "values": [
+            "top",
+            "bottom"
+          ]
+        },
+        "shape": {
+          "type": "enum",
+          "values": [
+            "straight",
+            "inner_left",
+            "inner_right",
+            "outer_left",
+            "outer_right"
+          ]
+        },
+        "waterlogged": {
+          "type": "bool",
+          "values": [
+            "false",
+            "true"
+          ]
+        }
+      },
+      "source_status": "provisional_project_mapping",
+      "complete": false
+    },
+    "straw_bed": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "stripped_poplar_log": {
+      "properties": {
+        "axis": {
+          "type": "enum",
+          "values": [
+            "x",
+            "y",
+            "z"
+          ]
+        }
+      },
+      "source_status": "provisional_project_mapping",
+      "complete": false
+    },
+    "stripped_poplar_wood": {
+      "properties": {
+        "axis": {
+          "type": "enum",
+          "values": [
+            "x",
+            "y",
+            "z"
+          ]
+        }
+      },
+      "source_status": "provisional_project_mapping",
+      "complete": false
+    },
+    "target": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "terracotta": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "tinted_glass": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "tnt": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "torch": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "tripwire": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "tripwire_hook": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "tuff": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "warped_stem": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "water": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "wet_sponge": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "wheat": {
+      "properties": {
+        "age": {
+          "type": "int",
+          "min": 0,
+          "max": 7,
+          "values": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7"
+          ]
+        }
+      },
+      "source_status": "provisional_until_authoritative_26_3_report_import",
+      "complete": false
+    },
+    "white_concrete": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "white_concrete_slab": {
+      "properties": {
+        "type": {
+          "type": "enum",
+          "values": [
+            "bottom",
+            "top",
+            "double"
+          ]
+        },
+        "waterlogged": {
+          "type": "bool",
+          "values": [
+            "false",
+            "true"
+          ]
+        }
+      },
+      "source_status": "provisional_project_mapping",
+      "complete": false
+    },
+    "white_concrete_stairs": {
+      "properties": {
+        "facing": {
+          "type": "enum",
+          "values": [
+            "north",
+            "south",
+            "west",
+            "east"
+          ]
+        },
+        "half": {
+          "type": "enum",
+          "values": [
+            "top",
+            "bottom"
+          ]
+        },
+        "shape": {
+          "type": "enum",
+          "values": [
+            "straight",
+            "inner_left",
+            "inner_right",
+            "outer_left",
+            "outer_right"
+          ]
+        },
+        "waterlogged": {
+          "type": "bool",
+          "values": [
+            "false",
+            "true"
+          ]
+        }
+      },
+      "source_status": "provisional_project_mapping",
+      "complete": false
+    },
+    "white_wool": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "white_wool_slab": {
+      "properties": {
+        "type": {
+          "type": "enum",
+          "values": [
+            "bottom",
+            "top",
+            "double"
+          ]
+        },
+        "waterlogged": {
+          "type": "bool",
+          "values": [
+            "false",
+            "true"
+          ]
+        }
+      },
+      "source_status": "provisional_project_mapping",
+      "complete": false
+    },
+    "white_wool_stairs": {
+      "properties": {
+        "facing": {
+          "type": "enum",
+          "values": [
+            "north",
+            "south",
+            "west",
+            "east"
+          ]
+        },
+        "half": {
+          "type": "enum",
+          "values": [
+            "top",
+            "bottom"
+          ]
+        },
+        "shape": {
+          "type": "enum",
+          "values": [
+            "straight",
+            "inner_left",
+            "inner_right",
+            "outer_left",
+            "outer_right"
+          ]
+        },
+        "waterlogged": {
+          "type": "bool",
+          "values": [
+            "false",
+            "true"
+          ]
+        }
+      },
+      "source_status": "provisional_project_mapping",
+      "complete": false
+    },
+    "yellow_concrete": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "yellow_concrete_slab": {
+      "properties": {
+        "type": {
+          "type": "enum",
+          "values": [
+            "bottom",
+            "top",
+            "double"
+          ]
+        },
+        "waterlogged": {
+          "type": "bool",
+          "values": [
+            "false",
+            "true"
+          ]
+        }
+      },
+      "source_status": "provisional_project_mapping",
+      "complete": false
+    },
+    "yellow_concrete_stairs": {
+      "properties": {
+        "facing": {
+          "type": "enum",
+          "values": [
+            "north",
+            "south",
+            "west",
+            "east"
+          ]
+        },
+        "half": {
+          "type": "enum",
+          "values": [
+            "top",
+            "bottom"
+          ]
+        },
+        "shape": {
+          "type": "enum",
+          "values": [
+            "straight",
+            "inner_left",
+            "inner_right",
+            "outer_left",
+            "outer_right"
+          ]
+        },
+        "waterlogged": {
+          "type": "bool",
+          "values": [
+            "false",
+            "true"
+          ]
+        }
+      },
+      "source_status": "provisional_project_mapping",
+      "complete": false
+    },
+    "yellow_poplar_leaves": {
+      "properties": {
+        "distance": {
+          "type": "int",
+          "min": 1,
+          "max": 7
+        },
+        "persistent": {
+          "type": "bool",
+          "values": [
+            "false",
+            "true"
+          ]
+        },
+        "waterlogged": {
+          "type": "bool",
+          "values": [
+            "false",
+            "true"
+          ]
+        }
+      },
+      "source_status": "provisional_project_mapping",
+      "complete": false
+    },
+    "yellow_wool": {
+      "properties": {},
+      "source_status": "not_yet_imported_from_vanilla_report",
+      "complete": false
+    },
+    "yellow_wool_slab": {
+      "properties": {
+        "type": {
+          "type": "enum",
+          "values": [
+            "bottom",
+            "top",
+            "double"
+          ]
+        },
+        "waterlogged": {
+          "type": "bool",
+          "values": [
+            "false",
+            "true"
+          ]
+        }
+      },
+      "source_status": "provisional_project_mapping",
+      "complete": false
+    },
+    "yellow_wool_stairs": {
+      "properties": {
+        "facing": {
+          "type": "enum",
+          "values": [
+            "north",
+            "south",
+            "west",
+            "east"
+          ]
+        },
+        "half": {
+          "type": "enum",
+          "values": [
+            "top",
+            "bottom"
+          ]
+        },
+        "shape": {
+          "type": "enum",
+          "values": [
+            "straight",
+            "inner_left",
+            "inner_right",
+            "outer_left",
+            "outer_right"
+          ]
+        },
+        "waterlogged": {
+          "type": "bool",
+          "values": [
+            "false",
+            "true"
+          ]
+        }
+      },
+      "source_status": "provisional_project_mapping",
+      "complete": false
+    }
+  }
+}

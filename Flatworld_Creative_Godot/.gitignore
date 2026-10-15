@@ -1,0 +1,16 @@
+.godot/
+.import/
+build/
+export.cfg
+export_presets.cfg
+*.apk
+*.aab
+*.keystore
+*.jks
+
+# Local Python QA/generation cache
+__pycache__/
+*.py[cod]
+
+# Downloaded official reference jars are local cache only
+tools/.cache/

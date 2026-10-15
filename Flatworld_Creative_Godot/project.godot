@@ -1,0 +1,33 @@
+; Engine configuration file.
+; Standalone voxel sandbox project; no existing repository or proprietary game files used.
+config_version=5
+
+[application]
+config/name="Flatworld Creative"
+config/description="A mobile-ready, data-driven voxel sandbox built from original code and generated textures."
+config/version="0.5.5"
+run/main_scene="res://scenes/main.tscn"
+config/features=PackedStringArray("4.7")
+config/icon="res://assets/ui/app_icon.png"
+run/max_fps=60
+
+[display]
+window/size/viewport_width=1280
+window/size/viewport_height=720
+window/size/window_width_override=1280
+window/size/window_height_override=720
+window/stretch/mode="canvas_items"
+; Godot DisplayServer.SCREEN_LANDSCAPE (0): lock Android/iOS builds to landscape.
+window/handheld/orientation=0
+
+[physics]
+3d/default_gravity=24.0
+
+[rendering]
+renderer/rendering_method="mobile"
+renderer/rendering_method.mobile="mobile"
+textures/default_filters/use_nearest_mipmap_filter=false
+environment/defaults/default_clear_color=Color(0.44, 0.62, 0.83, 1)
+
+[gui]
+theme/default_font_multichannel_signed_distance_field=true

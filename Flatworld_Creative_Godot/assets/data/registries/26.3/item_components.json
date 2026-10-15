@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "minecraft_version": "26.3",
+  "data_pack_version": 121,
+  "resource_pack_version": 97.1,
+  "source_status": "component_types_are_scaffold_not_complete_registry",
+  "component_schemas": {
+    "minecraft:max_stack_size": {
+      "type": "integer",
+      "min": 1,
+      "max": 99
+    },
+    "minecraft:max_damage": {
+      "type": "integer",
+      "min": 1
+    },
+    "minecraft:damage": {
+      "type": "integer",
+      "min": 0
+    },
+    "minecraft:food": {
+      "type": "object",
+      "status": "definition_schema_pending_official_component_report"
+    },
+    "minecraft:tool": {
+      "type": "object",
+      "status": "definition_schema_pending_official_component_report"
+    },
+    "minecraft:equippable": {
+      "type": "object",
+      "status": "definition_schema_pending_official_component_report"
+    },
+    "minecraft:consumable": {
+      "type": "object",
+      "status": "definition_schema_pending_official_component_report"
+    },
+    "minecraft:potion_contents": {
+      "type": "object",
+      "status": "updated_data_predicate_in_26_3"
+    },
+    "minecraft:block_transformer": {
+      "type": "list",
+      "status": "introduced_in_26_3"
+    },
+    "minecraft:map_id": {
+      "type": "integer",
+      "status": "item_instance_component_schema_pending_official_report"
+    },
+    "minecraft:custom_data": {
+      "type": "object",
+      "status": "schema_pending_official_component_report"
+    }
+  }
+}

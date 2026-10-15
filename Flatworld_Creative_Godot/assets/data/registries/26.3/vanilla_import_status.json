@@ -1,0 +1,11 @@
+{
+  "minecraft_version": "26.3",
+  "source_status": "BLOCKED_BEFORE_REFERENCE_DOWNLOAD",
+  "authoritative_data_validated": false,
+  "download_attempted": false,
+  "java_major": 21,
+  "required_java_major": 25,
+  "reason": "Java 25+ required for Minecraft 26.3; detected 21",
+  "official_manifest_url": "https://piston-meta.mojang.com/mc/game/version_manifest_v2.json",
+  "runtime_registries_modified": false
+}

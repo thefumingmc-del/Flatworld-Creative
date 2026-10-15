@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "minecraft_version": "26.3",
+  "source_status": "hardcoded_generator_not_yet_extracted",
+  "biomes": [],
+  "features": [],
+  "structure_sets": [],
+  "noise_settings": [],
+  "dimensions": [
+    "overworld",
+    "nether",
+    "end"
+  ]
+}

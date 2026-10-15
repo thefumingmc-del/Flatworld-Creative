@@ -1,0 +1,8 @@
+{
+  "schema_version": 2,
+  "minecraft_version": "26.3",
+  "source_status": "official vanilla recipe index pending verified server-data import",
+  "recipes": {},
+  "runtime_sample_path": "res://assets/data/recipes.json",
+  "runtime_sample_count": 194
+}
