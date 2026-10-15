@@ -182,10 +182,18 @@ jobs:
           APK="$PROJECT/build/Flatworld-Creative-debug.apk"
           test -s "$APK"
           AAPT="$ANDROID_SDK_ROOT/build-tools/35.0.1/aapt"
-          "$AAPT" dump badging "$APK" | tee /tmp/flatworld-apk-badging.txt
+          # Some recent Android manifest attributes make aapt print a warning and return 1,
+          # while still emitting the correct package line. Preserve the output and validate it.
+          "$AAPT" dump badging "$APK" 2>&1 | tee /tmp/flatworld-apk-badging.txt || true
           grep -F "package: name='org.flatworld.creative'" /tmp/flatworld-apk-badging.txt
-          if ! "$AAPT" dump xmltree "$APK" AndroidManifest.xml | grep -Ei 'screenOrientation.*landscape|screenOrientation.*0x0*6'; then
-            echo "::warning::Could not confirm landscape from aapt xmltree output; review manifest and verify startup on a phone."
+          APKANALYZER="$(find "$ANDROID_SDK_ROOT/cmdline-tools" -type f -path '*/bin/apkanalyzer' -print -quit)"
+          if [[ -n "$APKANALYZER" ]]; then
+            "$APKANALYZER" manifest print "$APK" > /tmp/flatworld-manifest.xml
+            if ! grep -E 'screenOrientation="(landscape|sensorLandscape|6|0x6)"' /tmp/flatworld-manifest.xml; then
+              echo "::warning::APK manifest orientation was not confirmed as landscape; inspect /tmp/flatworld-manifest.xml."
+            fi
+          else
+            echo "::warning::apkanalyzer unavailable; landscape is configured in project.godot but APK manifest orientation could not be independently checked."
           fi
           sha256sum "$APK" | tee /tmp/flatworld-apk-sha256.txt
           du -h "$APK"
