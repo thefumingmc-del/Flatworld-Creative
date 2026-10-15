@@ -28,7 +28,7 @@ jobs:
       - name: Bootstrap complete project source once
         shell: bash
         env:
-          FLATWORLD_SOURCE_URL: "https://uc1970bf098ee438b40c2a281896.dl.dropboxusercontent.com/cd/0/get/DKBV1lvQg240sm8cnDxiM-twVukIFyYqklHkk0yTxHcdROP1GHseSq8JBD17VBumUTOUHFrBraOHgnc-o2Q-FicWdRjb92kcOSawInx3RLcBXkyOhR3dkqvnKuBbFpGsG6ldmZdKNsQa65Ge01VmZ-KmFb6SETrOxP8JJGvEKqsrrA/file?c_luid=d0d55c21"
+          FLATWORLD_SOURCE_URL: ""
         run: |
           set -euo pipefail
           PROJECT="Flatworld_Creative_Godot"
