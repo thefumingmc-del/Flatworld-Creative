@@ -394,10 +394,6 @@ func _base_cell_has_visible_face(cell: Vector3i, block_id: String) -> bool:
         if neighbour_id != block_id and (current_transparent or neighbour_transparent or not neighbour_solid):
             return true
     return false
-    _generate_chunk_vegetation(coord)
-    _generate_camp_piece_for_chunk(coord)
-    _apply_chunk_modifications(coord)
-    _generated_chunk_count += 1
 
 func _write_generated_block(owner_chunk: Vector2i, cell: Vector3i, block_id: String) -> void:
     if _chunk_for_cell(cell) != owner_chunk:
@@ -673,7 +669,7 @@ func grow_poplar_sapling(cell: Vector3i) -> bool:
     var rng := RandomNumberGenerator.new()
     rng.seed = seed_value + cell.x * 73856093 + cell.y * 19349663 + cell.z * 83492791
     var trunk_height := rng.randi_range(4, 5)
-    var leaves_id := ["red_poplar_leaves", "orange_poplar_leaves", "yellow_poplar_leaves"][rng.randi_range(0, 2)]
+    var leaves_id: String = ["red_poplar_leaves", "orange_poplar_leaves", "yellow_poplar_leaves"][rng.randi_range(0, 2)]
     var dirty_cells: Array[Vector3i] = []
     _set_saved_block(cell, "air")
     dirty_cells.append(cell)
@@ -1347,7 +1343,7 @@ func _tick_fluids(max_steps: int) -> void:
             continue
         var retry_at_chunk_edge := false
         for direction in [Vector3i.LEFT, Vector3i.RIGHT, Vector3i.FORWARD, Vector3i.BACK]:
-            var target := cell + direction
+            var target: Vector3i = cell + direction
             if not chunk_nodes.has(_chunk_for_cell(target)):
                 retry_at_chunk_edge = true
                 continue
@@ -1360,7 +1356,7 @@ func _tick_fluids(max_steps: int) -> void:
         if fluid_id == "water" and not source:
             var source_neighbours := 0
             for direction in [Vector3i.LEFT, Vector3i.RIGHT, Vector3i.FORWARD, Vector3i.BACK]:
-                var neighbour := cell + direction
+                var neighbour: Vector3i = cell + direction
                 if get_block_id(neighbour) == "water" and bool(get_block_state(neighbour).get("source", false)):
                     source_neighbours += 1
             if source_neighbours >= 2 and below_id != "air" and not _is_replaceable_fluid_target(below_id):
@@ -1814,7 +1810,7 @@ func _refresh_chunk_and_neighbours(coord: Vector2i) -> void:
         return
     rebuilding = true
     for offset in [Vector2i.ZERO, Vector2i.LEFT, Vector2i.RIGHT, Vector2i.UP, Vector2i.DOWN]:
-        var affected := coord + offset
+        var affected: Vector2i = coord + offset
         if chunk_nodes.has(affected):
             _rebuild_chunk_mesh(affected)
     rebuilding = false
@@ -1953,7 +1949,7 @@ func _rebuild_chunk_mesh(chunk_coord: Vector2i) -> void:
             var tile_index := _face_tile_for_state(tiles, face_index, face_name, state)
             face_uv = [_tile_uv(tile_index, 0, 0), _tile_uv(tile_index, 0, 1), _tile_uv(tile_index, 1, 1), _tile_uv(tile_index, 1, 0)]
             var base_index := vertices.size()
-            var face_shade := [0.82, 0.82, 1.0, 0.58, 0.74, 0.74][face_index]
+            var face_shade: float = [0.82, 0.82, 1.0, 0.58, 0.74, 0.74][face_index]
             for i in range(4):
                 vertices.append(Vector3(cell.x, cell.y, cell.z) + face[i])
                 uvs.append(face_uv[i])
@@ -2132,7 +2128,7 @@ func _append_shaped_block_geometry(cell: Vector3i, shape_id: String, tiles: Dict
                 vertices.append(Vector3(cell.x, cell.y, cell.z) + mapped)
                 uvs.append(face_uvs[corner_index])
                 normals.append(face_normals[face_index])
-                var face_shade := [0.82, 0.82, 1.0, 0.58, 0.74, 0.74][face_index]
+                var face_shade: float = [0.82, 0.82, 1.0, 0.58, 0.74, 0.74][face_index]
                 colors.append(Color(face_shade, face_shade, face_shade, 1.0))
             indices.append_array(PackedInt32Array([base_index, base_index+1, base_index+2, base_index, base_index+2, base_index+3]))
             if block_solid:

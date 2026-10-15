@@ -46,7 +46,7 @@ var _message_timer := 0.0
 var _creative_mode := true
 var inventory_ref: Object
 
-class VirtualJoystick extends Control:
+class FlatworldVirtualJoystick extends Control:
     signal value_changed(value: Vector2)
     var finger_id := -99
     var stick_value := Vector2.ZERO
@@ -205,7 +205,7 @@ func _build_top_bar() -> void:
     root.add_child(status_label)
 
 func _build_joystick() -> void:
-    var pad := VirtualJoystick.new()
+    var pad := FlatworldVirtualJoystick.new()
     pad.name = "MoveJoystick"
     pad.anchor_left = 0.0
     pad.anchor_right = 0.0
