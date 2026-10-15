@@ -2156,13 +2156,8 @@ func _box_face_is_internal(box_index: int, face_index: int, boxes: Array[Diction
     var axis := 0 if face_index <= 1 else (1 if face_index <= 3 else 2)
     var positive := face_index in [0, 2, 4]
     var plane := _vector_component(box_max, axis) if positive else _vector_component(box_min, axis)
-    var other_axes: PackedInt32Array = PackedInt32Array()
-    if axis == 0:
-        other_axes = PackedInt32Array([1, 2])
-    elif axis == 1:
-        other_axes = PackedInt32Array([0, 2])
-    else:
-        other_axes = PackedInt32Array([0, 1])
+    var other_axis_a: int = 1 if axis == 0 else 0
+    var other_axis_b: int = 2 if axis != 2 else 1
     for other_index in range(boxes.size()):
         if other_index == box_index:
             continue
@@ -2173,11 +2168,12 @@ func _box_face_is_internal(box_index: int, face_index: int, boxes: Array[Diction
         if absf(other_plane - plane) > 0.0001:
             continue
         var fully_covered := true
-        for overlap_axis in other_axes:
-            var face_min := _vector_component(box_min, overlap_axis)
-            var face_max := _vector_component(box_max, overlap_axis)
-            var covering_min := _vector_component(other_min, overlap_axis)
-            var covering_max := _vector_component(other_max, overlap_axis)
+        for overlap_index in range(2):
+            var overlap_axis: int = other_axis_a if overlap_index == 0 else other_axis_b
+            var face_min: float = _vector_component(box_min, overlap_axis)
+            var face_max: float = _vector_component(box_max, overlap_axis)
+            var covering_min: float = _vector_component(other_min, overlap_axis)
+            var covering_max: float = _vector_component(other_max, overlap_axis)
             if covering_min > face_min + 0.0001 or covering_max < face_max - 0.0001:
                 fully_covered = false
                 break
