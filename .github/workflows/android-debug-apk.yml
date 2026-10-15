@@ -136,6 +136,7 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
+          python3 tools/rebuild_block_textures_from_atlas.py
           python3 tools/validate_project_data.py
           python3 tools/check_gdscript_static.py
           python3 tools/test_java_26_3_sync.py
