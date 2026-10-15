@@ -142,6 +142,20 @@ jobs:
           python3 tools/test_java_26_3_sync.py
           python3 tools/test_runtime_registry_contracts.py
 
+      - name: Persist reconstructed block-face textures into the repository
+        shell: bash
+        run: |
+          set -euo pipefail
+          git add Flatworld_Creative_Godot/assets/textures/blocks
+          if ! git diff --cached --quiet; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git commit -m "Restore atlas-derived block-face textures [skip ci]"
+            git push origin HEAD:main
+          else
+            echo "All reconstructed block-face textures are already tracked."
+          fi
+
       - name: Import and parse project with Godot 4.7.2
         shell: bash
         run: |

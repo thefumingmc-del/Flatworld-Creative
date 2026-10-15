@@ -1077,7 +1077,7 @@ func _on_container_action(action: String, cell_key: String) -> void:
         if inventory.remove_item(selected, move_count):
             contents[selected] = current + move_count
             containers[cell_key] = contents
-            world.notify_container_contents_changed(_cell_from_key(cell_key))
+            world.notify_container_contents_changed(world._cell_from_key(cell_key))
             hud.refresh_inventory()
             hud.show_message("Stored %s ×%d" % [BlockRegistry.get_item_name(selected), move_count])
     elif action == "withdraw":
@@ -1095,7 +1095,7 @@ func _on_container_action(action: String, cell_key: String) -> void:
         else:
             contents[selected] = current
         containers[cell_key] = contents
-        world.notify_container_contents_changed(_cell_from_key(cell_key))
+        world.notify_container_contents_changed(world._cell_from_key(cell_key))
         hud.refresh_inventory()
         hud.show_message("Withdrew %s ×%d" % [BlockRegistry.get_item_name(selected), accepted])
     hud.show_container(cell_key, _container_summary(cell_key))
