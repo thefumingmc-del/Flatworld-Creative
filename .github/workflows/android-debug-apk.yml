@@ -151,6 +151,7 @@ jobs:
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git commit -m "Restore atlas-derived block-face textures [skip ci]"
+            git pull --rebase origin main
             git push origin HEAD:main
           else
             echo "All reconstructed block-face textures are already tracked."
