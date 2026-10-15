@@ -48,7 +48,12 @@ func _ready() -> void:
     inventory = InventoryScript.new()
     if saved.get("inventory", {}) is Dictionary:
         inventory.from_dict(saved.get("inventory", {}))
-    pending_smelt = saved.get("pending_smelt", []) if saved.get("pending_smelt", []) is Array else []
+    var pending_smelt_data: Variant = saved.get("pending_smelt", [])
+    pending_smelt.clear()
+    if pending_smelt_data is Array:
+        for pending_entry in pending_smelt_data:
+            if pending_entry is Dictionary:
+                pending_smelt.append(pending_entry)
     containers = saved.get("containers", {}) if saved.get("containers", {}) is Dictionary else {}
     tool_durability = saved.get("tool_durability", {}) if saved.get("tool_durability", {}) is Dictionary else {}
     world_seed = int(saved.get("seed", Time.get_unix_time_from_system()))
