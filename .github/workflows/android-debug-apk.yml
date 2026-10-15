@@ -123,6 +123,14 @@ jobs:
           EOF
           "$GODOT_BIN" --version
 
+      - name: Set up Python for project validation
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Python validation dependency
+        run: python -m pip install --disable-pip-version-check Pillow
+
       - name: Run project data and regression checks
         working-directory: Flatworld_Creative_Godot
         shell: bash
