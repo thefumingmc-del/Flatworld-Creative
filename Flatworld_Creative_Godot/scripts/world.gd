@@ -2279,6 +2279,7 @@ func _append_plant_geometry(cell: Vector3i, definition: Dictionary, state: Dicti
                 vertices.append(Vector3(cell.x, cell.y, cell.z) + face_corners[corner_index])
                 uvs.append(face_uvs[corner_index])
                 normals.append(normal)
+                colors.append(Color(1.0, 1.0, 1.0, 1.0))
             indices.append_array(PackedInt32Array([base_index, base_index+1, base_index+2, base_index, base_index+2, base_index+3]))
 
 func _tile_uv_pixel(tile_index: int, pixel_x: float, pixel_y: float) -> Vector2:

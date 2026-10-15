@@ -281,9 +281,8 @@ func _build_hotbar() -> void:
     hotbar_container = hotbar
     for i in range(hotbar_ids.size()):
         var block_id := hotbar_ids[i]
-        var button := _make_button("%d\n%s" % [i + 1, BlockRegistry.get_name(block_id)], "HotbarSlot%d" % i, hotbar, 76, 64, 12)
+        var button := _make_button("%d\n%s" % [i + 1, BlockRegistry.get_item_name(block_id)], "HotbarSlot%d" % i, hotbar, 76, 64, 12)
         button.icon = _atlas_icon_for_block(block_id)
-        button.icon_max_width = 18
         button.texture_filter = CanvasItem.TEXTURE_FILTER_NEAREST
         button.size_flags_horizontal = Control.SIZE_EXPAND_FILL
         button.pressed.connect(_select_hotbar.bind(i))
@@ -403,7 +402,6 @@ func _build_inventory_panel() -> void:
         var text_value := str(defn.get("name", block_id))
         var item_btn := _make_button(text_value, "Item_" + block_id, inventory_grid, 110, 43, 12)
         item_btn.icon = _atlas_icon_for_block(block_id)
-        item_btn.icon_max_width = 20
         item_btn.texture_filter = CanvasItem.TEXTURE_FILTER_NEAREST
         item_btn.tooltip_text = block_id + " · " + str(defn.get("category", "Item"))
         item_btn.pressed.connect(_on_catalogue_item_selected.bind(block_id))
